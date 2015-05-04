@@ -1,4 +1,4 @@
-package com.worldwalkergames.demo;
+package demo;
 
 import org.fmod.FMOD;
 import org.fmod.jni.FMOD_STUDIO_STOP_MODE;
