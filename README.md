@@ -1,5 +1,5 @@
 # fmod-jni
-Java JNI wrapper for the FMOD audio library. Experimental and Incomplete.
+Java JNI wrapper for the FMOD audio library. Experimental and Incomplete. Apache 2 License.
 
 The goal of this project is to make the FMOD Studio audio engine available to Java code. This project is in support of my indie game, Legacy (http://yonderinglands.blogspot.com/) but you are welcome to use it for whatever, or suggest improvements. Legacy is under active development and I expect this API to expand and harden over time to meet the audio needs of the game.
 
@@ -15,10 +15,15 @@ http://www.fmod.org/
 To use FMOD with this project you will need to download the FMOD Studio API version 1.0.6.01.
 
 ##Approach
-The goal of this project is to be an idiomatic Java implementation of the FMOD Studio and Low Level API. The Java API defines the same classes and functions that the C++ api defines. The only real difference is that I've elected not to return FMOD_RESULT from every api call, instead I'm returning objects and values directly. Since Java can't easily return values via function arguments, this is much cleaner. The FMOD_RESULT is accessible via a getLastResult call on each API Object, and you can optionally define a callback to handle them inline. So no functionality is lost.
+The goal of this project is to be an idiomatic Java implementation of the FMOD Studio and Low Level API. The Java API defines the same classes and functions that the C++ api defines. 
 
+## Deviations
+The main (only real) difference is that I've elected not to return FMOD_RESULT from every api call, instead I'm returning objects and values directly. Since Java can't easily return values via function arguments, this is much cleaner. The FMOD_RESULT is accessible via a getLastResult call on each API Object, and you can optionally define a callback to handle them inline. So no functionality is lost.
+
+### SWIG
 Under the hood, I'm using SWIG (http://www.swig.org/) to generate Java JNI bindings around the FMOD C (not C++) api. I chose the C api for maximum portability(?), and hey, they're functionally identical so it shouldn't matter. Then on the Java side, I've stubbed out the API classes and am in the process of filling in an idiomatic Java API to FMOD.
 
+A lot of the code SWIG generates is pretty ugly, and the current setup puts several layers between the application and FMOD. I'm not terribly happy with that but it seems like the fastest path forward for now.
 
 ##Status
 HIGHLY INCOMPLETE
@@ -45,3 +50,17 @@ To play sound using FMOD from Java:
 * see the runswig.bat file for the swig command line I'm using. Feel free to make a more cross platform script if it pleases you.
 * once you've run swig you'll need to regenerate the dynamic libs for your OS(es). I don't have any kind of build system for this yet, I've just been pressing rebuild in Visual Studio and manually copying files around. Honestly I really don't know the right way to do it so I'd appreciate some advice. What kind of build script to people use when working on cross platform c++ and java?
 
+## License
+Copyright 2015 Nate Austin
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
