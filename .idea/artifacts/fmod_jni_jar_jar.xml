@@ -1,10 +1,13 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="fmod-jni-jar:jar">
+  <artifact type="jar" build-on-make="true" name="fmod-jni-jar:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/fmod_jni_jar_jar</output-path>
     <root id="archive" name="fmod-jni-jar.jar">
       <element id="module-output" name="fmod-jni-jar" />
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/fmod-jni-jar/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="directory" name="fmod_runtimes">
+        <element id="dir-copy" path="$PROJECT_DIR$/fmod_runtimes" />
       </element>
     </root>
   </artifact>

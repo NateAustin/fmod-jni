@@ -7,6 +7,16 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="fmod-jni-jar" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../out/artifacts/fmod_jni_jar_jar/fmod-jni-jar.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../fmod-jni-jar/java_api_src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
