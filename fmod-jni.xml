@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="fmod-jni" default="all">
+  
+  
+  <property file="fmod-jni.properties"/>
+  <!-- Uncomment the following property if no tests compilation is needed -->
+  <!-- 
+  <property name="skip.tests" value="true"/>
+   -->
+  
+  <!-- Compiler options -->
+  
+  <property name="compiler.debug" value="on"/>
+  <property name="compiler.generate.no.warnings" value="off"/>
+  <property name="compiler.args" value=""/>
+  <property name="compiler.max.memory" value="700m"/>
+  <patternset id="ignored.files">
+    <exclude name="**/*.hprof/**"/>
+    <exclude name="**/*.pyc/**"/>
+    <exclude name="**/*.pyo/**"/>
+    <exclude name="**/*.rbc/**"/>
+    <exclude name="**/*~/**"/>
+    <exclude name="**/.DS_Store/**"/>
+    <exclude name="**/.bundle/**"/>
+    <exclude name="**/.git/**"/>
+    <exclude name="**/.hg/**"/>
+    <exclude name="**/.svn/**"/>
+    <exclude name="**/CVS/**"/>
+    <exclude name="**/RCS/**"/>
+    <exclude name="**/SCCS/**"/>
+    <exclude name="**/__pycache__/**"/>
+    <exclude name="**/_svn/**"/>
+    <exclude name="**/rcs/**"/>
+    <exclude name="**/vssver.scc/**"/>
+    <exclude name="**/vssver2.scc/**"/>
+  </patternset>
+  <patternset id="library.patterns">
+    <include name="*.war"/>
+    <include name="*.ear"/>
+    <include name="*.apk"/>
+    <include name="*.zip"/>
+    <include name="*.swc"/>
+    <include name="*.ane"/>
+    <include name="*.egg"/>
+    <include name="*.jar"/>
+  </patternset>
+  <patternset id="compiler.resources">
+    <exclude name="**/?*.java"/>
+    <exclude name="**/?*.form"/>
+    <exclude name="**/?*.class"/>
+    <exclude name="**/?*.groovy"/>
+    <exclude name="**/?*.scala"/>
+    <exclude name="**/?*.flex"/>
+    <exclude name="**/?*.kt"/>
+    <exclude name="**/?*.clj"/>
+    <exclude name="**/?*.aj"/>
+  </patternset>
+  
+  <!-- JDK definitions -->
+  
+  <property name="jdk.bin.1.8" value="${jdk.home.1.8}/bin"/>
+  <path id="jdk.classpath.1.8">
+    <fileset dir="${jdk.home.1.8}">
+      <include name="jre/lib/charsets.jar"/>
+      <include name="jre/lib/deploy.jar"/>
+      <include name="jre/lib/javaws.jar"/>
+      <include name="jre/lib/jce.jar"/>
+      <include name="jre/lib/jfr.jar"/>
+      <include name="jre/lib/jfxswt.jar"/>
+      <include name="jre/lib/jsse.jar"/>
+      <include name="jre/lib/management-agent.jar"/>
+      <include name="jre/lib/plugin.jar"/>
+      <include name="jre/lib/resources.jar"/>
+      <include name="jre/lib/rt.jar"/>
+      <include name="jre/lib/ext/access-bridge-64.jar"/>
+      <include name="jre/lib/ext/cldrdata.jar"/>
+      <include name="jre/lib/ext/dnsns.jar"/>
+      <include name="jre/lib/ext/jaccess.jar"/>
+      <include name="jre/lib/ext/jfxrt.jar"/>
+      <include name="jre/lib/ext/localedata.jar"/>
+      <include name="jre/lib/ext/nashorn.jar"/>
+      <include name="jre/lib/ext/sunec.jar"/>
+      <include name="jre/lib/ext/sunjce_provider.jar"/>
+      <include name="jre/lib/ext/sunmscapi.jar"/>
+      <include name="jre/lib/ext/sunpkcs11.jar"/>
+      <include name="jre/lib/ext/zipfs.jar"/>
+    </fileset>
+  </path>
+  
+  <property name="project.jdk.home" value="${jdk.home.1.8}"/>
+  <property name="project.jdk.bin" value="${jdk.bin.1.8}"/>
+  <property name="project.jdk.classpath" value="jdk.classpath.1.8"/>
+  
+  <!-- Modules -->
+  
+  
+  <!-- Module fmod-jni -->
+  
+  <dirname property="module.fmod-jni.basedir" file="${ant.file}"/>
+  
+  
+  <property name="module.jdk.home.fmod-jni" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.fmod-jni" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.fmod-jni" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.fmod-jni" value="-encoding windows-1252 -source 8 ${compiler.args}"/>
+  
+  <property name="fmod-jni.output.dir" value="${module.fmod-jni.basedir}/out/production/fmod-jni"/>
+  <property name="fmod-jni.testoutput.dir" value="${module.fmod-jni.basedir}/out/test/fmod-jni"/>
+  
+  <path id="fmod-jni.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="fmod-jni.module.production.classpath">
+    <path refid="${module.jdk.classpath.fmod-jni}"/>
+  </path>
+  
+  <path id="fmod-jni.runtime.production.module.classpath">
+    <pathelement location="${fmod-jni.output.dir}"/>
+  </path>
+  
+  <path id="fmod-jni.module.classpath">
+    <path refid="${module.jdk.classpath.fmod-jni}"/>
+    <pathelement location="${fmod-jni.output.dir}"/>
+  </path>
+  
+  <path id="fmod-jni.runtime.module.classpath">
+    <pathelement location="${fmod-jni.testoutput.dir}"/>
+    <pathelement location="${fmod-jni.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.fmod-jni">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.fmod-jni">
+    <patternset refid="excluded.from.module.fmod-jni"/>
+  </patternset>
+  
+  
+  <target name="compile.module.fmod-jni" depends="compile.module.fmod-jni.production,compile.module.fmod-jni.tests" description="Compile module fmod-jni"/>
+  
+  <target name="compile.module.fmod-jni.production" description="Compile module fmod-jni; production classes"/>
+  
+  <target name="compile.module.fmod-jni.tests" depends="compile.module.fmod-jni.production" description="compile module fmod-jni; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.fmod-jni" description="cleanup module">
+    <delete dir="${fmod-jni.output.dir}"/>
+    <delete dir="${fmod-jni.testoutput.dir}"/>
+  </target>
+  
+  
+  <!-- Module fmod-jni-jar -->
+  
+  <dirname property="module.fmod-jni-jar.basedir" file="${ant.file}"/>
+  
+  
+  <property name="module.jdk.home.fmod-jni-jar" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.fmod-jni-jar" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.fmod-jni-jar" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.fmod-jni-jar" value="-encoding windows-1252 -source 8 ${compiler.args}"/>
+  
+  <property name="fmod-jni-jar.output.dir" value="${module.fmod-jni-jar.basedir}/out/production/fmod-jni-jar"/>
+  <property name="fmod-jni-jar.testoutput.dir" value="${module.fmod-jni-jar.basedir}/out/test/fmod-jni-jar"/>
+  
+  <path id="fmod-jni-jar.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="fmod-jni-jar.module.production.classpath">
+    <path refid="${module.jdk.classpath.fmod-jni-jar}"/>
+  </path>
+  
+  <path id="fmod-jni-jar.runtime.production.module.classpath">
+    <pathelement location="${fmod-jni-jar.output.dir}"/>
+  </path>
+  
+  <path id="fmod-jni-jar.module.classpath">
+    <path refid="${module.jdk.classpath.fmod-jni-jar}"/>
+    <pathelement location="${fmod-jni-jar.output.dir}"/>
+  </path>
+  
+  <path id="fmod-jni-jar.runtime.module.classpath">
+    <pathelement location="${fmod-jni-jar.testoutput.dir}"/>
+    <pathelement location="${fmod-jni-jar.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.fmod-jni-jar">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.fmod-jni-jar">
+    <patternset refid="excluded.from.module.fmod-jni-jar"/>
+  </patternset>
+  
+  <path id="fmod-jni-jar.module.sourcepath">
+    <dirset dir="${module.fmod-jni-jar.basedir}/fmod-jni-jar">
+      <include name="java_generated_src"/>
+      <include name="java_api_src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.fmod-jni-jar" depends="compile.module.fmod-jni-jar.production,compile.module.fmod-jni-jar.tests" description="Compile module fmod-jni-jar"/>
+  
+  <target name="compile.module.fmod-jni-jar.production" description="Compile module fmod-jni-jar; production classes">
+    <mkdir dir="${fmod-jni-jar.output.dir}"/>
+    <javac destdir="${fmod-jni-jar.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.fmod-jni-jar}/javac">
+      <compilerarg line="${compiler.args.fmod-jni-jar}"/>
+      <bootclasspath refid="fmod-jni-jar.module.bootclasspath"/>
+      <classpath refid="fmod-jni-jar.module.production.classpath"/>
+      <src refid="fmod-jni-jar.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.fmod-jni-jar"/>
+    </javac>
+    
+    <copy todir="${fmod-jni-jar.output.dir}">
+      <fileset dir="${module.fmod-jni-jar.basedir}/fmod-jni-jar/java_generated_src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.fmod-jni-jar.basedir}/fmod-jni-jar/java_api_src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.fmod-jni-jar.tests" depends="compile.module.fmod-jni-jar.production" description="compile module fmod-jni-jar; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.fmod-jni-jar" description="cleanup module">
+    <delete dir="${fmod-jni-jar.output.dir}"/>
+    <delete dir="${fmod-jni-jar.testoutput.dir}"/>
+  </target>
+
+
+  <!-- Module demo -->
+  
+  <dirname property="module.demo.basedir" file="${ant.file}"/>
+  
+  
+  <property name="module.jdk.home.demo" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.demo" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.demo" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.demo" value="-encoding windows-1252 -source 8 ${compiler.args}"/>
+  
+  <property name="demo.output.dir" value="${module.demo.basedir}/out/production/demo"/>
+  <property name="demo.testoutput.dir" value="${module.demo.basedir}/out/test/demo"/>
+  
+  <path id="demo.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="demo.module.production.classpath">
+    <path refid="${module.jdk.classpath.demo}"/>
+    <pathelement location="${fmod-jni-jar.output.dir}"/>
+  </path>
+  
+  <path id="demo.runtime.production.module.classpath">
+    <pathelement location="${demo.output.dir}"/>
+    <path refid="fmod-jni-jar.runtime.production.module.classpath"/>
+  </path>
+  
+  <path id="demo.module.classpath">
+    <path refid="${module.jdk.classpath.demo}"/>
+    <pathelement location="${demo.output.dir}"/>
+    <pathelement location="${fmod-jni-jar.testoutput.dir}"/>
+    <pathelement location="${fmod-jni-jar.output.dir}"/>
+  </path>
+  
+  <path id="demo.runtime.module.classpath">
+    <pathelement location="${demo.testoutput.dir}"/>
+    <pathelement location="${demo.output.dir}"/>
+    <path refid="fmod-jni-jar.runtime.module.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.demo">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.demo">
+    <patternset refid="excluded.from.module.demo"/>
+  </patternset>
+  
+  <path id="demo.module.sourcepath">
+    <dirset dir="${module.demo.basedir}/demo">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.demo" depends="compile.module.demo.production,compile.module.demo.tests" description="Compile module demo"/>
+  
+  <target name="compile.module.demo.production" depends="compile.module.fmod-jni-jar" description="Compile module demo; production classes">
+    <mkdir dir="${demo.output.dir}"/>
+    <javac destdir="${demo.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.demo}/javac">
+      <compilerarg line="${compiler.args.demo}"/>
+      <bootclasspath refid="demo.module.bootclasspath"/>
+      <classpath refid="demo.module.production.classpath"/>
+      <src refid="demo.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.demo"/>
+    </javac>
+    
+    <copy todir="${demo.output.dir}">
+      <fileset dir="${module.demo.basedir}/demo/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.demo.tests" depends="compile.module.demo.production" description="compile module demo; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.demo" description="cleanup module">
+    <delete dir="${demo.output.dir}"/>
+    <delete dir="${demo.testoutput.dir}"/>
+  </target>
+  
+  <target name="init" description="Build initialization">
+    <!-- Perform any build initialization in this target -->
+  </target>
+  
+  <target name="clean" depends="clean.module.fmod-jni, clean.module.fmod-jni-jar, clean.module.demo" description="cleanup all"/>
+  
+  <target name="build.modules" depends="init, clean, compile.module.fmod-jni, compile.module.fmod-jni-jar, compile.module.demo" description="build all modules"/>
+  
+  <target name="init.artifacts">
+    <property name="artifacts.temp.dir" value="${basedir}/__artifacts_temp"/>
+    <property name="artifact.output.fmod-jni-jar:jar" value="${basedir}/out/artifacts/fmod_jni_jar_jar"/>
+    <mkdir dir="${artifacts.temp.dir}"/>
+    <property name="temp.jar.path.fmod-jni-jar.jar" value="${artifacts.temp.dir}/fmod-jni-jar.jar"/>
+  </target>
+  
+  <target name="artifact.fmod-jni-jar:jar" depends="init.artifacts, compile.module.fmod-jni-jar" description="Build &#39;fmod-jni-jar:jar&#39; artifact">
+    <property name="artifact.temp.output.fmod-jni-jar:jar" value="${artifacts.temp.dir}/fmod_jni_jar_jar"/>
+    <mkdir dir="${artifact.temp.output.fmod-jni-jar:jar}"/>
+    <jar destfile="${temp.jar.path.fmod-jni-jar.jar}" duplicate="preserve" filesetmanifest="mergewithoutmain">
+      <zipfileset dir="${fmod-jni-jar.output.dir}"/>
+      <zipfileset file="${basedir}/fmod-jni-jar/META-INF/MANIFEST.MF" prefix="META-INF"/>
+    </jar>
+    <copy file="${temp.jar.path.fmod-jni-jar.jar}" tofile="${artifact.temp.output.fmod-jni-jar:jar}/fmod-jni-jar.jar"/>
+  </target>
+  
+  <target name="build.all.artifacts" depends="artifact.fmod-jni-jar:jar" description="Build all artifacts">
+    <mkdir dir="${artifact.output.fmod-jni-jar:jar}"/>
+    <copy todir="${artifact.output.fmod-jni-jar:jar}">
+      <fileset dir="${artifact.temp.output.fmod-jni-jar:jar}"/>
+    </copy>
+    
+    <!-- Delete temporary files -->
+    <delete dir="${artifacts.temp.dir}"/>
+  </target>
+
+  <target name="pushJarToLegacy">
+    <copy todir="../legacy/libs">
+      <fileset dir="out/artifacts/fmod_jni_jar_jar">
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="all" depends="build.modules, build.all.artifacts" description="build all"/>
+</project>
