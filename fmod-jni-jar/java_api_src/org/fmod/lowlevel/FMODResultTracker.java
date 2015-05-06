@@ -1,4 +1,4 @@
-package org.fmod;
+package org.fmod.lowlevel;
 
 import org.fmod.jni.FMOD_RESULT;
 
@@ -64,7 +64,7 @@ public class FMODResultTracker {
 	 * Override this to customize handling of FMOD results.
 	 * This honestly seems less than great, but.. shrug.
 	 */
-	interface IResultHandler {
+	public interface IResultHandler {
 		void handleNotOk(FMOD_RESULT result, String apiName);
 
 		void handleOk(String apiName);

@@ -1,6 +1,6 @@
 package org.fmod.studio;
 
-import org.fmod.FMODResultTracker;
+import org.fmod.lowlevel.FMODResultTracker;
 import org.fmod.jni.*;
 
 /**

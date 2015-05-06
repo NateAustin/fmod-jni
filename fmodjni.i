@@ -1,4 +1,4 @@
-%module fmod
+%module FMOD
 %{
 #include "fmod_common.h"
 #include "fmod.h"

@@ -3,6 +3,8 @@ Java JNI wrapper for the FMOD audio library. Experimental and Incomplete. Apache
 
 The goal of this project is to make the FMOD Studio audio engine available to Java code. This project is in support of my indie game, Legacy (http://yonderinglands.blogspot.com/) but you are welcome to use it for whatever, or suggest improvements. Legacy is under active development and I expect this API to expand and harden over time to meet the audio needs of the game.
 
+The intention is to support the FMOD Studio workflow where an audio designer works on a project in FMOD studio, and a game programmer works in Java, loading banks, calling events, setting parameters etc. for the FMOD project to consume. So the portion of the API that's concerned with that workflow will be my top priority.
+
 ##About FMOD
 FMOD Studio is a 3D audio engine and designer tool for games.
 

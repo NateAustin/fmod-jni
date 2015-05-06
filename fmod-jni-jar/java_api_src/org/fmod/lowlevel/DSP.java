@@ -1,4 +1,4 @@
-package org.fmod;
+package org.fmod.lowlevel;
 
 import org.fmod.jni.SWIGTYPE_p_FMOD_DSP;
 

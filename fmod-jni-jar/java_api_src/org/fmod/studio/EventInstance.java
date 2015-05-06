@@ -1,6 +1,6 @@
 package org.fmod.studio;
 
-import org.fmod.FMODResultTracker;
+import org.fmod.lowlevel.FMODResultTracker;
 import org.fmod.jni.FMOD_STUDIO_STOP_MODE;
 import org.fmod.jni.SWIGTYPE_p_FMOD_STUDIO_EVENTINSTANCE;
 import org.fmod.jni.fmod;
