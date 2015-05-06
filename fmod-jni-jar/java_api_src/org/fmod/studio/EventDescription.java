@@ -6,10 +6,12 @@ import org.fmod.jni.*;
 import static org.fmod.jni.FMOD.*;
 
 /**
+ * Proxy to FMOD EventDescription class.
+ *
  * {@link FMOD_RESULT} return values have been omitted from the individual calls because it's a pain in the neck
  * to return multiple values in Java. They are exposed via the getLastResult() and resultHandler mechanisms instead.
  *
- * @see <a href="http://www.fmod.org/documentation/#content/generated/studio_api_EventDescription.html" >FMOD Documentation</a>
+ * @see <a href="http://www.fmod.org/documentation/#content/generated/studio_api_EventDescription.html" >FMOD EventDescription Documentation</a>
  *
  * Author: Nate
  * Date: 5/1/2015
@@ -73,4 +75,18 @@ public final class EventDescription extends FMODResultTracker{
 //FMOD_RESULT F_API FMOD_Studio_EventDescription_SetCallback(FMOD_STUDIO_EVENTDESCRIPTION *eventdescription, FMOD_STUDIO_EVENT_CALLBACK callback, FMOD_STUDIO_EVENT_CALLBACK_TYPE callbackmask);
 //FMOD_RESULT F_API FMOD_Studio_EventDescription_GetUserData(FMOD_STUDIO_EVENTDESCRIPTION *eventdescription, void **userData);
 //FMOD_RESULT F_API FMOD_Studio_EventDescription_SetUserData(FMOD_STUDIO_EVENTDESCRIPTION *eventdescription, void *userData);
+
+
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+		EventDescription that = (EventDescription) o;
+		return pointer.equals(that.pointer);
+	}
+
+	@Override
+	public int hashCode() {
+		return pointer.hashCode();
+	}
 }

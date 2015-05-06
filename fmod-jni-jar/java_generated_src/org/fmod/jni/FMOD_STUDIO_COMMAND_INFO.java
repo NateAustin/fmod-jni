@@ -35,6 +35,16 @@ public class FMOD_STUDIO_COMMAND_INFO {
     }
   }
 
+  public boolean equals(Object obj) {
+  	if(obj == this) return true;
+  	if(obj == null) return false;
+  	if (! (obj instanceof FMOD_STUDIO_COMMAND_INFO)) return false;
+    return this.swigCPtr == ((FMOD_STUDIO_COMMAND_INFO)obj).swigCPtr;
+  }
+  public int hashCode() {
+     return (int)swigCPtr;
+  }
+
   public void setCommandName(String value) {
     FMODJNI.FMOD_STUDIO_COMMAND_INFO_commandName_set(swigCPtr, this, value);
   }

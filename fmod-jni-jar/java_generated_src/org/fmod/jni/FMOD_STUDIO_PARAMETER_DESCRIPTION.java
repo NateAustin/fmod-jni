@@ -35,6 +35,16 @@ public class FMOD_STUDIO_PARAMETER_DESCRIPTION {
     }
   }
 
+  public boolean equals(Object obj) {
+  	if(obj == this) return true;
+  	if(obj == null) return false;
+  	if (! (obj instanceof FMOD_STUDIO_PARAMETER_DESCRIPTION)) return false;
+    return this.swigCPtr == ((FMOD_STUDIO_PARAMETER_DESCRIPTION)obj).swigCPtr;
+  }
+  public int hashCode() {
+     return (int)swigCPtr;
+  }
+
   public void setName(String value) {
     FMODJNI.FMOD_STUDIO_PARAMETER_DESCRIPTION_name_set(swigCPtr, this, value);
   }

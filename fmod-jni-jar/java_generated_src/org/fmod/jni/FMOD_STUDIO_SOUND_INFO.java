@@ -35,6 +35,16 @@ public class FMOD_STUDIO_SOUND_INFO {
     }
   }
 
+  public boolean equals(Object obj) {
+  	if(obj == this) return true;
+  	if(obj == null) return false;
+  	if (! (obj instanceof FMOD_STUDIO_SOUND_INFO)) return false;
+    return this.swigCPtr == ((FMOD_STUDIO_SOUND_INFO)obj).swigCPtr;
+  }
+  public int hashCode() {
+     return (int)swigCPtr;
+  }
+
   public void setName_or_data(String value) {
     FMODJNI.FMOD_STUDIO_SOUND_INFO_name_or_data_set(swigCPtr, this, value);
   }

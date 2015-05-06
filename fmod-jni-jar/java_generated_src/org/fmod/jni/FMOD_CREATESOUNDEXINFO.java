@@ -35,6 +35,16 @@ public class FMOD_CREATESOUNDEXINFO {
     }
   }
 
+  public boolean equals(Object obj) {
+  	if(obj == this) return true;
+  	if(obj == null) return false;
+  	if (! (obj instanceof FMOD_CREATESOUNDEXINFO)) return false;
+    return this.swigCPtr == ((FMOD_CREATESOUNDEXINFO)obj).swigCPtr;
+  }
+  public int hashCode() {
+     return (int)swigCPtr;
+  }
+
   public void setCbsize(int value) {
     FMODJNI.FMOD_CREATESOUNDEXINFO_cbsize_set(swigCPtr, this, value);
   }

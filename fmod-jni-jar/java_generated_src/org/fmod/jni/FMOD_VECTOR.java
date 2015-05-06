@@ -35,6 +35,16 @@ public class FMOD_VECTOR {
     }
   }
 
+  public boolean equals(Object obj) {
+  	if(obj == this) return true;
+  	if(obj == null) return false;
+  	if (! (obj instanceof FMOD_VECTOR)) return false;
+    return this.swigCPtr == ((FMOD_VECTOR)obj).swigCPtr;
+  }
+  public int hashCode() {
+     return (int)swigCPtr;
+  }
+
   public void setX(float value) {
     FMODJNI.FMOD_VECTOR_x_set(swigCPtr, this, value);
   }

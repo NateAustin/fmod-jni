@@ -35,6 +35,16 @@ public class FMOD_STUDIO_PROGRAMMER_SOUND_PROPERTIES {
     }
   }
 
+  public boolean equals(Object obj) {
+  	if(obj == this) return true;
+  	if(obj == null) return false;
+  	if (! (obj instanceof FMOD_STUDIO_PROGRAMMER_SOUND_PROPERTIES)) return false;
+    return this.swigCPtr == ((FMOD_STUDIO_PROGRAMMER_SOUND_PROPERTIES)obj).swigCPtr;
+  }
+  public int hashCode() {
+     return (int)swigCPtr;
+  }
+
   public void setName(String value) {
     FMODJNI.FMOD_STUDIO_PROGRAMMER_SOUND_PROPERTIES_name_set(swigCPtr, this, value);
   }

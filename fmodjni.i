@@ -47,6 +47,20 @@ ENUM_OUTPUT_TYPEMAPS(FMOD_STUDIO_PLAYBACK_STATE, state)
 /* TODO void* -> byte buffer, for in and out */
 /* TODO FMOD_Studio_System_LoadBankMemory const char *buffer -> byte array (see SWIG docs, this one is easy*/
 
+
+/* support .equals for underlying SWIGTYPEs so we can compare objects easily: */
+%typemap(javacode) SWIGTYPE, SWIGTYPE *, SWIGTYPE &, SWIGTYPE [], SWIGTYPE (CLASS::*) %{
+  public boolean equals(Object obj) {
+  	if(obj == this) return true;
+  	if(obj == null) return false;
+  	if (! (obj instanceof $javaclassname)) return false;
+    return this.swigCPtr == (($javaclassname)obj).swigCPtr;
+  }
+  public int hashCode() {
+     return (int)swigCPtr;
+  }
+%}
+
 %include "fmod_api/lowlevel/inc/fmod_common.h"
 %include "fmod_api/lowlevel/inc/fmod.h"
 %include "fmod_api/studio/inc/fmod_studio_common.h"

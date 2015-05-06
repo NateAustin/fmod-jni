@@ -35,6 +35,16 @@ public class FMOD_ASYNCREADINFO {
     }
   }
 
+  public boolean equals(Object obj) {
+  	if(obj == this) return true;
+  	if(obj == null) return false;
+  	if (! (obj instanceof FMOD_ASYNCREADINFO)) return false;
+    return this.swigCPtr == ((FMOD_ASYNCREADINFO)obj).swigCPtr;
+  }
+  public int hashCode() {
+     return (int)swigCPtr;
+  }
+
   public void setHandle(SWIGTYPE_p_void value) {
     FMODJNI.FMOD_ASYNCREADINFO_handle_set(swigCPtr, SWIGTYPE_p_void.getCPtr(value));
   }

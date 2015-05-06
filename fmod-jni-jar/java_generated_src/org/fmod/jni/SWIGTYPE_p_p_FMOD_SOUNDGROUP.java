@@ -22,5 +22,15 @@ public class SWIGTYPE_p_p_FMOD_SOUNDGROUP {
   protected static long getCPtr(SWIGTYPE_p_p_FMOD_SOUNDGROUP obj) {
     return (obj == null) ? 0 : obj.swigCPtr;
   }
+
+  public boolean equals(Object obj) {
+  	if(obj == this) return true;
+  	if(obj == null) return false;
+  	if (! (obj instanceof SWIGTYPE_p_p_FMOD_SOUNDGROUP)) return false;
+    return this.swigCPtr == ((SWIGTYPE_p_p_FMOD_SOUNDGROUP)obj).swigCPtr;
+  }
+  public int hashCode() {
+     return (int)swigCPtr;
+  }
 }
 

@@ -35,6 +35,16 @@ public class FMOD_GUID {
     }
   }
 
+  public boolean equals(Object obj) {
+  	if(obj == this) return true;
+  	if(obj == null) return false;
+  	if (! (obj instanceof FMOD_GUID)) return false;
+    return this.swigCPtr == ((FMOD_GUID)obj).swigCPtr;
+  }
+  public int hashCode() {
+     return (int)swigCPtr;
+  }
+
   public void setData1(long value) {
     FMODJNI.FMOD_GUID_Data1_set(swigCPtr, this, value);
   }

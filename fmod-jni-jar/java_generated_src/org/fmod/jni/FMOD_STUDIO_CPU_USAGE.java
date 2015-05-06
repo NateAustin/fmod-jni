@@ -35,6 +35,16 @@ public class FMOD_STUDIO_CPU_USAGE {
     }
   }
 
+  public boolean equals(Object obj) {
+  	if(obj == this) return true;
+  	if(obj == null) return false;
+  	if (! (obj instanceof FMOD_STUDIO_CPU_USAGE)) return false;
+    return this.swigCPtr == ((FMOD_STUDIO_CPU_USAGE)obj).swigCPtr;
+  }
+  public int hashCode() {
+     return (int)swigCPtr;
+  }
+
   public void setDspUsage(float value) {
     FMODJNI.FMOD_STUDIO_CPU_USAGE_dspUsage_set(swigCPtr, this, value);
   }

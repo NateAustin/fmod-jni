@@ -22,5 +22,15 @@ public class SWIGTYPE_p_p_FMOD_STUDIO_EVENTDESCRIPTION {
   protected static long getCPtr(SWIGTYPE_p_p_FMOD_STUDIO_EVENTDESCRIPTION obj) {
     return (obj == null) ? 0 : obj.swigCPtr;
   }
+
+  public boolean equals(Object obj) {
+  	if(obj == this) return true;
+  	if(obj == null) return false;
+  	if (! (obj instanceof SWIGTYPE_p_p_FMOD_STUDIO_EVENTDESCRIPTION)) return false;
+    return this.swigCPtr == ((SWIGTYPE_p_p_FMOD_STUDIO_EVENTDESCRIPTION)obj).swigCPtr;
+  }
+  public int hashCode() {
+     return (int)swigCPtr;
+  }
 }
 

@@ -35,6 +35,16 @@ public class FMOD_STUDIO_BUFFER_INFO {
     }
   }
 
+  public boolean equals(Object obj) {
+  	if(obj == this) return true;
+  	if(obj == null) return false;
+  	if (! (obj instanceof FMOD_STUDIO_BUFFER_INFO)) return false;
+    return this.swigCPtr == ((FMOD_STUDIO_BUFFER_INFO)obj).swigCPtr;
+  }
+  public int hashCode() {
+     return (int)swigCPtr;
+  }
+
   public void setCurrentUsage(int value) {
     FMODJNI.FMOD_STUDIO_BUFFER_INFO_currentUsage_set(swigCPtr, this, value);
   }

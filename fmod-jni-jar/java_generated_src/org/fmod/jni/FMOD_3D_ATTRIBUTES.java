@@ -35,6 +35,16 @@ public class FMOD_3D_ATTRIBUTES {
     }
   }
 
+  public boolean equals(Object obj) {
+  	if(obj == this) return true;
+  	if(obj == null) return false;
+  	if (! (obj instanceof FMOD_3D_ATTRIBUTES)) return false;
+    return this.swigCPtr == ((FMOD_3D_ATTRIBUTES)obj).swigCPtr;
+  }
+  public int hashCode() {
+     return (int)swigCPtr;
+  }
+
   public void setPosition(FMOD_VECTOR value) {
     FMODJNI.FMOD_3D_ATTRIBUTES_position_set(swigCPtr, this, FMOD_VECTOR.getCPtr(value), value);
   }

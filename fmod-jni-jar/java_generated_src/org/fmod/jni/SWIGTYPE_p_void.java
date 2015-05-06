@@ -22,5 +22,15 @@ public class SWIGTYPE_p_void {
   protected static long getCPtr(SWIGTYPE_p_void obj) {
     return (obj == null) ? 0 : obj.swigCPtr;
   }
+
+  public boolean equals(Object obj) {
+  	if(obj == this) return true;
+  	if(obj == null) return false;
+  	if (! (obj instanceof SWIGTYPE_p_void)) return false;
+    return this.swigCPtr == ((SWIGTYPE_p_void)obj).swigCPtr;
+  }
+  public int hashCode() {
+     return (int)swigCPtr;
+  }
 }
 

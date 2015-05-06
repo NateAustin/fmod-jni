@@ -35,6 +35,16 @@ public class FMOD_ADVANCEDSETTINGS {
     }
   }
 
+  public boolean equals(Object obj) {
+  	if(obj == this) return true;
+  	if(obj == null) return false;
+  	if (! (obj instanceof FMOD_ADVANCEDSETTINGS)) return false;
+    return this.swigCPtr == ((FMOD_ADVANCEDSETTINGS)obj).swigCPtr;
+  }
+  public int hashCode() {
+     return (int)swigCPtr;
+  }
+
   public void setCbSize(int value) {
     FMODJNI.FMOD_ADVANCEDSETTINGS_cbSize_set(swigCPtr, this, value);
   }

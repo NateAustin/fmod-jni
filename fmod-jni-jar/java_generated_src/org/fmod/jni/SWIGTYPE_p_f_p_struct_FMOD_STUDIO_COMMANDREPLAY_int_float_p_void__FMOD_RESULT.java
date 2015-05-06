@@ -22,5 +22,15 @@ public class SWIGTYPE_p_f_p_struct_FMOD_STUDIO_COMMANDREPLAY_int_float_p_void__F
   protected static long getCPtr(SWIGTYPE_p_f_p_struct_FMOD_STUDIO_COMMANDREPLAY_int_float_p_void__FMOD_RESULT obj) {
     return (obj == null) ? 0 : obj.swigCPtr;
   }
+
+  public boolean equals(Object obj) {
+  	if(obj == this) return true;
+  	if(obj == null) return false;
+  	if (! (obj instanceof SWIGTYPE_p_f_p_struct_FMOD_STUDIO_COMMANDREPLAY_int_float_p_void__FMOD_RESULT)) return false;
+    return this.swigCPtr == ((SWIGTYPE_p_f_p_struct_FMOD_STUDIO_COMMANDREPLAY_int_float_p_void__FMOD_RESULT)obj).swigCPtr;
+  }
+  public int hashCode() {
+     return (int)swigCPtr;
+  }
 }
 

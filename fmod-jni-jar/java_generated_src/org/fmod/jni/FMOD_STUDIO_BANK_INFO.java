@@ -35,6 +35,16 @@ public class FMOD_STUDIO_BANK_INFO {
     }
   }
 
+  public boolean equals(Object obj) {
+  	if(obj == this) return true;
+  	if(obj == null) return false;
+  	if (! (obj instanceof FMOD_STUDIO_BANK_INFO)) return false;
+    return this.swigCPtr == ((FMOD_STUDIO_BANK_INFO)obj).swigCPtr;
+  }
+  public int hashCode() {
+     return (int)swigCPtr;
+  }
+
   public void setSize(int value) {
     FMODJNI.FMOD_STUDIO_BANK_INFO_size_set(swigCPtr, this, value);
   }

@@ -35,6 +35,16 @@ public class FMOD_REVERB_PROPERTIES {
     }
   }
 
+  public boolean equals(Object obj) {
+  	if(obj == this) return true;
+  	if(obj == null) return false;
+  	if (! (obj instanceof FMOD_REVERB_PROPERTIES)) return false;
+    return this.swigCPtr == ((FMOD_REVERB_PROPERTIES)obj).swigCPtr;
+  }
+  public int hashCode() {
+     return (int)swigCPtr;
+  }
+
   public void setDecayTime(float value) {
     FMODJNI.FMOD_REVERB_PROPERTIES_DecayTime_set(swigCPtr, this, value);
   }

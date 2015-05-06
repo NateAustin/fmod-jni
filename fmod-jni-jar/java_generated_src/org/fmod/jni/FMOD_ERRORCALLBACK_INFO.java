@@ -35,6 +35,16 @@ public class FMOD_ERRORCALLBACK_INFO {
     }
   }
 
+  public boolean equals(Object obj) {
+  	if(obj == this) return true;
+  	if(obj == null) return false;
+  	if (! (obj instanceof FMOD_ERRORCALLBACK_INFO)) return false;
+    return this.swigCPtr == ((FMOD_ERRORCALLBACK_INFO)obj).swigCPtr;
+  }
+  public int hashCode() {
+     return (int)swigCPtr;
+  }
+
   public void setResult(FMOD_RESULT value) {
     FMODJNI.FMOD_ERRORCALLBACK_INFO_result_set(swigCPtr, this, value.swigValue());
   }

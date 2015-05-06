@@ -35,6 +35,16 @@ public class FMOD_STUDIO_BUFFER_USAGE {
     }
   }
 
+  public boolean equals(Object obj) {
+  	if(obj == this) return true;
+  	if(obj == null) return false;
+  	if (! (obj instanceof FMOD_STUDIO_BUFFER_USAGE)) return false;
+    return this.swigCPtr == ((FMOD_STUDIO_BUFFER_USAGE)obj).swigCPtr;
+  }
+  public int hashCode() {
+     return (int)swigCPtr;
+  }
+
   public void setStudioCommandQueue(FMOD_STUDIO_BUFFER_INFO value) {
     FMODJNI.FMOD_STUDIO_BUFFER_USAGE_studioCommandQueue_set(swigCPtr, this, FMOD_STUDIO_BUFFER_INFO.getCPtr(value), value);
   }

@@ -1,11 +1,19 @@
 package org.fmod.studio;
 
 import org.fmod.jni.*;
+import org.fmod.lowlevel.ChannelGroup;
 import org.fmod.lowlevel.FMODResultTracker;
 
 import static org.fmod.jni.FMOD.*;
 
 /**
+ * Proxy to FMOD EventInstance class
+ *
+ * {@link FMOD_RESULT} return values have been omitted from the individual calls because it's a pain in the neck
+ * to return multiple values in Java. They are exposed via the getLastResult() and resultHandler mechanisms instead.
+ *
+ * @see <a href="http://www.fmod.org/documentation/#content/generated/studio_api_EventInstance.html" >FMOD EventInstance Documentation</a>
+ *
  * Author: Nate
  * Date: 5/1/2015
  */
@@ -121,18 +129,91 @@ public class EventInstance extends FMODResultTracker {
 		return p[0] != 0;
 	}
 
-//FMOD_RESULT F_API FMOD_Studio_EventInstance_GetParameter(FMOD_STUDIO_EVENTINSTANCE *eventinstance, const char *name, FMOD_STUDIO_PARAMETERINSTANCE **parameter);
-//FMOD_RESULT F_API FMOD_Studio_EventInstance_GetParameterByIndex(FMOD_STUDIO_EVENTINSTANCE *eventinstance, int index, FMOD_STUDIO_PARAMETERINSTANCE **parameter);
-//FMOD_RESULT F_API FMOD_Studio_EventInstance_GetParameterCount(FMOD_STUDIO_EVENTINSTANCE *eventinstance, int *count);
-//FMOD_RESULT F_API FMOD_Studio_EventInstance_SetParameterValue(FMOD_STUDIO_EVENTINSTANCE *eventinstance, const char *name, float value);
-//FMOD_RESULT F_API FMOD_Studio_EventInstance_SetParameterValueByIndex(FMOD_STUDIO_EVENTINSTANCE *eventinstance, int index, float value);
-//FMOD_RESULT F_API FMOD_Studio_EventInstance_GetCue(FMOD_STUDIO_EVENTINSTANCE *eventinstance, const char *name, FMOD_STUDIO_CUEINSTANCE **cue);
-//FMOD_RESULT F_API FMOD_Studio_EventInstance_GetCueByIndex(FMOD_STUDIO_EVENTINSTANCE *eventinstance, int index, FMOD_STUDIO_CUEINSTANCE **cue);
-//FMOD_RESULT F_API FMOD_Studio_EventInstance_GetCueCount(FMOD_STUDIO_EVENTINSTANCE *eventinstance, int *count);
+	public ParameterInstance getParameter(String name) {
+		SWIGTYPE_p_p_FMOD_STUDIO_PARAMETERINSTANCE pp = new_FMOD_STUDIO_PARAMETERINSTANCE_p_p();
+		processApiResult(FMOD_Studio_EventInstance_GetParameter(pointer, name, pp), "FMOD_Studio_EventInstance_GetParameter");
+		SWIGTYPE_p_FMOD_STUDIO_PARAMETERINSTANCE p = FMOD_STUDIO_PARAMETERINSTANCE_p_p_value(pp);
+		delete_FMOD_STUDIO_PARAMETERINSTANCE_p_p(pp);
+		if(FMOD_Studio_ParameterInstance_IsValid(p) != 0) {
+			return new ParameterInstance(p);
+		}
+		return null;
+	}
+	public ParameterInstance getParameterByIndex(int index) {
+		SWIGTYPE_p_p_FMOD_STUDIO_PARAMETERINSTANCE pp = new_FMOD_STUDIO_PARAMETERINSTANCE_p_p();
+		processApiResult(FMOD_Studio_EventInstance_GetParameterByIndex(pointer, index, pp), "FMOD_Studio_EventInstance_GetParameterByIndex");
+		SWIGTYPE_p_FMOD_STUDIO_PARAMETERINSTANCE p = FMOD_STUDIO_PARAMETERINSTANCE_p_p_value(pp);
+		delete_FMOD_STUDIO_PARAMETERINSTANCE_p_p(pp);
+		if (FMOD_Studio_ParameterInstance_IsValid(p) != 0) {
+			return new ParameterInstance(p);
+		}
+		return null;
+	}
+	public int getParameterCount() {
+		int[] p = new int[1];
+		processApiResult(FMOD_Studio_EventInstance_GetParameterCount(pointer, p), "FMOD_Studio_EventInstance_GetParameterCount");
+		return p[0];
+	}
+
+	public void setParameterValue(String parameter, float value) {
+		processApiResult(FMOD_Studio_EventInstance_SetParameterValue(pointer, parameter, value), "FMOD_Studio_EventInstance_SetParameterValue");
+	}
+
+	public void setParameterValueByIndex(int index, float value) {
+		processApiResult(FMOD_Studio_EventInstance_SetParameterValueByIndex(pointer, index, value), "FMOD_Studio_EventInstance_SetParameterValueByIndex");
+	}
+
+	public ChannelGroup getChannelGroup() {
+		SWIGTYPE_p_p_FMOD_CHANNELGROUP pp = new_FMOD_CHANNELGROUP_p_p();
+		processApiResult(FMOD_Studio_EventInstance_GetChannelGroup(pointer, pp), "FMOD_Studio_EventInstance_GetChannelGroup");
+		SWIGTYPE_p_FMOD_CHANNELGROUP p = FMOD_CHANNELGROUP_p_p_value(pp);
+		delete_FMOD_CHANNELGROUP_p_p(pp);
+		return new ChannelGroup(p);
+	}
+	
+	public CueInstance getCue(String name) {
+		SWIGTYPE_p_p_FMOD_STUDIO_CUEINSTANCE pp = new_FMOD_STUDIO_CUEINSTANCE_p_p();
+		processApiResult(FMOD_Studio_EventInstance_GetCue(pointer, name, pp), "FMOD_Studio_EventInstance_GetCue");
+		SWIGTYPE_p_FMOD_STUDIO_CUEINSTANCE p = FMOD_STUDIO_CUEINSTANCE_p_p_value(pp);
+		delete_FMOD_STUDIO_CUEINSTANCE_p_p(pp);
+		if (FMOD_Studio_CueInstance_IsValid(p) != 0) {
+			return new CueInstance(p);
+		}
+		return null;		
+	}
+	public CueInstance getCueByIndex(int index) {
+		SWIGTYPE_p_p_FMOD_STUDIO_CUEINSTANCE pp = new_FMOD_STUDIO_CUEINSTANCE_p_p();
+		processApiResult(FMOD_Studio_EventInstance_GetCueByIndex(pointer, index, pp), "FMOD_Studio_EventInstance_GetCueByIndex");
+		SWIGTYPE_p_FMOD_STUDIO_CUEINSTANCE p = FMOD_STUDIO_CUEINSTANCE_p_p_value(pp);
+		delete_FMOD_STUDIO_CUEINSTANCE_p_p(pp);
+		if (FMOD_Studio_CueInstance_IsValid(p) != 0) {
+			return new CueInstance(p);
+		}
+		return null;		
+	}
+	public int getCueCount() {
+		int[] p = new int[1];
+		processApiResult(FMOD_Studio_EventInstance_GetCueCount(pointer, p), "FMOD_Studio_EventInstance_GetCueCount");
+		return p[0];
+	}
+
+
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+
+		EventInstance instance = (EventInstance) o;
+		return pointer.equals(instance.pointer);
+	}
+
+	@Override
+	public int hashCode() {
+		return pointer.hashCode();
+	}
+
+	//TODO: pick these up...
 //FMOD_RESULT F_API FMOD_Studio_EventInstance_SetCallback(FMOD_STUDIO_EVENTINSTANCE *eventinstance, FMOD_STUDIO_EVENT_CALLBACK callback, FMOD_STUDIO_EVENT_CALLBACK_TYPE callbackmask);
 //FMOD_RESULT F_API FMOD_Studio_EventInstance_GetUserData(FMOD_STUDIO_EVENTINSTANCE *eventinstance, void **userData);
 //FMOD_RESULT F_API FMOD_Studio_EventInstance_SetUserData(FMOD_STUDIO_EVENTINSTANCE *eventinstance, void *userData);
-
-	//TODO should we attempt to re-use the same java object? Should we attempt to implement a meaningful .equals for ChannelGroup?
-//FMOD_RESULT F_API FMOD_Studio_EventInstance_GetChannelGroup(FMOD_STUDIO_EVENTINSTANCE *eventinstance, FMOD_CHANNELGROUP **group);
 }
