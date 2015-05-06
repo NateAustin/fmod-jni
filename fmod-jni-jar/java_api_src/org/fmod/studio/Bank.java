@@ -1,8 +1,9 @@
 package org.fmod.studio;
 
 import org.fmod.jni.SWIGTYPE_p_FMOD_STUDIO_BANK;
-import org.fmod.jni.fmod;
 import org.fmod.lowlevel.FMODResultTracker;
+
+import static org.fmod.jni.FMOD.*;
 
 /**
  * Author: Nate
@@ -20,10 +21,10 @@ public class Bank extends FMODResultTracker{
 	}
 
 	public boolean isValid() {
-		return fmod.FMOD_Studio_Bank_IsValid(pointer) != 0;
+		return FMOD_Studio_Bank_IsValid(pointer) != 0;
 	}
 	public void unload() {
-		processApiResult(fmod.FMOD_Studio_Bank_Unload(pointer), "FMOD_Studio_Bank_Unload");
+		processApiResult(FMOD_Studio_Bank_Unload(pointer), "FMOD_Studio_Bank_Unload");
 	}
 
 

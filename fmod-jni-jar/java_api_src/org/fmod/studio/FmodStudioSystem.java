@@ -4,7 +4,7 @@ import org.fmod.lowlevel.FMODResultTracker;
 import org.fmod.lowlevel.FmodSystem;
 import org.fmod.jni.*;
 
-import static org.fmod.jni.fmod.*;
+import static org.fmod.jni.FMOD.*;
 
 /**
  * FMOD Studio System Java API
@@ -44,7 +44,7 @@ public final class FmodStudioSystem extends FMODResultTracker {
 	 */
 	public static FmodStudioSystem create() {
 		SWIGTYPE_p_p_FMOD_STUDIO_SYSTEM pp = new_FMOD_STUDIO_SYSTEM_p_p();
-		FMOD_RESULT result = FMOD_Studio_System_Create(pp, fmodConstants.FMOD_VERSION);
+		FMOD_RESULT result = FMOD_Studio_System_Create(pp, FMODConstants.FMOD_VERSION);
 		final FmodStudioSystem system = new FmodStudioSystem(FMOD_STUDIO_SYSTEM_p_p_value(pp));
 		system.processApiResult(result, "System.create");
 		delete_FMOD_STUDIO_SYSTEM_p_p(pp);

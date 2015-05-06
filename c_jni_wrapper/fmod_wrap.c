@@ -703,7 +703,7 @@ static FMOD_DSP_PARAMETER_DESC_p FMOD_DSP_PARAMETER_DESC_p_p_value(FMOD_DSP_PARA
 extern "C" {
 #endif
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1VERSION_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1VERSION_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -715,7 +715,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1VERSION_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1RESULT_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1RESULT_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_RESULT result;
   
@@ -727,7 +727,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1RESULT_1FORCEINT_1get(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELCONTROL_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELCONTROL_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_CHANNELCONTROL_TYPE result;
   
@@ -739,7 +739,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELCONTROL_1FORCEINT
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1VECTOR_1x_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1VECTOR_1x_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   FMOD_VECTOR *arg1 = (FMOD_VECTOR *) 0 ;
   float arg2 ;
   
@@ -752,7 +752,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1VECTOR_1x_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1VECTOR_1x_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1VECTOR_1x_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   FMOD_VECTOR *arg1 = (FMOD_VECTOR *) 0 ;
   float result;
@@ -767,7 +767,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1VECTOR_1x_1get(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1VECTOR_1y_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1VECTOR_1y_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   FMOD_VECTOR *arg1 = (FMOD_VECTOR *) 0 ;
   float arg2 ;
   
@@ -780,7 +780,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1VECTOR_1y_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1VECTOR_1y_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1VECTOR_1y_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   FMOD_VECTOR *arg1 = (FMOD_VECTOR *) 0 ;
   float result;
@@ -795,7 +795,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1VECTOR_1y_1get(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1VECTOR_1z_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1VECTOR_1z_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   FMOD_VECTOR *arg1 = (FMOD_VECTOR *) 0 ;
   float arg2 ;
   
@@ -808,7 +808,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1VECTOR_1z_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1VECTOR_1z_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1VECTOR_1z_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   FMOD_VECTOR *arg1 = (FMOD_VECTOR *) 0 ;
   float result;
@@ -823,7 +823,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1VECTOR_1z_1get(JNIEnv 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1VECTOR(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1VECTOR(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   FMOD_VECTOR *result = 0 ;
   
@@ -835,7 +835,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1VECTOR(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1VECTOR(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1VECTOR(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FMOD_VECTOR *arg1 = (FMOD_VECTOR *) 0 ;
   
   (void)jenv;
@@ -845,7 +845,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1VECTOR(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1ATTRIBUTES_1position_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_13D_1ATTRIBUTES_1position_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   struct FMOD_3D_ATTRIBUTES *arg1 = (struct FMOD_3D_ATTRIBUTES *) 0 ;
   FMOD_VECTOR *arg2 = (FMOD_VECTOR *) 0 ;
   
@@ -859,7 +859,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1ATTRIBUTES_1position
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1ATTRIBUTES_1position_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_13D_1ATTRIBUTES_1position_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_3D_ATTRIBUTES *arg1 = (struct FMOD_3D_ATTRIBUTES *) 0 ;
   FMOD_VECTOR *result = 0 ;
@@ -874,7 +874,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1ATTRIBUTES_1positio
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1ATTRIBUTES_1velocity_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_13D_1ATTRIBUTES_1velocity_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   struct FMOD_3D_ATTRIBUTES *arg1 = (struct FMOD_3D_ATTRIBUTES *) 0 ;
   FMOD_VECTOR *arg2 = (FMOD_VECTOR *) 0 ;
   
@@ -888,7 +888,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1ATTRIBUTES_1velocity
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1ATTRIBUTES_1velocity_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_13D_1ATTRIBUTES_1velocity_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_3D_ATTRIBUTES *arg1 = (struct FMOD_3D_ATTRIBUTES *) 0 ;
   FMOD_VECTOR *result = 0 ;
@@ -903,7 +903,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1ATTRIBUTES_1velocit
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1ATTRIBUTES_1forward_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_13D_1ATTRIBUTES_1forward_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   struct FMOD_3D_ATTRIBUTES *arg1 = (struct FMOD_3D_ATTRIBUTES *) 0 ;
   FMOD_VECTOR *arg2 = (FMOD_VECTOR *) 0 ;
   
@@ -917,7 +917,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1ATTRIBUTES_1forward_
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1ATTRIBUTES_1forward_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_13D_1ATTRIBUTES_1forward_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_3D_ATTRIBUTES *arg1 = (struct FMOD_3D_ATTRIBUTES *) 0 ;
   FMOD_VECTOR *result = 0 ;
@@ -932,7 +932,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1ATTRIBUTES_1forward
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1ATTRIBUTES_1up_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_13D_1ATTRIBUTES_1up_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   struct FMOD_3D_ATTRIBUTES *arg1 = (struct FMOD_3D_ATTRIBUTES *) 0 ;
   FMOD_VECTOR *arg2 = (FMOD_VECTOR *) 0 ;
   
@@ -946,7 +946,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1ATTRIBUTES_1up_1set(
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1ATTRIBUTES_1up_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_13D_1ATTRIBUTES_1up_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_3D_ATTRIBUTES *arg1 = (struct FMOD_3D_ATTRIBUTES *) 0 ;
   FMOD_VECTOR *result = 0 ;
@@ -961,7 +961,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1ATTRIBUTES_1up_1get
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_13D_1ATTRIBUTES(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_13D_1ATTRIBUTES(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   struct FMOD_3D_ATTRIBUTES *result = 0 ;
   
@@ -973,7 +973,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_13D_1ATTRIBUTES(JNI
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_13D_1ATTRIBUTES(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_13D_1ATTRIBUTES(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   struct FMOD_3D_ATTRIBUTES *arg1 = (struct FMOD_3D_ATTRIBUTES *) 0 ;
   
   (void)jenv;
@@ -983,7 +983,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_13D_1ATTRIBUTES(J
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1GUID_1Data1_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1GUID_1Data1_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   FMOD_GUID *arg1 = (FMOD_GUID *) 0 ;
   unsigned int arg2 ;
   
@@ -996,7 +996,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1GUID_1Data1_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1GUID_1Data1_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1GUID_1Data1_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   FMOD_GUID *arg1 = (FMOD_GUID *) 0 ;
   unsigned int result;
@@ -1011,7 +1011,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1GUID_1Data1_1get(JNIEnv
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1GUID_1Data2_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1GUID_1Data2_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   FMOD_GUID *arg1 = (FMOD_GUID *) 0 ;
   unsigned short arg2 ;
   
@@ -1024,7 +1024,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1GUID_1Data2_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1GUID_1Data2_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1GUID_1Data2_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   FMOD_GUID *arg1 = (FMOD_GUID *) 0 ;
   unsigned short result;
@@ -1039,7 +1039,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1GUID_1Data2_1get(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1GUID_1Data3_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1GUID_1Data3_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   FMOD_GUID *arg1 = (FMOD_GUID *) 0 ;
   unsigned short arg2 ;
   
@@ -1052,7 +1052,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1GUID_1Data3_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1GUID_1Data3_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1GUID_1Data3_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   FMOD_GUID *arg1 = (FMOD_GUID *) 0 ;
   unsigned short result;
@@ -1067,7 +1067,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1GUID_1Data3_1get(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1GUID_1Data4_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1GUID_1Data4_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   FMOD_GUID *arg1 = (FMOD_GUID *) 0 ;
   unsigned char *arg2 ;
   
@@ -1085,7 +1085,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1GUID_1Data4_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1GUID_1Data4_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1GUID_1Data4_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   FMOD_GUID *arg1 = (FMOD_GUID *) 0 ;
   unsigned char *result = 0 ;
@@ -1100,7 +1100,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1GUID_1Data4_1get(JNIEnv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1GUID(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1GUID(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   FMOD_GUID *result = 0 ;
   
@@ -1112,7 +1112,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1GUID(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1GUID(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1GUID(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FMOD_GUID *arg1 = (FMOD_GUID *) 0 ;
   
   (void)jenv;
@@ -1122,7 +1122,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1GUID(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1handle_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ASYNCREADINFO_1handle_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   struct FMOD_ASYNCREADINFO *arg1 = (struct FMOD_ASYNCREADINFO *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -1134,7 +1134,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1handle_1s
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1handle_1get(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ASYNCREADINFO_1handle_1get(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   struct FMOD_ASYNCREADINFO *arg1 = (struct FMOD_ASYNCREADINFO *) 0 ;
   void *result = 0 ;
@@ -1148,7 +1148,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1handle_1
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1offset_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ASYNCREADINFO_1offset_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   struct FMOD_ASYNCREADINFO *arg1 = (struct FMOD_ASYNCREADINFO *) 0 ;
   unsigned int arg2 ;
   
@@ -1160,7 +1160,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1offset_1s
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1offset_1get(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ASYNCREADINFO_1offset_1get(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   struct FMOD_ASYNCREADINFO *arg1 = (struct FMOD_ASYNCREADINFO *) 0 ;
   unsigned int result;
@@ -1174,7 +1174,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1offset_1
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1sizebytes_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ASYNCREADINFO_1sizebytes_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   struct FMOD_ASYNCREADINFO *arg1 = (struct FMOD_ASYNCREADINFO *) 0 ;
   unsigned int arg2 ;
   
@@ -1186,7 +1186,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1sizebytes
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1sizebytes_1get(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ASYNCREADINFO_1sizebytes_1get(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   struct FMOD_ASYNCREADINFO *arg1 = (struct FMOD_ASYNCREADINFO *) 0 ;
   unsigned int result;
@@ -1200,7 +1200,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1sizebyte
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1priority_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ASYNCREADINFO_1priority_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   struct FMOD_ASYNCREADINFO *arg1 = (struct FMOD_ASYNCREADINFO *) 0 ;
   int arg2 ;
   
@@ -1212,7 +1212,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1priority_
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1priority_1get(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ASYNCREADINFO_1priority_1get(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   struct FMOD_ASYNCREADINFO *arg1 = (struct FMOD_ASYNCREADINFO *) 0 ;
   int result;
@@ -1226,7 +1226,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1priority_
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1userdata_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ASYNCREADINFO_1userdata_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   struct FMOD_ASYNCREADINFO *arg1 = (struct FMOD_ASYNCREADINFO *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -1238,7 +1238,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1userdata_
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1userdata_1get(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ASYNCREADINFO_1userdata_1get(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   struct FMOD_ASYNCREADINFO *arg1 = (struct FMOD_ASYNCREADINFO *) 0 ;
   void *result = 0 ;
@@ -1252,7 +1252,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1userdata
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1buffer_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ASYNCREADINFO_1buffer_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   struct FMOD_ASYNCREADINFO *arg1 = (struct FMOD_ASYNCREADINFO *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -1264,7 +1264,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1buffer_1s
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1buffer_1get(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ASYNCREADINFO_1buffer_1get(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   struct FMOD_ASYNCREADINFO *arg1 = (struct FMOD_ASYNCREADINFO *) 0 ;
   void *result = 0 ;
@@ -1278,7 +1278,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1buffer_1
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1bytesread_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ASYNCREADINFO_1bytesread_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   struct FMOD_ASYNCREADINFO *arg1 = (struct FMOD_ASYNCREADINFO *) 0 ;
   unsigned int arg2 ;
   
@@ -1290,7 +1290,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1bytesread
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1bytesread_1get(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ASYNCREADINFO_1bytesread_1get(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   struct FMOD_ASYNCREADINFO *arg1 = (struct FMOD_ASYNCREADINFO *) 0 ;
   unsigned int result;
@@ -1304,7 +1304,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1bytesrea
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1done_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ASYNCREADINFO_1done_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   struct FMOD_ASYNCREADINFO *arg1 = (struct FMOD_ASYNCREADINFO *) 0 ;
   FMOD_FILE_ASYNCDONE arg2 = (FMOD_FILE_ASYNCDONE) 0 ;
   
@@ -1316,7 +1316,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1done_1set
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1done_1get(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ASYNCREADINFO_1done_1get(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   struct FMOD_ASYNCREADINFO *arg1 = (struct FMOD_ASYNCREADINFO *) 0 ;
   FMOD_FILE_ASYNCDONE result;
@@ -1330,7 +1330,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ASYNCREADINFO_1done_1ge
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1ASYNCREADINFO(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1ASYNCREADINFO(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   struct FMOD_ASYNCREADINFO *result = 0 ;
   
@@ -1342,7 +1342,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1ASYNCREADINFO(JNIE
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1ASYNCREADINFO(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1ASYNCREADINFO(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   struct FMOD_ASYNCREADINFO *arg1 = (struct FMOD_ASYNCREADINFO *) 0 ;
   
   (void)jenv;
@@ -1352,7 +1352,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1ASYNCREADINFO(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1OUTPUTTYPE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1OUTPUTTYPE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_OUTPUTTYPE result;
   
@@ -1364,7 +1364,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1OUTPUTTYPE_1FORCEINT_1ge
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEBUG_1MODE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DEBUG_1MODE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_DEBUG_MODE result;
   
@@ -1376,7 +1376,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEBUG_1MODE_1FORCEINT_1g
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEBUG_1LEVEL_1NONE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DEBUG_1LEVEL_1NONE_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1388,7 +1388,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEBUG_1LEVEL_1NONE_1get(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEBUG_1LEVEL_1ERROR_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DEBUG_1LEVEL_1ERROR_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1400,7 +1400,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEBUG_1LEVEL_1ERROR_1get
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEBUG_1LEVEL_1WARNING_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DEBUG_1LEVEL_1WARNING_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1412,7 +1412,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEBUG_1LEVEL_1WARNING_1g
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEBUG_1LEVEL_1LOG_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DEBUG_1LEVEL_1LOG_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1424,7 +1424,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEBUG_1LEVEL_1LOG_1get(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEBUG_1TYPE_1MEMORY_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DEBUG_1TYPE_1MEMORY_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1436,7 +1436,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEBUG_1TYPE_1MEMORY_1get
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEBUG_1TYPE_1FILE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DEBUG_1TYPE_1FILE_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1448,7 +1448,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEBUG_1TYPE_1FILE_1get(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEBUG_1TYPE_1CODEC_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DEBUG_1TYPE_1CODEC_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1460,7 +1460,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEBUG_1TYPE_1CODEC_1get(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEBUG_1TYPE_1TRACE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DEBUG_1TYPE_1TRACE_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1472,7 +1472,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEBUG_1TYPE_1TRACE_1get(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEBUG_1DISPLAY_1TIMESTAMPS_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DEBUG_1DISPLAY_1TIMESTAMPS_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1484,7 +1484,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEBUG_1DISPLAY_1TIMESTAM
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEBUG_1DISPLAY_1LINENUMBERS_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DEBUG_1DISPLAY_1LINENUMBERS_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1496,7 +1496,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEBUG_1DISPLAY_1LINENUMB
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEBUG_1DISPLAY_1THREAD_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DEBUG_1DISPLAY_1THREAD_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1508,7 +1508,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEBUG_1DISPLAY_1THREAD_1
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MEMORY_1NORMAL_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1MEMORY_1NORMAL_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1520,7 +1520,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MEMORY_1NORMAL_1get(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MEMORY_1STREAM_1FILE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1MEMORY_1STREAM_1FILE_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1532,7 +1532,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MEMORY_1STREAM_1FILE_1ge
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MEMORY_1STREAM_1DECODE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1MEMORY_1STREAM_1DECODE_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1544,7 +1544,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MEMORY_1STREAM_1DECODE_1
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MEMORY_1SAMPLEDATA_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1MEMORY_1SAMPLEDATA_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1556,7 +1556,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MEMORY_1SAMPLEDATA_1get(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MEMORY_1DSP_1BUFFER_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1MEMORY_1DSP_1BUFFER_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1568,7 +1568,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MEMORY_1DSP_1BUFFER_1get
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MEMORY_1PLUGIN_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1MEMORY_1PLUGIN_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1580,7 +1580,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MEMORY_1PLUGIN_1get(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MEMORY_1XBOX360_1PHYSICAL_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1MEMORY_1XBOX360_1PHYSICAL_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1592,7 +1592,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MEMORY_1XBOX360_1PHYSICA
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MEMORY_1PERSISTENT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1MEMORY_1PERSISTENT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1604,7 +1604,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MEMORY_1PERSISTENT_1get(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MEMORY_1SECONDARY_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1MEMORY_1SECONDARY_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1616,7 +1616,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MEMORY_1SECONDARY_1get(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MEMORY_1ALL_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1MEMORY_1ALL_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1628,7 +1628,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MEMORY_1ALL_1get(JNIEnv 
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SPEAKERMODE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SPEAKERMODE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_SPEAKERMODE result;
   
@@ -1640,7 +1640,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SPEAKERMODE_1FORCEINT_1g
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MAX_1CHANNEL_1WIDTH_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1MAX_1CHANNEL_1WIDTH_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1652,7 +1652,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MAX_1CHANNEL_1WIDTH_1get
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MAX_1LISTENERS_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1MAX_1LISTENERS_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1664,7 +1664,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MAX_1LISTENERS_1get(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SPEAKER_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SPEAKER_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_SPEAKER result;
   
@@ -1676,7 +1676,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SPEAKER_1FORCEINT_1get(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1FRONT_1LEFT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELMASK_1FRONT_1LEFT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1688,7 +1688,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1FRONT_1LEFT
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1FRONT_1RIGHT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELMASK_1FRONT_1RIGHT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1700,7 +1700,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1FRONT_1RIGH
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1FRONT_1CENTER_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELMASK_1FRONT_1CENTER_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1712,7 +1712,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1FRONT_1CENT
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1LOW_1FREQUENCY_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELMASK_1LOW_1FREQUENCY_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1724,7 +1724,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1LOW_1FREQUE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1SURROUND_1LEFT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELMASK_1SURROUND_1LEFT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1736,7 +1736,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1SURROUND_1L
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1SURROUND_1RIGHT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELMASK_1SURROUND_1RIGHT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1748,7 +1748,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1SURROUND_1R
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1BACK_1LEFT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELMASK_1BACK_1LEFT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1760,7 +1760,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1BACK_1LEFT_
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1BACK_1RIGHT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELMASK_1BACK_1RIGHT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1772,7 +1772,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1BACK_1RIGHT
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1BACK_1CENTER_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELMASK_1BACK_1CENTER_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1784,7 +1784,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1BACK_1CENTE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1MONO_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELMASK_1MONO_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1796,7 +1796,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1MONO_1get(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1STEREO_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELMASK_1STEREO_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1808,7 +1808,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1STEREO_1get
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1LRC_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELMASK_1LRC_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1820,7 +1820,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1LRC_1get(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1QUAD_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELMASK_1QUAD_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1832,7 +1832,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1QUAD_1get(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1SURROUND_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELMASK_1SURROUND_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1844,7 +1844,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_1SURROUND_1g
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_15POINT1_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELMASK_15POINT1_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1856,7 +1856,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_15POINT1_1ge
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_15POINT1_1REARS_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELMASK_15POINT1_1REARS_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1868,7 +1868,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_15POINT1_1RE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_17POINT0_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELMASK_17POINT0_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1880,7 +1880,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_17POINT0_1ge
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_17POINT1_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELMASK_17POINT1_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1892,7 +1892,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELMASK_17POINT1_1ge
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELORDER_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELORDER_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   enum FMOD_CHANNELORDER result;
   
@@ -1904,7 +1904,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELORDER_1FORCEINT_1
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1PLUGINTYPE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1PLUGINTYPE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_PLUGINTYPE result;
   
@@ -1916,7 +1916,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1PLUGINTYPE_1FORCEINT_1ge
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1INIT_1NORMAL_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1INIT_1NORMAL_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1928,7 +1928,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1INIT_1NORMAL_1get(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1INIT_1STREAM_1FROM_1UPDATE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1INIT_1STREAM_1FROM_1UPDATE_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1940,7 +1940,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1INIT_1STREAM_1FROM_1UPDA
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1INIT_1MIX_1FROM_1UPDATE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1INIT_1MIX_1FROM_1UPDATE_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1952,7 +1952,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1INIT_1MIX_1FROM_1UPDATE_
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1INIT_13D_1RIGHTHANDED_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1INIT_13D_1RIGHTHANDED_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1964,7 +1964,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1INIT_13D_1RIGHTHANDED_1g
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1INIT_1CHANNEL_1LOWPASS_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1INIT_1CHANNEL_1LOWPASS_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1976,7 +1976,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1INIT_1CHANNEL_1LOWPASS_1
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1INIT_1CHANNEL_1DISTANCEFILTER_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1INIT_1CHANNEL_1DISTANCEFILTER_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1988,7 +1988,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1INIT_1CHANNEL_1DISTANCEF
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1INIT_1PROFILE_1ENABLE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1INIT_1PROFILE_1ENABLE_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2000,7 +2000,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1INIT_1PROFILE_1ENABLE_1g
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1INIT_1VOL0_1BECOMES_1VIRTUAL_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1INIT_1VOL0_1BECOMES_1VIRTUAL_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2012,7 +2012,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1INIT_1VOL0_1BECOMES_1VIR
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1INIT_1GEOMETRY_1USECLOSEST_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1INIT_1GEOMETRY_1USECLOSEST_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2024,7 +2024,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1INIT_1GEOMETRY_1USECLOSE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1INIT_1PREFER_1DOLBY_1DOWNMIX_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1INIT_1PREFER_1DOLBY_1DOWNMIX_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2036,7 +2036,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1INIT_1PREFER_1DOLBY_1DOW
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1INIT_1THREAD_1UNSAFE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1INIT_1THREAD_1UNSAFE_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2048,7 +2048,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1INIT_1THREAD_1UNSAFE_1ge
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1INIT_1PROFILE_1METER_1ALL_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1INIT_1PROFILE_1METER_1ALL_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2060,7 +2060,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1INIT_1PROFILE_1METER_1AL
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SOUND_1TYPE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SOUND_1TYPE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_SOUND_TYPE result;
   
@@ -2072,7 +2072,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SOUND_1TYPE_1FORCEINT_1g
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SOUND_1FORMAT_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SOUND_1FORMAT_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_SOUND_FORMAT result;
   
@@ -2084,7 +2084,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SOUND_1FORMAT_1FORCEINT_
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEFAULT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DEFAULT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2096,7 +2096,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DEFAULT_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1LOOP_1OFF_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1LOOP_1OFF_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2108,7 +2108,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1LOOP_1OFF_1get(JNIEnv *j
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1LOOP_1NORMAL_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1LOOP_1NORMAL_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2120,7 +2120,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1LOOP_1NORMAL_1get(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1LOOP_1BIDI_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1LOOP_1BIDI_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2132,7 +2132,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1LOOP_1BIDI_1get(JNIEnv *
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_12D_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_12D_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2144,7 +2144,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_12D_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_13D_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2156,7 +2156,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESTREAM_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESTREAM_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2168,7 +2168,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESTREAM_1get(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESAMPLE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESAMPLE_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2180,7 +2180,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESAMPLE_1get(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATECOMPRESSEDSAMPLE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATECOMPRESSEDSAMPLE_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2192,7 +2192,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATECOMPRESSEDSAMPLE_1
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1OPENUSER_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1OPENUSER_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2204,7 +2204,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1OPENUSER_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1OPENMEMORY_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1OPENMEMORY_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2216,7 +2216,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1OPENMEMORY_1get(JNIEnv *
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1OPENMEMORY_1POINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1OPENMEMORY_1POINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2228,7 +2228,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1OPENMEMORY_1POINT_1get(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1OPENRAW_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1OPENRAW_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2240,7 +2240,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1OPENRAW_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1OPENONLY_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1OPENONLY_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2252,7 +2252,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1OPENONLY_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ACCURATETIME_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ACCURATETIME_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2264,7 +2264,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ACCURATETIME_1get(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MPEGSEARCH_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1MPEGSEARCH_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2276,7 +2276,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1MPEGSEARCH_1get(JNIEnv *
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1NONBLOCKING_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1NONBLOCKING_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2288,7 +2288,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1NONBLOCKING_1get(JNIEnv 
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1UNIQUE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1UNIQUE_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2300,7 +2300,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1UNIQUE_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1HEADRELATIVE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_13D_1HEADRELATIVE_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2312,7 +2312,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1HEADRELATIVE_1get(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1WORLDRELATIVE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_13D_1WORLDRELATIVE_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2324,7 +2324,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1WORLDRELATIVE_1get(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1INVERSEROLLOFF_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_13D_1INVERSEROLLOFF_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2336,7 +2336,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1INVERSEROLLOFF_1get(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1LINEARROLLOFF_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_13D_1LINEARROLLOFF_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2348,7 +2348,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1LINEARROLLOFF_1get(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1LINEARSQUAREROLLOFF_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_13D_1LINEARSQUAREROLLOFF_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2360,7 +2360,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1LINEARSQUAREROLLOFF_
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1INVERSETAPEREDROLLOFF_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_13D_1INVERSETAPEREDROLLOFF_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2372,7 +2372,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1INVERSETAPEREDROLLOF
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1CUSTOMROLLOFF_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_13D_1CUSTOMROLLOFF_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2384,7 +2384,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1CUSTOMROLLOFF_1get(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1IGNOREGEOMETRY_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_13D_1IGNOREGEOMETRY_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2396,7 +2396,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_13D_1IGNOREGEOMETRY_1get(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1IGNORETAGS_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1IGNORETAGS_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2408,7 +2408,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1IGNORETAGS_1get(JNIEnv *
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1LOWMEM_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1LOWMEM_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2420,7 +2420,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1LOWMEM_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1LOADSECONDARYRAM_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1LOADSECONDARYRAM_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2432,7 +2432,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1LOADSECONDARYRAM_1get(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1VIRTUAL_1PLAYFROMSTART_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1VIRTUAL_1PLAYFROMSTART_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2444,7 +2444,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1VIRTUAL_1PLAYFROMSTART_1
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1OPENSTATE_1READY_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1OPENSTATE_1READY_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_OPENSTATE result;
   
@@ -2456,7 +2456,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1OPENSTATE_1READY_1get(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1OPENSTATE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1OPENSTATE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_OPENSTATE result;
   
@@ -2468,7 +2468,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1OPENSTATE_1FORCEINT_1get
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SOUNDGROUP_1BEHAVIOR_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SOUNDGROUP_1BEHAVIOR_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_SOUNDGROUP_BEHAVIOR result;
   
@@ -2480,7 +2480,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SOUNDGROUP_1BEHAVIOR_1FO
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELCONTROL_1CALLBACK_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELCONTROL_1CALLBACK_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_CHANNELCONTROL_CALLBACK_TYPE result;
   
@@ -2492,7 +2492,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELCONTROL_1CALLBACK
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELCONTROL_1DSP_1HEAD_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELCONTROL_1DSP_1HEAD_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_CHANNELCONTROL_DSP_INDEX result;
   
@@ -2504,7 +2504,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELCONTROL_1DSP_1HEA
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELCONTROL_1DSP_1FADER_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELCONTROL_1DSP_1FADER_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_CHANNELCONTROL_DSP_INDEX result;
   
@@ -2516,7 +2516,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELCONTROL_1DSP_1FAD
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELCONTROL_1DSP_1PANNER_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELCONTROL_1DSP_1PANNER_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_CHANNELCONTROL_DSP_INDEX result;
   
@@ -2528,7 +2528,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELCONTROL_1DSP_1PAN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELCONTROL_1DSP_1TAIL_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELCONTROL_1DSP_1TAIL_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_CHANNELCONTROL_DSP_INDEX result;
   
@@ -2540,7 +2540,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELCONTROL_1DSP_1TAI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELCONTROL_1DSP_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELCONTROL_1DSP_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_CHANNELCONTROL_DSP_INDEX result;
   
@@ -2552,7 +2552,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELCONTROL_1DSP_1FOR
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ERRORCALLBACK_1INSTANCETYPE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ERRORCALLBACK_1INSTANCETYPE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_ERRORCALLBACK_INSTANCETYPE result;
   
@@ -2564,7 +2564,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ERRORCALLBACK_1INSTANCET
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ERRORCALLBACK_1INFO_1result_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ERRORCALLBACK_1INFO_1result_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   FMOD_ERRORCALLBACK_INFO *arg1 = (FMOD_ERRORCALLBACK_INFO *) 0 ;
   FMOD_RESULT arg2 ;
   
@@ -2577,7 +2577,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ERRORCALLBACK_1INFO_1res
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ERRORCALLBACK_1INFO_1result_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ERRORCALLBACK_1INFO_1result_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   FMOD_ERRORCALLBACK_INFO *arg1 = (FMOD_ERRORCALLBACK_INFO *) 0 ;
   FMOD_RESULT result;
@@ -2592,7 +2592,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ERRORCALLBACK_1INFO_1res
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ERRORCALLBACK_1INFO_1instancetype_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ERRORCALLBACK_1INFO_1instancetype_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   FMOD_ERRORCALLBACK_INFO *arg1 = (FMOD_ERRORCALLBACK_INFO *) 0 ;
   FMOD_ERRORCALLBACK_INSTANCETYPE arg2 ;
   
@@ -2605,7 +2605,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ERRORCALLBACK_1INFO_1ins
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ERRORCALLBACK_1INFO_1instancetype_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ERRORCALLBACK_1INFO_1instancetype_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   FMOD_ERRORCALLBACK_INFO *arg1 = (FMOD_ERRORCALLBACK_INFO *) 0 ;
   FMOD_ERRORCALLBACK_INSTANCETYPE result;
@@ -2620,7 +2620,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ERRORCALLBACK_1INFO_1ins
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ERRORCALLBACK_1INFO_1instance_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ERRORCALLBACK_1INFO_1instance_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   FMOD_ERRORCALLBACK_INFO *arg1 = (FMOD_ERRORCALLBACK_INFO *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -2633,7 +2633,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ERRORCALLBACK_1INFO_1ins
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ERRORCALLBACK_1INFO_1instance_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ERRORCALLBACK_1INFO_1instance_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   FMOD_ERRORCALLBACK_INFO *arg1 = (FMOD_ERRORCALLBACK_INFO *) 0 ;
   void *result = 0 ;
@@ -2648,7 +2648,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ERRORCALLBACK_1INFO_1in
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ERRORCALLBACK_1INFO_1functionname_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ERRORCALLBACK_1INFO_1functionname_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   FMOD_ERRORCALLBACK_INFO *arg1 = (FMOD_ERRORCALLBACK_INFO *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -2673,7 +2673,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ERRORCALLBACK_1INFO_1fun
 }
 
 
-SWIGEXPORT jstring JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ERRORCALLBACK_1INFO_1functionname_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jstring JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ERRORCALLBACK_1INFO_1functionname_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jstring jresult = 0 ;
   FMOD_ERRORCALLBACK_INFO *arg1 = (FMOD_ERRORCALLBACK_INFO *) 0 ;
   char *result = 0 ;
@@ -2688,7 +2688,7 @@ SWIGEXPORT jstring JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ERRORCALLBACK_1INFO_1
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ERRORCALLBACK_1INFO_1functionparams_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ERRORCALLBACK_1INFO_1functionparams_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   FMOD_ERRORCALLBACK_INFO *arg1 = (FMOD_ERRORCALLBACK_INFO *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -2713,7 +2713,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ERRORCALLBACK_1INFO_1fun
 }
 
 
-SWIGEXPORT jstring JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ERRORCALLBACK_1INFO_1functionparams_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jstring JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ERRORCALLBACK_1INFO_1functionparams_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jstring jresult = 0 ;
   FMOD_ERRORCALLBACK_INFO *arg1 = (FMOD_ERRORCALLBACK_INFO *) 0 ;
   char *result = 0 ;
@@ -2728,7 +2728,7 @@ SWIGEXPORT jstring JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ERRORCALLBACK_1INFO_1
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1ERRORCALLBACK_1INFO(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1ERRORCALLBACK_1INFO(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   FMOD_ERRORCALLBACK_INFO *result = 0 ;
   
@@ -2740,7 +2740,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1ERRORCALLBACK_1INF
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1ERRORCALLBACK_1INFO(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1ERRORCALLBACK_1INFO(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FMOD_ERRORCALLBACK_INFO *arg1 = (FMOD_ERRORCALLBACK_INFO *) 0 ;
   
   (void)jenv;
@@ -2750,7 +2750,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1ERRORCALLBACK_1I
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1CALLBACK_1DEVICELISTCHANGED_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SYSTEM_1CALLBACK_1DEVICELISTCHANGED_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2762,7 +2762,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1CALLBACK_1DEVICE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1CALLBACK_1DEVICELOST_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SYSTEM_1CALLBACK_1DEVICELOST_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2774,7 +2774,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1CALLBACK_1DEVICE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1CALLBACK_1MEMORYALLOCATIONFAILED_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SYSTEM_1CALLBACK_1MEMORYALLOCATIONFAILED_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2786,7 +2786,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1CALLBACK_1MEMORY
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1CALLBACK_1THREADCREATED_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SYSTEM_1CALLBACK_1THREADCREATED_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2798,7 +2798,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1CALLBACK_1THREAD
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1CALLBACK_1BADDSPCONNECTION_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SYSTEM_1CALLBACK_1BADDSPCONNECTION_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2810,7 +2810,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1CALLBACK_1BADDSP
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1CALLBACK_1PREMIX_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SYSTEM_1CALLBACK_1PREMIX_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2822,7 +2822,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1CALLBACK_1PREMIX
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1CALLBACK_1POSTMIX_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SYSTEM_1CALLBACK_1POSTMIX_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2834,7 +2834,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1CALLBACK_1POSTMI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1CALLBACK_1ERROR_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SYSTEM_1CALLBACK_1ERROR_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2846,7 +2846,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1CALLBACK_1ERROR_
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1CALLBACK_1MIDMIX_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SYSTEM_1CALLBACK_1MIDMIX_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2858,7 +2858,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1CALLBACK_1MIDMIX
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1CALLBACK_1THREADDESTROYED_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SYSTEM_1CALLBACK_1THREADDESTROYED_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2870,7 +2870,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1CALLBACK_1THREAD
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1CALLBACK_1PREUPDATE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SYSTEM_1CALLBACK_1PREUPDATE_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2882,7 +2882,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1CALLBACK_1PREUPD
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1CALLBACK_1POSTUPDATE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SYSTEM_1CALLBACK_1POSTUPDATE_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -2894,7 +2894,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1CALLBACK_1POSTUP
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1RESAMPLER_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1RESAMPLER_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_DSP_RESAMPLER result;
   
@@ -2906,7 +2906,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1RESAMPLER_1FORCEINT
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSPCONNECTION_1TYPE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSPCONNECTION_1TYPE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_DSPCONNECTION_TYPE result;
   
@@ -2918,7 +2918,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSPCONNECTION_1TYPE_1FOR
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAGTYPE_1UNKNOWN_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TAGTYPE_1UNKNOWN_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_TAGTYPE result;
   
@@ -2930,7 +2930,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAGTYPE_1UNKNOWN_1get(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAGTYPE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TAGTYPE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_TAGTYPE result;
   
@@ -2942,7 +2942,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAGTYPE_1FORCEINT_1get(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAGDATATYPE_1BINARY_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TAGDATATYPE_1BINARY_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_TAGDATATYPE result;
   
@@ -2954,7 +2954,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAGDATATYPE_1BINARY_1get
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAGDATATYPE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TAGDATATYPE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   FMOD_TAGDATATYPE result;
   
@@ -2966,7 +2966,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAGDATATYPE_1FORCEINT_1g
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAG_1type_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TAG_1type_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_TAG *arg1 = (struct FMOD_TAG *) 0 ;
   FMOD_TAGTYPE arg2 ;
   
@@ -2979,7 +2979,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAG_1type_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAG_1type_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TAG_1type_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_TAG *arg1 = (struct FMOD_TAG *) 0 ;
   FMOD_TAGTYPE result;
@@ -2994,7 +2994,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAG_1type_1get(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAG_1datatype_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TAG_1datatype_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_TAG *arg1 = (struct FMOD_TAG *) 0 ;
   FMOD_TAGDATATYPE arg2 ;
   
@@ -3007,7 +3007,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAG_1datatype_1set(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAG_1datatype_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TAG_1datatype_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_TAG *arg1 = (struct FMOD_TAG *) 0 ;
   FMOD_TAGDATATYPE result;
@@ -3022,7 +3022,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAG_1datatype_1get(JNIEn
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAG_1name_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TAG_1name_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   struct FMOD_TAG *arg1 = (struct FMOD_TAG *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -3048,7 +3048,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAG_1name_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jstring JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAG_1name_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jstring JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TAG_1name_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jstring jresult = 0 ;
   struct FMOD_TAG *arg1 = (struct FMOD_TAG *) 0 ;
   char *result = 0 ;
@@ -3063,7 +3063,7 @@ SWIGEXPORT jstring JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAG_1name_1get(JNIEnv
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAG_1data_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TAG_1data_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_TAG *arg1 = (struct FMOD_TAG *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -3076,7 +3076,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAG_1data_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAG_1data_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TAG_1data_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_TAG *arg1 = (struct FMOD_TAG *) 0 ;
   void *result = 0 ;
@@ -3091,7 +3091,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAG_1data_1get(JNIEnv *
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAG_1datalen_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TAG_1datalen_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_TAG *arg1 = (struct FMOD_TAG *) 0 ;
   unsigned int arg2 ;
   
@@ -3104,7 +3104,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAG_1datalen_1set(JNIEnv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAG_1datalen_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TAG_1datalen_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_TAG *arg1 = (struct FMOD_TAG *) 0 ;
   unsigned int result;
@@ -3119,7 +3119,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAG_1datalen_1get(JNIEn
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAG_1updated_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TAG_1updated_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_TAG *arg1 = (struct FMOD_TAG *) 0 ;
   FMOD_BOOL arg2 ;
   
@@ -3132,7 +3132,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAG_1updated_1set(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAG_1updated_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TAG_1updated_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_TAG *arg1 = (struct FMOD_TAG *) 0 ;
   FMOD_BOOL result;
@@ -3147,7 +3147,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TAG_1updated_1get(JNIEnv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1TAG(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1TAG(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   struct FMOD_TAG *result = 0 ;
   
@@ -3159,7 +3159,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1TAG(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1TAG(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1TAG(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   struct FMOD_TAG *arg1 = (struct FMOD_TAG *) 0 ;
   
   (void)jenv;
@@ -3169,7 +3169,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1TAG(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TIMEUNIT_1MS_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TIMEUNIT_1MS_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -3181,7 +3181,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TIMEUNIT_1MS_1get(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TIMEUNIT_1PCM_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TIMEUNIT_1PCM_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -3193,7 +3193,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TIMEUNIT_1PCM_1get(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TIMEUNIT_1PCMBYTES_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TIMEUNIT_1PCMBYTES_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -3205,7 +3205,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TIMEUNIT_1PCMBYTES_1get(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TIMEUNIT_1RAWBYTES_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TIMEUNIT_1RAWBYTES_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -3217,7 +3217,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TIMEUNIT_1RAWBYTES_1get(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TIMEUNIT_1PCMFRACTION_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TIMEUNIT_1PCMFRACTION_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -3229,7 +3229,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TIMEUNIT_1PCMFRACTION_1g
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TIMEUNIT_1MODORDER_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TIMEUNIT_1MODORDER_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -3241,7 +3241,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TIMEUNIT_1MODORDER_1get(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TIMEUNIT_1MODROW_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TIMEUNIT_1MODROW_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -3253,7 +3253,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TIMEUNIT_1MODROW_1get(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TIMEUNIT_1MODPATTERN_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TIMEUNIT_1MODPATTERN_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -3265,7 +3265,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TIMEUNIT_1MODPATTERN_1ge
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TIMEUNIT_1BUFFERED_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1TIMEUNIT_1BUFFERED_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -3277,7 +3277,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1TIMEUNIT_1BUFFERED_1get(
 }
 
 
-SWIGEXPORT jobject JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1PORT_1INDEX_1NONE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jobject JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1PORT_1INDEX_1NONE_1get(JNIEnv *jenv, jclass jcls) {
   jobject jresult = 0 ;
   unsigned long long result;
   
@@ -3305,7 +3305,7 @@ SWIGEXPORT jobject JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1PORT_1INDEX_1NONE_1ge
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1cbsize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1cbsize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   int arg2 ;
   
@@ -3318,7 +3318,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1cbsiz
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1cbsize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1cbsize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   int result;
@@ -3333,7 +3333,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1cbsiz
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1length_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1length_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   unsigned int arg2 ;
   
@@ -3346,7 +3346,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1lengt
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1length_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1length_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   unsigned int result;
@@ -3361,7 +3361,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1leng
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1fileoffset_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1fileoffset_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   unsigned int arg2 ;
   
@@ -3374,7 +3374,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1fileo
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1fileoffset_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1fileoffset_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   unsigned int result;
@@ -3389,7 +3389,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1file
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1numchannels_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1numchannels_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   int arg2 ;
   
@@ -3402,7 +3402,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1numch
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1numchannels_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1numchannels_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   int result;
@@ -3417,7 +3417,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1numch
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1defaultfrequency_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1defaultfrequency_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   int arg2 ;
   
@@ -3430,7 +3430,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1defau
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1defaultfrequency_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1defaultfrequency_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   int result;
@@ -3445,7 +3445,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1defau
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1format_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1format_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_SOUND_FORMAT arg2 ;
   
@@ -3458,7 +3458,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1forma
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1format_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1format_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_SOUND_FORMAT result;
@@ -3473,7 +3473,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1forma
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1decodebuffersize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1decodebuffersize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   unsigned int arg2 ;
   
@@ -3486,7 +3486,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1decod
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1decodebuffersize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1decodebuffersize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   unsigned int result;
@@ -3501,7 +3501,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1deco
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1initialsubsound_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1initialsubsound_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   int arg2 ;
   
@@ -3514,7 +3514,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1initi
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1initialsubsound_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1initialsubsound_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   int result;
@@ -3529,7 +3529,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1initi
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1numsubsounds_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1numsubsounds_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   int arg2 ;
   
@@ -3542,7 +3542,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1numsu
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1numsubsounds_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1numsubsounds_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   int result;
@@ -3557,49 +3557,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1numsu
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1inclusionlist_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jintArray jarg2) {
-  struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
-  int *arg2 = (int *) 0 ;
-  
-  (void)jenv;
-  (void)jcls;
-  (void)jarg1_;
-  arg1 = *(struct FMOD_CREATESOUNDEXINFO **)&jarg1; 
-  {
-    if (!jarg2) {
-      SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "array null");
-      return ;
-    }
-    if ((*jenv)->GetArrayLength(jenv, jarg2) == 0) {
-      SWIG_JavaThrowException(jenv, SWIG_JavaIndexOutOfBoundsException, "Array must contain at least 1 element");
-      return ;
-    }
-    arg2 = (int *) (*jenv)->GetIntArrayElements(jenv, jarg2, 0); 
-  }
-  if (arg1) (arg1)->inclusionlist = arg2;
-  {
-    (*jenv)->ReleaseIntArrayElements(jenv, jarg2, (jint *)arg2, 0); 
-  }
-  
-}
-
-
-SWIGEXPORT jintArray JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1inclusionlist_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
-  jintArray jresult = 0 ;
-  struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
-  int *result = 0 ;
-  
-  (void)jenv;
-  (void)jcls;
-  (void)jarg1_;
-  arg1 = *(struct FMOD_CREATESOUNDEXINFO **)&jarg1; 
-  result = (int *) ((arg1)->inclusionlist);
-  *(int **)&jresult = result; 
-  return jresult;
-}
-
-
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1inclusionlistnum_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1inclusionlistnum_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   int arg2 ;
   
@@ -3612,7 +3570,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1inclu
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1inclusionlistnum_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1inclusionlistnum_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   int result;
@@ -3627,7 +3585,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1inclu
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1pcmreadcallback_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1pcmreadcallback_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_SOUND_PCMREAD_CALLBACK arg2 = (FMOD_SOUND_PCMREAD_CALLBACK) 0 ;
   
@@ -3640,7 +3598,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1pcmre
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1pcmreadcallback_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1pcmreadcallback_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_SOUND_PCMREAD_CALLBACK result;
@@ -3655,7 +3613,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1pcmr
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1pcmsetposcallback_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1pcmsetposcallback_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_SOUND_PCMSETPOS_CALLBACK arg2 = (FMOD_SOUND_PCMSETPOS_CALLBACK) 0 ;
   
@@ -3668,7 +3626,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1pcmse
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1pcmsetposcallback_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1pcmsetposcallback_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_SOUND_PCMSETPOS_CALLBACK result;
@@ -3683,7 +3641,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1pcms
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1nonblockcallback_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1nonblockcallback_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_SOUND_NONBLOCK_CALLBACK arg2 = (FMOD_SOUND_NONBLOCK_CALLBACK) 0 ;
   
@@ -3696,7 +3654,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1nonbl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1nonblockcallback_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1nonblockcallback_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_SOUND_NONBLOCK_CALLBACK result;
@@ -3711,7 +3669,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1nonb
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1dlsname_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1dlsname_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -3736,7 +3694,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1dlsna
 }
 
 
-SWIGEXPORT jstring JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1dlsname_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jstring JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1dlsname_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jstring jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   char *result = 0 ;
@@ -3751,7 +3709,7 @@ SWIGEXPORT jstring JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1dl
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1encryptionkey_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1encryptionkey_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -3776,7 +3734,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1encry
 }
 
 
-SWIGEXPORT jstring JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1encryptionkey_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jstring JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1encryptionkey_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jstring jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   char *result = 0 ;
@@ -3791,7 +3749,7 @@ SWIGEXPORT jstring JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1en
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1maxpolyphony_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1maxpolyphony_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   int arg2 ;
   
@@ -3804,7 +3762,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1maxpo
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1maxpolyphony_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1maxpolyphony_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   int result;
@@ -3819,7 +3777,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1maxpo
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1userdata_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1userdata_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -3832,7 +3790,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1userd
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1userdata_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1userdata_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   void *result = 0 ;
@@ -3847,7 +3805,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1user
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1suggestedsoundtype_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1suggestedsoundtype_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_SOUND_TYPE arg2 ;
   
@@ -3860,7 +3818,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1sugge
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1suggestedsoundtype_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1suggestedsoundtype_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_SOUND_TYPE result;
@@ -3875,7 +3833,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1sugge
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1fileuseropen_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1fileuseropen_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_FILE_OPEN_CALLBACK arg2 = (FMOD_FILE_OPEN_CALLBACK) 0 ;
   
@@ -3888,7 +3846,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1fileu
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1fileuseropen_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1fileuseropen_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_FILE_OPEN_CALLBACK result;
@@ -3903,7 +3861,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1file
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1fileuserclose_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1fileuserclose_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_FILE_CLOSE_CALLBACK arg2 = (FMOD_FILE_CLOSE_CALLBACK) 0 ;
   
@@ -3916,7 +3874,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1fileu
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1fileuserclose_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1fileuserclose_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_FILE_CLOSE_CALLBACK result;
@@ -3931,7 +3889,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1file
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1fileuserread_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1fileuserread_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_FILE_READ_CALLBACK arg2 = (FMOD_FILE_READ_CALLBACK) 0 ;
   
@@ -3944,7 +3902,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1fileu
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1fileuserread_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1fileuserread_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_FILE_READ_CALLBACK result;
@@ -3959,7 +3917,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1file
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1fileuserseek_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1fileuserseek_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_FILE_SEEK_CALLBACK arg2 = (FMOD_FILE_SEEK_CALLBACK) 0 ;
   
@@ -3972,7 +3930,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1fileu
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1fileuserseek_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1fileuserseek_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_FILE_SEEK_CALLBACK result;
@@ -3987,7 +3945,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1file
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1fileuserasyncread_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1fileuserasyncread_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_FILE_ASYNCREAD_CALLBACK arg2 = (FMOD_FILE_ASYNCREAD_CALLBACK) 0 ;
   
@@ -4000,7 +3958,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1fileu
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1fileuserasyncread_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1fileuserasyncread_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_FILE_ASYNCREAD_CALLBACK result;
@@ -4015,7 +3973,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1file
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1fileuserasynccancel_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1fileuserasynccancel_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_FILE_ASYNCCANCEL_CALLBACK arg2 = (FMOD_FILE_ASYNCCANCEL_CALLBACK) 0 ;
   
@@ -4028,7 +3986,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1fileu
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1fileuserasynccancel_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1fileuserasynccancel_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_FILE_ASYNCCANCEL_CALLBACK result;
@@ -4043,7 +4001,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1file
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1fileuserdata_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1fileuserdata_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -4056,7 +4014,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1fileu
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1fileuserdata_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1fileuserdata_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   void *result = 0 ;
@@ -4071,7 +4029,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1file
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1channelorder_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1channelorder_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_CHANNELORDER arg2 ;
   
@@ -4084,7 +4042,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1chann
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1channelorder_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1channelorder_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_CHANNELORDER result;
@@ -4099,7 +4057,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1chann
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1channelmask_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1channelmask_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_CHANNELMASK arg2 ;
   
@@ -4112,7 +4070,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1chann
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1channelmask_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1channelmask_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_CHANNELMASK result;
@@ -4127,7 +4085,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1chan
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1initialsoundgroup_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1initialsoundgroup_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_SOUNDGROUP *arg2 = (FMOD_SOUNDGROUP *) 0 ;
   
@@ -4140,7 +4098,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1initi
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1initialsoundgroup_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1initialsoundgroup_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_SOUNDGROUP *result = 0 ;
@@ -4155,7 +4113,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1init
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1initialseekposition_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1initialseekposition_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   unsigned int arg2 ;
   
@@ -4168,7 +4126,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1initi
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1initialseekposition_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1initialseekposition_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   unsigned int result;
@@ -4183,7 +4141,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1init
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1initialseekpostype_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1initialseekpostype_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_TIMEUNIT arg2 ;
   
@@ -4196,7 +4154,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1initi
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1initialseekpostype_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1initialseekpostype_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   FMOD_TIMEUNIT result;
@@ -4211,7 +4169,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1init
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1ignoresetfilesystem_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1ignoresetfilesystem_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   int arg2 ;
   
@@ -4224,7 +4182,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1ignor
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1ignoresetfilesystem_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1ignoresetfilesystem_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   int result;
@@ -4239,7 +4197,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1ignor
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1audioqueuepolicy_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1audioqueuepolicy_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   unsigned int arg2 ;
   
@@ -4252,7 +4210,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1audio
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1audioqueuepolicy_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1audioqueuepolicy_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   unsigned int result;
@@ -4267,7 +4225,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1audi
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1minmidigranularity_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1minmidigranularity_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   unsigned int arg2 ;
   
@@ -4280,7 +4238,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1minmi
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1minmidigranularity_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1minmidigranularity_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   unsigned int result;
@@ -4295,7 +4253,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1minm
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1nonblockthreadid_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1nonblockthreadid_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   int arg2 ;
   
@@ -4308,7 +4266,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1nonbl
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1nonblockthreadid_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CREATESOUNDEXINFO_1nonblockthreadid_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   int result;
@@ -4323,7 +4281,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CREATESOUNDEXINFO_1nonbl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1CREATESOUNDEXINFO(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1CREATESOUNDEXINFO(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   struct FMOD_CREATESOUNDEXINFO *result = 0 ;
   
@@ -4335,7 +4293,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1CREATESOUNDEXINFO(
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1CREATESOUNDEXINFO(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1CREATESOUNDEXINFO(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   struct FMOD_CREATESOUNDEXINFO *arg1 = (struct FMOD_CREATESOUNDEXINFO *) 0 ;
   
   (void)jenv;
@@ -4345,7 +4303,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1CREATESOUNDEXINF
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1DecayTime_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB_1PROPERTIES_1DecayTime_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   float arg2 ;
   
@@ -4358,7 +4316,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1Deca
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1DecayTime_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB_1PROPERTIES_1DecayTime_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   float result;
@@ -4373,7 +4331,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1De
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1EarlyDelay_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB_1PROPERTIES_1EarlyDelay_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   float arg2 ;
   
@@ -4386,7 +4344,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1Earl
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1EarlyDelay_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB_1PROPERTIES_1EarlyDelay_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   float result;
@@ -4401,7 +4359,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1Ea
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1LateDelay_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB_1PROPERTIES_1LateDelay_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   float arg2 ;
   
@@ -4414,7 +4372,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1Late
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1LateDelay_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB_1PROPERTIES_1LateDelay_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   float result;
@@ -4429,7 +4387,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1La
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1HFReference_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB_1PROPERTIES_1HFReference_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   float arg2 ;
   
@@ -4442,7 +4400,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1HFRe
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1HFReference_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB_1PROPERTIES_1HFReference_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   float result;
@@ -4457,7 +4415,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1HF
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1HFDecayRatio_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB_1PROPERTIES_1HFDecayRatio_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   float arg2 ;
   
@@ -4470,7 +4428,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1HFDe
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1HFDecayRatio_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB_1PROPERTIES_1HFDecayRatio_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   float result;
@@ -4485,7 +4443,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1HF
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1Diffusion_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB_1PROPERTIES_1Diffusion_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   float arg2 ;
   
@@ -4498,7 +4456,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1Diff
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1Diffusion_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB_1PROPERTIES_1Diffusion_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   float result;
@@ -4513,7 +4471,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1Di
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1Density_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB_1PROPERTIES_1Density_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   float arg2 ;
   
@@ -4526,7 +4484,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1Dens
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1Density_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB_1PROPERTIES_1Density_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   float result;
@@ -4541,7 +4499,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1De
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1LowShelfFrequency_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB_1PROPERTIES_1LowShelfFrequency_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   float arg2 ;
   
@@ -4554,7 +4512,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1LowS
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1LowShelfFrequency_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB_1PROPERTIES_1LowShelfFrequency_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   float result;
@@ -4569,7 +4527,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1Lo
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1LowShelfGain_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB_1PROPERTIES_1LowShelfGain_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   float arg2 ;
   
@@ -4582,7 +4540,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1LowS
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1LowShelfGain_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB_1PROPERTIES_1LowShelfGain_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   float result;
@@ -4597,7 +4555,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1Lo
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1HighCut_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB_1PROPERTIES_1HighCut_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   float arg2 ;
   
@@ -4610,7 +4568,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1High
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1HighCut_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB_1PROPERTIES_1HighCut_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   float result;
@@ -4625,7 +4583,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1Hi
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1EarlyLateMix_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB_1PROPERTIES_1EarlyLateMix_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   float arg2 ;
   
@@ -4638,7 +4596,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1Earl
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1EarlyLateMix_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB_1PROPERTIES_1EarlyLateMix_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   float result;
@@ -4653,7 +4611,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1Ea
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1WetLevel_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB_1PROPERTIES_1WetLevel_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   float arg2 ;
   
@@ -4666,7 +4624,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1WetL
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1WetLevel_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB_1PROPERTIES_1WetLevel_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   float result;
@@ -4681,7 +4639,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB_1PROPERTIES_1We
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1REVERB_1PROPERTIES(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1REVERB_1PROPERTIES(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   struct FMOD_REVERB_PROPERTIES *result = 0 ;
   
@@ -4693,7 +4651,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1REVERB_1PROPERTIES
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1REVERB_1PROPERTIES(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1REVERB_1PROPERTIES(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   struct FMOD_REVERB_PROPERTIES *arg1 = (struct FMOD_REVERB_PROPERTIES *) 0 ;
   
   (void)jenv;
@@ -4703,7 +4661,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1REVERB_1PROPERTI
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1cbSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1cbSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   int arg2 ;
   
@@ -4716,7 +4674,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1cbSize
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1cbSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1cbSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   int result;
@@ -4731,7 +4689,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1cbSize
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxMPEGCodecs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1maxMPEGCodecs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   int arg2 ;
   
@@ -4744,7 +4702,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxMPE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxMPEGCodecs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1maxMPEGCodecs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   int result;
@@ -4759,7 +4717,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxMPE
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxADPCMCodecs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1maxADPCMCodecs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   int arg2 ;
   
@@ -4772,7 +4730,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxADP
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxADPCMCodecs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1maxADPCMCodecs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   int result;
@@ -4787,7 +4745,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxADP
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxXMACodecs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1maxXMACodecs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   int arg2 ;
   
@@ -4800,7 +4758,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxXMA
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxXMACodecs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1maxXMACodecs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   int result;
@@ -4815,7 +4773,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxXMA
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxVorbisCodecs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1maxVorbisCodecs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   int arg2 ;
   
@@ -4828,7 +4786,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxVor
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxVorbisCodecs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1maxVorbisCodecs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   int result;
@@ -4843,7 +4801,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxVor
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxAT9Codecs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1maxAT9Codecs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   int arg2 ;
   
@@ -4856,7 +4814,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxAT9
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxAT9Codecs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1maxAT9Codecs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   int result;
@@ -4871,7 +4829,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxAT9
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxFADPCMCodecs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1maxFADPCMCodecs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   int arg2 ;
   
@@ -4884,7 +4842,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxFAD
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxFADPCMCodecs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1maxFADPCMCodecs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   int result;
@@ -4899,7 +4857,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxFAD
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxPCMCodecs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1maxPCMCodecs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   int arg2 ;
   
@@ -4912,7 +4870,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxPCM
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxPCMCodecs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1maxPCMCodecs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   int result;
@@ -4927,7 +4885,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1maxPCM
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1ASIONumChannels_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1ASIONumChannels_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   int arg2 ;
   
@@ -4940,7 +4898,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1ASIONu
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1ASIONumChannels_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1ASIONumChannels_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   int result;
@@ -4955,7 +4913,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1ASIONu
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1ASIOChannelList_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1ASIOChannelList_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   char **arg2 = (char **) 0 ;
   
@@ -4968,7 +4926,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1ASIOCh
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1ASIOChannelList_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1ASIOChannelList_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   char **result = 0 ;
@@ -4983,7 +4941,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1ASIOC
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1ASIOSpeakerList_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1ASIOSpeakerList_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   FMOD_SPEAKER *arg2 = (FMOD_SPEAKER *) 0 ;
   
@@ -4996,7 +4954,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1ASIOSp
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1ASIOSpeakerList_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1ASIOSpeakerList_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   FMOD_SPEAKER *result = 0 ;
@@ -5011,7 +4969,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1ASIOS
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1HRTFMinAngle_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1HRTFMinAngle_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   float arg2 ;
   
@@ -5024,7 +4982,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1HRTFMi
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1HRTFMinAngle_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1HRTFMinAngle_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   float result;
@@ -5039,7 +4997,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1HRTF
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1HRTFMaxAngle_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1HRTFMaxAngle_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   float arg2 ;
   
@@ -5052,7 +5010,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1HRTFMa
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1HRTFMaxAngle_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1HRTFMaxAngle_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   float result;
@@ -5067,7 +5025,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1HRTF
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1HRTFFreq_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1HRTFFreq_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   float arg2 ;
   
@@ -5080,7 +5038,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1HRTFFr
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1HRTFFreq_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1HRTFFreq_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   float result;
@@ -5095,7 +5053,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1HRTF
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1vol0virtualvol_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1vol0virtualvol_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   float arg2 ;
   
@@ -5108,7 +5066,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1vol0vi
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1vol0virtualvol_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1vol0virtualvol_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   float result;
@@ -5123,7 +5081,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1vol0
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1defaultDecodeBufferSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1defaultDecodeBufferSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   unsigned int arg2 ;
   
@@ -5136,7 +5094,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1defaul
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1defaultDecodeBufferSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1defaultDecodeBufferSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   unsigned int result;
@@ -5151,7 +5109,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1defau
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1profilePort_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1profilePort_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   unsigned short arg2 ;
   
@@ -5164,7 +5122,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1profil
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1profilePort_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1profilePort_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   unsigned short result;
@@ -5179,7 +5137,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1profil
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1geometryMaxFadeTime_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1geometryMaxFadeTime_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   unsigned int arg2 ;
   
@@ -5192,7 +5150,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1geomet
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1geometryMaxFadeTime_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1geometryMaxFadeTime_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   unsigned int result;
@@ -5207,7 +5165,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1geome
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1distanceFilterCenterFreq_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1distanceFilterCenterFreq_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   float arg2 ;
   
@@ -5220,7 +5178,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1distan
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1distanceFilterCenterFreq_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1distanceFilterCenterFreq_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   float result;
@@ -5235,7 +5193,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1dist
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1reverb3Dinstance_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1reverb3Dinstance_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   int arg2 ;
   
@@ -5248,7 +5206,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1reverb
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1reverb3Dinstance_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1reverb3Dinstance_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   int result;
@@ -5263,7 +5221,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1reverb
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1DSPBufferPoolSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1DSPBufferPoolSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   int arg2 ;
   
@@ -5276,7 +5234,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1DSPBuf
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1DSPBufferPoolSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1DSPBufferPoolSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   int result;
@@ -5291,7 +5249,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1DSPBuf
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1stackSizeStream_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1stackSizeStream_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   unsigned int arg2 ;
   
@@ -5304,7 +5262,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1stackS
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1stackSizeStream_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1stackSizeStream_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   unsigned int result;
@@ -5319,7 +5277,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1stack
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1stackSizeNonBlocking_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1stackSizeNonBlocking_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   unsigned int arg2 ;
   
@@ -5332,7 +5290,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1stackS
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1stackSizeNonBlocking_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1stackSizeNonBlocking_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   unsigned int result;
@@ -5347,7 +5305,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1stack
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1stackSizeMixer_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1stackSizeMixer_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   unsigned int arg2 ;
   
@@ -5360,7 +5318,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1stackS
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1stackSizeMixer_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1stackSizeMixer_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   unsigned int result;
@@ -5375,7 +5333,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1stack
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1resamplerMethod_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1resamplerMethod_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   FMOD_DSP_RESAMPLER arg2 ;
   
@@ -5388,7 +5346,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1resamp
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1resamplerMethod_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1resamplerMethod_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   FMOD_DSP_RESAMPLER result;
@@ -5403,7 +5361,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1resamp
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1commandQueueSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1commandQueueSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   unsigned int arg2 ;
   
@@ -5416,7 +5374,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1comman
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1commandQueueSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1commandQueueSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   unsigned int result;
@@ -5431,7 +5389,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1comma
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1randomSeed_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1randomSeed_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   unsigned int arg2 ;
   
@@ -5444,7 +5402,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1random
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1randomSeed_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ADVANCEDSETTINGS_1randomSeed_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   unsigned int result;
@@ -5459,7 +5417,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ADVANCEDSETTINGS_1rando
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1ADVANCEDSETTINGS(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1ADVANCEDSETTINGS(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   struct FMOD_ADVANCEDSETTINGS *result = 0 ;
   
@@ -5471,7 +5429,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1ADVANCEDSETTINGS(J
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1ADVANCEDSETTINGS(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1ADVANCEDSETTINGS(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   struct FMOD_ADVANCEDSETTINGS *arg1 = (struct FMOD_ADVANCEDSETTINGS *) 0 ;
   
   (void)jenv;
@@ -5481,7 +5439,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1ADVANCEDSETTINGS
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DRIVER_1STATE_1CONNECTED_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DRIVER_1STATE_1CONNECTED_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -5493,7 +5451,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DRIVER_1STATE_1CONNECTED
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DRIVER_1STATE_1DEFAULT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DRIVER_1STATE_1DEFAULT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -5505,7 +5463,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DRIVER_1STATE_1DEFAULT_1
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Memory_1Initialize(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Memory_1Initialize(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6) {
   jint jresult = 0 ;
   void *arg1 = (void *) 0 ;
   int arg2 ;
@@ -5529,7 +5487,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Memory_1Initialize(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Memory_1GetStats(JNIEnv *jenv, jclass jcls, jintArray jarg1, jintArray jarg2, jint jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Memory_1GetStats(JNIEnv *jenv, jclass jcls, jintArray jarg1, jintArray jarg2, jint jarg3) {
   jint jresult = 0 ;
   int *arg1 = (int *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -5575,7 +5533,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Memory_1GetStats(JNIEnv 
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Debug_1Initialize(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jstring jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Debug_1Initialize(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jstring jarg4) {
   jint jresult = 0 ;
   FMOD_DEBUG_FLAGS arg1 ;
   FMOD_DEBUG_MODE arg2 ;
@@ -5600,7 +5558,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Debug_1Initialize(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1File_1SetDiskBusy(JNIEnv *jenv, jclass jcls, jint jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1File_1SetDiskBusy(JNIEnv *jenv, jclass jcls, jint jarg1) {
   jint jresult = 0 ;
   int arg1 ;
   FMOD_RESULT result;
@@ -5614,7 +5572,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1File_1SetDiskBusy(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1File_1GetDiskBusy(JNIEnv *jenv, jclass jcls, jintArray jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1File_1GetDiskBusy(JNIEnv *jenv, jclass jcls, jintArray jarg1) {
   jint jresult = 0 ;
   int *arg1 = (int *) 0 ;
   FMOD_RESULT result;
@@ -5642,7 +5600,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1File_1GetDiskBusy(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1Create(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1Create(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_SYSTEM **arg1 = (FMOD_SYSTEM **) 0 ;
   FMOD_RESULT result;
@@ -5656,7 +5614,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1Create(JNIEnv *j
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1Release(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1Release(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_RESULT result;
@@ -5670,7 +5628,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1Release(JNIEnv *
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetOutput(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1SetOutput(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_OUTPUTTYPE arg2 ;
@@ -5686,7 +5644,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetOutput(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetOutput(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetOutput(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_OUTPUTTYPE *arg2 = (FMOD_OUTPUTTYPE *) 0 ;
@@ -5702,7 +5660,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetOutput(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetNumDrivers(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetNumDrivers(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -5732,7 +5690,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetNumDrivers(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetDriverInfo(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jstring jarg3, jint jarg4, jlong jarg5, jobject jarg5_, jintArray jarg6, jlong jarg7, jintArray jarg8) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetDriverInfo(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jstring jarg3, jint jarg4, jlong jarg5, jobject jarg5_, jintArray jarg6, jlong jarg7, jintArray jarg8) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int arg2 ;
@@ -5794,7 +5752,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetDriverInfo(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetDriver(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1SetDriver(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int arg2 ;
@@ -5810,7 +5768,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetDriver(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetDriver(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetDriver(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -5840,7 +5798,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetDriver(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetSoftwareChannels(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1SetSoftwareChannels(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int arg2 ;
@@ -5856,7 +5814,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetSoftwareChann
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetSoftwareChannels(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetSoftwareChannels(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -5886,7 +5844,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetSoftwareChann
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetSoftwareFormat(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3, jint jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1SetSoftwareFormat(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3, jint jarg4) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int arg2 ;
@@ -5906,7 +5864,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetSoftwareForma
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetSoftwareFormat(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2, jlong jarg3, jintArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetSoftwareFormat(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2, jlong jarg3, jintArray jarg4) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -5954,7 +5912,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetSoftwareForma
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetDSPBufferSize(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1SetDSPBufferSize(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   unsigned int arg2 ;
@@ -5972,7 +5930,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetDSPBufferSize
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetDSPBufferSize(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2, jintArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetDSPBufferSize(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2, jintArray jarg3) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   unsigned int *arg2 = (unsigned int *) 0 ;
@@ -6018,7 +5976,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetDSPBufferSize
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetFileSystem(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jint jarg8) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1SetFileSystem(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jint jarg8) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_FILE_OPEN_CALLBACK arg2 = (FMOD_FILE_OPEN_CALLBACK) 0 ;
@@ -6046,7 +6004,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetFileSystem(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1AttachFileSystem(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1AttachFileSystem(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_FILE_OPEN_CALLBACK arg2 = (FMOD_FILE_OPEN_CALLBACK) 0 ;
@@ -6068,7 +6026,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1AttachFileSystem
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetAdvancedSettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1SetAdvancedSettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_ADVANCEDSETTINGS *arg2 = (FMOD_ADVANCEDSETTINGS *) 0 ;
@@ -6085,7 +6043,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetAdvancedSetti
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetAdvancedSettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetAdvancedSettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_ADVANCEDSETTINGS *arg2 = (FMOD_ADVANCEDSETTINGS *) 0 ;
@@ -6102,7 +6060,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetAdvancedSetti
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetCallback(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1SetCallback(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_SYSTEM_CALLBACK arg2 = (FMOD_SYSTEM_CALLBACK) 0 ;
@@ -6120,7 +6078,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetCallback(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetPluginPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1SetPluginPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -6141,7 +6099,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetPluginPath(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1LoadPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlongArray jarg3, jlong jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1LoadPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlongArray jarg3, jlong jarg4) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -6180,7 +6138,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1LoadPlugin(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1UnloadPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1UnloadPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   unsigned int arg2 ;
@@ -6196,7 +6154,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1UnloadPlugin(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetNumPlugins(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jintArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetNumPlugins(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jintArray jarg3) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_PLUGINTYPE arg2 ;
@@ -6228,7 +6186,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetNumPlugins(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetPluginHandle(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3, jlongArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetPluginHandle(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3, jlongArray jarg4) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_PLUGINTYPE arg2 ;
@@ -6262,7 +6220,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetPluginHandle(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetPluginInfo(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jstring jarg4, jint jarg5, jlongArray jarg6) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetPluginInfo(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jstring jarg4, jint jarg5, jlongArray jarg6) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   unsigned int arg2 ;
@@ -6305,7 +6263,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetPluginInfo(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetOutputByPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1SetOutputByPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   unsigned int arg2 ;
@@ -6321,7 +6279,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetOutputByPlugi
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetOutputByPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetOutputByPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   unsigned int *arg2 = (unsigned int *) 0 ;
@@ -6351,7 +6309,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetOutputByPlugi
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1CreateDSPByPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1CreateDSPByPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   unsigned int arg2 ;
@@ -6369,7 +6327,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1CreateDSPByPlugi
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetDSPInfoByPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetDSPInfoByPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   unsigned int arg2 ;
@@ -6387,7 +6345,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetDSPInfoByPlug
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1RegisterCodec(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlongArray jarg3, jlong jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1RegisterCodec(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlongArray jarg3, jlong jarg4) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_CODEC_DESCRIPTION *arg2 = (FMOD_CODEC_DESCRIPTION *) 0 ;
@@ -6421,7 +6379,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1RegisterCodec(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1RegisterDSP(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlongArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1RegisterDSP(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlongArray jarg3) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_DSP_DESCRIPTION *arg2 = (FMOD_DSP_DESCRIPTION *) 0 ;
@@ -6453,7 +6411,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1RegisterDSP(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1RegisterOutput(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlongArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1RegisterOutput(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlongArray jarg3) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_OUTPUT_DESCRIPTION *arg2 = (FMOD_OUTPUT_DESCRIPTION *) 0 ;
@@ -6485,7 +6443,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1RegisterOutput(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1Init(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1Init(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int arg2 ;
@@ -6505,7 +6463,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1Init(JNIEnv *jen
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1Close(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1Close(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_RESULT result;
@@ -6519,7 +6477,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1Close(JNIEnv *je
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1Update(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1Update(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_RESULT result;
@@ -6533,7 +6491,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1Update(JNIEnv *j
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetSpeakerPosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloat jarg3, jfloat jarg4, jint jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1SetSpeakerPosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloat jarg3, jfloat jarg4, jint jarg5) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_SPEAKER arg2 ;
@@ -6555,7 +6513,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetSpeakerPositi
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetSpeakerPosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloatArray jarg3, jfloatArray jarg4, jintArray jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetSpeakerPosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloatArray jarg3, jfloatArray jarg4, jintArray jarg5) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_SPEAKER arg2 ;
@@ -6619,7 +6577,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetSpeakerPositi
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetStreamBufferSize(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1SetStreamBufferSize(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   unsigned int arg2 ;
@@ -6637,7 +6595,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetStreamBufferS
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetStreamBufferSize(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2, jlongArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetStreamBufferSize(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2, jlongArray jarg3) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   unsigned int *arg2 = (unsigned int *) 0 ;
@@ -6683,7 +6641,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetStreamBufferS
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1Set3DSettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3, jfloat jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1Set3DSettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3, jfloat jarg4) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   float arg2 ;
@@ -6703,7 +6661,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1Set3DSettings(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1Get3DSettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jfloatArray jarg3, jfloatArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1Get3DSettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jfloatArray jarg3, jfloatArray jarg4) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -6765,7 +6723,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1Get3DSettings(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1Set3DNumListeners(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1Set3DNumListeners(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int arg2 ;
@@ -6781,7 +6739,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1Set3DNumListener
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1Get3DNumListeners(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1Get3DNumListeners(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -6811,7 +6769,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1Get3DNumListener
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1Set3DListenerAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jobject jarg3_, jlong jarg4, jobject jarg4_, jlong jarg5, jobject jarg5_, jlong jarg6, jobject jarg6_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1Set3DListenerAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jobject jarg3_, jlong jarg4, jobject jarg4_, jlong jarg5, jobject jarg5_, jlong jarg6, jobject jarg6_) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int arg2 ;
@@ -6839,7 +6797,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1Set3DListenerAtt
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1Get3DListenerAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jobject jarg3_, jlong jarg4, jobject jarg4_, jlong jarg5, jobject jarg5_, jlong jarg6, jobject jarg6_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1Get3DListenerAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jobject jarg3_, jlong jarg4, jobject jarg4_, jlong jarg5, jobject jarg5_, jlong jarg6, jobject jarg6_) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int arg2 ;
@@ -6867,7 +6825,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1Get3DListenerAtt
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1Set3DRolloffCallback(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1Set3DRolloffCallback(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_3D_ROLLOFF_CALLBACK arg2 = (FMOD_3D_ROLLOFF_CALLBACK) 0 ;
@@ -6883,7 +6841,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1Set3DRolloffCall
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1MixerSuspend(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1MixerSuspend(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_RESULT result;
@@ -6897,7 +6855,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1MixerSuspend(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1MixerResume(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1MixerResume(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_RESULT result;
@@ -6911,7 +6869,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1MixerResume(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetDefaultMixMatrix(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3, jfloatArray jarg4, jint jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetDefaultMixMatrix(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3, jfloatArray jarg4, jint jarg5) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_SPEAKERMODE arg2 ;
@@ -6947,7 +6905,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetDefaultMixMat
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetSpeakerModeChannels(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jintArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetSpeakerModeChannels(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jintArray jarg3) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_SPEAKERMODE arg2 ;
@@ -6979,7 +6937,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetSpeakerModeCh
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetVersion(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetVersion(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   unsigned int *arg2 = (unsigned int *) 0 ;
@@ -7009,7 +6967,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetVersion(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetOutputHandle(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetOutputHandle(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   void **arg2 = (void **) 0 ;
@@ -7025,7 +6983,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetOutputHandle(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetChannelsPlaying(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetChannelsPlaying(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -7055,7 +7013,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetChannelsPlayi
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetCPUUsage(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jfloatArray jarg3, jfloatArray jarg4, jfloatArray jarg5, jfloatArray jarg6) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetCPUUsage(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jfloatArray jarg3, jfloatArray jarg4, jfloatArray jarg5, jfloatArray jarg6) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -7149,7 +7107,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetCPUUsage(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetSoundRAM(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2, jintArray jarg3, jintArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetSoundRAM(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2, jintArray jarg3, jintArray jarg4) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -7211,7 +7169,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetSoundRAM(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1CreateSound(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jlong jarg4, jobject jarg4_, jlong jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1CreateSound(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jlong jarg4, jobject jarg4_, jlong jarg5) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -7239,7 +7197,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1CreateSound(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1CreateStream(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jlong jarg4, jobject jarg4_, jlong jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1CreateStream(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jlong jarg4, jobject jarg4_, jlong jarg5) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -7267,7 +7225,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1CreateStream(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1CreateDSP(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1CreateDSP(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_DSP_DESCRIPTION *arg2 = (FMOD_DSP_DESCRIPTION *) 0 ;
@@ -7285,7 +7243,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1CreateDSP(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1CreateDSPByType(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1CreateDSPByType(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_DSP_TYPE arg2 ;
@@ -7309,7 +7267,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1CreateDSPByType(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1CreateChannelGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1CreateChannelGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -7332,7 +7290,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1CreateChannelGro
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1CreateSoundGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1CreateSoundGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -7355,7 +7313,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1CreateSoundGroup
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1CreateReverb3D(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1CreateReverb3D(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_REVERB3D **arg2 = (FMOD_REVERB3D **) 0 ;
@@ -7371,7 +7329,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1CreateReverb3D(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1PlaySound(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4, jlong jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1PlaySound(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4, jlong jarg5) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_SOUND *arg2 = (FMOD_SOUND *) 0 ;
@@ -7393,7 +7351,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1PlaySound(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1PlayDSP(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4, jlong jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1PlayDSP(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4, jlong jarg5) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_DSP *arg2 = (FMOD_DSP *) 0 ;
@@ -7415,7 +7373,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1PlayDSP(JNIEnv *
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetChannel(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetChannel(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int arg2 ;
@@ -7433,7 +7391,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetChannel(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetMasterChannelGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetMasterChannelGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_CHANNELGROUP **arg2 = (FMOD_CHANNELGROUP **) 0 ;
@@ -7449,7 +7407,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetMasterChannel
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetMasterSoundGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetMasterSoundGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_SOUNDGROUP **arg2 = (FMOD_SOUNDGROUP **) 0 ;
@@ -7465,7 +7423,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetMasterSoundGr
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1AttachChannelGroupToPort(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg3, jlong jarg4, jint jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1AttachChannelGroupToPort(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg3, jlong jarg4, jint jarg5) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_PORT_TYPE arg2 ;
@@ -7509,7 +7467,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1AttachChannelGro
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1DetachChannelGroupFromPort(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1DetachChannelGroupFromPort(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_CHANNELGROUP *arg2 = (FMOD_CHANNELGROUP *) 0 ;
@@ -7525,7 +7483,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1DetachChannelGro
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetReverbProperties(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1SetReverbProperties(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jobject jarg3_) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int arg2 ;
@@ -7544,7 +7502,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetReverbPropert
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetReverbProperties(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetReverbProperties(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jobject jarg3_) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int arg2 ;
@@ -7563,7 +7521,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetReverbPropert
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1LockDSP(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1LockDSP(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_RESULT result;
@@ -7577,7 +7535,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1LockDSP(JNIEnv *
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1UnlockDSP(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1UnlockDSP(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_RESULT result;
@@ -7591,7 +7549,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1UnlockDSP(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetRecordNumDrivers(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2, jintArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetRecordNumDrivers(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2, jintArray jarg3) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -7637,7 +7595,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetRecordNumDriv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetRecordDriverInfo(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jstring jarg3, jint jarg4, jlong jarg5, jobject jarg5_, jintArray jarg6, jlong jarg7, jintArray jarg8, jlongArray jarg9) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetRecordDriverInfo(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jstring jarg3, jint jarg4, jlong jarg5, jobject jarg5_, jintArray jarg6, jlong jarg7, jintArray jarg8, jlongArray jarg9) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int arg2 ;
@@ -7715,7 +7673,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetRecordDriverI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetRecordPosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlongArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetRecordPosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlongArray jarg3) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int arg2 ;
@@ -7747,7 +7705,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetRecordPositio
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1RecordStart(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jint jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1RecordStart(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jint jarg4) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int arg2 ;
@@ -7767,7 +7725,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1RecordStart(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1RecordStop(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1RecordStop(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int arg2 ;
@@ -7783,7 +7741,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1RecordStop(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1IsRecording(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jintArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1IsRecording(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jintArray jarg3) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int arg2 ;
@@ -7815,7 +7773,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1IsRecording(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1CreateGeometry(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3, jlong jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1CreateGeometry(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3, jlong jarg4) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int arg2 ;
@@ -7835,7 +7793,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1CreateGeometry(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetGeometrySettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1SetGeometrySettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   float arg2 ;
@@ -7851,7 +7809,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetGeometrySetti
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetGeometrySettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetGeometrySettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -7881,7 +7839,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetGeometrySetti
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1LoadGeometry(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1LoadGeometry(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   void *arg2 = (void *) 0 ;
@@ -7901,7 +7859,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1LoadGeometry(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetGeometryOcclusion(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_, jfloatArray jarg4, jfloatArray jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetGeometryOcclusion(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_, jfloatArray jarg4, jfloatArray jarg5) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   FMOD_VECTOR *arg2 = (FMOD_VECTOR *) 0 ;
@@ -7953,7 +7911,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetGeometryOcclu
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetNetworkProxy(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1SetNetworkProxy(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -7974,7 +7932,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetNetworkProxy(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetNetworkProxy(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetNetworkProxy(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -7997,7 +7955,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetNetworkProxy(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetNetworkTimeout(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1SetNetworkTimeout(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int arg2 ;
@@ -8013,7 +7971,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetNetworkTimeou
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetNetworkTimeout(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetNetworkTimeout(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -8043,7 +8001,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetNetworkTimeou
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   void *arg2 = (void *) 0 ;
@@ -8059,7 +8017,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1SetUserData(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   void **arg2 = (void **) 0 ;
@@ -8075,7 +8033,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1System_1GetUserData(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1Release(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1Release(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   FMOD_RESULT result;
@@ -8089,7 +8047,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1Release(JNIEnv *j
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetSystemObject(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1GetSystemObject(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   FMOD_SYSTEM **arg2 = (FMOD_SYSTEM **) 0 ;
@@ -8105,7 +8063,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetSystemObject(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1Lock(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlongArray jarg6, jlongArray jarg7) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1Lock(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlongArray jarg6, jlongArray jarg7) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   unsigned int arg2 ;
@@ -8159,7 +8117,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1Lock(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1Unlock(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1Unlock(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   void *arg2 = (void *) 0 ;
@@ -8181,7 +8139,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1Unlock(JNIEnv *je
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1SetDefaults(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jint jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1SetDefaults(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jint jarg3) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   float arg2 ;
@@ -8199,7 +8157,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1SetDefaults(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetDefaults(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jintArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1GetDefaults(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jintArray jarg3) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -8245,7 +8203,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetDefaults(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1Set3DMinMaxDistance(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1Set3DMinMaxDistance(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   float arg2 ;
@@ -8263,7 +8221,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1Set3DMinMaxDistan
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1Get3DMinMaxDistance(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jfloatArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1Get3DMinMaxDistance(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jfloatArray jarg3) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -8309,7 +8267,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1Get3DMinMaxDistan
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1Set3DConeSettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3, jfloat jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1Set3DConeSettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3, jfloat jarg4) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   float arg2 ;
@@ -8329,7 +8287,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1Set3DConeSettings
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1Get3DConeSettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jfloatArray jarg3, jfloatArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1Get3DConeSettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jfloatArray jarg3, jfloatArray jarg4) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -8391,7 +8349,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1Get3DConeSettings
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1Set3DCustomRolloff(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jint jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1Set3DCustomRolloff(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jint jarg3) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   FMOD_VECTOR *arg2 = (FMOD_VECTOR *) 0 ;
@@ -8410,7 +8368,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1Set3DCustomRollof
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1Get3DCustomRolloff(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jintArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1Get3DCustomRolloff(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jintArray jarg3) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   FMOD_VECTOR **arg2 = (FMOD_VECTOR **) 0 ;
@@ -8442,7 +8400,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1Get3DCustomRollof
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1SetSubSound(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1SetSubSound(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   int arg2 ;
@@ -8460,7 +8418,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1SetSubSound(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetSubSound(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1GetSubSound(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   int arg2 ;
@@ -8478,7 +8436,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetSubSound(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetSubSoundParent(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1GetSubSoundParent(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   FMOD_SOUND **arg2 = (FMOD_SOUND **) 0 ;
@@ -8494,7 +8452,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetSubSoundParent
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetName(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1GetName(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -8517,7 +8475,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetName(JNIEnv *j
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetLength(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1GetLength(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   unsigned int *arg2 = (unsigned int *) 0 ;
@@ -8549,7 +8507,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetLength(JNIEnv 
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetFormat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jintArray jarg4, jintArray jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1GetFormat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jintArray jarg4, jintArray jarg5) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   FMOD_SOUND_TYPE *arg2 = (FMOD_SOUND_TYPE *) 0 ;
@@ -8599,7 +8557,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetFormat(JNIEnv 
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetNumSubSounds(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1GetNumSubSounds(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -8629,7 +8587,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetNumSubSounds(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetNumTags(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2, jintArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1GetNumTags(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2, jintArray jarg3) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -8675,7 +8633,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetNumTags(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetTag(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3, jlong jarg4, jobject jarg4_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1GetTag(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3, jlong jarg4, jobject jarg4_) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -8701,7 +8659,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetTag(JNIEnv *je
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetOpenState(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlongArray jarg3, jintArray jarg4, jintArray jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1GetOpenState(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlongArray jarg3, jintArray jarg4, jintArray jarg5) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   FMOD_OPENSTATE *arg2 = (FMOD_OPENSTATE *) 0 ;
@@ -8765,7 +8723,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetOpenState(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1ReadData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlongArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1ReadData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlongArray jarg4) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   void *arg2 = (void *) 0 ;
@@ -8799,7 +8757,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1ReadData(JNIEnv *
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1SeekData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1SeekData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   unsigned int arg2 ;
@@ -8815,7 +8773,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1SeekData(JNIEnv *
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1SetSoundGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1SetSoundGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   FMOD_SOUNDGROUP *arg2 = (FMOD_SOUNDGROUP *) 0 ;
@@ -8831,7 +8789,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1SetSoundGroup(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetSoundGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1GetSoundGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   FMOD_SOUNDGROUP **arg2 = (FMOD_SOUNDGROUP **) 0 ;
@@ -8847,7 +8805,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetSoundGroup(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetNumSyncPoints(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1GetNumSyncPoints(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -8877,7 +8835,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetNumSyncPoints(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetSyncPoint(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1GetSyncPoint(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   int arg2 ;
@@ -8895,7 +8853,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetSyncPoint(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetSyncPointInfo(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jstring jarg3, jint jarg4, jlongArray jarg5, jlong jarg6) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1GetSyncPointInfo(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jstring jarg3, jint jarg4, jlongArray jarg5, jlong jarg6) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   FMOD_SYNCPOINT *arg2 = (FMOD_SYNCPOINT *) 0 ;
@@ -8938,7 +8896,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetSyncPointInfo(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1AddSyncPoint(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jstring jarg4, jlong jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1AddSyncPoint(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jstring jarg4, jlong jarg5) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   unsigned int arg2 ;
@@ -8965,7 +8923,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1AddSyncPoint(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1DeleteSyncPoint(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1DeleteSyncPoint(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   FMOD_SYNCPOINT *arg2 = (FMOD_SYNCPOINT *) 0 ;
@@ -8981,7 +8939,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1DeleteSyncPoint(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1SetMode(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1SetMode(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   FMOD_MODE arg2 ;
@@ -8997,7 +8955,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1SetMode(JNIEnv *j
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetMode(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1GetMode(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   FMOD_MODE *arg2 = (FMOD_MODE *) 0 ;
@@ -9027,7 +8985,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetMode(JNIEnv *j
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1SetLoopCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1SetLoopCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   int arg2 ;
@@ -9043,7 +9001,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1SetLoopCount(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetLoopCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1GetLoopCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -9073,7 +9031,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetLoopCount(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1SetLoopPoints(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1SetLoopPoints(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   unsigned int arg2 ;
@@ -9095,7 +9053,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1SetLoopPoints(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetLoopPoints(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2, jlong jarg3, jlongArray jarg4, jlong jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1GetLoopPoints(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2, jlong jarg3, jlongArray jarg4, jlong jarg5) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   unsigned int *arg2 = (unsigned int *) 0 ;
@@ -9145,7 +9103,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetLoopPoints(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetMusicNumChannels(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1GetMusicNumChannels(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -9175,7 +9133,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetMusicNumChanne
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1SetMusicChannelVolume(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloat jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1SetMusicChannelVolume(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloat jarg3) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   int arg2 ;
@@ -9193,7 +9151,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1SetMusicChannelVo
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetMusicChannelVolume(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloatArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1GetMusicChannelVolume(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloatArray jarg3) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   int arg2 ;
@@ -9225,7 +9183,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetMusicChannelVo
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1SetMusicSpeed(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1SetMusicSpeed(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   float arg2 ;
@@ -9241,7 +9199,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1SetMusicSpeed(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetMusicSpeed(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1GetMusicSpeed(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -9271,7 +9229,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetMusicSpeed(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   void *arg2 = (void *) 0 ;
@@ -9287,7 +9245,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1SetUserData(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Sound_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_SOUND *arg1 = (FMOD_SOUND *) 0 ;
   void **arg2 = (void **) 0 ;
@@ -9303,7 +9261,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Sound_1GetUserData(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetSystemObject(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetSystemObject(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_SYSTEM **arg2 = (FMOD_SYSTEM **) 0 ;
@@ -9319,7 +9277,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetSystemObject
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Stop(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1Stop(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_RESULT result;
@@ -9333,7 +9291,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Stop(JNIEnv *je
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetPaused(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1SetPaused(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_BOOL arg2 ;
@@ -9349,7 +9307,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetPaused(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetPaused(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetPaused(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -9379,7 +9337,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetPaused(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetVolume(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1SetVolume(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float arg2 ;
@@ -9395,7 +9353,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetVolume(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetVolume(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetVolume(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -9425,7 +9383,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetVolume(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetVolumeRamp(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1SetVolumeRamp(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_BOOL arg2 ;
@@ -9441,7 +9399,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetVolumeRamp(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetVolumeRamp(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetVolumeRamp(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -9471,7 +9429,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetVolumeRamp(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetAudibility(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetAudibility(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -9501,7 +9459,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetAudibility(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetPitch(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1SetPitch(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float arg2 ;
@@ -9517,7 +9475,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetPitch(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetPitch(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetPitch(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -9547,7 +9505,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetPitch(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetMute(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1SetMute(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_BOOL arg2 ;
@@ -9563,7 +9521,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetMute(JNIEnv 
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetMute(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetMute(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -9593,7 +9551,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetMute(JNIEnv 
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetReverbProperties(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloat jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1SetReverbProperties(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloat jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   int arg2 ;
@@ -9611,7 +9569,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetReverbProper
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetReverbProperties(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloatArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetReverbProperties(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloatArray jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   int arg2 ;
@@ -9643,7 +9601,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetReverbProper
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetLowPassGain(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1SetLowPassGain(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float arg2 ;
@@ -9659,7 +9617,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetLowPassGain(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetLowPassGain(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetLowPassGain(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -9689,7 +9647,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetLowPassGain(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetMode(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1SetMode(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_MODE arg2 ;
@@ -9705,7 +9663,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetMode(JNIEnv 
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetMode(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetMode(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_MODE *arg2 = (FMOD_MODE *) 0 ;
@@ -9735,7 +9693,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetMode(JNIEnv 
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetCallback(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1SetCallback(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_CHANNELCONTROL_CALLBACK arg2 = (FMOD_CHANNELCONTROL_CALLBACK) 0 ;
@@ -9751,7 +9709,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetCallback(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1IsPlaying(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1IsPlaying(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -9781,7 +9739,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1IsPlaying(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetPan(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1SetPan(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float arg2 ;
@@ -9797,7 +9755,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetPan(JNIEnv *
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetMixLevelsOutput(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3, jfloat jarg4, jfloat jarg5, jfloat jarg6, jfloat jarg7, jfloat jarg8, jfloat jarg9) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1SetMixLevelsOutput(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3, jfloat jarg4, jfloat jarg5, jfloat jarg6, jfloat jarg7, jfloat jarg8, jfloat jarg9) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float arg2 ;
@@ -9827,7 +9785,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetMixLevelsOut
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetMixLevelsInput(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jint jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1SetMixLevelsInput(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jint jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -9859,7 +9817,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetMixLevelsInp
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetMixMatrix(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jint jarg3, jint jarg4, jint jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1SetMixMatrix(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jint jarg3, jint jarg4, jint jarg5) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -9895,7 +9853,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetMixMatrix(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetMixMatrix(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jintArray jarg3, jintArray jarg4, jint jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetMixMatrix(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jintArray jarg3, jintArray jarg4, jint jarg5) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -9959,7 +9917,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetMixMatrix(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetDSPClock(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetDSPClock(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   unsigned long long *arg2 = (unsigned long long *) 0 ;
@@ -9977,7 +9935,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetDSPClock(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetDelay(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg2, jobject jarg3, jint jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1SetDelay(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg2, jobject jarg3, jint jarg4) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   unsigned long long arg2 ;
@@ -10041,7 +9999,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetDelay(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetDelay(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jintArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetDelay(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jintArray jarg4) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   unsigned long long *arg2 = (unsigned long long *) 0 ;
@@ -10075,7 +10033,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetDelay(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1AddFadePoint(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg2, jfloat jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1AddFadePoint(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg2, jfloat jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   unsigned long long arg2 ;
@@ -10115,7 +10073,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1AddFadePoint(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetFadePointRamp(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg2, jfloat jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1SetFadePointRamp(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg2, jfloat jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   unsigned long long arg2 ;
@@ -10155,7 +10113,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetFadePointRam
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1RemoveFadePoints(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg2, jobject jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1RemoveFadePoints(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg2, jobject jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   unsigned long long arg2 ;
@@ -10217,7 +10175,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1RemoveFadePoint
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetFadePoints(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2, jlong jarg3, jfloatArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetFadePoints(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2, jlong jarg3, jfloatArray jarg4) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   unsigned int *arg2 = (unsigned int *) 0 ;
@@ -10265,7 +10223,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetFadePoints(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetDSP(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetDSP(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   int arg2 ;
@@ -10283,7 +10241,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetDSP(JNIEnv *
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1AddDSP(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1AddDSP(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   int arg2 ;
@@ -10301,7 +10259,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1AddDSP(JNIEnv *
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1RemoveDSP(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1RemoveDSP(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_DSP *arg2 = (FMOD_DSP *) 0 ;
@@ -10317,7 +10275,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1RemoveDSP(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetNumDSPs(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetNumDSPs(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -10347,7 +10305,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetNumDSPs(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetDSPIndex(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1SetDSPIndex(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_DSP *arg2 = (FMOD_DSP *) 0 ;
@@ -10365,7 +10323,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetDSPIndex(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetDSPIndex(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jintArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetDSPIndex(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jintArray jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_DSP *arg2 = (FMOD_DSP *) 0 ;
@@ -10397,7 +10355,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetDSPIndex(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1OverridePanDSP(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1OverridePanDSP(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_DSP *arg2 = (FMOD_DSP *) 0 ;
@@ -10413,7 +10371,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1OverridePanDSP(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Set3DAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_, jlong jarg4, jobject jarg4_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1Set3DAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_, jlong jarg4, jobject jarg4_) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_VECTOR *arg2 = (FMOD_VECTOR *) 0 ;
@@ -10436,7 +10394,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Set3DAttributes
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Get3DAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_, jlong jarg4, jobject jarg4_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1Get3DAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_, jlong jarg4, jobject jarg4_) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_VECTOR *arg2 = (FMOD_VECTOR *) 0 ;
@@ -10459,7 +10417,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Get3DAttributes
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Set3DMinMaxDistance(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1Set3DMinMaxDistance(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float arg2 ;
@@ -10477,7 +10435,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Set3DMinMaxDist
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Get3DMinMaxDistance(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jfloatArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1Get3DMinMaxDistance(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jfloatArray jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -10523,7 +10481,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Get3DMinMaxDist
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Set3DConeSettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3, jfloat jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1Set3DConeSettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3, jfloat jarg4) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float arg2 ;
@@ -10543,7 +10501,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Set3DConeSettin
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Get3DConeSettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jfloatArray jarg3, jfloatArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1Get3DConeSettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jfloatArray jarg3, jfloatArray jarg4) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -10605,7 +10563,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Get3DConeSettin
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Set3DConeOrientation(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1Set3DConeOrientation(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_VECTOR *arg2 = (FMOD_VECTOR *) 0 ;
@@ -10622,7 +10580,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Set3DConeOrient
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Get3DConeOrientation(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1Get3DConeOrientation(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_VECTOR *arg2 = (FMOD_VECTOR *) 0 ;
@@ -10639,7 +10597,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Get3DConeOrient
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Set3DCustomRolloff(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jint jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1Set3DCustomRolloff(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jint jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_VECTOR *arg2 = (FMOD_VECTOR *) 0 ;
@@ -10658,7 +10616,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Set3DCustomRoll
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Get3DCustomRolloff(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jintArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1Get3DCustomRolloff(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jintArray jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_VECTOR **arg2 = (FMOD_VECTOR **) 0 ;
@@ -10690,7 +10648,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Get3DCustomRoll
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Set3DOcclusion(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1Set3DOcclusion(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float arg2 ;
@@ -10708,7 +10666,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Set3DOcclusion(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Get3DOcclusion(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jfloatArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1Get3DOcclusion(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jfloatArray jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -10754,7 +10712,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Get3DOcclusion(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Set3DSpread(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1Set3DSpread(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float arg2 ;
@@ -10770,7 +10728,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Set3DSpread(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Get3DSpread(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1Get3DSpread(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -10800,7 +10758,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Get3DSpread(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Set3DLevel(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1Set3DLevel(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float arg2 ;
@@ -10816,7 +10774,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Set3DLevel(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Get3DLevel(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1Get3DLevel(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -10846,7 +10804,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Get3DLevel(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Set3DDopplerLevel(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1Set3DDopplerLevel(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float arg2 ;
@@ -10862,7 +10820,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Set3DDopplerLev
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Get3DDopplerLevel(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1Get3DDopplerLevel(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -10892,7 +10850,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Get3DDopplerLev
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Set3DDistanceFilter(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloat jarg3, jfloat jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1Set3DDistanceFilter(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloat jarg3, jfloat jarg4) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_BOOL arg2 ;
@@ -10912,7 +10870,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Set3DDistanceFi
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Get3DDistanceFilter(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2, jfloatArray jarg3, jfloatArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1Get3DDistanceFilter(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2, jfloatArray jarg3, jfloatArray jarg4) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -10974,7 +10932,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1Get3DDistanceFi
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   void *arg2 = (void *) 0 ;
@@ -10990,7 +10948,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetUserData(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   void **arg2 = (void **) 0 ;
@@ -11006,7 +10964,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetUserData(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetFrequency(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1SetFrequency(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float arg2 ;
@@ -11022,7 +10980,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetFrequency(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetFrequency(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetFrequency(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -11052,7 +11010,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetFrequency(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetPriority(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1SetPriority(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   int arg2 ;
@@ -11068,7 +11026,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetPriority(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetPriority(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetPriority(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -11098,7 +11056,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetPriority(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetPosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1SetPosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   unsigned int arg2 ;
@@ -11116,7 +11074,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetPosition(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetPosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetPosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   unsigned int *arg2 = (unsigned int *) 0 ;
@@ -11148,7 +11106,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetPosition(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetChannelGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1SetChannelGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_CHANNELGROUP *arg2 = (FMOD_CHANNELGROUP *) 0 ;
@@ -11164,7 +11122,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetChannelGroup
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetChannelGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetChannelGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_CHANNELGROUP **arg2 = (FMOD_CHANNELGROUP **) 0 ;
@@ -11180,7 +11138,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetChannelGroup
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetLoopCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1SetLoopCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   int arg2 ;
@@ -11196,7 +11154,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetLoopCount(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetLoopCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetLoopCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -11226,7 +11184,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetLoopCount(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetLoopPoints(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1SetLoopPoints(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   unsigned int arg2 ;
@@ -11248,7 +11206,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1SetLoopPoints(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetLoopPoints(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2, jlong jarg3, jlongArray jarg4, jlong jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetLoopPoints(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2, jlong jarg3, jlongArray jarg4, jlong jarg5) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   unsigned int *arg2 = (unsigned int *) 0 ;
@@ -11298,7 +11256,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetLoopPoints(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1IsVirtual(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1IsVirtual(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -11328,7 +11286,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1IsVirtual(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetCurrentSound(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetCurrentSound(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   FMOD_SOUND **arg2 = (FMOD_SOUND **) 0 ;
@@ -11344,7 +11302,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetCurrentSound
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetIndex(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Channel_1GetIndex(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNEL *arg1 = (FMOD_CHANNEL *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -11374,7 +11332,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Channel_1GetIndex(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetSystemObject(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1GetSystemObject(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_SYSTEM **arg2 = (FMOD_SYSTEM **) 0 ;
@@ -11390,7 +11348,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetSystemO
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Stop(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1Stop(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_RESULT result;
@@ -11404,7 +11362,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Stop(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetPaused(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1SetPaused(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_BOOL arg2 ;
@@ -11420,7 +11378,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetPaused(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetPaused(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1GetPaused(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -11450,7 +11408,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetPaused(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetVolume(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1SetVolume(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   float arg2 ;
@@ -11466,7 +11424,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetVolume(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetVolume(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1GetVolume(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -11496,7 +11454,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetVolume(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetVolumeRamp(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1SetVolumeRamp(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_BOOL arg2 ;
@@ -11512,7 +11470,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetVolumeR
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetVolumeRamp(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1GetVolumeRamp(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -11542,7 +11500,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetVolumeR
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetAudibility(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1GetAudibility(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -11572,7 +11530,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetAudibil
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetPitch(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1SetPitch(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   float arg2 ;
@@ -11588,7 +11546,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetPitch(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetPitch(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1GetPitch(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -11618,7 +11576,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetPitch(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetMute(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1SetMute(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_BOOL arg2 ;
@@ -11634,7 +11592,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetMute(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetMute(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1GetMute(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -11664,7 +11622,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetMute(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetReverbProperties(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloat jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1SetReverbProperties(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloat jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   int arg2 ;
@@ -11682,7 +11640,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetReverbP
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetReverbProperties(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloatArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1GetReverbProperties(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloatArray jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   int arg2 ;
@@ -11714,7 +11672,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetReverbP
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetLowPassGain(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1SetLowPassGain(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   float arg2 ;
@@ -11730,7 +11688,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetLowPass
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetLowPassGain(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1GetLowPassGain(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -11760,7 +11718,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetLowPass
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetMode(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1SetMode(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_MODE arg2 ;
@@ -11776,7 +11734,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetMode(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetMode(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1GetMode(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_MODE *arg2 = (FMOD_MODE *) 0 ;
@@ -11806,7 +11764,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetMode(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetCallback(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1SetCallback(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_CHANNELCONTROL_CALLBACK arg2 = (FMOD_CHANNELCONTROL_CALLBACK) 0 ;
@@ -11822,7 +11780,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetCallbac
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1IsPlaying(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1IsPlaying(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -11852,7 +11810,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1IsPlaying(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetPan(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1SetPan(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   float arg2 ;
@@ -11868,7 +11826,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetPan(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetMixLevelsOutput(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3, jfloat jarg4, jfloat jarg5, jfloat jarg6, jfloat jarg7, jfloat jarg8, jfloat jarg9) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1SetMixLevelsOutput(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3, jfloat jarg4, jfloat jarg5, jfloat jarg6, jfloat jarg7, jfloat jarg8, jfloat jarg9) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   float arg2 ;
@@ -11898,7 +11856,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetMixLeve
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetMixLevelsInput(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jint jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1SetMixLevelsInput(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jint jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -11930,7 +11888,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetMixLeve
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetMixMatrix(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jint jarg3, jint jarg4, jint jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1SetMixMatrix(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jint jarg3, jint jarg4, jint jarg5) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -11966,7 +11924,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetMixMatr
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetMixMatrix(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jintArray jarg3, jintArray jarg4, jint jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1GetMixMatrix(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jintArray jarg3, jintArray jarg4, jint jarg5) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -12030,7 +11988,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetMixMatr
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetDSPClock(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1GetDSPClock(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   unsigned long long *arg2 = (unsigned long long *) 0 ;
@@ -12048,7 +12006,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetDSPCloc
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetDelay(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg2, jobject jarg3, jint jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1SetDelay(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg2, jobject jarg3, jint jarg4) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   unsigned long long arg2 ;
@@ -12112,7 +12070,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetDelay(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetDelay(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jintArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1GetDelay(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jintArray jarg4) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   unsigned long long *arg2 = (unsigned long long *) 0 ;
@@ -12146,7 +12104,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetDelay(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1AddFadePoint(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg2, jfloat jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1AddFadePoint(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg2, jfloat jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   unsigned long long arg2 ;
@@ -12186,7 +12144,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1AddFadePoi
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetFadePointRamp(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg2, jfloat jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1SetFadePointRamp(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg2, jfloat jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   unsigned long long arg2 ;
@@ -12226,7 +12184,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetFadePoi
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1RemoveFadePoints(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg2, jobject jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1RemoveFadePoints(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg2, jobject jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   unsigned long long arg2 ;
@@ -12288,7 +12246,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1RemoveFade
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetFadePoints(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2, jlong jarg3, jfloatArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1GetFadePoints(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2, jlong jarg3, jfloatArray jarg4) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   unsigned int *arg2 = (unsigned int *) 0 ;
@@ -12336,7 +12294,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetFadePoi
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetDSP(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1GetDSP(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   int arg2 ;
@@ -12354,7 +12312,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetDSP(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1AddDSP(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1AddDSP(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   int arg2 ;
@@ -12372,7 +12330,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1AddDSP(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1RemoveDSP(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1RemoveDSP(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_DSP *arg2 = (FMOD_DSP *) 0 ;
@@ -12388,7 +12346,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1RemoveDSP(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetNumDSPs(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1GetNumDSPs(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -12418,7 +12376,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetNumDSPs
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetDSPIndex(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1SetDSPIndex(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_DSP *arg2 = (FMOD_DSP *) 0 ;
@@ -12436,7 +12394,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetDSPInde
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetDSPIndex(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jintArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1GetDSPIndex(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jintArray jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_DSP *arg2 = (FMOD_DSP *) 0 ;
@@ -12468,7 +12426,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetDSPInde
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1OverridePanDSP(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1OverridePanDSP(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_DSP *arg2 = (FMOD_DSP *) 0 ;
@@ -12484,7 +12442,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1OverridePa
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Set3DAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_, jlong jarg4, jobject jarg4_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1Set3DAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_, jlong jarg4, jobject jarg4_) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_VECTOR *arg2 = (FMOD_VECTOR *) 0 ;
@@ -12507,7 +12465,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Set3DAttri
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Get3DAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_, jlong jarg4, jobject jarg4_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1Get3DAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_, jlong jarg4, jobject jarg4_) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_VECTOR *arg2 = (FMOD_VECTOR *) 0 ;
@@ -12530,7 +12488,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Get3DAttri
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Set3DMinMaxDistance(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1Set3DMinMaxDistance(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   float arg2 ;
@@ -12548,7 +12506,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Set3DMinMa
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Get3DMinMaxDistance(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jfloatArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1Get3DMinMaxDistance(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jfloatArray jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -12594,7 +12552,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Get3DMinMa
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Set3DConeSettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3, jfloat jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1Set3DConeSettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3, jfloat jarg4) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   float arg2 ;
@@ -12614,7 +12572,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Set3DConeS
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Get3DConeSettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jfloatArray jarg3, jfloatArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1Get3DConeSettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jfloatArray jarg3, jfloatArray jarg4) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -12676,7 +12634,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Get3DConeS
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Set3DConeOrientation(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1Set3DConeOrientation(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_VECTOR *arg2 = (FMOD_VECTOR *) 0 ;
@@ -12693,7 +12651,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Set3DConeO
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Get3DConeOrientation(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1Get3DConeOrientation(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_VECTOR *arg2 = (FMOD_VECTOR *) 0 ;
@@ -12710,7 +12668,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Get3DConeO
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Set3DCustomRolloff(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jint jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1Set3DCustomRolloff(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jint jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_VECTOR *arg2 = (FMOD_VECTOR *) 0 ;
@@ -12729,7 +12687,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Set3DCusto
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Get3DCustomRolloff(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jintArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1Get3DCustomRolloff(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jintArray jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_VECTOR **arg2 = (FMOD_VECTOR **) 0 ;
@@ -12761,7 +12719,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Get3DCusto
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Set3DOcclusion(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1Set3DOcclusion(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   float arg2 ;
@@ -12779,7 +12737,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Set3DOcclu
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Get3DOcclusion(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jfloatArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1Get3DOcclusion(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jfloatArray jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -12825,7 +12783,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Get3DOcclu
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Set3DSpread(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1Set3DSpread(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   float arg2 ;
@@ -12841,7 +12799,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Set3DSprea
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Get3DSpread(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1Get3DSpread(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -12871,7 +12829,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Get3DSprea
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Set3DLevel(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1Set3DLevel(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   float arg2 ;
@@ -12887,7 +12845,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Set3DLevel
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Get3DLevel(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1Get3DLevel(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -12917,7 +12875,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Get3DLevel
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Set3DDopplerLevel(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1Set3DDopplerLevel(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   float arg2 ;
@@ -12933,7 +12891,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Set3DDoppl
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Get3DDopplerLevel(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1Get3DDopplerLevel(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -12963,7 +12921,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Get3DDoppl
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Set3DDistanceFilter(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloat jarg3, jfloat jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1Set3DDistanceFilter(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloat jarg3, jfloat jarg4) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_BOOL arg2 ;
@@ -12983,7 +12941,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Set3DDista
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Get3DDistanceFilter(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2, jfloatArray jarg3, jfloatArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1Get3DDistanceFilter(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2, jfloatArray jarg3, jfloatArray jarg4) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -13045,7 +13003,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Get3DDista
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   void *arg2 = (void *) 0 ;
@@ -13061,7 +13019,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1SetUserDat
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   void **arg2 = (void **) 0 ;
@@ -13077,7 +13035,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetUserDat
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Release(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1Release(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_RESULT result;
@@ -13091,7 +13049,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1Release(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1AddGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1AddGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_CHANNELGROUP *arg2 = (FMOD_CHANNELGROUP *) 0 ;
@@ -13111,7 +13069,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1AddGroup(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetNumGroups(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1GetNumGroups(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -13141,7 +13099,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetNumGrou
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1GetGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   int arg2 ;
@@ -13159,7 +13117,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetGroup(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetParentGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1GetParentGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   FMOD_CHANNELGROUP **arg2 = (FMOD_CHANNELGROUP **) 0 ;
@@ -13175,7 +13133,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetParentG
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetName(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1GetName(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -13198,7 +13156,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetName(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetNumChannels(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1GetNumChannels(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -13228,7 +13186,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetNumChan
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetChannel(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1ChannelGroup_1GetChannel(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_CHANNELGROUP *arg1 = (FMOD_CHANNELGROUP *) 0 ;
   int arg2 ;
@@ -13246,7 +13204,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1ChannelGroup_1GetChannel
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1Release(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SoundGroup_1Release(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_SOUNDGROUP *arg1 = (FMOD_SOUNDGROUP *) 0 ;
   FMOD_RESULT result;
@@ -13260,7 +13218,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1Release(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1GetSystemObject(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SoundGroup_1GetSystemObject(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_SOUNDGROUP *arg1 = (FMOD_SOUNDGROUP *) 0 ;
   FMOD_SYSTEM **arg2 = (FMOD_SYSTEM **) 0 ;
@@ -13276,7 +13234,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1GetSystemObj
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1SetMaxAudible(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SoundGroup_1SetMaxAudible(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_SOUNDGROUP *arg1 = (FMOD_SOUNDGROUP *) 0 ;
   int arg2 ;
@@ -13292,7 +13250,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1SetMaxAudibl
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1GetMaxAudible(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SoundGroup_1GetMaxAudible(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_SOUNDGROUP *arg1 = (FMOD_SOUNDGROUP *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -13322,7 +13280,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1GetMaxAudibl
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1SetMaxAudibleBehavior(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SoundGroup_1SetMaxAudibleBehavior(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_SOUNDGROUP *arg1 = (FMOD_SOUNDGROUP *) 0 ;
   FMOD_SOUNDGROUP_BEHAVIOR arg2 ;
@@ -13338,7 +13296,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1SetMaxAudibl
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1GetMaxAudibleBehavior(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SoundGroup_1GetMaxAudibleBehavior(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_SOUNDGROUP *arg1 = (FMOD_SOUNDGROUP *) 0 ;
   FMOD_SOUNDGROUP_BEHAVIOR *arg2 = (FMOD_SOUNDGROUP_BEHAVIOR *) 0 ;
@@ -13354,7 +13312,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1GetMaxAudibl
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1SetMuteFadeSpeed(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SoundGroup_1SetMuteFadeSpeed(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_SOUNDGROUP *arg1 = (FMOD_SOUNDGROUP *) 0 ;
   float arg2 ;
@@ -13370,7 +13328,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1SetMuteFadeS
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1GetMuteFadeSpeed(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SoundGroup_1GetMuteFadeSpeed(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_SOUNDGROUP *arg1 = (FMOD_SOUNDGROUP *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -13400,7 +13358,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1GetMuteFadeS
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1SetVolume(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SoundGroup_1SetVolume(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_SOUNDGROUP *arg1 = (FMOD_SOUNDGROUP *) 0 ;
   float arg2 ;
@@ -13416,7 +13374,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1SetVolume(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1GetVolume(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SoundGroup_1GetVolume(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_SOUNDGROUP *arg1 = (FMOD_SOUNDGROUP *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -13446,7 +13404,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1GetVolume(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1Stop(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SoundGroup_1Stop(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_SOUNDGROUP *arg1 = (FMOD_SOUNDGROUP *) 0 ;
   FMOD_RESULT result;
@@ -13460,7 +13418,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1Stop(JNIEnv 
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1GetName(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SoundGroup_1GetName(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3) {
   jint jresult = 0 ;
   FMOD_SOUNDGROUP *arg1 = (FMOD_SOUNDGROUP *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -13483,7 +13441,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1GetName(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1GetNumSounds(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SoundGroup_1GetNumSounds(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_SOUNDGROUP *arg1 = (FMOD_SOUNDGROUP *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -13513,7 +13471,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1GetNumSounds
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1GetSound(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SoundGroup_1GetSound(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_SOUNDGROUP *arg1 = (FMOD_SOUNDGROUP *) 0 ;
   int arg2 ;
@@ -13531,7 +13489,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1GetSound(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1GetNumPlaying(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SoundGroup_1GetNumPlaying(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_SOUNDGROUP *arg1 = (FMOD_SOUNDGROUP *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -13561,7 +13519,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1GetNumPlayin
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SoundGroup_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_SOUNDGROUP *arg1 = (FMOD_SOUNDGROUP *) 0 ;
   void *arg2 = (void *) 0 ;
@@ -13577,7 +13535,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1SetUserData(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SoundGroup_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_SOUNDGROUP *arg1 = (FMOD_SOUNDGROUP *) 0 ;
   void **arg2 = (void **) 0 ;
@@ -13593,7 +13551,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SoundGroup_1GetUserData(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1Release(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1Release(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   FMOD_RESULT result;
@@ -13607,7 +13565,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1Release(JNIEnv *jen
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetSystemObject(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1GetSystemObject(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   FMOD_SYSTEM **arg2 = (FMOD_SYSTEM **) 0 ;
@@ -13623,7 +13581,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetSystemObject(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1AddInput(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1AddInput(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   FMOD_DSP *arg2 = (FMOD_DSP *) 0 ;
@@ -13643,7 +13601,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1AddInput(JNIEnv *je
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1DisconnectFrom(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1DisconnectFrom(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   FMOD_DSP *arg2 = (FMOD_DSP *) 0 ;
@@ -13661,7 +13619,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1DisconnectFrom(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1DisconnectAll(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1DisconnectAll(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   FMOD_BOOL arg2 ;
@@ -13679,7 +13637,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1DisconnectAll(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetNumInputs(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1GetNumInputs(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -13709,7 +13667,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetNumInputs(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetNumOutputs(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1GetNumOutputs(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -13739,7 +13697,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetNumOutputs(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetInput(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1GetInput(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   int arg2 ;
@@ -13759,7 +13717,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetInput(JNIEnv *je
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetOutput(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1GetOutput(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   int arg2 ;
@@ -13779,7 +13737,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetOutput(JNIEnv *j
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1SetActive(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1SetActive(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   FMOD_BOOL arg2 ;
@@ -13795,7 +13753,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1SetActive(JNIEnv *j
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetActive(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1GetActive(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -13825,7 +13783,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetActive(JNIEnv *j
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1SetBypass(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1SetBypass(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   FMOD_BOOL arg2 ;
@@ -13841,7 +13799,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1SetBypass(JNIEnv *j
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetBypass(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1GetBypass(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -13871,7 +13829,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetBypass(JNIEnv *j
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1SetWetDryMix(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3, jfloat jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1SetWetDryMix(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3, jfloat jarg4) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   float arg2 ;
@@ -13891,7 +13849,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1SetWetDryMix(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetWetDryMix(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jfloatArray jarg3, jfloatArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1GetWetDryMix(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jfloatArray jarg3, jfloatArray jarg4) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -13953,7 +13911,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetWetDryMix(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1SetChannelFormat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1SetChannelFormat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   FMOD_CHANNELMASK arg2 ;
@@ -13973,7 +13931,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1SetChannelFormat(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetChannelFormat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2, jintArray jarg3, jlong jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1GetChannelFormat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlongArray jarg2, jintArray jarg3, jlong jarg4) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   FMOD_CHANNELMASK *arg2 = (FMOD_CHANNELMASK *) 0 ;
@@ -14021,7 +13979,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetChannelFormat(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetOutputChannelFormat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4, jlongArray jarg5, jintArray jarg6, jlong jarg7) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1GetOutputChannelFormat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4, jlongArray jarg5, jintArray jarg6, jlong jarg7) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   FMOD_CHANNELMASK arg2 ;
@@ -14075,7 +14033,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetOutputChannelFor
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1Reset(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1Reset(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   FMOD_RESULT result;
@@ -14089,7 +14047,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1Reset(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1SetParameterFloat(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloat jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1SetParameterFloat(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloat jarg3) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   int arg2 ;
@@ -14107,7 +14065,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1SetParameterFloat(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1SetParameterInt(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1SetParameterInt(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   int arg2 ;
@@ -14125,7 +14083,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1SetParameterInt(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1SetParameterBool(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1SetParameterBool(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   int arg2 ;
@@ -14143,7 +14101,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1SetParameterBool(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1SetParameterData(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1SetParameterData(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   int arg2 ;
@@ -14163,7 +14121,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1SetParameterData(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetParameterFloat(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloatArray jarg3, jstring jarg4, jint jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1GetParameterFloat(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloatArray jarg3, jstring jarg4, jint jarg5) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   int arg2 ;
@@ -14204,7 +14162,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetParameterFloat(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetParameterInt(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jintArray jarg3, jstring jarg4, jint jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1GetParameterInt(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jintArray jarg3, jstring jarg4, jint jarg5) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   int arg2 ;
@@ -14245,7 +14203,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetParameterInt(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetParameterBool(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jintArray jarg3, jstring jarg4, jint jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1GetParameterBool(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jintArray jarg3, jstring jarg4, jint jarg5) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   int arg2 ;
@@ -14286,7 +14244,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetParameterBool(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetParameterData(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlongArray jarg4, jstring jarg5, jint jarg6) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1GetParameterData(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlongArray jarg4, jstring jarg5, jint jarg6) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   int arg2 ;
@@ -14329,7 +14287,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetParameterData(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetNumParameters(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1GetNumParameters(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -14359,7 +14317,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetNumParameters(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetParameterInfo(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1GetParameterInfo(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   int arg2 ;
@@ -14377,7 +14335,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetParameterInfo(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetDataParameterIndex(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jintArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1GetDataParameterIndex(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jintArray jarg3) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   int arg2 ;
@@ -14409,7 +14367,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetDataParameterInd
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1ShowConfigDialog(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1ShowConfigDialog(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   void *arg2 = (void *) 0 ;
@@ -14427,7 +14385,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1ShowConfigDialog(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetInfo(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlongArray jarg3, jintArray jarg4, jintArray jarg5, jintArray jarg6) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1GetInfo(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlongArray jarg3, jintArray jarg4, jintArray jarg5, jintArray jarg6) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -14512,7 +14470,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetInfo(JNIEnv *jen
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetType(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1GetType(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   FMOD_DSP_TYPE *arg2 = (FMOD_DSP_TYPE *) 0 ;
@@ -14528,7 +14486,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetType(JNIEnv *jen
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetIdle(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1GetIdle(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -14558,7 +14516,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetIdle(JNIEnv *jen
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   void *arg2 = (void *) 0 ;
@@ -14574,7 +14532,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1SetUserData(JNIEnv 
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   void **arg2 = (void **) 0 ;
@@ -14590,7 +14548,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetUserData(JNIEnv 
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1SetMeteringEnabled(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1SetMeteringEnabled(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   FMOD_BOOL arg2 ;
@@ -14608,7 +14566,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1SetMeteringEnabled(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetMeteringEnabled(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2, jintArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1GetMeteringEnabled(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2, jintArray jarg3) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -14654,7 +14612,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetMeteringEnabled(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetMeteringInfo(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1GetMeteringInfo(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_DSP *arg1 = (FMOD_DSP *) 0 ;
   FMOD_DSP_METERING_INFO *arg2 = (FMOD_DSP_METERING_INFO *) 0 ;
@@ -14672,7 +14630,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1GetMeteringInfo(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSPConnection_1GetInput(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSPConnection_1GetInput(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_DSPCONNECTION *arg1 = (FMOD_DSPCONNECTION *) 0 ;
   FMOD_DSP **arg2 = (FMOD_DSP **) 0 ;
@@ -14688,7 +14646,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSPConnection_1GetInput(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSPConnection_1GetOutput(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSPConnection_1GetOutput(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_DSPCONNECTION *arg1 = (FMOD_DSPCONNECTION *) 0 ;
   FMOD_DSP **arg2 = (FMOD_DSP **) 0 ;
@@ -14704,7 +14662,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSPConnection_1GetOutput
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSPConnection_1SetMix(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSPConnection_1SetMix(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_DSPCONNECTION *arg1 = (FMOD_DSPCONNECTION *) 0 ;
   float arg2 ;
@@ -14720,7 +14678,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSPConnection_1SetMix(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSPConnection_1GetMix(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSPConnection_1GetMix(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_DSPCONNECTION *arg1 = (FMOD_DSPCONNECTION *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -14750,7 +14708,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSPConnection_1GetMix(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSPConnection_1SetMixMatrix(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jint jarg3, jint jarg4, jint jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSPConnection_1SetMixMatrix(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jint jarg3, jint jarg4, jint jarg5) {
   jint jresult = 0 ;
   FMOD_DSPCONNECTION *arg1 = (FMOD_DSPCONNECTION *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -14786,7 +14744,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSPConnection_1SetMixMat
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSPConnection_1GetMixMatrix(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jintArray jarg3, jintArray jarg4, jint jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSPConnection_1GetMixMatrix(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2, jintArray jarg3, jintArray jarg4, jint jarg5) {
   jint jresult = 0 ;
   FMOD_DSPCONNECTION *arg1 = (FMOD_DSPCONNECTION *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -14850,7 +14808,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSPConnection_1GetMixMat
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSPConnection_1GetType(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSPConnection_1GetType(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_DSPCONNECTION *arg1 = (FMOD_DSPCONNECTION *) 0 ;
   FMOD_DSPCONNECTION_TYPE *arg2 = (FMOD_DSPCONNECTION_TYPE *) 0 ;
@@ -14866,7 +14824,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSPConnection_1GetType(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSPConnection_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSPConnection_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_DSPCONNECTION *arg1 = (FMOD_DSPCONNECTION *) 0 ;
   void *arg2 = (void *) 0 ;
@@ -14882,7 +14840,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSPConnection_1SetUserDa
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSPConnection_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSPConnection_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_DSPCONNECTION *arg1 = (FMOD_DSPCONNECTION *) 0 ;
   void **arg2 = (void **) 0 ;
@@ -14898,7 +14856,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSPConnection_1GetUserDa
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1Release(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Geometry_1Release(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_GEOMETRY *arg1 = (FMOD_GEOMETRY *) 0 ;
   FMOD_RESULT result;
@@ -14912,7 +14870,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1Release(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1AddPolygon(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3, jint jarg4, jint jarg5, jlong jarg6, jobject jarg6_, jintArray jarg7) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Geometry_1AddPolygon(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3, jint jarg4, jint jarg5, jlong jarg6, jobject jarg6_, jintArray jarg7) {
   jint jresult = 0 ;
   FMOD_GEOMETRY *arg1 = (FMOD_GEOMETRY *) 0 ;
   float arg2 ;
@@ -14953,7 +14911,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1AddPolygon(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1GetNumPolygons(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Geometry_1GetNumPolygons(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_GEOMETRY *arg1 = (FMOD_GEOMETRY *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -14983,7 +14941,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1GetNumPolygons
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1GetMaxPolygons(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2, jintArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Geometry_1GetMaxPolygons(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2, jintArray jarg3) {
   jint jresult = 0 ;
   FMOD_GEOMETRY *arg1 = (FMOD_GEOMETRY *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -15029,7 +14987,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1GetMaxPolygons
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1GetPolygonNumVertices(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jintArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Geometry_1GetPolygonNumVertices(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jintArray jarg3) {
   jint jresult = 0 ;
   FMOD_GEOMETRY *arg1 = (FMOD_GEOMETRY *) 0 ;
   int arg2 ;
@@ -15061,7 +15019,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1GetPolygonNumV
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1SetPolygonVertex(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3, jlong jarg4, jobject jarg4_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Geometry_1SetPolygonVertex(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3, jlong jarg4, jobject jarg4_) {
   jint jresult = 0 ;
   FMOD_GEOMETRY *arg1 = (FMOD_GEOMETRY *) 0 ;
   int arg2 ;
@@ -15082,7 +15040,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1SetPolygonVert
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1GetPolygonVertex(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3, jlong jarg4, jobject jarg4_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Geometry_1GetPolygonVertex(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3, jlong jarg4, jobject jarg4_) {
   jint jresult = 0 ;
   FMOD_GEOMETRY *arg1 = (FMOD_GEOMETRY *) 0 ;
   int arg2 ;
@@ -15103,7 +15061,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1GetPolygonVert
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1SetPolygonAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloat jarg3, jfloat jarg4, jint jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Geometry_1SetPolygonAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloat jarg3, jfloat jarg4, jint jarg5) {
   jint jresult = 0 ;
   FMOD_GEOMETRY *arg1 = (FMOD_GEOMETRY *) 0 ;
   int arg2 ;
@@ -15125,7 +15083,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1SetPolygonAttr
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1GetPolygonAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloatArray jarg3, jfloatArray jarg4, jintArray jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Geometry_1GetPolygonAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloatArray jarg3, jfloatArray jarg4, jintArray jarg5) {
   jint jresult = 0 ;
   FMOD_GEOMETRY *arg1 = (FMOD_GEOMETRY *) 0 ;
   int arg2 ;
@@ -15189,7 +15147,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1GetPolygonAttr
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1SetActive(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Geometry_1SetActive(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_GEOMETRY *arg1 = (FMOD_GEOMETRY *) 0 ;
   FMOD_BOOL arg2 ;
@@ -15205,7 +15163,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1SetActive(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1GetActive(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Geometry_1GetActive(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_GEOMETRY *arg1 = (FMOD_GEOMETRY *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -15235,7 +15193,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1GetActive(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1SetRotation(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Geometry_1SetRotation(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_) {
   jint jresult = 0 ;
   FMOD_GEOMETRY *arg1 = (FMOD_GEOMETRY *) 0 ;
   FMOD_VECTOR *arg2 = (FMOD_VECTOR *) 0 ;
@@ -15255,7 +15213,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1SetRotation(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1GetRotation(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Geometry_1GetRotation(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_) {
   jint jresult = 0 ;
   FMOD_GEOMETRY *arg1 = (FMOD_GEOMETRY *) 0 ;
   FMOD_VECTOR *arg2 = (FMOD_VECTOR *) 0 ;
@@ -15275,7 +15233,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1GetRotation(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1SetPosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Geometry_1SetPosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   FMOD_GEOMETRY *arg1 = (FMOD_GEOMETRY *) 0 ;
   FMOD_VECTOR *arg2 = (FMOD_VECTOR *) 0 ;
@@ -15292,7 +15250,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1SetPosition(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1GetPosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Geometry_1GetPosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   FMOD_GEOMETRY *arg1 = (FMOD_GEOMETRY *) 0 ;
   FMOD_VECTOR *arg2 = (FMOD_VECTOR *) 0 ;
@@ -15309,7 +15267,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1GetPosition(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1SetScale(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Geometry_1SetScale(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   FMOD_GEOMETRY *arg1 = (FMOD_GEOMETRY *) 0 ;
   FMOD_VECTOR *arg2 = (FMOD_VECTOR *) 0 ;
@@ -15326,7 +15284,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1SetScale(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1GetScale(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Geometry_1GetScale(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   FMOD_GEOMETRY *arg1 = (FMOD_GEOMETRY *) 0 ;
   FMOD_VECTOR *arg2 = (FMOD_VECTOR *) 0 ;
@@ -15343,7 +15301,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1GetScale(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1Save(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jintArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Geometry_1Save(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jintArray jarg3) {
   jint jresult = 0 ;
   FMOD_GEOMETRY *arg1 = (FMOD_GEOMETRY *) 0 ;
   void *arg2 = (void *) 0 ;
@@ -15375,7 +15333,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1Save(JNIEnv *j
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Geometry_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_GEOMETRY *arg1 = (FMOD_GEOMETRY *) 0 ;
   void *arg2 = (void *) 0 ;
@@ -15391,7 +15349,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1SetUserData(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Geometry_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_GEOMETRY *arg1 = (FMOD_GEOMETRY *) 0 ;
   void **arg2 = (void **) 0 ;
@@ -15407,7 +15365,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Geometry_1GetUserData(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Reverb3D_1Release(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Reverb3D_1Release(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_REVERB3D *arg1 = (FMOD_REVERB3D *) 0 ;
   FMOD_RESULT result;
@@ -15421,7 +15379,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Reverb3D_1Release(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Reverb3D_1Set3DAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jfloat jarg3, jfloat jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Reverb3D_1Set3DAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jfloat jarg3, jfloat jarg4) {
   jint jresult = 0 ;
   FMOD_REVERB3D *arg1 = (FMOD_REVERB3D *) 0 ;
   FMOD_VECTOR *arg2 = (FMOD_VECTOR *) 0 ;
@@ -15442,7 +15400,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Reverb3D_1Set3DAttribute
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Reverb3D_1Get3DAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jfloatArray jarg3, jfloatArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Reverb3D_1Get3DAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jfloatArray jarg3, jfloatArray jarg4) {
   jint jresult = 0 ;
   FMOD_REVERB3D *arg1 = (FMOD_REVERB3D *) 0 ;
   FMOD_VECTOR *arg2 = (FMOD_VECTOR *) 0 ;
@@ -15491,7 +15449,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Reverb3D_1Get3DAttribute
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Reverb3D_1SetProperties(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Reverb3D_1SetProperties(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   FMOD_REVERB3D *arg1 = (FMOD_REVERB3D *) 0 ;
   FMOD_REVERB_PROPERTIES *arg2 = (FMOD_REVERB_PROPERTIES *) 0 ;
@@ -15508,7 +15466,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Reverb3D_1SetProperties(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Reverb3D_1GetProperties(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Reverb3D_1GetProperties(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   FMOD_REVERB3D *arg1 = (FMOD_REVERB3D *) 0 ;
   FMOD_REVERB_PROPERTIES *arg2 = (FMOD_REVERB_PROPERTIES *) 0 ;
@@ -15525,7 +15483,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Reverb3D_1GetProperties(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Reverb3D_1SetActive(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Reverb3D_1SetActive(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_REVERB3D *arg1 = (FMOD_REVERB3D *) 0 ;
   FMOD_BOOL arg2 ;
@@ -15541,7 +15499,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Reverb3D_1SetActive(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Reverb3D_1GetActive(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Reverb3D_1GetActive(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_REVERB3D *arg1 = (FMOD_REVERB3D *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -15571,7 +15529,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Reverb3D_1GetActive(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Reverb3D_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Reverb3D_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_REVERB3D *arg1 = (FMOD_REVERB3D *) 0 ;
   void *arg2 = (void *) 0 ;
@@ -15587,7 +15545,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Reverb3D_1SetUserData(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Reverb3D_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Reverb3D_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_REVERB3D *arg1 = (FMOD_REVERB3D *) 0 ;
   void **arg2 = (void **) 0 ;
@@ -15603,7 +15561,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Reverb3D_1GetUserData(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1INIT_1NORMAL_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1INIT_1NORMAL_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -15615,7 +15573,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1INIT_1NORMAL_1ge
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1INIT_1LIVEUPDATE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1INIT_1LIVEUPDATE_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -15627,7 +15585,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1INIT_1LIVEUPDATE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1INIT_1ALLOW_1MISSING_1PLUGINS_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1INIT_1ALLOW_1MISSING_1PLUGINS_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -15639,7 +15597,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1INIT_1ALLOW_1MIS
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1INIT_1SYNCHRONOUS_1UPDATE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1INIT_1SYNCHRONOUS_1UPDATE_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -15651,7 +15609,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1INIT_1SYNCHRONOU
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1LOADING_1STATE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1LOADING_1STATE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   enum FMOD_STUDIO_LOADING_STATE result;
   
@@ -15663,7 +15621,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1LOADING_1STATE_1
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1LOAD_1MEMORY_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1LOAD_1MEMORY_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   enum FMOD_STUDIO_LOAD_MEMORY_MODE result;
   
@@ -15675,7 +15633,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1LOAD_1MEMORY_1FO
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PARAMETER_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1PARAMETER_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   enum FMOD_STUDIO_PARAMETER_TYPE result;
   
@@ -15687,7 +15645,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PARAMETER_1FORCE
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1size_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BANK_1INFO_1size_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_STUDIO_BANK_INFO *arg1 = (struct FMOD_STUDIO_BANK_INFO *) 0 ;
   int arg2 ;
   
@@ -15700,7 +15658,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1size
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1size_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BANK_1INFO_1size_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_STUDIO_BANK_INFO *arg1 = (struct FMOD_STUDIO_BANK_INFO *) 0 ;
   int result;
@@ -15715,7 +15673,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1size
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1userData_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BANK_1INFO_1userData_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_STUDIO_BANK_INFO *arg1 = (struct FMOD_STUDIO_BANK_INFO *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -15728,7 +15686,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1user
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1userData_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BANK_1INFO_1userData_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_BANK_INFO *arg1 = (struct FMOD_STUDIO_BANK_INFO *) 0 ;
   void *result = 0 ;
@@ -15743,7 +15701,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1use
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1userDataLength_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BANK_1INFO_1userDataLength_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_STUDIO_BANK_INFO *arg1 = (struct FMOD_STUDIO_BANK_INFO *) 0 ;
   int arg2 ;
   
@@ -15756,7 +15714,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1user
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1userDataLength_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BANK_1INFO_1userDataLength_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_STUDIO_BANK_INFO *arg1 = (struct FMOD_STUDIO_BANK_INFO *) 0 ;
   int result;
@@ -15771,7 +15729,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1user
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1openCallback_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BANK_1INFO_1openCallback_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_STUDIO_BANK_INFO *arg1 = (struct FMOD_STUDIO_BANK_INFO *) 0 ;
   FMOD_FILE_OPEN_CALLBACK arg2 = (FMOD_FILE_OPEN_CALLBACK) 0 ;
   
@@ -15784,7 +15742,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1open
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1openCallback_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BANK_1INFO_1openCallback_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_BANK_INFO *arg1 = (struct FMOD_STUDIO_BANK_INFO *) 0 ;
   FMOD_FILE_OPEN_CALLBACK result;
@@ -15799,7 +15757,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1ope
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1closeCallback_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BANK_1INFO_1closeCallback_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_STUDIO_BANK_INFO *arg1 = (struct FMOD_STUDIO_BANK_INFO *) 0 ;
   FMOD_FILE_CLOSE_CALLBACK arg2 = (FMOD_FILE_CLOSE_CALLBACK) 0 ;
   
@@ -15812,7 +15770,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1clos
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1closeCallback_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BANK_1INFO_1closeCallback_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_BANK_INFO *arg1 = (struct FMOD_STUDIO_BANK_INFO *) 0 ;
   FMOD_FILE_CLOSE_CALLBACK result;
@@ -15827,7 +15785,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1clo
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1readCallback_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BANK_1INFO_1readCallback_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_STUDIO_BANK_INFO *arg1 = (struct FMOD_STUDIO_BANK_INFO *) 0 ;
   FMOD_FILE_READ_CALLBACK arg2 = (FMOD_FILE_READ_CALLBACK) 0 ;
   
@@ -15840,7 +15798,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1read
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1readCallback_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BANK_1INFO_1readCallback_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_BANK_INFO *arg1 = (struct FMOD_STUDIO_BANK_INFO *) 0 ;
   FMOD_FILE_READ_CALLBACK result;
@@ -15855,7 +15813,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1rea
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1seekCallback_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BANK_1INFO_1seekCallback_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_STUDIO_BANK_INFO *arg1 = (struct FMOD_STUDIO_BANK_INFO *) 0 ;
   FMOD_FILE_SEEK_CALLBACK arg2 = (FMOD_FILE_SEEK_CALLBACK) 0 ;
   
@@ -15868,7 +15826,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1seek
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1seekCallback_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BANK_1INFO_1seekCallback_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_BANK_INFO *arg1 = (struct FMOD_STUDIO_BANK_INFO *) 0 ;
   FMOD_FILE_SEEK_CALLBACK result;
@@ -15883,7 +15841,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1INFO_1see
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1BANK_1INFO(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1STUDIO_1BANK_1INFO(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_BANK_INFO *result = 0 ;
   
@@ -15895,7 +15853,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1BANK_1INFO
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1BANK_1INFO(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1STUDIO_1BANK_1INFO(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   struct FMOD_STUDIO_BANK_INFO *arg1 = (struct FMOD_STUDIO_BANK_INFO *) 0 ;
   
   (void)jenv;
@@ -15905,7 +15863,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1BANK_1IN
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PARAMETER_1DESCRIPTION_1name_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1PARAMETER_1DESCRIPTION_1name_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   struct FMOD_STUDIO_PARAMETER_DESCRIPTION *arg1 = (struct FMOD_STUDIO_PARAMETER_DESCRIPTION *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -15930,7 +15888,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PARAMETER_1DESCR
 }
 
 
-SWIGEXPORT jstring JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PARAMETER_1DESCRIPTION_1name_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jstring JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1PARAMETER_1DESCRIPTION_1name_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jstring jresult = 0 ;
   struct FMOD_STUDIO_PARAMETER_DESCRIPTION *arg1 = (struct FMOD_STUDIO_PARAMETER_DESCRIPTION *) 0 ;
   char *result = 0 ;
@@ -15945,7 +15903,7 @@ SWIGEXPORT jstring JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PARAMETER_1DE
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PARAMETER_1DESCRIPTION_1minimum_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1PARAMETER_1DESCRIPTION_1minimum_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_STUDIO_PARAMETER_DESCRIPTION *arg1 = (struct FMOD_STUDIO_PARAMETER_DESCRIPTION *) 0 ;
   float arg2 ;
   
@@ -15958,7 +15916,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PARAMETER_1DESCR
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PARAMETER_1DESCRIPTION_1minimum_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1PARAMETER_1DESCRIPTION_1minimum_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_STUDIO_PARAMETER_DESCRIPTION *arg1 = (struct FMOD_STUDIO_PARAMETER_DESCRIPTION *) 0 ;
   float result;
@@ -15973,7 +15931,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PARAMETER_1DES
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PARAMETER_1DESCRIPTION_1maximum_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1PARAMETER_1DESCRIPTION_1maximum_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_STUDIO_PARAMETER_DESCRIPTION *arg1 = (struct FMOD_STUDIO_PARAMETER_DESCRIPTION *) 0 ;
   float arg2 ;
   
@@ -15986,7 +15944,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PARAMETER_1DESCR
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PARAMETER_1DESCRIPTION_1maximum_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1PARAMETER_1DESCRIPTION_1maximum_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_STUDIO_PARAMETER_DESCRIPTION *arg1 = (struct FMOD_STUDIO_PARAMETER_DESCRIPTION *) 0 ;
   float result;
@@ -16001,7 +15959,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PARAMETER_1DES
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PARAMETER_1DESCRIPTION_1type_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1PARAMETER_1DESCRIPTION_1type_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_STUDIO_PARAMETER_DESCRIPTION *arg1 = (struct FMOD_STUDIO_PARAMETER_DESCRIPTION *) 0 ;
   FMOD_STUDIO_PARAMETER_TYPE arg2 ;
   
@@ -16014,7 +15972,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PARAMETER_1DESCR
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PARAMETER_1DESCRIPTION_1type_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1PARAMETER_1DESCRIPTION_1type_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_STUDIO_PARAMETER_DESCRIPTION *arg1 = (struct FMOD_STUDIO_PARAMETER_DESCRIPTION *) 0 ;
   FMOD_STUDIO_PARAMETER_TYPE result;
@@ -16029,7 +15987,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PARAMETER_1DESCR
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1PARAMETER_1DESCRIPTION(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1STUDIO_1PARAMETER_1DESCRIPTION(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_PARAMETER_DESCRIPTION *result = 0 ;
   
@@ -16041,7 +15999,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1PARAMETER_
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1PARAMETER_1DESCRIPTION(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1STUDIO_1PARAMETER_1DESCRIPTION(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   struct FMOD_STUDIO_PARAMETER_DESCRIPTION *arg1 = (struct FMOD_STUDIO_PARAMETER_DESCRIPTION *) 0 ;
   
   (void)jenv;
@@ -16051,7 +16009,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1PARAMETE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERTY_1TYPE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1USER_1PROPERTY_1TYPE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   enum FMOD_STUDIO_USER_PROPERTY_TYPE result;
   
@@ -16063,7 +16021,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERTY_1
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENT_1PROPERTY_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1EVENT_1PROPERTY_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   enum FMOD_STUDIO_EVENT_PROPERTY result;
   
@@ -16075,7 +16033,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENT_1PROPERTY_
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERTY_1name_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1USER_1PROPERTY_1name_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   struct FMOD_STUDIO_USER_PROPERTY *arg1 = (struct FMOD_STUDIO_USER_PROPERTY *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -16100,7 +16058,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERTY_1
 }
 
 
-SWIGEXPORT jstring JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERTY_1name_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jstring JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1USER_1PROPERTY_1name_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jstring jresult = 0 ;
   struct FMOD_STUDIO_USER_PROPERTY *arg1 = (struct FMOD_STUDIO_USER_PROPERTY *) 0 ;
   char *result = 0 ;
@@ -16115,7 +16073,7 @@ SWIGEXPORT jstring JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERT
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERTY_1type_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1USER_1PROPERTY_1type_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_STUDIO_USER_PROPERTY *arg1 = (struct FMOD_STUDIO_USER_PROPERTY *) 0 ;
   FMOD_STUDIO_USER_PROPERTY_TYPE arg2 ;
   
@@ -16128,7 +16086,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERTY_1
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERTY_1type_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1USER_1PROPERTY_1type_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_STUDIO_USER_PROPERTY *arg1 = (struct FMOD_STUDIO_USER_PROPERTY *) 0 ;
   FMOD_STUDIO_USER_PROPERTY_TYPE result;
@@ -16143,7 +16101,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERTY_1
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERTY_1intValue_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1USER_1PROPERTY_1intValue_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_STUDIO_USER_PROPERTY *arg1 = (struct FMOD_STUDIO_USER_PROPERTY *) 0 ;
   int arg2 ;
   
@@ -16156,7 +16114,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERTY_1
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERTY_1intValue_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1USER_1PROPERTY_1intValue_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_STUDIO_USER_PROPERTY *arg1 = (struct FMOD_STUDIO_USER_PROPERTY *) 0 ;
   int result;
@@ -16171,7 +16129,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERTY_1
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERTY_1boolValue_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1USER_1PROPERTY_1boolValue_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_STUDIO_USER_PROPERTY *arg1 = (struct FMOD_STUDIO_USER_PROPERTY *) 0 ;
   FMOD_BOOL arg2 ;
   
@@ -16184,7 +16142,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERTY_1
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERTY_1boolValue_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1USER_1PROPERTY_1boolValue_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_STUDIO_USER_PROPERTY *arg1 = (struct FMOD_STUDIO_USER_PROPERTY *) 0 ;
   FMOD_BOOL result;
@@ -16199,7 +16157,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERTY_1
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERTY_1floatValue_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1USER_1PROPERTY_1floatValue_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_STUDIO_USER_PROPERTY *arg1 = (struct FMOD_STUDIO_USER_PROPERTY *) 0 ;
   float arg2 ;
   
@@ -16212,7 +16170,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERTY_1
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERTY_1floatValue_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1USER_1PROPERTY_1floatValue_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_STUDIO_USER_PROPERTY *arg1 = (struct FMOD_STUDIO_USER_PROPERTY *) 0 ;
   float result;
@@ -16227,7 +16185,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERTY
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERTY_1stringValue_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1USER_1PROPERTY_1stringValue_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   struct FMOD_STUDIO_USER_PROPERTY *arg1 = (struct FMOD_STUDIO_USER_PROPERTY *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -16252,7 +16210,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERTY_1
 }
 
 
-SWIGEXPORT jstring JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERTY_1stringValue_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jstring JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1USER_1PROPERTY_1stringValue_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jstring jresult = 0 ;
   struct FMOD_STUDIO_USER_PROPERTY *arg1 = (struct FMOD_STUDIO_USER_PROPERTY *) 0 ;
   char *result = 0 ;
@@ -16267,7 +16225,7 @@ SWIGEXPORT jstring JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1USER_1PROPERT
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1USER_1PROPERTY(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1STUDIO_1USER_1PROPERTY(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_USER_PROPERTY *result = 0 ;
   
@@ -16279,7 +16237,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1USER_1PROP
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1USER_1PROPERTY(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1STUDIO_1USER_1PROPERTY(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   struct FMOD_STUDIO_USER_PROPERTY *arg1 = (struct FMOD_STUDIO_USER_PROPERTY *) 0 ;
   
   (void)jenv;
@@ -16289,7 +16247,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1USER_1PR
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SYSTEM_1CALLBACK_1PREUPDATE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1SYSTEM_1CALLBACK_1PREUPDATE_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -16301,7 +16259,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SYSTEM_1CALLBACK
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SYSTEM_1CALLBACK_1POSTUPDATE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1SYSTEM_1CALLBACK_1POSTUPDATE_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -16313,7 +16271,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SYSTEM_1CALLBACK
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SYSTEM_1CALLBACK_1BANK_1UNLOAD_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1SYSTEM_1CALLBACK_1BANK_1UNLOAD_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -16325,7 +16283,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SYSTEM_1CALLBACK
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SYSTEM_1CALLBACK_1ALL_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1SYSTEM_1CALLBACK_1ALL_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -16337,7 +16295,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SYSTEM_1CALLBACK
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_1STARTED_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_1STARTED_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -16349,7 +16307,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_1RESTARTED_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_1RESTARTED_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -16361,7 +16319,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_1STOPPED_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_1STOPPED_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -16373,7 +16331,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_1CREATE_1PROGRAMMER_1SOUND_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_1CREATE_1PROGRAMMER_1SOUND_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -16385,7 +16343,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_1DESTROY_1PROGRAMMER_1SOUND_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_1DESTROY_1PROGRAMMER_1SOUND_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -16397,7 +16355,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_1PLUGIN_1CREATED_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_1PLUGIN_1CREATED_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -16409,7 +16367,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_1PLUGIN_1DESTROYED_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_1PLUGIN_1DESTROYED_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -16421,7 +16379,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_1CREATED_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_1CREATED_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -16433,7 +16391,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_1DESTROYED_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_1DESTROYED_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -16445,7 +16403,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_1START_1FAILED_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_1START_1FAILED_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -16457,7 +16415,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_1ALL_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_1ALL_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -16469,7 +16427,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENT_1CALLBACK_
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PROGRAMMER_1SOUND_1PROPERTIES_1name_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1PROGRAMMER_1SOUND_1PROPERTIES_1name_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   struct FMOD_STUDIO_PROGRAMMER_SOUND_PROPERTIES *arg1 = (struct FMOD_STUDIO_PROGRAMMER_SOUND_PROPERTIES *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -16494,7 +16452,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PROGRAMMER_1SOUN
 }
 
 
-SWIGEXPORT jstring JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PROGRAMMER_1SOUND_1PROPERTIES_1name_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jstring JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1PROGRAMMER_1SOUND_1PROPERTIES_1name_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jstring jresult = 0 ;
   struct FMOD_STUDIO_PROGRAMMER_SOUND_PROPERTIES *arg1 = (struct FMOD_STUDIO_PROGRAMMER_SOUND_PROPERTIES *) 0 ;
   char *result = 0 ;
@@ -16509,7 +16467,7 @@ SWIGEXPORT jstring JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PROGRAMMER_1S
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PROGRAMMER_1SOUND_1PROPERTIES_1sound_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1PROGRAMMER_1SOUND_1PROPERTIES_1sound_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_STUDIO_PROGRAMMER_SOUND_PROPERTIES *arg1 = (struct FMOD_STUDIO_PROGRAMMER_SOUND_PROPERTIES *) 0 ;
   FMOD_SOUND *arg2 = (FMOD_SOUND *) 0 ;
   
@@ -16522,7 +16480,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PROGRAMMER_1SOUN
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PROGRAMMER_1SOUND_1PROPERTIES_1sound_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1PROGRAMMER_1SOUND_1PROPERTIES_1sound_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_PROGRAMMER_SOUND_PROPERTIES *arg1 = (struct FMOD_STUDIO_PROGRAMMER_SOUND_PROPERTIES *) 0 ;
   FMOD_SOUND *result = 0 ;
@@ -16537,7 +16495,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PROGRAMMER_1SOU
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PROGRAMMER_1SOUND_1PROPERTIES_1subsoundIndex_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1PROGRAMMER_1SOUND_1PROPERTIES_1subsoundIndex_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_STUDIO_PROGRAMMER_SOUND_PROPERTIES *arg1 = (struct FMOD_STUDIO_PROGRAMMER_SOUND_PROPERTIES *) 0 ;
   int arg2 ;
   
@@ -16550,7 +16508,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PROGRAMMER_1SOUN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PROGRAMMER_1SOUND_1PROPERTIES_1subsoundIndex_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1PROGRAMMER_1SOUND_1PROPERTIES_1subsoundIndex_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_STUDIO_PROGRAMMER_SOUND_PROPERTIES *arg1 = (struct FMOD_STUDIO_PROGRAMMER_SOUND_PROPERTIES *) 0 ;
   int result;
@@ -16565,7 +16523,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PROGRAMMER_1SOUN
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1PROGRAMMER_1SOUND_1PROPERTIES(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1STUDIO_1PROGRAMMER_1SOUND_1PROPERTIES(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_PROGRAMMER_SOUND_PROPERTIES *result = 0 ;
   
@@ -16577,7 +16535,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1PROGRAMMER
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1PROGRAMMER_1SOUND_1PROPERTIES(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1STUDIO_1PROGRAMMER_1SOUND_1PROPERTIES(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   struct FMOD_STUDIO_PROGRAMMER_SOUND_PROPERTIES *arg1 = (struct FMOD_STUDIO_PROGRAMMER_SOUND_PROPERTIES *) 0 ;
   
   (void)jenv;
@@ -16587,7 +16545,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1PROGRAMM
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PLUGIN_1INSTANCE_1PROPERTIES_1name_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1PLUGIN_1INSTANCE_1PROPERTIES_1name_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   struct FMOD_STUDIO_PLUGIN_INSTANCE_PROPERTIES *arg1 = (struct FMOD_STUDIO_PLUGIN_INSTANCE_PROPERTIES *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -16612,7 +16570,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PLUGIN_1INSTANCE
 }
 
 
-SWIGEXPORT jstring JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PLUGIN_1INSTANCE_1PROPERTIES_1name_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jstring JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1PLUGIN_1INSTANCE_1PROPERTIES_1name_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jstring jresult = 0 ;
   struct FMOD_STUDIO_PLUGIN_INSTANCE_PROPERTIES *arg1 = (struct FMOD_STUDIO_PLUGIN_INSTANCE_PROPERTIES *) 0 ;
   char *result = 0 ;
@@ -16627,7 +16585,7 @@ SWIGEXPORT jstring JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PLUGIN_1INSTA
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PLUGIN_1INSTANCE_1PROPERTIES_1dsp_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1PLUGIN_1INSTANCE_1PROPERTIES_1dsp_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_STUDIO_PLUGIN_INSTANCE_PROPERTIES *arg1 = (struct FMOD_STUDIO_PLUGIN_INSTANCE_PROPERTIES *) 0 ;
   FMOD_DSP *arg2 = (FMOD_DSP *) 0 ;
   
@@ -16640,7 +16598,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PLUGIN_1INSTANCE
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PLUGIN_1INSTANCE_1PROPERTIES_1dsp_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1PLUGIN_1INSTANCE_1PROPERTIES_1dsp_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_PLUGIN_INSTANCE_PROPERTIES *arg1 = (struct FMOD_STUDIO_PLUGIN_INSTANCE_PROPERTIES *) 0 ;
   FMOD_DSP *result = 0 ;
@@ -16655,7 +16613,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PLUGIN_1INSTANC
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1PLUGIN_1INSTANCE_1PROPERTIES(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1STUDIO_1PLUGIN_1INSTANCE_1PROPERTIES(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_PLUGIN_INSTANCE_PROPERTIES *result = 0 ;
   
@@ -16667,7 +16625,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1PLUGIN_1IN
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1PLUGIN_1INSTANCE_1PROPERTIES(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1STUDIO_1PLUGIN_1INSTANCE_1PROPERTIES(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   struct FMOD_STUDIO_PLUGIN_INSTANCE_PROPERTIES *arg1 = (struct FMOD_STUDIO_PLUGIN_INSTANCE_PROPERTIES *) 0 ;
   
   (void)jenv;
@@ -16677,7 +16635,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1PLUGIN_1
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PLAYBACK_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1PLAYBACK_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   enum FMOD_STUDIO_PLAYBACK_STATE result;
   
@@ -16689,7 +16647,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PLAYBACK_1FORCEI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1STOP_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1STOP_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   enum FMOD_STUDIO_STOP_MODE result;
   
@@ -16701,7 +16659,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1STOP_1FORCEINT_1
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1LOAD_1BANK_1NORMAL_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1LOAD_1BANK_1NORMAL_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -16713,7 +16671,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1LOAD_1BANK_1NORM
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1LOAD_1BANK_1NONBLOCKING_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1LOAD_1BANK_1NONBLOCKING_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -16725,7 +16683,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1LOAD_1BANK_1NONB
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1ADVANCEDSETTINGS_1cbSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1ADVANCEDSETTINGS_1cbSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_STUDIO_ADVANCEDSETTINGS *arg1 = (struct FMOD_STUDIO_ADVANCEDSETTINGS *) 0 ;
   int arg2 ;
   
@@ -16738,7 +16696,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1ADVANCEDSETTINGS
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1ADVANCEDSETTINGS_1cbSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1ADVANCEDSETTINGS_1cbSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_STUDIO_ADVANCEDSETTINGS *arg1 = (struct FMOD_STUDIO_ADVANCEDSETTINGS *) 0 ;
   int result;
@@ -16753,7 +16711,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1ADVANCEDSETTINGS
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1ADVANCEDSETTINGS_1commandQueueSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1ADVANCEDSETTINGS_1commandQueueSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_STUDIO_ADVANCEDSETTINGS *arg1 = (struct FMOD_STUDIO_ADVANCEDSETTINGS *) 0 ;
   unsigned int arg2 ;
   
@@ -16766,7 +16724,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1ADVANCEDSETTINGS
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1ADVANCEDSETTINGS_1commandQueueSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1ADVANCEDSETTINGS_1commandQueueSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_ADVANCEDSETTINGS *arg1 = (struct FMOD_STUDIO_ADVANCEDSETTINGS *) 0 ;
   unsigned int result;
@@ -16781,7 +16739,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1ADVANCEDSETTING
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1ADVANCEDSETTINGS_1handleInitialSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1ADVANCEDSETTINGS_1handleInitialSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_STUDIO_ADVANCEDSETTINGS *arg1 = (struct FMOD_STUDIO_ADVANCEDSETTINGS *) 0 ;
   unsigned int arg2 ;
   
@@ -16794,7 +16752,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1ADVANCEDSETTINGS
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1ADVANCEDSETTINGS_1handleInitialSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1ADVANCEDSETTINGS_1handleInitialSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_ADVANCEDSETTINGS *arg1 = (struct FMOD_STUDIO_ADVANCEDSETTINGS *) 0 ;
   unsigned int result;
@@ -16809,7 +16767,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1ADVANCEDSETTING
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1ADVANCEDSETTINGS_1studioUpdatePeriod_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1ADVANCEDSETTINGS_1studioUpdatePeriod_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_STUDIO_ADVANCEDSETTINGS *arg1 = (struct FMOD_STUDIO_ADVANCEDSETTINGS *) 0 ;
   int arg2 ;
   
@@ -16822,7 +16780,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1ADVANCEDSETTINGS
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1ADVANCEDSETTINGS_1studioUpdatePeriod_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1ADVANCEDSETTINGS_1studioUpdatePeriod_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_STUDIO_ADVANCEDSETTINGS *arg1 = (struct FMOD_STUDIO_ADVANCEDSETTINGS *) 0 ;
   int result;
@@ -16837,7 +16795,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1ADVANCEDSETTINGS
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1ADVANCEDSETTINGS(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1STUDIO_1ADVANCEDSETTINGS(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_ADVANCEDSETTINGS *result = 0 ;
   
@@ -16849,7 +16807,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1ADVANCEDSE
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1ADVANCEDSETTINGS(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1STUDIO_1ADVANCEDSETTINGS(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   struct FMOD_STUDIO_ADVANCEDSETTINGS *arg1 = (struct FMOD_STUDIO_ADVANCEDSETTINGS *) 0 ;
   
   (void)jenv;
@@ -16859,7 +16817,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1ADVANCED
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1CPU_1USAGE_1dspUsage_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1CPU_1USAGE_1dspUsage_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_STUDIO_CPU_USAGE *arg1 = (struct FMOD_STUDIO_CPU_USAGE *) 0 ;
   float arg2 ;
   
@@ -16872,7 +16830,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1CPU_1USAGE_1dspU
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1CPU_1USAGE_1dspUsage_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1CPU_1USAGE_1dspUsage_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_STUDIO_CPU_USAGE *arg1 = (struct FMOD_STUDIO_CPU_USAGE *) 0 ;
   float result;
@@ -16887,7 +16845,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1CPU_1USAGE_1ds
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1CPU_1USAGE_1streamUsage_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1CPU_1USAGE_1streamUsage_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_STUDIO_CPU_USAGE *arg1 = (struct FMOD_STUDIO_CPU_USAGE *) 0 ;
   float arg2 ;
   
@@ -16900,7 +16858,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1CPU_1USAGE_1stre
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1CPU_1USAGE_1streamUsage_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1CPU_1USAGE_1streamUsage_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_STUDIO_CPU_USAGE *arg1 = (struct FMOD_STUDIO_CPU_USAGE *) 0 ;
   float result;
@@ -16915,7 +16873,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1CPU_1USAGE_1st
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1CPU_1USAGE_1geometryUsage_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1CPU_1USAGE_1geometryUsage_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_STUDIO_CPU_USAGE *arg1 = (struct FMOD_STUDIO_CPU_USAGE *) 0 ;
   float arg2 ;
   
@@ -16928,7 +16886,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1CPU_1USAGE_1geom
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1CPU_1USAGE_1geometryUsage_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1CPU_1USAGE_1geometryUsage_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_STUDIO_CPU_USAGE *arg1 = (struct FMOD_STUDIO_CPU_USAGE *) 0 ;
   float result;
@@ -16943,7 +16901,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1CPU_1USAGE_1ge
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1CPU_1USAGE_1updateUsage_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1CPU_1USAGE_1updateUsage_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_STUDIO_CPU_USAGE *arg1 = (struct FMOD_STUDIO_CPU_USAGE *) 0 ;
   float arg2 ;
   
@@ -16956,7 +16914,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1CPU_1USAGE_1upda
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1CPU_1USAGE_1updateUsage_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1CPU_1USAGE_1updateUsage_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_STUDIO_CPU_USAGE *arg1 = (struct FMOD_STUDIO_CPU_USAGE *) 0 ;
   float result;
@@ -16971,7 +16929,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1CPU_1USAGE_1up
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1CPU_1USAGE_1studioUsage_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1CPU_1USAGE_1studioUsage_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_STUDIO_CPU_USAGE *arg1 = (struct FMOD_STUDIO_CPU_USAGE *) 0 ;
   float arg2 ;
   
@@ -16984,7 +16942,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1CPU_1USAGE_1stud
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1CPU_1USAGE_1studioUsage_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1CPU_1USAGE_1studioUsage_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_STUDIO_CPU_USAGE *arg1 = (struct FMOD_STUDIO_CPU_USAGE *) 0 ;
   float result;
@@ -16999,7 +16957,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1CPU_1USAGE_1st
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1CPU_1USAGE(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1STUDIO_1CPU_1USAGE(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_CPU_USAGE *result = 0 ;
   
@@ -17011,7 +16969,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1CPU_1USAGE
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1CPU_1USAGE(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1STUDIO_1CPU_1USAGE(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   struct FMOD_STUDIO_CPU_USAGE *arg1 = (struct FMOD_STUDIO_CPU_USAGE *) 0 ;
   
   (void)jenv;
@@ -17021,7 +16979,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1CPU_1USA
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1INFO_1currentUsage_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BUFFER_1INFO_1currentUsage_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_STUDIO_BUFFER_INFO *arg1 = (struct FMOD_STUDIO_BUFFER_INFO *) 0 ;
   int arg2 ;
   
@@ -17034,7 +16992,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1INFO_1cu
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1INFO_1currentUsage_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BUFFER_1INFO_1currentUsage_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_STUDIO_BUFFER_INFO *arg1 = (struct FMOD_STUDIO_BUFFER_INFO *) 0 ;
   int result;
@@ -17049,7 +17007,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1INFO_1cu
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1INFO_1peakUsage_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BUFFER_1INFO_1peakUsage_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_STUDIO_BUFFER_INFO *arg1 = (struct FMOD_STUDIO_BUFFER_INFO *) 0 ;
   int arg2 ;
   
@@ -17062,7 +17020,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1INFO_1pe
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1INFO_1peakUsage_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BUFFER_1INFO_1peakUsage_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_STUDIO_BUFFER_INFO *arg1 = (struct FMOD_STUDIO_BUFFER_INFO *) 0 ;
   int result;
@@ -17077,7 +17035,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1INFO_1pe
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1INFO_1capacity_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BUFFER_1INFO_1capacity_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_STUDIO_BUFFER_INFO *arg1 = (struct FMOD_STUDIO_BUFFER_INFO *) 0 ;
   int arg2 ;
   
@@ -17090,7 +17048,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1INFO_1ca
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1INFO_1capacity_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BUFFER_1INFO_1capacity_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_STUDIO_BUFFER_INFO *arg1 = (struct FMOD_STUDIO_BUFFER_INFO *) 0 ;
   int result;
@@ -17105,7 +17063,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1INFO_1ca
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1INFO_1stallCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BUFFER_1INFO_1stallCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_STUDIO_BUFFER_INFO *arg1 = (struct FMOD_STUDIO_BUFFER_INFO *) 0 ;
   int arg2 ;
   
@@ -17118,7 +17076,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1INFO_1st
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1INFO_1stallCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BUFFER_1INFO_1stallCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_STUDIO_BUFFER_INFO *arg1 = (struct FMOD_STUDIO_BUFFER_INFO *) 0 ;
   int result;
@@ -17133,7 +17091,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1INFO_1st
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1INFO_1stallTime_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BUFFER_1INFO_1stallTime_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_STUDIO_BUFFER_INFO *arg1 = (struct FMOD_STUDIO_BUFFER_INFO *) 0 ;
   float arg2 ;
   
@@ -17146,7 +17104,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1INFO_1st
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1INFO_1stallTime_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BUFFER_1INFO_1stallTime_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_STUDIO_BUFFER_INFO *arg1 = (struct FMOD_STUDIO_BUFFER_INFO *) 0 ;
   float result;
@@ -17161,7 +17119,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1INFO_1
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1BUFFER_1INFO(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1STUDIO_1BUFFER_1INFO(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_BUFFER_INFO *result = 0 ;
   
@@ -17173,7 +17131,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1BUFFER_1IN
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1BUFFER_1INFO(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1STUDIO_1BUFFER_1INFO(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   struct FMOD_STUDIO_BUFFER_INFO *arg1 = (struct FMOD_STUDIO_BUFFER_INFO *) 0 ;
   
   (void)jenv;
@@ -17183,7 +17141,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1BUFFER_1
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1USAGE_1studioCommandQueue_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BUFFER_1USAGE_1studioCommandQueue_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   struct FMOD_STUDIO_BUFFER_USAGE *arg1 = (struct FMOD_STUDIO_BUFFER_USAGE *) 0 ;
   FMOD_STUDIO_BUFFER_INFO *arg2 = (FMOD_STUDIO_BUFFER_INFO *) 0 ;
   
@@ -17197,7 +17155,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1USAGE_1s
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1USAGE_1studioCommandQueue_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BUFFER_1USAGE_1studioCommandQueue_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_BUFFER_USAGE *arg1 = (struct FMOD_STUDIO_BUFFER_USAGE *) 0 ;
   FMOD_STUDIO_BUFFER_INFO *result = 0 ;
@@ -17212,7 +17170,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1USAGE_1
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1USAGE_1studioHandle_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BUFFER_1USAGE_1studioHandle_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   struct FMOD_STUDIO_BUFFER_USAGE *arg1 = (struct FMOD_STUDIO_BUFFER_USAGE *) 0 ;
   FMOD_STUDIO_BUFFER_INFO *arg2 = (FMOD_STUDIO_BUFFER_INFO *) 0 ;
   
@@ -17226,7 +17184,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1USAGE_1s
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1USAGE_1studioHandle_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BUFFER_1USAGE_1studioHandle_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_BUFFER_USAGE *arg1 = (struct FMOD_STUDIO_BUFFER_USAGE *) 0 ;
   FMOD_STUDIO_BUFFER_INFO *result = 0 ;
@@ -17241,7 +17199,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUFFER_1USAGE_1
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1BUFFER_1USAGE(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1STUDIO_1BUFFER_1USAGE(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_BUFFER_USAGE *result = 0 ;
   
@@ -17253,7 +17211,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1BUFFER_1US
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1BUFFER_1USAGE(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1STUDIO_1BUFFER_1USAGE(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   struct FMOD_STUDIO_BUFFER_USAGE *arg1 = (struct FMOD_STUDIO_BUFFER_USAGE *) 0 ;
   
   (void)jenv;
@@ -17263,7 +17221,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1BUFFER_1
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SOUND_1INFO_1name_1or_1data_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1SOUND_1INFO_1name_1or_1data_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   struct FMOD_STUDIO_SOUND_INFO *arg1 = (struct FMOD_STUDIO_SOUND_INFO *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -17288,7 +17246,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SOUND_1INFO_1nam
 }
 
 
-SWIGEXPORT jstring JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SOUND_1INFO_1name_1or_1data_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jstring JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1SOUND_1INFO_1name_1or_1data_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jstring jresult = 0 ;
   struct FMOD_STUDIO_SOUND_INFO *arg1 = (struct FMOD_STUDIO_SOUND_INFO *) 0 ;
   char *result = 0 ;
@@ -17303,7 +17261,7 @@ SWIGEXPORT jstring JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SOUND_1INFO_1
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SOUND_1INFO_1mode_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1SOUND_1INFO_1mode_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_STUDIO_SOUND_INFO *arg1 = (struct FMOD_STUDIO_SOUND_INFO *) 0 ;
   FMOD_MODE arg2 ;
   
@@ -17316,7 +17274,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SOUND_1INFO_1mod
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SOUND_1INFO_1mode_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1SOUND_1INFO_1mode_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_SOUND_INFO *arg1 = (struct FMOD_STUDIO_SOUND_INFO *) 0 ;
   FMOD_MODE result;
@@ -17331,7 +17289,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SOUND_1INFO_1mo
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SOUND_1INFO_1exinfo_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1SOUND_1INFO_1exinfo_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   struct FMOD_STUDIO_SOUND_INFO *arg1 = (struct FMOD_STUDIO_SOUND_INFO *) 0 ;
   FMOD_CREATESOUNDEXINFO *arg2 = (FMOD_CREATESOUNDEXINFO *) 0 ;
   
@@ -17345,7 +17303,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SOUND_1INFO_1exi
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SOUND_1INFO_1exinfo_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1SOUND_1INFO_1exinfo_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_SOUND_INFO *arg1 = (struct FMOD_STUDIO_SOUND_INFO *) 0 ;
   FMOD_CREATESOUNDEXINFO *result = 0 ;
@@ -17360,7 +17318,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SOUND_1INFO_1ex
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SOUND_1INFO_1subsoundIndex_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1SOUND_1INFO_1subsoundIndex_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_STUDIO_SOUND_INFO *arg1 = (struct FMOD_STUDIO_SOUND_INFO *) 0 ;
   int arg2 ;
   
@@ -17373,7 +17331,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SOUND_1INFO_1sub
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SOUND_1INFO_1subsoundIndex_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1SOUND_1INFO_1subsoundIndex_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_STUDIO_SOUND_INFO *arg1 = (struct FMOD_STUDIO_SOUND_INFO *) 0 ;
   int result;
@@ -17388,7 +17346,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SOUND_1INFO_1sub
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1SOUND_1INFO(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1STUDIO_1SOUND_1INFO(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_SOUND_INFO *result = 0 ;
   
@@ -17400,7 +17358,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1SOUND_1INF
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1SOUND_1INFO(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1STUDIO_1SOUND_1INFO(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   struct FMOD_STUDIO_SOUND_INFO *arg1 = (struct FMOD_STUDIO_SOUND_INFO *) 0 ;
   
   (void)jenv;
@@ -17410,7 +17368,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1SOUND_1I
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMANDCAPTURE_1NORMAL_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1COMMANDCAPTURE_1NORMAL_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -17422,7 +17380,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMANDCAPTURE_1
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMANDCAPTURE_1FILEFLUSH_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1COMMANDCAPTURE_1FILEFLUSH_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -17434,7 +17392,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMANDCAPTURE_1
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMANDCAPTURE_1SKIP_1INITIAL_1STATE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1COMMANDCAPTURE_1SKIP_1INITIAL_1STATE_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -17446,7 +17404,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMANDCAPTURE_1
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMANDREPLAY_1NORMAL_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1COMMANDREPLAY_1NORMAL_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -17458,7 +17416,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMANDREPLAY_1N
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMANDREPLAY_1SKIP_1CLEANUP_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1COMMANDREPLAY_1SKIP_1CLEANUP_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -17470,7 +17428,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMANDREPLAY_1S
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1INSTANCETYPE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1INSTANCETYPE_1FORCEINT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   enum FMOD_STUDIO_INSTANCETYPE result;
   
@@ -17482,7 +17440,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1INSTANCETYPE_1FO
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1commandName_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1COMMAND_1INFO_1commandName_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   struct FMOD_STUDIO_COMMAND_INFO *arg1 = (struct FMOD_STUDIO_COMMAND_INFO *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -17507,7 +17465,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1c
 }
 
 
-SWIGEXPORT jstring JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1commandName_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jstring JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1COMMAND_1INFO_1commandName_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jstring jresult = 0 ;
   struct FMOD_STUDIO_COMMAND_INFO *arg1 = (struct FMOD_STUDIO_COMMAND_INFO *) 0 ;
   char *result = 0 ;
@@ -17522,7 +17480,7 @@ SWIGEXPORT jstring JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1parentCommandIndex_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1COMMAND_1INFO_1parentCommandIndex_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_STUDIO_COMMAND_INFO *arg1 = (struct FMOD_STUDIO_COMMAND_INFO *) 0 ;
   int arg2 ;
   
@@ -17535,7 +17493,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1p
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1parentCommandIndex_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1COMMAND_1INFO_1parentCommandIndex_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_STUDIO_COMMAND_INFO *arg1 = (struct FMOD_STUDIO_COMMAND_INFO *) 0 ;
   int result;
@@ -17550,7 +17508,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1p
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1frameNumber_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1COMMAND_1INFO_1frameNumber_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_STUDIO_COMMAND_INFO *arg1 = (struct FMOD_STUDIO_COMMAND_INFO *) 0 ;
   int arg2 ;
   
@@ -17563,7 +17521,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1f
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1frameNumber_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1COMMAND_1INFO_1frameNumber_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_STUDIO_COMMAND_INFO *arg1 = (struct FMOD_STUDIO_COMMAND_INFO *) 0 ;
   int result;
@@ -17578,7 +17536,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1f
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1frameTime_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1COMMAND_1INFO_1frameTime_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   struct FMOD_STUDIO_COMMAND_INFO *arg1 = (struct FMOD_STUDIO_COMMAND_INFO *) 0 ;
   float arg2 ;
   
@@ -17591,7 +17549,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1f
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1frameTime_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1COMMAND_1INFO_1frameTime_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   struct FMOD_STUDIO_COMMAND_INFO *arg1 = (struct FMOD_STUDIO_COMMAND_INFO *) 0 ;
   float result;
@@ -17606,7 +17564,7 @@ SWIGEXPORT jfloat JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1instanceType_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1COMMAND_1INFO_1instanceType_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_STUDIO_COMMAND_INFO *arg1 = (struct FMOD_STUDIO_COMMAND_INFO *) 0 ;
   FMOD_STUDIO_INSTANCETYPE arg2 ;
   
@@ -17619,7 +17577,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1i
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1instanceType_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1COMMAND_1INFO_1instanceType_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_STUDIO_COMMAND_INFO *arg1 = (struct FMOD_STUDIO_COMMAND_INFO *) 0 ;
   FMOD_STUDIO_INSTANCETYPE result;
@@ -17634,7 +17592,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1i
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1outputType_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1COMMAND_1INFO_1outputType_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   struct FMOD_STUDIO_COMMAND_INFO *arg1 = (struct FMOD_STUDIO_COMMAND_INFO *) 0 ;
   FMOD_STUDIO_INSTANCETYPE arg2 ;
   
@@ -17647,7 +17605,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1o
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1outputType_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1COMMAND_1INFO_1outputType_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   struct FMOD_STUDIO_COMMAND_INFO *arg1 = (struct FMOD_STUDIO_COMMAND_INFO *) 0 ;
   FMOD_STUDIO_INSTANCETYPE result;
@@ -17662,7 +17620,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1o
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1instanceHandle_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1COMMAND_1INFO_1instanceHandle_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_STUDIO_COMMAND_INFO *arg1 = (struct FMOD_STUDIO_COMMAND_INFO *) 0 ;
   unsigned int arg2 ;
   
@@ -17675,7 +17633,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1i
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1instanceHandle_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1COMMAND_1INFO_1instanceHandle_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_COMMAND_INFO *arg1 = (struct FMOD_STUDIO_COMMAND_INFO *) 0 ;
   unsigned int result;
@@ -17690,7 +17648,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1outputHandle_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1COMMAND_1INFO_1outputHandle_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   struct FMOD_STUDIO_COMMAND_INFO *arg1 = (struct FMOD_STUDIO_COMMAND_INFO *) 0 ;
   unsigned int arg2 ;
   
@@ -17703,7 +17661,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1o
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1outputHandle_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1COMMAND_1INFO_1outputHandle_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_COMMAND_INFO *arg1 = (struct FMOD_STUDIO_COMMAND_INFO *) 0 ;
   unsigned int result;
@@ -17718,7 +17676,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1COMMAND_1INFO_1
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1COMMAND_1INFO(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1STUDIO_1COMMAND_1INFO(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   struct FMOD_STUDIO_COMMAND_INFO *result = 0 ;
   
@@ -17730,7 +17688,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1COMMAND_1I
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1COMMAND_1INFO(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1STUDIO_1COMMAND_1INFO(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   struct FMOD_STUDIO_COMMAND_INFO *arg1 = (struct FMOD_STUDIO_COMMAND_INFO *) 0 ;
   
   (void)jenv;
@@ -17740,7 +17698,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1COMMAND_
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1ParseID(JNIEnv *jenv, jclass jcls, jstring jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1ParseID(JNIEnv *jenv, jclass jcls, jstring jarg1, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   char *arg1 = (char *) 0 ;
   FMOD_GUID *arg2 = (FMOD_GUID *) 0 ;
@@ -17762,7 +17720,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1ParseID(JNIEnv *
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1Create(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1Create(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM **arg1 = (FMOD_STUDIO_SYSTEM **) 0 ;
   unsigned int arg2 ;
@@ -17778,7 +17736,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1Create(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1IsValid(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1IsValid(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   FMOD_BOOL result;
@@ -17792,7 +17750,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1IsValid(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1SetAdvancedSettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1SetAdvancedSettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   FMOD_STUDIO_ADVANCEDSETTINGS *arg2 = (FMOD_STUDIO_ADVANCEDSETTINGS *) 0 ;
@@ -17809,7 +17767,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1SetAdvan
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetAdvancedSettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1GetAdvancedSettings(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   FMOD_STUDIO_ADVANCEDSETTINGS *arg2 = (FMOD_STUDIO_ADVANCEDSETTINGS *) 0 ;
@@ -17826,7 +17784,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetAdvan
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1Initialize(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1Initialize(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   int arg2 ;
@@ -17848,7 +17806,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1Initiali
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1Release(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1Release(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   FMOD_RESULT result;
@@ -17862,7 +17820,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1Release(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1Update(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1Update(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   FMOD_RESULT result;
@@ -17876,7 +17834,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1Update(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetLowLevelSystem(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1GetLowLevelSystem(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   FMOD_SYSTEM **arg2 = (FMOD_SYSTEM **) 0 ;
@@ -17892,7 +17850,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetLowLe
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetEvent(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1GetEvent(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -17915,7 +17873,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetEvent
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetBus(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1GetBus(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -17938,7 +17896,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetBus(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetVCA(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1GetVCA(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -17961,7 +17919,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetVCA(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetBank(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1GetBank(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -17984,7 +17942,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetBank(
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetEventByID(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1GetEventByID(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   FMOD_GUID *arg2 = (FMOD_GUID *) 0 ;
@@ -18003,7 +17961,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetEvent
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetBusByID(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1GetBusByID(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   FMOD_GUID *arg2 = (FMOD_GUID *) 0 ;
@@ -18022,7 +17980,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetBusBy
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetVCAByID(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1GetVCAByID(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   FMOD_GUID *arg2 = (FMOD_GUID *) 0 ;
@@ -18041,7 +17999,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetVCABy
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetBankByID(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1GetBankByID(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   FMOD_GUID *arg2 = (FMOD_GUID *) 0 ;
@@ -18060,7 +18018,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetBankB
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetSoundInfo(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1GetSoundInfo(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jobject jarg3_) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -18084,7 +18042,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetSound
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1LookupID(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1LookupID(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jobject jarg3_) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -18108,7 +18066,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1LookupID
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1LookupPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jstring jarg3, jint jarg4, jintArray jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1LookupPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jstring jarg3, jint jarg4, jintArray jarg5) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   FMOD_GUID *arg2 = (FMOD_GUID *) 0 ;
@@ -18150,7 +18108,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1LookupPa
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetNumListeners(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1GetNumListeners(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -18180,7 +18138,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetNumLi
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1SetNumListeners(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1SetNumListeners(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   int arg2 ;
@@ -18196,7 +18154,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1SetNumLi
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetListenerAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1GetListenerAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jobject jarg3_) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   int arg2 ;
@@ -18215,7 +18173,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetListe
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1SetListenerAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1SetListenerAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jobject jarg3_) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   int arg2 ;
@@ -18234,7 +18192,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1SetListe
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1LoadBankFile(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1LoadBankFile(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jlong jarg4) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -18259,7 +18217,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1LoadBank
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1LoadBankMemory(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3, jint jarg4, jlong jarg5, jlong jarg6) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1LoadBankMemory(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3, jint jarg4, jlong jarg5, jlong jarg6) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -18288,7 +18246,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1LoadBank
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1LoadBankCustom(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jlong jarg3, jlong jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1LoadBankCustom(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jlong jarg3, jlong jarg4) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   FMOD_STUDIO_BANK_INFO *arg2 = (FMOD_STUDIO_BANK_INFO *) 0 ;
@@ -18309,7 +18267,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1LoadBank
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1RegisterPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1RegisterPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   FMOD_DSP_DESCRIPTION *arg2 = (FMOD_DSP_DESCRIPTION *) 0 ;
@@ -18325,7 +18283,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1Register
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1UnregisterPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1UnregisterPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -18346,7 +18304,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1Unregist
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1UnloadAll(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1UnloadAll(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   FMOD_RESULT result;
@@ -18360,7 +18318,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1UnloadAl
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1FlushCommands(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1FlushCommands(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   FMOD_RESULT result;
@@ -18374,7 +18332,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1FlushCom
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1StartCommandCapture(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1StartCommandCapture(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -18397,7 +18355,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1StartCom
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1StopCommandCapture(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1StopCommandCapture(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   FMOD_RESULT result;
@@ -18411,7 +18369,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1StopComm
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1LoadCommandReplay(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1LoadCommandReplay(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jlong jarg4) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -18436,7 +18394,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1LoadComm
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetBankCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1GetBankCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -18466,7 +18424,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetBankC
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetBankList(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jintArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1GetBankList(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jintArray jarg4) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   FMOD_STUDIO_BANK **arg2 = (FMOD_STUDIO_BANK **) 0 ;
@@ -18500,7 +18458,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetBankL
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetCPUUsage(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1GetCPUUsage(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   FMOD_STUDIO_CPU_USAGE *arg2 = (FMOD_STUDIO_CPU_USAGE *) 0 ;
@@ -18517,7 +18475,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetCPUUs
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetBufferUsage(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1GetBufferUsage(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   FMOD_STUDIO_BUFFER_USAGE *arg2 = (FMOD_STUDIO_BUFFER_USAGE *) 0 ;
@@ -18534,7 +18492,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetBuffe
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1ResetBufferUsage(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1ResetBufferUsage(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   FMOD_RESULT result;
@@ -18548,7 +18506,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1ResetBuf
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1SetCallback(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1SetCallback(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   FMOD_STUDIO_SYSTEM_CALLBACK arg2 = (FMOD_STUDIO_SYSTEM_CALLBACK) 0 ;
@@ -18566,7 +18524,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1SetCallb
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   void *arg2 = (void *) 0 ;
@@ -18582,7 +18540,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1SetUserD
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   void **arg2 = (void **) 0 ;
@@ -18598,7 +18556,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1System_1GetUserD
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1IsValid(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1IsValid(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   FMOD_BOOL result;
@@ -18612,7 +18570,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1GetID(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1GetID(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   FMOD_GUID *arg2 = (FMOD_GUID *) 0 ;
@@ -18629,7 +18587,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1GetPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3, jintArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1GetPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3, jintArray jarg4) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -18668,7 +18626,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1GetParameterCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1GetParameterCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -18698,7 +18656,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1GetParameterByIndex(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1GetParameterByIndex(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jobject jarg3_) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   int arg2 ;
@@ -18717,7 +18675,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1GetParameter(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1GetParameter(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jobject jarg3_) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -18741,7 +18699,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1GetUserPropertyCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1GetUserPropertyCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -18771,7 +18729,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1GetUserPropertyByIndex(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1GetUserPropertyByIndex(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jobject jarg3_) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   int arg2 ;
@@ -18790,7 +18748,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1GetUserProperty(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1GetUserProperty(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jobject jarg3_) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -18814,7 +18772,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1GetLength(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1GetLength(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -18844,7 +18802,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1GetMinimumDistance(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1GetMinimumDistance(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -18874,7 +18832,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1GetMaximumDistance(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1GetMaximumDistance(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -18904,7 +18862,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1IsOneshot(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1IsOneshot(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -18934,7 +18892,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1IsStream(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1IsStream(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -18964,7 +18922,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1Is3D(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1Is3D(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -18994,7 +18952,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1CreateInstance(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1CreateInstance(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   FMOD_STUDIO_EVENTINSTANCE **arg2 = (FMOD_STUDIO_EVENTINSTANCE **) 0 ;
@@ -19010,7 +18968,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1GetInstanceCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1GetInstanceCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -19040,7 +18998,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1GetInstanceList(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jintArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1GetInstanceList(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jintArray jarg4) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   FMOD_STUDIO_EVENTINSTANCE **arg2 = (FMOD_STUDIO_EVENTINSTANCE **) 0 ;
@@ -19074,7 +19032,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1LoadSampleData(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1LoadSampleData(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   FMOD_RESULT result;
@@ -19088,7 +19046,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1UnloadSampleData(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1UnloadSampleData(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   FMOD_RESULT result;
@@ -19102,7 +19060,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1GetSampleLoadingState(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1GetSampleLoadingState(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   FMOD_STUDIO_LOADING_STATE *arg2 = (FMOD_STUDIO_LOADING_STATE *) 0 ;
@@ -19118,7 +19076,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1ReleaseAllInstances(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1ReleaseAllInstances(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   FMOD_RESULT result;
@@ -19132,7 +19090,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1SetCallback(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1SetCallback(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   FMOD_STUDIO_EVENT_CALLBACK arg2 = (FMOD_STUDIO_EVENT_CALLBACK) 0 ;
@@ -19150,7 +19108,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   void **arg2 = (void **) 0 ;
@@ -19166,7 +19124,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   void *arg2 = (void *) 0 ;
@@ -19182,7 +19140,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1IsValid(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1IsValid(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   FMOD_BOOL result;
@@ -19196,7 +19154,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1I
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1GetDescription(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1GetDescription(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION **arg2 = (FMOD_STUDIO_EVENTDESCRIPTION **) 0 ;
@@ -19212,7 +19170,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1G
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1GetVolume(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1GetVolume(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -19242,7 +19200,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1G
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1SetVolume(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1SetVolume(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   float arg2 ;
@@ -19258,7 +19216,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1S
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1GetPitch(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1GetPitch(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -19288,7 +19246,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1G
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1SetPitch(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1SetPitch(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   float arg2 ;
@@ -19304,7 +19262,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1S
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1Get3DAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1Get3DAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   FMOD_3D_ATTRIBUTES *arg2 = (FMOD_3D_ATTRIBUTES *) 0 ;
@@ -19321,7 +19279,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1G
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1Set3DAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1Set3DAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   FMOD_3D_ATTRIBUTES *arg2 = (FMOD_3D_ATTRIBUTES *) 0 ;
@@ -19338,7 +19296,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1S
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1GetProperty(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloatArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1GetProperty(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloatArray jarg3) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   FMOD_STUDIO_EVENT_PROPERTY arg2 ;
@@ -19370,7 +19328,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1G
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1SetProperty(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloat jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1SetProperty(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloat jarg3) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   FMOD_STUDIO_EVENT_PROPERTY arg2 ;
@@ -19388,7 +19346,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1S
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1GetPaused(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1GetPaused(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -19418,7 +19376,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1G
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1SetPaused(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1SetPaused(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   FMOD_BOOL arg2 ;
@@ -19434,7 +19392,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1S
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1Start(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1Start(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   FMOD_RESULT result;
@@ -19448,7 +19406,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1S
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1Stop(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1Stop(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   FMOD_STUDIO_STOP_MODE arg2 ;
@@ -19464,7 +19422,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1S
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1GetTimelinePosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1GetTimelinePosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -19494,7 +19452,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1G
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1SetTimelinePosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1SetTimelinePosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   int arg2 ;
@@ -19510,23 +19468,39 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1S
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1GetPlaybackState(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1GetPlaybackState(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   FMOD_STUDIO_PLAYBACK_STATE *arg2 = (FMOD_STUDIO_PLAYBACK_STATE *) 0 ;
+  FMOD_STUDIO_PLAYBACK_STATE temp2 ;
   FMOD_RESULT result;
   
   (void)jenv;
   (void)jcls;
   arg1 = *(FMOD_STUDIO_EVENTINSTANCE **)&jarg1; 
-  arg2 = *(FMOD_STUDIO_PLAYBACK_STATE **)&jarg2; 
+  {
+    if (!jarg2) {
+      SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "array null");
+      return 0;
+    }
+    if ((*jenv)->GetArrayLength(jenv, jarg2) == 0) {
+      SWIG_JavaThrowException(jenv, SWIG_JavaIndexOutOfBoundsException, "Array must contain at least 1 element");
+      return 0;
+    }
+    arg2 = (FMOD_STUDIO_PLAYBACK_STATE *)&temp2;
+  }
   result = (FMOD_RESULT)FMOD_Studio_EventInstance_GetPlaybackState(arg1,arg2);
   jresult = (jint)result; 
+  {
+    jint jvalue = (jint)temp2;
+    (*jenv)->SetIntArrayRegion(jenv, jarg2, 0, 1, &jvalue);
+  }
+  
   return jresult;
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1GetChannelGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1GetChannelGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   FMOD_CHANNELGROUP **arg2 = (FMOD_CHANNELGROUP **) 0 ;
@@ -19542,7 +19516,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1G
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1Release(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1Release(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   FMOD_RESULT result;
@@ -19556,7 +19530,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1R
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1IsVirtual(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1IsVirtual(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -19586,7 +19560,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1I
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1GetParameter(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1GetParameter(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -19609,7 +19583,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1G
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1GetParameterByIndex(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1GetParameterByIndex(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   int arg2 ;
@@ -19627,7 +19601,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1G
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1GetParameterCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1GetParameterCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -19657,7 +19631,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1G
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1SetParameterValue(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jfloat jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1SetParameterValue(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jfloat jarg3) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -19680,7 +19654,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1S
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1SetParameterValueByIndex(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloat jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1SetParameterValueByIndex(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloat jarg3) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   int arg2 ;
@@ -19698,7 +19672,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1S
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1GetCue(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1GetCue(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -19721,7 +19695,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1G
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1GetCueByIndex(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1GetCueByIndex(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   int arg2 ;
@@ -19739,7 +19713,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1G
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1GetCueCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1GetCueCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -19769,7 +19743,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1G
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1SetCallback(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1SetCallback(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   FMOD_STUDIO_EVENT_CALLBACK arg2 = (FMOD_STUDIO_EVENT_CALLBACK) 0 ;
@@ -19787,7 +19761,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1S
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   void **arg2 = (void **) 0 ;
@@ -19803,7 +19777,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1G
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventInstance_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE *arg1 = (FMOD_STUDIO_EVENTINSTANCE *) 0 ;
   void *arg2 = (void *) 0 ;
@@ -19819,7 +19793,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1EventInstance_1S
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CueInstance_1IsValid(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1CueInstance_1IsValid(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_CUEINSTANCE *arg1 = (FMOD_STUDIO_CUEINSTANCE *) 0 ;
   FMOD_BOOL result;
@@ -19833,7 +19807,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CueInstance_1IsV
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CueInstance_1Trigger(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1CueInstance_1Trigger(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_CUEINSTANCE *arg1 = (FMOD_STUDIO_CUEINSTANCE *) 0 ;
   FMOD_RESULT result;
@@ -19847,7 +19821,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CueInstance_1Tri
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1ParameterInstance_1IsValid(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1ParameterInstance_1IsValid(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_PARAMETERINSTANCE *arg1 = (FMOD_STUDIO_PARAMETERINSTANCE *) 0 ;
   FMOD_BOOL result;
@@ -19861,7 +19835,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1ParameterInstanc
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1ParameterInstance_1GetDescription(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1ParameterInstance_1GetDescription(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   FMOD_STUDIO_PARAMETERINSTANCE *arg1 = (FMOD_STUDIO_PARAMETERINSTANCE *) 0 ;
   FMOD_STUDIO_PARAMETER_DESCRIPTION *arg2 = (FMOD_STUDIO_PARAMETER_DESCRIPTION *) 0 ;
@@ -19878,7 +19852,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1ParameterInstanc
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1ParameterInstance_1GetValue(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1ParameterInstance_1GetValue(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_PARAMETERINSTANCE *arg1 = (FMOD_STUDIO_PARAMETERINSTANCE *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -19908,7 +19882,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1ParameterInstanc
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1ParameterInstance_1SetValue(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1ParameterInstance_1SetValue(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_PARAMETERINSTANCE *arg1 = (FMOD_STUDIO_PARAMETERINSTANCE *) 0 ;
   float arg2 ;
@@ -19924,7 +19898,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1ParameterInstanc
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1IsValid(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bus_1IsValid(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_BUS *arg1 = (FMOD_STUDIO_BUS *) 0 ;
   FMOD_BOOL result;
@@ -19938,7 +19912,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1IsValid(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1GetID(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bus_1GetID(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   FMOD_STUDIO_BUS *arg1 = (FMOD_STUDIO_BUS *) 0 ;
   FMOD_GUID *arg2 = (FMOD_GUID *) 0 ;
@@ -19955,7 +19929,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1GetID(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1GetPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3, jintArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bus_1GetPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3, jintArray jarg4) {
   jint jresult = 0 ;
   FMOD_STUDIO_BUS *arg1 = (FMOD_STUDIO_BUS *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -19994,7 +19968,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1GetPath(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1GetFaderLevel(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bus_1GetFaderLevel(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_BUS *arg1 = (FMOD_STUDIO_BUS *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -20024,7 +19998,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1GetFaderLev
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1SetFaderLevel(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bus_1SetFaderLevel(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_BUS *arg1 = (FMOD_STUDIO_BUS *) 0 ;
   float arg2 ;
@@ -20040,7 +20014,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1SetFaderLev
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1GetPaused(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bus_1GetPaused(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_BUS *arg1 = (FMOD_STUDIO_BUS *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -20070,7 +20044,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1GetPaused(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1SetPaused(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bus_1SetPaused(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_BUS *arg1 = (FMOD_STUDIO_BUS *) 0 ;
   FMOD_BOOL arg2 ;
@@ -20086,7 +20060,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1SetPaused(J
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1GetMute(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bus_1GetMute(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_BUS *arg1 = (FMOD_STUDIO_BUS *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -20116,7 +20090,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1GetMute(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1SetMute(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bus_1SetMute(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_BUS *arg1 = (FMOD_STUDIO_BUS *) 0 ;
   FMOD_BOOL arg2 ;
@@ -20132,7 +20106,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1SetMute(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1StopAllEvents(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bus_1StopAllEvents(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_BUS *arg1 = (FMOD_STUDIO_BUS *) 0 ;
   FMOD_STUDIO_STOP_MODE arg2 ;
@@ -20148,7 +20122,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1StopAllEven
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1LockChannelGroup(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bus_1LockChannelGroup(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_BUS *arg1 = (FMOD_STUDIO_BUS *) 0 ;
   FMOD_RESULT result;
@@ -20162,7 +20136,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1LockChannel
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1UnlockChannelGroup(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bus_1UnlockChannelGroup(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_BUS *arg1 = (FMOD_STUDIO_BUS *) 0 ;
   FMOD_RESULT result;
@@ -20176,7 +20150,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1UnlockChann
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1GetChannelGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bus_1GetChannelGroup(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_BUS *arg1 = (FMOD_STUDIO_BUS *) 0 ;
   FMOD_CHANNELGROUP **arg2 = (FMOD_CHANNELGROUP **) 0 ;
@@ -20192,7 +20166,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bus_1GetChannelG
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1VCA_1IsValid(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1VCA_1IsValid(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_VCA *arg1 = (FMOD_STUDIO_VCA *) 0 ;
   FMOD_BOOL result;
@@ -20206,7 +20180,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1VCA_1IsValid(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1VCA_1GetID(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1VCA_1GetID(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   FMOD_STUDIO_VCA *arg1 = (FMOD_STUDIO_VCA *) 0 ;
   FMOD_GUID *arg2 = (FMOD_GUID *) 0 ;
@@ -20223,7 +20197,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1VCA_1GetID(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1VCA_1GetPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3, jintArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1VCA_1GetPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3, jintArray jarg4) {
   jint jresult = 0 ;
   FMOD_STUDIO_VCA *arg1 = (FMOD_STUDIO_VCA *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -20262,7 +20236,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1VCA_1GetPath(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1VCA_1GetFaderLevel(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1VCA_1GetFaderLevel(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_VCA *arg1 = (FMOD_STUDIO_VCA *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -20292,7 +20266,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1VCA_1GetFaderLev
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1VCA_1SetFaderLevel(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1VCA_1SetFaderLevel(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_VCA *arg1 = (FMOD_STUDIO_VCA *) 0 ;
   float arg2 ;
@@ -20308,7 +20282,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1VCA_1SetFaderLev
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1IsValid(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1IsValid(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_BANK *arg1 = (FMOD_STUDIO_BANK *) 0 ;
   FMOD_BOOL result;
@@ -20322,7 +20296,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1IsValid(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetID(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1GetID(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   FMOD_STUDIO_BANK *arg1 = (FMOD_STUDIO_BANK *) 0 ;
   FMOD_GUID *arg2 = (FMOD_GUID *) 0 ;
@@ -20339,7 +20313,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetID(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3, jintArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1GetPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3, jintArray jarg4) {
   jint jresult = 0 ;
   FMOD_STUDIO_BANK *arg1 = (FMOD_STUDIO_BANK *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -20378,7 +20352,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetPath(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1Unload(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1Unload(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_BANK *arg1 = (FMOD_STUDIO_BANK *) 0 ;
   FMOD_RESULT result;
@@ -20392,7 +20366,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1Unload(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1LoadSampleData(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1LoadSampleData(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_BANK *arg1 = (FMOD_STUDIO_BANK *) 0 ;
   FMOD_RESULT result;
@@ -20406,7 +20380,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1LoadSample
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1UnloadSampleData(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1UnloadSampleData(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_BANK *arg1 = (FMOD_STUDIO_BANK *) 0 ;
   FMOD_RESULT result;
@@ -20420,7 +20394,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1UnloadSamp
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetLoadingState(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1GetLoadingState(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_BANK *arg1 = (FMOD_STUDIO_BANK *) 0 ;
   FMOD_STUDIO_LOADING_STATE *arg2 = (FMOD_STUDIO_LOADING_STATE *) 0 ;
@@ -20436,7 +20410,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetLoading
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetSampleLoadingState(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1GetSampleLoadingState(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_BANK *arg1 = (FMOD_STUDIO_BANK *) 0 ;
   FMOD_STUDIO_LOADING_STATE *arg2 = (FMOD_STUDIO_LOADING_STATE *) 0 ;
@@ -20452,7 +20426,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetSampleL
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetStringCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1GetStringCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_BANK *arg1 = (FMOD_STUDIO_BANK *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -20482,7 +20456,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetStringC
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetStringInfo(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jobject jarg3_, jstring jarg4, jint jarg5, jintArray jarg6) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1GetStringInfo(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jobject jarg3_, jstring jarg4, jint jarg5, jintArray jarg6) {
   jint jresult = 0 ;
   FMOD_STUDIO_BANK *arg1 = (FMOD_STUDIO_BANK *) 0 ;
   int arg2 ;
@@ -20526,7 +20500,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetStringI
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetEventCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1GetEventCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_BANK *arg1 = (FMOD_STUDIO_BANK *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -20556,7 +20530,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetEventCo
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetEventList(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jintArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1GetEventList(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jintArray jarg4) {
   jint jresult = 0 ;
   FMOD_STUDIO_BANK *arg1 = (FMOD_STUDIO_BANK *) 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION **arg2 = (FMOD_STUDIO_EVENTDESCRIPTION **) 0 ;
@@ -20590,7 +20564,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetEventLi
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetBusCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1GetBusCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_BANK *arg1 = (FMOD_STUDIO_BANK *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -20620,7 +20594,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetBusCoun
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetBusList(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jintArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1GetBusList(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jintArray jarg4) {
   jint jresult = 0 ;
   FMOD_STUDIO_BANK *arg1 = (FMOD_STUDIO_BANK *) 0 ;
   FMOD_STUDIO_BUS **arg2 = (FMOD_STUDIO_BUS **) 0 ;
@@ -20654,7 +20628,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetBusList
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetVCACount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1GetVCACount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_BANK *arg1 = (FMOD_STUDIO_BANK *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -20684,7 +20658,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetVCACoun
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetVCAList(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jintArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1GetVCAList(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jintArray jarg4) {
   jint jresult = 0 ;
   FMOD_STUDIO_BANK *arg1 = (FMOD_STUDIO_BANK *) 0 ;
   FMOD_STUDIO_VCA **arg2 = (FMOD_STUDIO_VCA **) 0 ;
@@ -20718,7 +20692,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetVCAList
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_BANK *arg1 = (FMOD_STUDIO_BANK *) 0 ;
   void **arg2 = (void **) 0 ;
@@ -20734,7 +20708,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1GetUserDat
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_BANK *arg1 = (FMOD_STUDIO_BANK *) 0 ;
   void *arg2 = (void *) 0 ;
@@ -20750,7 +20724,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1Bank_1SetUserDat
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1IsValid(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1CommandReplay_1IsValid(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_COMMANDREPLAY *arg1 = (FMOD_STUDIO_COMMANDREPLAY *) 0 ;
   FMOD_BOOL result;
@@ -20764,7 +20738,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1I
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1GetSystem(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1CommandReplay_1GetSystem(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_COMMANDREPLAY *arg1 = (FMOD_STUDIO_COMMANDREPLAY *) 0 ;
   FMOD_STUDIO_SYSTEM **arg2 = (FMOD_STUDIO_SYSTEM **) 0 ;
@@ -20780,7 +20754,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1G
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1GetLength(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1CommandReplay_1GetLength(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloatArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_COMMANDREPLAY *arg1 = (FMOD_STUDIO_COMMANDREPLAY *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -20810,7 +20784,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1G
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1GetCommandCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1CommandReplay_1GetCommandCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_COMMANDREPLAY *arg1 = (FMOD_STUDIO_COMMANDREPLAY *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -20840,7 +20814,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1G
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1GetCommandInfo(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1CommandReplay_1GetCommandInfo(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jobject jarg3_) {
   jint jresult = 0 ;
   FMOD_STUDIO_COMMANDREPLAY *arg1 = (FMOD_STUDIO_COMMANDREPLAY *) 0 ;
   int arg2 ;
@@ -20859,7 +20833,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1G
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1GetCommandString(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jstring jarg3, jint jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1CommandReplay_1GetCommandString(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jstring jarg3, jint jarg4) {
   jint jresult = 0 ;
   FMOD_STUDIO_COMMANDREPLAY *arg1 = (FMOD_STUDIO_COMMANDREPLAY *) 0 ;
   int arg2 ;
@@ -20884,7 +20858,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1G
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1GetCommandAtTime(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jintArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1CommandReplay_1GetCommandAtTime(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jintArray jarg3) {
   jint jresult = 0 ;
   FMOD_STUDIO_COMMANDREPLAY *arg1 = (FMOD_STUDIO_COMMANDREPLAY *) 0 ;
   float arg2 ;
@@ -20916,7 +20890,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1G
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1SetBankPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1CommandReplay_1SetBankPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_COMMANDREPLAY *arg1 = (FMOD_STUDIO_COMMANDREPLAY *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -20937,7 +20911,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1S
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1Start(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1CommandReplay_1Start(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_COMMANDREPLAY *arg1 = (FMOD_STUDIO_COMMANDREPLAY *) 0 ;
   FMOD_RESULT result;
@@ -20951,7 +20925,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1S
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1Stop(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1CommandReplay_1Stop(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_COMMANDREPLAY *arg1 = (FMOD_STUDIO_COMMANDREPLAY *) 0 ;
   FMOD_RESULT result;
@@ -20965,7 +20939,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1S
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1SeekToTime(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1CommandReplay_1SeekToTime(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_COMMANDREPLAY *arg1 = (FMOD_STUDIO_COMMANDREPLAY *) 0 ;
   float arg2 ;
@@ -20981,7 +20955,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1S
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1SeekToCommand(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1CommandReplay_1SeekToCommand(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_COMMANDREPLAY *arg1 = (FMOD_STUDIO_COMMANDREPLAY *) 0 ;
   int arg2 ;
@@ -20997,7 +20971,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1S
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1GetPaused(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1CommandReplay_1GetPaused(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_COMMANDREPLAY *arg1 = (FMOD_STUDIO_COMMANDREPLAY *) 0 ;
   FMOD_BOOL *arg2 = (FMOD_BOOL *) 0 ;
@@ -21027,7 +21001,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1G
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1SetPaused(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1CommandReplay_1SetPaused(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_COMMANDREPLAY *arg1 = (FMOD_STUDIO_COMMANDREPLAY *) 0 ;
   FMOD_BOOL arg2 ;
@@ -21043,23 +21017,39 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1S
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1GetPlaybackState(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1CommandReplay_1GetPlaybackState(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_COMMANDREPLAY *arg1 = (FMOD_STUDIO_COMMANDREPLAY *) 0 ;
   FMOD_STUDIO_PLAYBACK_STATE *arg2 = (FMOD_STUDIO_PLAYBACK_STATE *) 0 ;
+  FMOD_STUDIO_PLAYBACK_STATE temp2 ;
   FMOD_RESULT result;
   
   (void)jenv;
   (void)jcls;
   arg1 = *(FMOD_STUDIO_COMMANDREPLAY **)&jarg1; 
-  arg2 = *(FMOD_STUDIO_PLAYBACK_STATE **)&jarg2; 
+  {
+    if (!jarg2) {
+      SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "array null");
+      return 0;
+    }
+    if ((*jenv)->GetArrayLength(jenv, jarg2) == 0) {
+      SWIG_JavaThrowException(jenv, SWIG_JavaIndexOutOfBoundsException, "Array must contain at least 1 element");
+      return 0;
+    }
+    arg2 = (FMOD_STUDIO_PLAYBACK_STATE *)&temp2;
+  }
   result = (FMOD_RESULT)FMOD_Studio_CommandReplay_GetPlaybackState(arg1,arg2);
   jresult = (jint)result; 
+  {
+    jint jvalue = (jint)temp2;
+    (*jenv)->SetIntArrayRegion(jenv, jarg2, 0, 1, &jvalue);
+  }
+  
   return jresult;
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1GetCurrentCommand(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2, jfloatArray jarg3) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1CommandReplay_1GetCurrentCommand(JNIEnv *jenv, jclass jcls, jlong jarg1, jintArray jarg2, jfloatArray jarg3) {
   jint jresult = 0 ;
   FMOD_STUDIO_COMMANDREPLAY *arg1 = (FMOD_STUDIO_COMMANDREPLAY *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -21105,7 +21095,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1G
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1Release(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1CommandReplay_1Release(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   FMOD_STUDIO_COMMANDREPLAY *arg1 = (FMOD_STUDIO_COMMANDREPLAY *) 0 ;
   FMOD_RESULT result;
@@ -21119,7 +21109,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1R
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1SetFrameCallback(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1CommandReplay_1SetFrameCallback(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_COMMANDREPLAY *arg1 = (FMOD_STUDIO_COMMANDREPLAY *) 0 ;
   FMOD_STUDIO_COMMANDREPLAY_FRAME_CALLBACK arg2 = (FMOD_STUDIO_COMMANDREPLAY_FRAME_CALLBACK) 0 ;
@@ -21135,7 +21125,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1S
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1SetLoadBankCallback(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1CommandReplay_1SetLoadBankCallback(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_COMMANDREPLAY *arg1 = (FMOD_STUDIO_COMMANDREPLAY *) 0 ;
   FMOD_STUDIO_COMMANDREPLAY_LOAD_BANK_CALLBACK arg2 = (FMOD_STUDIO_COMMANDREPLAY_LOAD_BANK_CALLBACK) 0 ;
@@ -21151,7 +21141,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1S
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1SetCreateInstanceCallback(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1CommandReplay_1SetCreateInstanceCallback(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_COMMANDREPLAY *arg1 = (FMOD_STUDIO_COMMANDREPLAY *) 0 ;
   FMOD_STUDIO_COMMANDREPLAY_CREATE_INSTANCE_CALLBACK arg2 = (FMOD_STUDIO_COMMANDREPLAY_CREATE_INSTANCE_CALLBACK) 0 ;
@@ -21167,7 +21157,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1S
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1CommandReplay_1GetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_COMMANDREPLAY *arg1 = (FMOD_STUDIO_COMMANDREPLAY *) 0 ;
   void **arg2 = (void **) 0 ;
@@ -21183,7 +21173,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1G
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1CommandReplay_1SetUserData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   FMOD_STUDIO_COMMANDREPLAY *arg1 = (FMOD_STUDIO_COMMANDREPLAY *) 0 ;
   void *arg2 = (void *) 0 ;
@@ -21199,7 +21189,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1Studio_1CommandReplay_1S
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1SYSTEM_1p_1p(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1STUDIO_1SYSTEM_1p_1p(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   FMOD_STUDIO_SYSTEM_p *result = 0 ;
   
@@ -21211,7 +21201,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1SYSTEM_1p_
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1STUDIO_1SYSTEM_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_copy_1FMOD_1STUDIO_1SYSTEM_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_STUDIO_SYSTEM_p arg1 = (FMOD_STUDIO_SYSTEM_p) 0 ;
   FMOD_STUDIO_SYSTEM_p *result = 0 ;
@@ -21225,7 +21215,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1STUDIO_1SYSTEM_1p
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1SYSTEM_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1STUDIO_1SYSTEM_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FMOD_STUDIO_SYSTEM_p *arg1 = (FMOD_STUDIO_SYSTEM_p *) 0 ;
   
   (void)jenv;
@@ -21235,7 +21225,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1SYSTEM_1
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SYSTEM_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1SYSTEM_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   FMOD_STUDIO_SYSTEM_p *arg1 = (FMOD_STUDIO_SYSTEM_p *) 0 ;
   FMOD_STUDIO_SYSTEM_p arg2 = (FMOD_STUDIO_SYSTEM_p) 0 ;
   
@@ -21247,7 +21237,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SYSTEM_1p_1p_1as
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SYSTEM_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1SYSTEM_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_STUDIO_SYSTEM_p *arg1 = (FMOD_STUDIO_SYSTEM_p *) 0 ;
   FMOD_STUDIO_SYSTEM_p result;
@@ -21261,7 +21251,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1SYSTEM_1p_1p_1v
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1SYSTEM_1p_1p(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1SYSTEM_1p_1p(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   FMOD_SYSTEM_p *result = 0 ;
   
@@ -21273,7 +21263,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1SYSTEM_1p_1p(JNIEn
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1SYSTEM_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_copy_1FMOD_1SYSTEM_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_SYSTEM_p arg1 = (FMOD_SYSTEM_p) 0 ;
   FMOD_SYSTEM_p *result = 0 ;
@@ -21287,7 +21277,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1SYSTEM_1p_1p(JNIE
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1SYSTEM_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1SYSTEM_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FMOD_SYSTEM_p *arg1 = (FMOD_SYSTEM_p *) 0 ;
   
   (void)jenv;
@@ -21297,7 +21287,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1SYSTEM_1p_1p(JNI
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SYSTEM_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   FMOD_SYSTEM_p *arg1 = (FMOD_SYSTEM_p *) 0 ;
   FMOD_SYSTEM_p arg2 = (FMOD_SYSTEM_p) 0 ;
   
@@ -21309,7 +21299,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1p_1p_1assign(JNI
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SYSTEM_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_SYSTEM_p *arg1 = (FMOD_SYSTEM_p *) 0 ;
   FMOD_SYSTEM_p result;
@@ -21323,7 +21313,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYSTEM_1p_1p_1value(JNI
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1EVENTDESCRIPTION_1p_1p(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1STUDIO_1EVENTDESCRIPTION_1p_1p(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION_p *result = 0 ;
   
@@ -21335,7 +21325,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1EVENTDESCR
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1STUDIO_1EVENTDESCRIPTION_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_copy_1FMOD_1STUDIO_1EVENTDESCRIPTION_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION_p arg1 = (FMOD_STUDIO_EVENTDESCRIPTION_p) 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION_p *result = 0 ;
@@ -21349,7 +21339,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1STUDIO_1EVENTDESC
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1EVENTDESCRIPTION_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1STUDIO_1EVENTDESCRIPTION_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FMOD_STUDIO_EVENTDESCRIPTION_p *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION_p *) 0 ;
   
   (void)jenv;
@@ -21359,7 +21349,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1EVENTDES
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENTDESCRIPTION_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1EVENTDESCRIPTION_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   FMOD_STUDIO_EVENTDESCRIPTION_p *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION_p *) 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION_p arg2 = (FMOD_STUDIO_EVENTDESCRIPTION_p) 0 ;
   
@@ -21371,7 +21361,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENTDESCRIPTION
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENTDESCRIPTION_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1EVENTDESCRIPTION_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION_p *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION_p *) 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION_p result;
@@ -21385,7 +21375,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENTDESCRIPTIO
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1BUS_1p_1p(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1STUDIO_1BUS_1p_1p(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   FMOD_STUDIO_BUS_p *result = 0 ;
   
@@ -21397,7 +21387,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1BUS_1p_1p(
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1STUDIO_1BUS_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_copy_1FMOD_1STUDIO_1BUS_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_STUDIO_BUS_p arg1 = (FMOD_STUDIO_BUS_p) 0 ;
   FMOD_STUDIO_BUS_p *result = 0 ;
@@ -21411,7 +21401,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1STUDIO_1BUS_1p_1p
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1BUS_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1STUDIO_1BUS_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FMOD_STUDIO_BUS_p *arg1 = (FMOD_STUDIO_BUS_p *) 0 ;
   
   (void)jenv;
@@ -21421,7 +21411,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1BUS_1p_1
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUS_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BUS_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   FMOD_STUDIO_BUS_p *arg1 = (FMOD_STUDIO_BUS_p *) 0 ;
   FMOD_STUDIO_BUS_p arg2 = (FMOD_STUDIO_BUS_p) 0 ;
   
@@ -21433,7 +21423,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUS_1p_1p_1assig
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUS_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BUS_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_STUDIO_BUS_p *arg1 = (FMOD_STUDIO_BUS_p *) 0 ;
   FMOD_STUDIO_BUS_p result;
@@ -21447,7 +21437,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BUS_1p_1p_1valu
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1VCA_1p_1p(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1STUDIO_1VCA_1p_1p(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   FMOD_STUDIO_VCA_p *result = 0 ;
   
@@ -21459,7 +21449,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1VCA_1p_1p(
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1STUDIO_1VCA_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_copy_1FMOD_1STUDIO_1VCA_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_STUDIO_VCA_p arg1 = (FMOD_STUDIO_VCA_p) 0 ;
   FMOD_STUDIO_VCA_p *result = 0 ;
@@ -21473,7 +21463,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1STUDIO_1VCA_1p_1p
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1VCA_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1STUDIO_1VCA_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FMOD_STUDIO_VCA_p *arg1 = (FMOD_STUDIO_VCA_p *) 0 ;
   
   (void)jenv;
@@ -21483,7 +21473,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1VCA_1p_1
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1VCA_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1VCA_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   FMOD_STUDIO_VCA_p *arg1 = (FMOD_STUDIO_VCA_p *) 0 ;
   FMOD_STUDIO_VCA_p arg2 = (FMOD_STUDIO_VCA_p) 0 ;
   
@@ -21495,7 +21485,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1VCA_1p_1p_1assig
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1VCA_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1VCA_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_STUDIO_VCA_p *arg1 = (FMOD_STUDIO_VCA_p *) 0 ;
   FMOD_STUDIO_VCA_p result;
@@ -21509,7 +21499,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1VCA_1p_1p_1valu
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1BANK_1p_1p(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1STUDIO_1BANK_1p_1p(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   FMOD_STUDIO_BANK_p *result = 0 ;
   
@@ -21521,7 +21511,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1BANK_1p_1p
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1STUDIO_1BANK_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_copy_1FMOD_1STUDIO_1BANK_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_STUDIO_BANK_p arg1 = (FMOD_STUDIO_BANK_p) 0 ;
   FMOD_STUDIO_BANK_p *result = 0 ;
@@ -21535,7 +21525,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1STUDIO_1BANK_1p_1
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1BANK_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1STUDIO_1BANK_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FMOD_STUDIO_BANK_p *arg1 = (FMOD_STUDIO_BANK_p *) 0 ;
   
   (void)jenv;
@@ -21545,7 +21535,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1BANK_1p_
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BANK_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   FMOD_STUDIO_BANK_p *arg1 = (FMOD_STUDIO_BANK_p *) 0 ;
   FMOD_STUDIO_BANK_p arg2 = (FMOD_STUDIO_BANK_p) 0 ;
   
@@ -21557,7 +21547,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1p_1p_1assi
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1BANK_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_STUDIO_BANK_p *arg1 = (FMOD_STUDIO_BANK_p *) 0 ;
   FMOD_STUDIO_BANK_p result;
@@ -21571,7 +21561,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1BANK_1p_1p_1val
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1EVENTINSTANCE_1p_1p(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1STUDIO_1EVENTINSTANCE_1p_1p(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE_p *result = 0 ;
   
@@ -21583,7 +21573,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1EVENTINSTA
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1STUDIO_1EVENTINSTANCE_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_copy_1FMOD_1STUDIO_1EVENTINSTANCE_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE_p arg1 = (FMOD_STUDIO_EVENTINSTANCE_p) 0 ;
   FMOD_STUDIO_EVENTINSTANCE_p *result = 0 ;
@@ -21597,7 +21587,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1STUDIO_1EVENTINST
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1EVENTINSTANCE_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1STUDIO_1EVENTINSTANCE_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FMOD_STUDIO_EVENTINSTANCE_p *arg1 = (FMOD_STUDIO_EVENTINSTANCE_p *) 0 ;
   
   (void)jenv;
@@ -21607,7 +21597,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1EVENTINS
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENTINSTANCE_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1EVENTINSTANCE_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   FMOD_STUDIO_EVENTINSTANCE_p *arg1 = (FMOD_STUDIO_EVENTINSTANCE_p *) 0 ;
   FMOD_STUDIO_EVENTINSTANCE_p arg2 = (FMOD_STUDIO_EVENTINSTANCE_p) 0 ;
   
@@ -21619,7 +21609,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENTINSTANCE_1p
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENTINSTANCE_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1EVENTINSTANCE_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_STUDIO_EVENTINSTANCE_p *arg1 = (FMOD_STUDIO_EVENTINSTANCE_p *) 0 ;
   FMOD_STUDIO_EVENTINSTANCE_p result;
@@ -21633,7 +21623,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1EVENTINSTANCE_1
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1CHANNELGROUP_1p_1p(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1CHANNELGROUP_1p_1p(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   FMOD_CHANNELGROUP_p *result = 0 ;
   
@@ -21645,7 +21635,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1CHANNELGROUP_1p_1p
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1CHANNELGROUP_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_copy_1FMOD_1CHANNELGROUP_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_CHANNELGROUP_p arg1 = (FMOD_CHANNELGROUP_p) 0 ;
   FMOD_CHANNELGROUP_p *result = 0 ;
@@ -21659,7 +21649,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1CHANNELGROUP_1p_1
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1CHANNELGROUP_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1CHANNELGROUP_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FMOD_CHANNELGROUP_p *arg1 = (FMOD_CHANNELGROUP_p *) 0 ;
   
   (void)jenv;
@@ -21669,7 +21659,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1CHANNELGROUP_1p_
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELGROUP_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELGROUP_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   FMOD_CHANNELGROUP_p *arg1 = (FMOD_CHANNELGROUP_p *) 0 ;
   FMOD_CHANNELGROUP_p arg2 = (FMOD_CHANNELGROUP_p) 0 ;
   
@@ -21681,7 +21671,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELGROUP_1p_1p_1assi
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELGROUP_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNELGROUP_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_CHANNELGROUP_p *arg1 = (FMOD_CHANNELGROUP_p *) 0 ;
   FMOD_CHANNELGROUP_p result;
@@ -21695,7 +21685,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNELGROUP_1p_1p_1val
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1PARAMETERINSTANCE_1p_1p(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1STUDIO_1PARAMETERINSTANCE_1p_1p(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   FMOD_STUDIO_PARAMETERINSTANCE_p *result = 0 ;
   
@@ -21707,7 +21697,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1PARAMETERI
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1STUDIO_1PARAMETERINSTANCE_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_copy_1FMOD_1STUDIO_1PARAMETERINSTANCE_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_STUDIO_PARAMETERINSTANCE_p arg1 = (FMOD_STUDIO_PARAMETERINSTANCE_p) 0 ;
   FMOD_STUDIO_PARAMETERINSTANCE_p *result = 0 ;
@@ -21721,7 +21711,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1STUDIO_1PARAMETER
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1PARAMETERINSTANCE_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1STUDIO_1PARAMETERINSTANCE_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FMOD_STUDIO_PARAMETERINSTANCE_p *arg1 = (FMOD_STUDIO_PARAMETERINSTANCE_p *) 0 ;
   
   (void)jenv;
@@ -21731,7 +21721,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1PARAMETE
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PARAMETERINSTANCE_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1PARAMETERINSTANCE_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   FMOD_STUDIO_PARAMETERINSTANCE_p *arg1 = (FMOD_STUDIO_PARAMETERINSTANCE_p *) 0 ;
   FMOD_STUDIO_PARAMETERINSTANCE_p arg2 = (FMOD_STUDIO_PARAMETERINSTANCE_p) 0 ;
   
@@ -21743,7 +21733,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PARAMETERINSTANC
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PARAMETERINSTANCE_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1PARAMETERINSTANCE_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_STUDIO_PARAMETERINSTANCE_p *arg1 = (FMOD_STUDIO_PARAMETERINSTANCE_p *) 0 ;
   FMOD_STUDIO_PARAMETERINSTANCE_p result;
@@ -21757,7 +21747,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1PARAMETERINSTAN
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1CUEINSTANCE_1p_1p(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1STUDIO_1CUEINSTANCE_1p_1p(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   FMOD_STUDIO_CUEINSTANCE_p *result = 0 ;
   
@@ -21769,7 +21759,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1STUDIO_1CUEINSTANC
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1STUDIO_1CUEINSTANCE_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_copy_1FMOD_1STUDIO_1CUEINSTANCE_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_STUDIO_CUEINSTANCE_p arg1 = (FMOD_STUDIO_CUEINSTANCE_p) 0 ;
   FMOD_STUDIO_CUEINSTANCE_p *result = 0 ;
@@ -21783,7 +21773,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1STUDIO_1CUEINSTAN
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1CUEINSTANCE_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1STUDIO_1CUEINSTANCE_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FMOD_STUDIO_CUEINSTANCE_p *arg1 = (FMOD_STUDIO_CUEINSTANCE_p *) 0 ;
   
   (void)jenv;
@@ -21793,7 +21783,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1STUDIO_1CUEINSTA
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1CUEINSTANCE_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1CUEINSTANCE_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   FMOD_STUDIO_CUEINSTANCE_p *arg1 = (FMOD_STUDIO_CUEINSTANCE_p *) 0 ;
   FMOD_STUDIO_CUEINSTANCE_p arg2 = (FMOD_STUDIO_CUEINSTANCE_p) 0 ;
   
@@ -21805,7 +21795,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1CUEINSTANCE_1p_1
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1CUEINSTANCE_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1STUDIO_1CUEINSTANCE_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_STUDIO_CUEINSTANCE_p *arg1 = (FMOD_STUDIO_CUEINSTANCE_p *) 0 ;
   FMOD_STUDIO_CUEINSTANCE_p result;
@@ -21819,7 +21809,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1STUDIO_1CUEINSTANCE_1p_
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1DSP_1p_1p(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1DSP_1p_1p(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   FMOD_DSP_p *result = 0 ;
   
@@ -21831,7 +21821,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1DSP_1p_1p(JNIEnv *
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1DSP_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_copy_1FMOD_1DSP_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_DSP_p arg1 = (FMOD_DSP_p) 0 ;
   FMOD_DSP_p *result = 0 ;
@@ -21845,7 +21835,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1DSP_1p_1p(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1DSP_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1DSP_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FMOD_DSP_p *arg1 = (FMOD_DSP_p *) 0 ;
   
   (void)jenv;
@@ -21855,7 +21845,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1DSP_1p_1p(JNIEnv
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   FMOD_DSP_p *arg1 = (FMOD_DSP_p *) 0 ;
   FMOD_DSP_p arg2 = (FMOD_DSP_p) 0 ;
   
@@ -21867,7 +21857,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1p_1p_1assign(JNIEnv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_DSP_p *arg1 = (FMOD_DSP_p *) 0 ;
   FMOD_DSP_p result;
@@ -21881,7 +21871,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1p_1p_1value(JNIEnv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1DSP_1DESCRIPTION_1p_1p(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1DSP_1DESCRIPTION_1p_1p(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   FMOD_DSP_DESCRIPTION_p *result = 0 ;
   
@@ -21893,7 +21883,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1DSP_1DESCRIPTION_1
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1DSP_1DESCRIPTION_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_copy_1FMOD_1DSP_1DESCRIPTION_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_DSP_DESCRIPTION_p arg1 = (FMOD_DSP_DESCRIPTION_p) 0 ;
   FMOD_DSP_DESCRIPTION_p *result = 0 ;
@@ -21907,7 +21897,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1DSP_1DESCRIPTION_
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1DSP_1DESCRIPTION_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1DSP_1DESCRIPTION_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FMOD_DSP_DESCRIPTION_p *arg1 = (FMOD_DSP_DESCRIPTION_p *) 0 ;
   
   (void)jenv;
@@ -21917,7 +21907,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1DSP_1DESCRIPTION
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1DESCRIPTION_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1DESCRIPTION_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   FMOD_DSP_DESCRIPTION_p *arg1 = (FMOD_DSP_DESCRIPTION_p *) 0 ;
   FMOD_DSP_DESCRIPTION_p arg2 = (FMOD_DSP_DESCRIPTION_p) 0 ;
   
@@ -21929,7 +21919,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1DESCRIPTION_1p_1p_1
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1DESCRIPTION_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1DESCRIPTION_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_DSP_DESCRIPTION_p *arg1 = (FMOD_DSP_DESCRIPTION_p *) 0 ;
   FMOD_DSP_DESCRIPTION_p result;
@@ -21943,7 +21933,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1DESCRIPTION_1p_1p_
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1SOUNDGROUP_1p_1p(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1SOUNDGROUP_1p_1p(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   FMOD_SOUNDGROUP_p *result = 0 ;
   
@@ -21955,7 +21945,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1SOUNDGROUP_1p_1p(J
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1SOUNDGROUP_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_copy_1FMOD_1SOUNDGROUP_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_SOUNDGROUP_p arg1 = (FMOD_SOUNDGROUP_p) 0 ;
   FMOD_SOUNDGROUP_p *result = 0 ;
@@ -21969,7 +21959,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1SOUNDGROUP_1p_1p(
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1SOUNDGROUP_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1SOUNDGROUP_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FMOD_SOUNDGROUP_p *arg1 = (FMOD_SOUNDGROUP_p *) 0 ;
   
   (void)jenv;
@@ -21979,7 +21969,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1SOUNDGROUP_1p_1p
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SOUNDGROUP_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SOUNDGROUP_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   FMOD_SOUNDGROUP_p *arg1 = (FMOD_SOUNDGROUP_p *) 0 ;
   FMOD_SOUNDGROUP_p arg2 = (FMOD_SOUNDGROUP_p) 0 ;
   
@@ -21991,7 +21981,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SOUNDGROUP_1p_1p_1assign
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SOUNDGROUP_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SOUNDGROUP_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_SOUNDGROUP_p *arg1 = (FMOD_SOUNDGROUP_p *) 0 ;
   FMOD_SOUNDGROUP_p result;
@@ -22005,7 +21995,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SOUNDGROUP_1p_1p_1value
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1REVERB3D_1p_1p(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1REVERB3D_1p_1p(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   FMOD_REVERB3D_p *result = 0 ;
   
@@ -22017,7 +22007,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1REVERB3D_1p_1p(JNI
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1REVERB3D_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_copy_1FMOD_1REVERB3D_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_REVERB3D_p arg1 = (FMOD_REVERB3D_p) 0 ;
   FMOD_REVERB3D_p *result = 0 ;
@@ -22031,7 +22021,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1REVERB3D_1p_1p(JN
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1REVERB3D_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1REVERB3D_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FMOD_REVERB3D_p *arg1 = (FMOD_REVERB3D_p *) 0 ;
   
   (void)jenv;
@@ -22041,7 +22031,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1REVERB3D_1p_1p(J
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB3D_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB3D_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   FMOD_REVERB3D_p *arg1 = (FMOD_REVERB3D_p *) 0 ;
   FMOD_REVERB3D_p arg2 = (FMOD_REVERB3D_p) 0 ;
   
@@ -22053,7 +22043,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB3D_1p_1p_1assign(J
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB3D_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1REVERB3D_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_REVERB3D_p *arg1 = (FMOD_REVERB3D_p *) 0 ;
   FMOD_REVERB3D_p result;
@@ -22067,7 +22057,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1REVERB3D_1p_1p_1value(J
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1CHANNEL_1p_1p(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1CHANNEL_1p_1p(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   FMOD_CHANNEL_p *result = 0 ;
   
@@ -22079,7 +22069,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1CHANNEL_1p_1p(JNIE
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1CHANNEL_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_copy_1FMOD_1CHANNEL_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_CHANNEL_p arg1 = (FMOD_CHANNEL_p) 0 ;
   FMOD_CHANNEL_p *result = 0 ;
@@ -22093,7 +22083,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1CHANNEL_1p_1p(JNI
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1CHANNEL_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1CHANNEL_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FMOD_CHANNEL_p *arg1 = (FMOD_CHANNEL_p *) 0 ;
   
   (void)jenv;
@@ -22103,7 +22093,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1CHANNEL_1p_1p(JN
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNEL_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNEL_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   FMOD_CHANNEL_p *arg1 = (FMOD_CHANNEL_p *) 0 ;
   FMOD_CHANNEL_p arg2 = (FMOD_CHANNEL_p) 0 ;
   
@@ -22115,7 +22105,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNEL_1p_1p_1assign(JN
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNEL_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1CHANNEL_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_CHANNEL_p *arg1 = (FMOD_CHANNEL_p *) 0 ;
   FMOD_CHANNEL_p result;
@@ -22129,7 +22119,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1CHANNEL_1p_1p_1value(JN
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1GEOMETRY_1p_1p(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1GEOMETRY_1p_1p(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   FMOD_GEOMETRY_p *result = 0 ;
   
@@ -22141,7 +22131,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1GEOMETRY_1p_1p(JNI
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1GEOMETRY_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_copy_1FMOD_1GEOMETRY_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_GEOMETRY_p arg1 = (FMOD_GEOMETRY_p) 0 ;
   FMOD_GEOMETRY_p *result = 0 ;
@@ -22155,7 +22145,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1GEOMETRY_1p_1p(JN
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1GEOMETRY_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1GEOMETRY_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FMOD_GEOMETRY_p *arg1 = (FMOD_GEOMETRY_p *) 0 ;
   
   (void)jenv;
@@ -22165,7 +22155,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1GEOMETRY_1p_1p(J
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1GEOMETRY_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1GEOMETRY_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   FMOD_GEOMETRY_p *arg1 = (FMOD_GEOMETRY_p *) 0 ;
   FMOD_GEOMETRY_p arg2 = (FMOD_GEOMETRY_p) 0 ;
   
@@ -22177,7 +22167,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1GEOMETRY_1p_1p_1assign(J
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1GEOMETRY_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1GEOMETRY_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_GEOMETRY_p *arg1 = (FMOD_GEOMETRY_p *) 0 ;
   FMOD_GEOMETRY_p result;
@@ -22191,7 +22181,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1GEOMETRY_1p_1p_1value(J
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1VECTOR_1p_1p(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1VECTOR_1p_1p(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   FMOD_VECTOR_p *result = 0 ;
   
@@ -22203,7 +22193,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1VECTOR_1p_1p(JNIEn
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1VECTOR_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_copy_1FMOD_1VECTOR_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   FMOD_VECTOR_p arg1 = (FMOD_VECTOR_p) 0 ;
   FMOD_VECTOR_p *result = 0 ;
@@ -22218,7 +22208,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1VECTOR_1p_1p(JNIE
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1VECTOR_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1VECTOR_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FMOD_VECTOR_p *arg1 = (FMOD_VECTOR_p *) 0 ;
   
   (void)jenv;
@@ -22228,7 +22218,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1VECTOR_1p_1p(JNI
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1VECTOR_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1VECTOR_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_) {
   FMOD_VECTOR_p *arg1 = (FMOD_VECTOR_p *) 0 ;
   FMOD_VECTOR_p arg2 = (FMOD_VECTOR_p) 0 ;
   
@@ -22241,7 +22231,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1VECTOR_1p_1p_1assign(JNI
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1VECTOR_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1VECTOR_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_VECTOR_p *arg1 = (FMOD_VECTOR_p *) 0 ;
   FMOD_VECTOR_p result;
@@ -22255,7 +22245,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1VECTOR_1p_1p_1value(JNI
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1SOUND_1p_1p(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1SOUND_1p_1p(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   FMOD_SOUND_p *result = 0 ;
   
@@ -22267,7 +22257,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1SOUND_1p_1p(JNIEnv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1SOUND_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_copy_1FMOD_1SOUND_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_SOUND_p arg1 = (FMOD_SOUND_p) 0 ;
   FMOD_SOUND_p *result = 0 ;
@@ -22281,7 +22271,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1SOUND_1p_1p(JNIEn
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1SOUND_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1SOUND_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FMOD_SOUND_p *arg1 = (FMOD_SOUND_p *) 0 ;
   
   (void)jenv;
@@ -22291,7 +22281,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1SOUND_1p_1p(JNIE
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SOUND_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SOUND_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   FMOD_SOUND_p *arg1 = (FMOD_SOUND_p *) 0 ;
   FMOD_SOUND_p arg2 = (FMOD_SOUND_p) 0 ;
   
@@ -22303,7 +22293,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SOUND_1p_1p_1assign(JNIE
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SOUND_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SOUND_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_SOUND_p *arg1 = (FMOD_SOUND_p *) 0 ;
   FMOD_SOUND_p result;
@@ -22317,7 +22307,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SOUND_1p_1p_1value(JNIE
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1SYNCPOINT_1p_1p(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1SYNCPOINT_1p_1p(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   FMOD_SYNCPOINT_p *result = 0 ;
   
@@ -22329,7 +22319,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1SYNCPOINT_1p_1p(JN
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1SYNCPOINT_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_copy_1FMOD_1SYNCPOINT_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_SYNCPOINT_p arg1 = (FMOD_SYNCPOINT_p) 0 ;
   FMOD_SYNCPOINT_p *result = 0 ;
@@ -22343,7 +22333,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1SYNCPOINT_1p_1p(J
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1SYNCPOINT_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1SYNCPOINT_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FMOD_SYNCPOINT_p *arg1 = (FMOD_SYNCPOINT_p *) 0 ;
   
   (void)jenv;
@@ -22353,7 +22343,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1SYNCPOINT_1p_1p(
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYNCPOINT_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SYNCPOINT_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   FMOD_SYNCPOINT_p *arg1 = (FMOD_SYNCPOINT_p *) 0 ;
   FMOD_SYNCPOINT_p arg2 = (FMOD_SYNCPOINT_p) 0 ;
   
@@ -22365,7 +22355,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYNCPOINT_1p_1p_1assign(
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYNCPOINT_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1SYNCPOINT_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_SYNCPOINT_p *arg1 = (FMOD_SYNCPOINT_p *) 0 ;
   FMOD_SYNCPOINT_p result;
@@ -22379,7 +22369,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1SYNCPOINT_1p_1p_1value(
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1DSPCONNECTION_1p_1p(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1DSPCONNECTION_1p_1p(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   FMOD_DSPCONNECTION_p *result = 0 ;
   
@@ -22391,7 +22381,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1DSPCONNECTION_1p_1
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1DSPCONNECTION_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_copy_1FMOD_1DSPCONNECTION_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_DSPCONNECTION_p arg1 = (FMOD_DSPCONNECTION_p) 0 ;
   FMOD_DSPCONNECTION_p *result = 0 ;
@@ -22405,7 +22395,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1DSPCONNECTION_1p_
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1DSPCONNECTION_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1DSPCONNECTION_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FMOD_DSPCONNECTION_p *arg1 = (FMOD_DSPCONNECTION_p *) 0 ;
   
   (void)jenv;
@@ -22415,7 +22405,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1DSPCONNECTION_1p
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSPCONNECTION_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSPCONNECTION_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   FMOD_DSPCONNECTION_p *arg1 = (FMOD_DSPCONNECTION_p *) 0 ;
   FMOD_DSPCONNECTION_p arg2 = (FMOD_DSPCONNECTION_p) 0 ;
   
@@ -22427,7 +22417,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSPCONNECTION_1p_1p_1ass
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSPCONNECTION_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSPCONNECTION_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_DSPCONNECTION_p *arg1 = (FMOD_DSPCONNECTION_p *) 0 ;
   FMOD_DSPCONNECTION_p result;
@@ -22441,7 +22431,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSPCONNECTION_1p_1p_1va
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1DSP_1PARAMETER_1DESC_1p_1p(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_new_1FMOD_1DSP_1PARAMETER_1DESC_1p_1p(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   FMOD_DSP_PARAMETER_DESC_p *result = 0 ;
   
@@ -22453,7 +22443,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_new_1FMOD_1DSP_1PARAMETER_1DE
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1DSP_1PARAMETER_1DESC_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_copy_1FMOD_1DSP_1PARAMETER_1DESC_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_DSP_PARAMETER_DESC_p arg1 = (FMOD_DSP_PARAMETER_DESC_p) 0 ;
   FMOD_DSP_PARAMETER_DESC_p *result = 0 ;
@@ -22467,7 +22457,7 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_copy_1FMOD_1DSP_1PARAMETER_1D
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1DSP_1PARAMETER_1DESC_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_delete_1FMOD_1DSP_1PARAMETER_1DESC_1p_1p(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FMOD_DSP_PARAMETER_DESC_p *arg1 = (FMOD_DSP_PARAMETER_DESC_p *) 0 ;
   
   (void)jenv;
@@ -22477,7 +22467,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_delete_1FMOD_1DSP_1PARAMETER_1
 }
 
 
-SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1PARAMETER_1DESC_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1PARAMETER_1DESC_1p_1p_1assign(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   FMOD_DSP_PARAMETER_DESC_p *arg1 = (FMOD_DSP_PARAMETER_DESC_p *) 0 ;
   FMOD_DSP_PARAMETER_DESC_p arg2 = (FMOD_DSP_PARAMETER_DESC_p) 0 ;
   
@@ -22489,7 +22479,7 @@ SWIGEXPORT void JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1PARAMETER_1DESC_1p_
 }
 
 
-SWIGEXPORT jlong JNICALL Java_org_fmod_jni_fmodJNI_FMOD_1DSP_1PARAMETER_1DESC_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1PARAMETER_1DESC_1p_1p_1value(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   FMOD_DSP_PARAMETER_DESC_p *arg1 = (FMOD_DSP_PARAMETER_DESC_p *) 0 ;
   FMOD_DSP_PARAMETER_DESC_p result;

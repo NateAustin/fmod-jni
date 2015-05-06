@@ -3,6 +3,8 @@ package org.fmod.studio;
 import org.fmod.lowlevel.FMODResultTracker;
 import org.fmod.jni.*;
 
+import static org.fmod.jni.FMOD.*;
+
 /**
  * {@link FMOD_RESULT} return values have been omitted from the individual calls because it's a pain in the neck
  * to return multiple values in Java. They are exposed via the getLastResult() and resultHandler mechanisms instead.
@@ -27,25 +29,25 @@ public final class EventDescription extends FMODResultTracker{
 	}
 
 	public boolean isValid() {
-		return fmod.FMOD_Studio_EventDescription_IsValid(pointer) != 0;
+		return FMOD_Studio_EventDescription_IsValid(pointer) != 0;
 	}
 	public FMOD_GUID getId() {
 		if(tmpId == null) {
 			tmpId = new FMOD_GUID();
 		}
-		processApiResult(fmod.FMOD_Studio_EventDescription_GetID(pointer, tmpId), "EventDescription.getId");
+		processApiResult(FMOD_Studio_EventDescription_GetID(pointer, tmpId), "EventDescription.getId");
 		return tmpId;
 	}
 
 	public EventInstance createInstance() {
-		SWIGTYPE_p_p_FMOD_STUDIO_EVENTINSTANCE pp = fmod.new_FMOD_STUDIO_EVENTINSTANCE_p_p();
-		processApiResult(fmod.FMOD_Studio_EventDescription_CreateInstance(pointer, pp), "EventDescription.createInstance");
-		final SWIGTYPE_p_FMOD_STUDIO_EVENTINSTANCE p = fmod.FMOD_STUDIO_EVENTINSTANCE_p_p_value(pp);
-		fmod.delete_FMOD_STUDIO_EVENTINSTANCE_p_p(pp);
-		return new EventInstance(p);
+		SWIGTYPE_p_p_FMOD_STUDIO_EVENTINSTANCE pp = new_FMOD_STUDIO_EVENTINSTANCE_p_p();
+		processApiResult(FMOD_Studio_EventDescription_CreateInstance(pointer, pp), "EventDescription.createInstance");
+		final SWIGTYPE_p_FMOD_STUDIO_EVENTINSTANCE p = FMOD_STUDIO_EVENTINSTANCE_p_p_value(pp);
+		delete_FMOD_STUDIO_EVENTINSTANCE_p_p(pp);
+		return new EventInstance(p, this);
 	}
 	public void loadSampleData() {
-		processApiResult(fmod.FMOD_Studio_EventDescription_LoadSampleData(pointer), "EventDescription.loadSampleData");
+		processApiResult(FMOD_Studio_EventDescription_LoadSampleData(pointer), "EventDescription.loadSampleData");
 	}
 
 //FMOD_RESULT F_API FMOD_Studio_EventDescription_GetPath(FMOD_STUDIO_EVENTDESCRIPTION *eventdescription, char *path, int size, int *retrieved);

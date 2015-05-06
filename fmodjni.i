@@ -1,4 +1,4 @@
-%module fmod
+%module FMOD
 %{
 #include "fmod_common.h"
 #include "fmod.h"
@@ -14,10 +14,35 @@
 %apply float *INOUT {float *};
 %apply unsigned int *INOUT {unsigned int *};
 
-/* TODO fix FMOD_CREATESOUNDEXINFO.inclusionList (generates bad java due to interaction with typemaps.i ? */
-%ignore int * inclusionlist;
+%include "enums.swg"
 
-/* TODO char * -> String out (getPathByID) */
+/* handle enum out params here: */
+%define ENUM_OUTPUT_TYPEMAPS(TYPE, TYPENAME)
+// override the default int *OUTPUT typemap to work with enums
+%typemap(in) int *OUTPUT($*1_ltype temp), int &OUTPUT($*1_ltype temp)
+{
+   if (!$input) {
+     SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "array null");
+     return $null;
+   }
+   if (JCALL1(GetArrayLength, jenv, $input) == 0) {
+     SWIG_JavaThrowException(jenv, SWIG_JavaIndexOutOfBoundsException, "Array must contain at least 1 element");
+     return $null;
+   }
+   $1 = (TYPE *)&temp;
+}
+%apply int* OUTPUT {TYPE *TYPENAME, TYPE &TYPENAME};
+%enddef
+
+ENUM_OUTPUT_TYPEMAPS(FMOD_STUDIO_PLAYBACK_STATE, state)
+//others...
+
+
+
+/* TODO fix FMOD_CREATESOUNDEXINFO.inclusionList (generates bad java due to interaction with typemaps.i ? */
+%ignore inclusionlist;
+
+/* TODO char * -> String out (getPathByID) -> various.i char * BYTE */
 /* TODO unsigned long long typemap (maybe just use a long instead of BigInteger?) */
 /* TODO void* -> byte buffer, for in and out */
 /* TODO FMOD_Studio_System_LoadBankMemory const char *buffer -> byte array (see SWIG docs, this one is easy*/

@@ -1,6 +1,6 @@
 package demo;
 
-import org.fmod.FMOD;
+import org.fmod.FMODLoader;
 import org.fmod.jni.FMOD_STUDIO_STOP_MODE;
 import org.fmod.studio.Bank;
 import org.fmod.studio.EventDescription;
@@ -9,7 +9,7 @@ import org.fmod.studio.FmodStudioSystem;
 
 import java.io.IOException;
 
-import static org.fmod.jni.fmodConstants.*;
+import static org.fmod.jni.FMODConstants.*;
 
 /**
  * Loosely based on the FMOD Studio simple_event example.
@@ -20,7 +20,7 @@ public class SimpleEvent {
 
 	public static void main(String[] args) {
 
-		boolean didLoad = FMOD.loadNatives();
+		boolean didLoad = FMODLoader.loadNatives();
 
 		if(didLoad) {
 			System.out.println("Sweet.");
