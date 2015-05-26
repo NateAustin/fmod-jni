@@ -87,7 +87,7 @@ public class EventInstance extends FMODResultTracker {
 		processApiResult(FMOD_Studio_EventInstance_Get3DAttributes(pointer, attributes), "FMOD_Studio_EventInstance_Get3DAttributes");
 		return attributes;
 	}
-	public void setListenerAttributes(FMOD_3D_ATTRIBUTES attributes) {
+	public void set3DAttributes(FMOD_3D_ATTRIBUTES attributes) {
 		processApiResult(FMOD_Studio_EventInstance_Set3DAttributes(pointer, attributes), "FMOD_Studio_EventInstance_Set3DAttributes");
 	}
 

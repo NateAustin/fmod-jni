@@ -16,6 +16,10 @@ import java.util.zip.CRC32;
  */
 public class FMODLoader {
 
+	/**
+	 * retrieve the error message
+	 */
+	public static String error;
 
 	/**
 	 * Load the fmod runtime libraries. This must be called before any apis can be used.
@@ -91,8 +95,7 @@ public class FMODLoader {
 			java.lang.System.loadLibrary(folderName + libName);
 			return true;
 		} catch (UnsatisfiedLinkError linkError) {
-			java.lang.System.out.println("failed to load " + libName);
-			linkError.printStackTrace();
+			failWithError(libName, linkError);
 		}
 		return false;
 	}
@@ -100,9 +103,24 @@ public class FMODLoader {
 	private static boolean loadLibrary(String sharedLibName) {
 		if (sharedLibName == null) return false;
 
-		String path = extractLibrary(sharedLibName);
-		if (path != null) System.load(path);
-		return path != null;
+		try {
+			String path = extractLibrary(sharedLibName);
+			if (path != null) {
+				System.load(path);
+				return true;
+			}
+		} catch (Throwable t) {
+			failWithError(sharedLibName, t);
+		}
+		return false;
+	}
+
+	private static void failWithError(String sharedLibName, Throwable t) {
+		StringWriter writer = new StringWriter(256);
+		t.printStackTrace(new PrintWriter(writer));
+		String errMsg = writer.toString().trim();
+		error = "failed to load " + sharedLibName + t.toString() + ": " + errMsg;
+		System.out.println(error);
 	}
 
 	/**
