@@ -48,6 +48,13 @@ public final class EventDescription extends FMODResultTracker{
 		delete_FMOD_STUDIO_EVENTINSTANCE_p_p(pp);
 		return new EventInstance(p, this);
 	}
+	
+	public boolean hasCue() {
+		int[] p = new int[1];
+		processApiResult(FMOD_Studio_EventDescription_HasCue(pointer, p), "EventDescription.hasCue");
+		return p[0] != 0;
+	}
+	
 	public void loadSampleData() {
 		processApiResult(FMOD_Studio_EventDescription_LoadSampleData(pointer), "EventDescription.loadSampleData");
 	}

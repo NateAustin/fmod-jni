@@ -14,7 +14,7 @@ http://www.fmod.org/
 * This repo does not include FMOD Studio itself, just the JNI bindings to it.
 * I am not affiliated with FMOD or Firelight Technologies.
 
-To use FMOD with this project you will need to download the FMOD Studio API version 1.0.6.01.
+To use FMOD with this project you will need to download the FMOD Studio API version 1.08.04.
 
 ##Approach
 The goal of this project is to be an idiomatic Java implementation of the FMOD Studio and Low Level API. The Java API defines the same classes and functions that the C++ api defines. We want the integration to be as "turnkey" as possible, so we're binding all of the fmod native libraries into our jar and loading them at runtime. In this way consumers need only link the fmod-jni-jar.jar file and call FMOD.loadNatives() in order to use fmod. (However because we don't include FMOD Studio in this repo, you must download it yourself and build the jar before you can use it.) 
@@ -32,6 +32,8 @@ The main (only real) difference is that I've elected not to return FMOD_RESULT f
 Under the hood, I'm using SWIG (http://www.swig.org/) to generate Java JNI bindings around the FMOD C (not C++) api. I chose the C api for maximum portability(?), and hey, they're functionally identical so it shouldn't matter. Then on the Java side, I've stubbed out the API classes and am in the process of filling in an idiomatic Java API to FMOD.
 
 A lot of the code SWIG generates is pretty ugly, and the current setup puts several layers between the application and FMOD. I'm not terribly happy with that but it seems like the fastest path forward for now. A more mature implementation might write more JNI code by hand in order to reduce overhead.
+
+The bindings here were generated with Swig 3.0.9
 
 ##Status
 HIGHLY INCOMPLETE - Some of FMOD::Studio::System is implemented, and just enough of FMOD::Studio::EventDescription and FMOD::Studio::EventInstance to run the SimpleEvent demo.
@@ -68,6 +70,7 @@ TODO: Right now the API you will use is spread between the generated source and 
 * If you wish to rebuild the SWIG bindings (i.e. you're contributing to this project, THANKS!) then you need to place the contents of the /FMOD Studio API/api folder in the fmod_api folder in this project.
 * swig.exe must be in your PATH.
 * see the runswig.bat file for the swig command line I'm using. Feel free to make a more cross-platform script if it pleases you. SWIG will generate /c_jni_wrapper/fmod_wrap.c and a whole bunch of java files in fmod-jni-jar/java_generated_src
+* The SWIG source file is fmodjni.i, in the project root. SWIG can do a bunch of complicated stuff, and I am a NOOB at it.
 * once you've run swig you'll need to regenerate the dynamic libs for your OS(es). I don't have any kind of build system for this yet, I've just been pressing rebuild in Visual Studio and manually copying files around. Honestly I really don't know the right way to do it so I'd appreciate some advice. What kind of build script do people use when working on cross platform c++ and java?
 
 ## License

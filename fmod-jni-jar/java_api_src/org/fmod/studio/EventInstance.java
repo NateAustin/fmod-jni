@@ -128,30 +128,21 @@ public class EventInstance extends FMODResultTracker {
 		processApiResult(FMOD_Studio_EventInstance_IsVirtual(pointer, p), "FMOD_Studio_EventInstance_IsVirtual");
 		return p[0] != 0;
 	}
-
-	public ParameterInstance getParameter(String name) {
-		SWIGTYPE_p_p_FMOD_STUDIO_PARAMETERINSTANCE pp = new_FMOD_STUDIO_PARAMETERINSTANCE_p_p();
-		processApiResult(FMOD_Studio_EventInstance_GetParameter(pointer, name, pp), "FMOD_Studio_EventInstance_GetParameter");
-		SWIGTYPE_p_FMOD_STUDIO_PARAMETERINSTANCE p = FMOD_STUDIO_PARAMETERINSTANCE_p_p_value(pp);
-		delete_FMOD_STUDIO_PARAMETERINSTANCE_p_p(pp);
-		if(FMOD_Studio_ParameterInstance_IsValid(p) != 0) {
-			return new ParameterInstance(p);
-		}
-		return null;
-	}
-	public ParameterInstance getParameterByIndex(int index) {
-		SWIGTYPE_p_p_FMOD_STUDIO_PARAMETERINSTANCE pp = new_FMOD_STUDIO_PARAMETERINSTANCE_p_p();
-		processApiResult(FMOD_Studio_EventInstance_GetParameterByIndex(pointer, index, pp), "FMOD_Studio_EventInstance_GetParameterByIndex");
-		SWIGTYPE_p_FMOD_STUDIO_PARAMETERINSTANCE p = FMOD_STUDIO_PARAMETERINSTANCE_p_p_value(pp);
-		delete_FMOD_STUDIO_PARAMETERINSTANCE_p_p(pp);
-		if (FMOD_Studio_ParameterInstance_IsValid(p) != 0) {
-			return new ParameterInstance(p);
-		}
-		return null;
-	}
+	
 	public int getParameterCount() {
 		int[] p = new int[1];
 		processApiResult(FMOD_Studio_EventInstance_GetParameterCount(pointer, p), "FMOD_Studio_EventInstance_GetParameterCount");
+		return p[0];
+	}
+	
+	public float getParameterValue(String name) {
+		float[] p = new float[1];
+		processApiResult(FMOD_Studio_EventInstance_GetParameterValue(pointer, name, p), "FMOD_Studio_EventInstance_GetParameterValue");
+		return p[0];
+	}
+	public float getParameterValueByIndex(int index) {
+		float[] p = new float[1];
+		processApiResult(FMOD_Studio_EventInstance_GetParameterValueByIndex(pointer, index, p), "FMOD_Studio_EventInstance_GetParameterValueByIndex");
 		return p[0];
 	}
 
@@ -171,30 +162,8 @@ public class EventInstance extends FMODResultTracker {
 		return new ChannelGroup(p);
 	}
 	
-	public CueInstance getCue(String name) {
-		SWIGTYPE_p_p_FMOD_STUDIO_CUEINSTANCE pp = new_FMOD_STUDIO_CUEINSTANCE_p_p();
-		processApiResult(FMOD_Studio_EventInstance_GetCue(pointer, name, pp), "FMOD_Studio_EventInstance_GetCue");
-		SWIGTYPE_p_FMOD_STUDIO_CUEINSTANCE p = FMOD_STUDIO_CUEINSTANCE_p_p_value(pp);
-		delete_FMOD_STUDIO_CUEINSTANCE_p_p(pp);
-		if (FMOD_Studio_CueInstance_IsValid(p) != 0) {
-			return new CueInstance(p);
-		}
-		return null;		
-	}
-	public CueInstance getCueByIndex(int index) {
-		SWIGTYPE_p_p_FMOD_STUDIO_CUEINSTANCE pp = new_FMOD_STUDIO_CUEINSTANCE_p_p();
-		processApiResult(FMOD_Studio_EventInstance_GetCueByIndex(pointer, index, pp), "FMOD_Studio_EventInstance_GetCueByIndex");
-		SWIGTYPE_p_FMOD_STUDIO_CUEINSTANCE p = FMOD_STUDIO_CUEINSTANCE_p_p_value(pp);
-		delete_FMOD_STUDIO_CUEINSTANCE_p_p(pp);
-		if (FMOD_Studio_CueInstance_IsValid(p) != 0) {
-			return new CueInstance(p);
-		}
-		return null;		
-	}
-	public int getCueCount() {
-		int[] p = new int[1];
-		processApiResult(FMOD_Studio_EventInstance_GetCueCount(pointer, p), "FMOD_Studio_EventInstance_GetCueCount");
-		return p[0];
+	public void triggerCue() {
+		processApiResult(FMOD_Studio_EventInstance_TriggerCue(pointer), "FMOD_Studio_EventInstance_TriggerCue");
 	}
 
 
