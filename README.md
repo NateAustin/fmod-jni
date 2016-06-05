@@ -73,6 +73,15 @@ TODO: Right now the API you will use is spread between the generated source and 
 * The SWIG source file is fmodjni.i, in the project root. SWIG can do a bunch of complicated stuff, and I am a NOOB at it.
 * once you've run swig you'll need to regenerate the dynamic libs for your OS(es). I don't have any kind of build system for this yet, I've just been pressing rebuild in Visual Studio and manually copying files around. Honestly I really don't know the right way to do it so I'd appreciate some advice. What kind of build script do people use when working on cross platform c++ and java?
 
+## Roadmap and TODO
+* Mac Support! This is next!
+* I'd like to eliminate unnecessary memory allocation in the java api. 
+** Right now we allocate single-element arrays in many functions in order to retrieve values. These arrays could be just live on the API objects, or pooled. We maybe need to make a decision about thread safety for this.
+** Pool our API objects (EventDescription! EventInstance!) to avoid garbage collection hitches. Get our new calls down to zero when just playing sounds that are already loaded.
+* I want Vectors in particular to be more idiomatic, since this is basically the only thing I use. It should be possible to use SWIG %extend to do this, right? (So that we don't need yet another java object layer.)
+* Build out more of the API and make it nicer.. what's our priority? What will actually be used?
+
+
 ## License
 Copyright 2015 Nate Austin
 
