@@ -13,6 +13,9 @@ import static org.fmod.jni.FMODConstants.*;
 
 /**
  * Loosely based on the FMOD Studio simple_event example.
+ * 
+ * Must use /demo/working as working directory.
+ * 
  * Author: Nate
  * Date: 5/1/2015
  */

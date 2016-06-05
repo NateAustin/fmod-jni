@@ -71,7 +71,7 @@ public class EventInstance extends FMODResultTracker {
 	}
 
 	/**
-	 * returns a temporary FMOD_3D_ATTRIBUTES object is reused per call.
+	 * returns a temporary FMOD_3D_ATTRIBUTES object that is reused per call.
 	 * If that's not what you want you can call the other version of the function instead.
 	 */
 	public FMOD_3D_ATTRIBUTES get3DAttributes() {
