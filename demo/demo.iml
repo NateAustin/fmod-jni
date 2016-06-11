@@ -10,7 +10,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../out/artifacts/fmod_jni_jar_jar/fmod-jni-jar.jar!/" />
+          <root url="jar://$MODULE_DIR$/../out/artifacts/fmod_jni/fmod-jni.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>

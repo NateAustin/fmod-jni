@@ -8,26 +8,26 @@
 
 package org.fmod.jni;
 
-public class SWIGTYPE_p_FMOD_STUDIO_CUEINSTANCE {
+public class SWIGTYPE_p_long_long {
   private transient long swigCPtr;
 
-  protected SWIGTYPE_p_FMOD_STUDIO_CUEINSTANCE(long cPtr, @SuppressWarnings("unused") boolean futureUse) {
+  protected SWIGTYPE_p_long_long(long cPtr, @SuppressWarnings("unused") boolean futureUse) {
     swigCPtr = cPtr;
   }
 
-  protected SWIGTYPE_p_FMOD_STUDIO_CUEINSTANCE() {
+  protected SWIGTYPE_p_long_long() {
     swigCPtr = 0;
   }
 
-  protected static long getCPtr(SWIGTYPE_p_FMOD_STUDIO_CUEINSTANCE obj) {
+  protected static long getCPtr(SWIGTYPE_p_long_long obj) {
     return (obj == null) ? 0 : obj.swigCPtr;
   }
 
   public boolean equals(Object obj) {
   	if(obj == this) return true;
   	if(obj == null) return false;
-  	if (! (obj instanceof SWIGTYPE_p_FMOD_STUDIO_CUEINSTANCE)) return false;
-    return this.swigCPtr == ((SWIGTYPE_p_FMOD_STUDIO_CUEINSTANCE)obj).swigCPtr;
+  	if (! (obj instanceof SWIGTYPE_p_long_long)) return false;
+    return this.swigCPtr == ((SWIGTYPE_p_long_long)obj).swigCPtr;
   }
   public int hashCode() {
      return (int)swigCPtr;
