@@ -1,6 +1,5 @@
-/nativeSwigWrapperLibraries/fmod_api/fsbank
-/nativeSwigWrapperLibraries/fmod_api/lowlevel
-/nativeSwigWrapperLibraries/fmod_api/studio
+nativeSwigWrapperLibraries/fmod_api/*
+
 .idea/workspace.xml
 demo/working/fmod_example_media/
 fmod-jni-jar/out/
@@ -14,4 +13,5 @@ fmod-jni.properties
 out/
 nativeSwigWrapperLibraries/windows_VisualStudio/x64/*
 nativeSwigWrapperLibraries/windows_VisualStudio/Debug/*
+nativeSwigWrapperLibraries/mac_Xcode/
 

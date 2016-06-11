@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4311B4D71D0C6FA40032E022 /* fmod_wrap.c in Sources */ = {isa = PBXBuildFile; fileRef = 4311B4D61D0C6FA40032E022 /* fmod_wrap.c */; };
+		4311B4DD1D0C80ED0032E022 /* libfmodL.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4311B4DB1D0C80ED0032E022 /* libfmodL.dylib */; };
+		4311B4DF1D0C81150032E022 /* libfmodstudioL.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4311B4DE1D0C81150032E022 /* libfmodstudioL.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4311B4CF1D0C6EB30032E022 /* libfmodJNI.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libfmodJNI.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		4311B4D61D0C6FA40032E022 /* fmod_wrap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fmod_wrap.c; path = ../../c_jni_wrapper/fmod_wrap.c; sourceTree = "<group>"; };
+		4311B4DA1D0C80ED0032E022 /* libfmod.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmod.dylib; path = ../../fmod_api/api/lowlevel/lib/libfmod.dylib; sourceTree = "<group>"; };
+		4311B4DB1D0C80ED0032E022 /* libfmodL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmodL.dylib; path = ../../fmod_api/api/lowlevel/lib/libfmodL.dylib; sourceTree = "<group>"; };
+		4311B4DE1D0C81150032E022 /* libfmodstudioL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmodstudioL.dylib; path = ../../fmod_api/api/studio/lib/libfmodstudioL.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4311B4CC1D0C6EB30032E022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4311B4DD1D0C80ED0032E022 /* libfmodL.dylib in Frameworks */,
+				4311B4DF1D0C81150032E022 /* libfmodstudioL.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4311B4C61D0C6EB30032E022 = {
+			isa = PBXGroup;
+			children = (
+				4311B4DE1D0C81150032E022 /* libfmodstudioL.dylib */,
+				4311B4DA1D0C80ED0032E022 /* libfmod.dylib */,
+				4311B4DB1D0C80ED0032E022 /* libfmodL.dylib */,
+				4311B4D61D0C6FA40032E022 /* fmod_wrap.c */,
+				4311B4D01D0C6EB30032E022 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4311B4D01D0C6EB30032E022 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4311B4CF1D0C6EB30032E022 /* libfmodJNI.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4311B4CD1D0C6EB30032E022 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4311B4CE1D0C6EB30032E022 /* fmodJNI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4311B4D31D0C6EB30032E022 /* Build configuration list for PBXNativeTarget "fmodJNI" */;
+			buildPhases = (
+				4311B4CB1D0C6EB30032E022 /* Sources */,
+				4311B4CC1D0C6EB30032E022 /* Frameworks */,
+				4311B4CD1D0C6EB30032E022 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fmodJNI;
+			productName = fmodJNI;
+			productReference = 4311B4CF1D0C6EB30032E022 /* libfmodJNI.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4311B4C71D0C6EB30032E022 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nathaniel Austin";
+				TargetAttributes = {
+					4311B4CE1D0C6EB30032E022 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4311B4CA1D0C6EB30032E022 /* Build configuration list for PBXProject "fmodJNI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4311B4C61D0C6EB30032E022;
+			productRefGroup = 4311B4D01D0C6EB30032E022 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4311B4CE1D0C6EB30032E022 /* fmodJNI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4311B4CB1D0C6EB30032E022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4311B4D71D0C6FA40032E022 /* fmod_wrap.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4311B4D11D0C6EB30032E022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4311B4D21D0C6EB30032E022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4311B4D41D0C6EB30032E022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = (
+					/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/include,
+					/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/include/darwin,
+					../../fmod_api/api/lowlevel/inc,
+					../../fmod_api/api/studio/inc,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					../../fmod_api/api/lowlevel/lib,
+					../../fmod_api/api/studio/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../../fmod_api/api/lowlevel/inc ../../fmod_api/api/studio/inc /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/include  /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/include/darwin";
+			};
+			name = Debug;
+		};
+		4311B4D51D0C6EB30032E022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = (
+					/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/include,
+					/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/include/darwin,
+					../../fmod_api/api/lowlevel/inc,
+					../../fmod_api/api/studio/inc,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					../../fmod_api/api/lowlevel/lib,
+					../../fmod_api/api/studio/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../../fmod_api/api/lowlevel/inc ../../fmod_api/api/studio/inc /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/include  /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/include/darwin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4311B4CA1D0C6EB30032E022 /* Build configuration list for PBXProject "fmodJNI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4311B4D11D0C6EB30032E022 /* Debug */,
+				4311B4D21D0C6EB30032E022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4311B4D31D0C6EB30032E022 /* Build configuration list for PBXNativeTarget "fmodJNI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4311B4D41D0C6EB30032E022 /* Debug */,
+				4311B4D51D0C6EB30032E022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4311B4C71D0C6EB30032E022 /* Project object */;
+}
