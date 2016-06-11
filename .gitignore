@@ -5,10 +5,12 @@
 demo/working/fmod_example_media/
 fmod-jni-jar/out/
 fmod-jni.properties
-fmod_runtimes/fmodL.dll
-fmod_runtimes/fmodL64.dll
-fmod_runtimes/fmodstudioL.dll
-fmod_runtimes/fmodstudioL64.dll
+/fmod_runtimes/fmodL.dll
+/fmod_runtimes/fmodL64.dll
+/fmod_runtimes/fmodstudioL.dll
+/fmod_runtimes/fmodstudioL64.dll
+/fmod_runtimes/libfmodL.dylib
+/fmod_runtimes/libfmodstudioL.dylib
 out/
 nativeSwigWrapperLibraries/windows_VisualStudio/x64
 nativeSwigWrapperLibraries/windows_VisualStudio/Debug
