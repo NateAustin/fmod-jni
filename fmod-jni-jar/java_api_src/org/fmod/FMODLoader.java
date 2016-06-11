@@ -73,21 +73,15 @@ public class FMODLoader {
 				loaded = loadLibrary(folderName + sharedLibName + "64.dll");
 		}
 		if (isLinux) {
+			//totally untested.
 			if (!is64Bit)
 				loaded = loadLibrary(folderName + "lib" + sharedLibName + ".so");
 			else
 				loaded = loadLibrary(folderName + "lib" + sharedLibName + "64.so");
 		}
 		if (isMac) {
-			if (!is64Bit) {
-				loaded = loadLibrary(folderName + "lib" + sharedLibName + ".dylib");
-			} else {
-				loaded = loadLibrary(folderName + "lib" + sharedLibName + "64.dylib");
-				if(!loaded) {
-					//??
-					loaded = loadLibrary(folderName + "lib" + sharedLibName + ".dylib");
-				}
-			}
+			//do we need separate 32/64 versions?
+			loaded = loadLibrary(folderName + "lib" + sharedLibName + ".dylib");
 		}
 		if (isAndroid) {
 			loaded = loadAndroidLibrary(folderName, sharedLibName);

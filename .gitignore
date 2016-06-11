@@ -12,5 +12,6 @@ fmod-jni.properties
 /fmod_runtimes/libfmodL.dylib
 /fmod_runtimes/libfmodstudioL.dylib
 out/
-nativeSwigWrapperLibraries/windows_VisualStudio/x64
-nativeSwigWrapperLibraries/windows_VisualStudio/Debug
+nativeSwigWrapperLibraries/windows_VisualStudio/x64/*
+nativeSwigWrapperLibraries/windows_VisualStudio/Debug/*
+

@@ -107,7 +107,7 @@
       <AdditionalDependencies>fsbank_vc.lib;fmodL_vc.lib;fmodstudioL_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy $(OutDir)$(TargetName)$(TargetExt) $(ProjectDir)\..\fmod_runtimes</Command>
+      <Command>copy $(OutDir)$(TargetName)$(TargetExt) $(ProjectDir)\..\..\fmod_runtimes</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -125,7 +125,7 @@
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);fsbank64_vc.lib;fmodL64_vc.lib;fmodstudioL64_vc.lib;</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy $(OutDir)$(TargetName)$(TargetExt) $(ProjectDir)\..\fmod_runtimes</Command>
+      <Command>copy $(OutDir)$(TargetName)$(TargetExt) $(ProjectDir)\..\..\fmod_runtimes</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -149,7 +149,7 @@
       <AdditionalDependencies>fsbank_vc.lib;fmodL_vc.lib;fmodstudioL_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy $(OutDir)$(TargetName)$(TargetExt) $(ProjectDir)\..\fmod_runtimes</Command>
+      <Command>copy $(OutDir)$(TargetName)$(TargetExt) $(ProjectDir)\..\..\fmod_runtimes</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -171,7 +171,7 @@
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);fsbank64_vc.lib;fmodL64_vc.lib;fmodstudioL64_vc.lib;</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy $(OutDir)$(TargetName)$(TargetExt) $(ProjectDir)\..\fmod_runtimes</Command>
+      <Command>copy $(OutDir)$(TargetName)$(TargetExt) $(ProjectDir)\..\..\fmod_runtimes</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
