@@ -1,0 +1,14 @@
+/nativeSwigWrapperLibraries/fmod_api/fsbank
+/nativeSwigWrapperLibraries/fmod_api/lowlevel
+/nativeSwigWrapperLibraries/fmod_api/studio
+.idea/workspace.xml
+demo/working/fmod_example_media/
+fmod-jni-jar/out/
+fmod-jni.properties
+fmod_runtimes/fmodL.dll
+fmod_runtimes/fmodL64.dll
+fmod_runtimes/fmodstudioL.dll
+fmod_runtimes/fmodstudioL64.dll
+out/
+nativeSwigWrapperLibraries/windows_VisualStudio/x64
+nativeSwigWrapperLibraries/windows_VisualStudio/Debug
