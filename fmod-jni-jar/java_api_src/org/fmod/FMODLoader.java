@@ -79,10 +79,15 @@ public class FMODLoader {
 				loaded = loadLibrary(folderName + "lib" + sharedLibName + "64.so");
 		}
 		if (isMac) {
-			if (!is64Bit)
+			if (!is64Bit) {
 				loaded = loadLibrary(folderName + "lib" + sharedLibName + ".dylib");
-			else
+			} else {
 				loaded = loadLibrary(folderName + "lib" + sharedLibName + "64.dylib");
+				if(!loaded) {
+					//??
+					loaded = loadLibrary(folderName + "lib" + sharedLibName + ".dylib");
+				}
+			}
 		}
 		if (isAndroid) {
 			loaded = loadAndroidLibrary(folderName, sharedLibName);
