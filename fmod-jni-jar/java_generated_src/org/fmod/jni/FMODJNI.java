@@ -1213,4 +1213,7 @@ public class FMODJNI {
   public final static native void delete_FMOD_DSP_PARAMETER_DESC_p_p(long jarg1);
   public final static native void FMOD_DSP_PARAMETER_DESC_p_p_assign(long jarg1, long jarg2);
   public final static native long FMOD_DSP_PARAMETER_DESC_p_p_value(long jarg1);
+  public final static native int sizeof_FMOD_ADVANCEDSETTINGS_get();
+  public final static native int sizeof_FMOD_STUDIO_ADVANCEDSETTINGS_get();
+  public final static native int sizeof_FMOD_CREATESOUNDEXINFO_get();
 }

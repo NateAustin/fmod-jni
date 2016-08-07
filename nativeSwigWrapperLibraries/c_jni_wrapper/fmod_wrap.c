@@ -694,6 +694,9 @@ static FMOD_DSP_PARAMETER_DESC_p FMOD_DSP_PARAMETER_DESC_p_p_value(FMOD_DSP_PARA
 }
 
 
+#include <stdlib.h>
+
+
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -23210,6 +23213,42 @@ SWIGEXPORT jlong JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1DSP_1PARAMETER_1DESC_1p
   arg1 = *(FMOD_DSP_PARAMETER_DESC_p **)&jarg1; 
   result = (FMOD_DSP_PARAMETER_DESC_p)FMOD_DSP_PARAMETER_DESC_p_p_value(arg1);
   *(FMOD_DSP_PARAMETER_DESC_p *)&jresult = result; 
+  return jresult;
+}
+
+
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_sizeof_1FMOD_1ADVANCEDSETTINGS_1get(JNIEnv *jenv, jclass jcls) {
+  jint jresult = 0 ;
+  int result;
+  
+  (void)jenv;
+  (void)jcls;
+  result = (int)(sizeof(FMOD_ADVANCEDSETTINGS));
+  jresult = (jint)result; 
+  return jresult;
+}
+
+
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_sizeof_1FMOD_1STUDIO_1ADVANCEDSETTINGS_1get(JNIEnv *jenv, jclass jcls) {
+  jint jresult = 0 ;
+  int result;
+  
+  (void)jenv;
+  (void)jcls;
+  result = (int)(sizeof(FMOD_STUDIO_ADVANCEDSETTINGS));
+  jresult = (jint)result; 
+  return jresult;
+}
+
+
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_sizeof_1FMOD_1CREATESOUNDEXINFO_1get(JNIEnv *jenv, jclass jcls) {
+  jint jresult = 0 ;
+  int result;
+  
+  (void)jenv;
+  (void)jcls;
+  result = (int)(sizeof(FMOD_CREATESOUNDEXINFO));
+  jresult = (jint)result; 
   return jresult;
 }
 

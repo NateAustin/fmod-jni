@@ -22,7 +22,7 @@ import static org.fmod.jni.FMOD.*;
  * Author: Nate
  * Date: 5/1/2015
  */
-@SuppressWarnings("unused")	//this is an api, it expects to be unused. lol.
+@SuppressWarnings({"unused", "WeakerAccess"})    //this is an api, it expects to be unused. lol.
 public final class FmodStudioSystem extends FMODResultTracker {
 
 	private final SWIGTYPE_p_FMOD_STUDIO_SYSTEM pointer;
@@ -46,7 +46,7 @@ public final class FmodStudioSystem extends FMODResultTracker {
 		SWIGTYPE_p_p_FMOD_STUDIO_SYSTEM pp = new_FMOD_STUDIO_SYSTEM_p_p();
 		FMOD_RESULT result = FMOD_Studio_System_Create(pp, FMODConstants.FMOD_VERSION);
 		final FmodStudioSystem system = new FmodStudioSystem(FMOD_STUDIO_SYSTEM_p_p_value(pp));
-		system.processApiResult(result, "System.create");
+		system.processApiResult(result, "StudioSystem.create");
 		delete_FMOD_STUDIO_SYSTEM_p_p(pp);
 		return system;
 	}
@@ -59,19 +59,20 @@ public final class FmodStudioSystem extends FMODResultTracker {
 	}
 
 	public void setAdvancedSettings(FMOD_STUDIO_ADVANCEDSETTINGS settings) {
-		processApiResult(FMOD_Studio_System_SetAdvancedSettings(pointer, settings), "System.setAdvancedSettings");
+		processApiResult(FMOD_Studio_System_SetAdvancedSettings(pointer, settings), "StudioSystem.setAdvancedSettings");
 	}
 
 	public FMOD_STUDIO_ADVANCEDSETTINGS getAdvancedSettings() {
 		if(tmpAdvancedSettings == null) {
 			tmpAdvancedSettings = new FMOD_STUDIO_ADVANCEDSETTINGS();
+			tmpAdvancedSettings.setCbSize(FMODConstants.sizeof_FMOD_STUDIO_ADVANCEDSETTINGS);
 		}
 
 		return getAdvancedSettings(tmpAdvancedSettings);
 	}
 
-	private FMOD_STUDIO_ADVANCEDSETTINGS getAdvancedSettings(FMOD_STUDIO_ADVANCEDSETTINGS toFill) {
-		processApiResult(FMOD_Studio_System_GetAdvancedSettings(pointer, toFill), "System.getAdvancedSettings");
+	public FMOD_STUDIO_ADVANCEDSETTINGS getAdvancedSettings(FMOD_STUDIO_ADVANCEDSETTINGS toFill) {
+		processApiResult(FMOD_Studio_System_GetAdvancedSettings(pointer, toFill), "StudioSystem.getAdvancedSettings");
 		return toFill;
 	}
 
@@ -80,11 +81,11 @@ public final class FmodStudioSystem extends FMODResultTracker {
 	 * @see <a href="http://www.fmod.org/documentation/#content/generated/FMOD_Studio_System_Initialize.html">FMOD Documentation</a>
 	 */
 	public void initialize(int maxChannels, long studioFlags, long flags, SWIGTYPE_p_void extraDriverData) {
-		processApiResult(FMOD_Studio_System_Initialize(pointer, maxChannels, studioFlags, flags, extraDriverData), "System.initialize");
+		processApiResult(FMOD_Studio_System_Initialize(pointer, maxChannels, studioFlags, flags, extraDriverData), "StudioSystem.initialize");
 	}
 
 	public void release() {
-		processApiResult(FMOD_Studio_System_Release(pointer), "System.release");
+		processApiResult(FMOD_Studio_System_Release(pointer), "StudioSystem.release");
 	}
 
 	public boolean isValid() {
@@ -92,16 +93,16 @@ public final class FmodStudioSystem extends FMODResultTracker {
 	}
 
 	public void update() {
-		processApiResult(FMOD_Studio_System_Update(pointer), "System.update");
+		processApiResult(FMOD_Studio_System_Update(pointer), "StudioSystem.update");
 	}
 
 	public void flushCommands() {
-		processApiResult(FMOD_Studio_System_FlushCommands(pointer), "System.flushCommands");
+		processApiResult(FMOD_Studio_System_FlushCommands(pointer), "StudioSystem.flushCommands");
 	}
 
 	public FmodSystem getLowLevelSystem() {
 		SWIGTYPE_p_p_FMOD_SYSTEM pp = new_FMOD_SYSTEM_p_p();
-		processApiResult(FMOD_Studio_System_GetLowLevelSystem(pointer, pp), "System.getLowLevelSystem");
+		processApiResult(FMOD_Studio_System_GetLowLevelSystem(pointer, pp), "StudioSystem.getLowLevelSystem");
 		SWIGTYPE_p_FMOD_SYSTEM lowLevel_p = FMOD_SYSTEM_p_p_value(pp);
 		delete_FMOD_SYSTEM_p_p(pp);
 		return FmodSystem.fromPointer(lowLevel_p);
@@ -109,14 +110,14 @@ public final class FmodStudioSystem extends FMODResultTracker {
 
 	public EventDescription getEvent(String pathOrId) {
 		SWIGTYPE_p_p_FMOD_STUDIO_EVENTDESCRIPTION pp = new_FMOD_STUDIO_EVENTDESCRIPTION_p_p();
-		processApiResult(FMOD_Studio_System_GetEvent(pointer, pathOrId, pp), "System.getEvent");
+		processApiResult(FMOD_Studio_System_GetEvent(pointer, pathOrId, pp), "StudioSystem.getEvent");
 		SWIGTYPE_p_FMOD_STUDIO_EVENTDESCRIPTION p = FMOD_STUDIO_EVENTDESCRIPTION_p_p_value(pp);
 		delete_FMOD_STUDIO_EVENTDESCRIPTION_p_p(pp);
 		return new EventDescription(p);
 	}
 	public EventDescription getEventById(FMOD_GUID id) {
 		SWIGTYPE_p_p_FMOD_STUDIO_EVENTDESCRIPTION pp = new_FMOD_STUDIO_EVENTDESCRIPTION_p_p();
-		processApiResult(FMOD_Studio_System_GetEventByID(pointer, id, pp), "System.getEventById");
+		processApiResult(FMOD_Studio_System_GetEventByID(pointer, id, pp), "StudioSystem.getEventById");
 		SWIGTYPE_p_FMOD_STUDIO_EVENTDESCRIPTION p = FMOD_STUDIO_EVENTDESCRIPTION_p_p_value(pp);
 		delete_FMOD_STUDIO_EVENTDESCRIPTION_p_p(pp);
 		return new EventDescription(p);
@@ -124,7 +125,7 @@ public final class FmodStudioSystem extends FMODResultTracker {
 
 	public Bus getBus(String path) {
 		SWIGTYPE_p_p_FMOD_STUDIO_BUS pp = new_FMOD_STUDIO_BUS_p_p();
-		processApiResult(FMOD_Studio_System_GetBus(pointer, path, pp), "System.getBus");
+		processApiResult(FMOD_Studio_System_GetBus(pointer, path, pp), "StudioSystem.getBus");
 		SWIGTYPE_p_FMOD_STUDIO_BUS p = FMOD_STUDIO_BUS_p_p_value(pp);
 		delete_FMOD_STUDIO_BUS_p_p(pp);
 		return new Bus(p);
@@ -132,7 +133,7 @@ public final class FmodStudioSystem extends FMODResultTracker {
 
 	public Bus getBusById(FMOD_GUID id) {
 		SWIGTYPE_p_p_FMOD_STUDIO_BUS pp = new_FMOD_STUDIO_BUS_p_p();
-		processApiResult(FMOD_Studio_System_GetBusByID(pointer, id, pp), "System.getBus");
+		processApiResult(FMOD_Studio_System_GetBusByID(pointer, id, pp), "StudioSystem.getBus");
 		SWIGTYPE_p_FMOD_STUDIO_BUS p = FMOD_STUDIO_BUS_p_p_value(pp);
 		delete_FMOD_STUDIO_BUS_p_p(pp);
 		return new Bus(p);
@@ -140,14 +141,14 @@ public final class FmodStudioSystem extends FMODResultTracker {
 
 	public VCA getVCA(String path) {
 		SWIGTYPE_p_p_FMOD_STUDIO_VCA pp = new_FMOD_STUDIO_VCA_p_p();
-		processApiResult(FMOD_Studio_System_GetVCA(pointer, path, pp), "System.getVCA");
+		processApiResult(FMOD_Studio_System_GetVCA(pointer, path, pp), "StudioSystem.getVCA");
 		SWIGTYPE_p_FMOD_STUDIO_VCA p = FMOD_STUDIO_VCA_p_p_value(pp);
 		delete_FMOD_STUDIO_VCA_p_p(pp);
 		return new VCA(p);
 	}
 	public VCA getVCAById(FMOD_GUID id) {
 		SWIGTYPE_p_p_FMOD_STUDIO_VCA pp = new_FMOD_STUDIO_VCA_p_p();
-		processApiResult(FMOD_Studio_System_GetVCAByID(pointer, id, pp), "System.getVCA");
+		processApiResult(FMOD_Studio_System_GetVCAByID(pointer, id, pp), "StudioSystem.getVCA");
 		SWIGTYPE_p_FMOD_STUDIO_VCA p = FMOD_STUDIO_VCA_p_p_value(pp);
 		delete_FMOD_STUDIO_VCA_p_p(pp);
 		return new VCA(p);
@@ -155,14 +156,14 @@ public final class FmodStudioSystem extends FMODResultTracker {
 
 	public Bank getBank(String path) {
 		SWIGTYPE_p_p_FMOD_STUDIO_BANK pp = new_FMOD_STUDIO_BANK_p_p();
-		processApiResult(FMOD_Studio_System_GetBank(pointer, path, pp), "System.getBank");
+		processApiResult(FMOD_Studio_System_GetBank(pointer, path, pp), "StudioSystem.getBank");
 		SWIGTYPE_p_FMOD_STUDIO_BANK p = FMOD_STUDIO_BANK_p_p_value(pp);
 		delete_FMOD_STUDIO_BANK_p_p(pp);
 		return new Bank(p);
 	}
 	public Bank getBankById(FMOD_GUID id) {
 		SWIGTYPE_p_p_FMOD_STUDIO_BANK pp = new_FMOD_STUDIO_BANK_p_p();
-		processApiResult(FMOD_Studio_System_GetBankByID(pointer, id, pp), "System.getBank");
+		processApiResult(FMOD_Studio_System_GetBankByID(pointer, id, pp), "StudioSystem.getBank");
 		SWIGTYPE_p_FMOD_STUDIO_BANK p = FMOD_STUDIO_BANK_p_p_value(pp);
 		delete_FMOD_STUDIO_BANK_p_p(pp);
 		return new Bank(p);
@@ -176,7 +177,7 @@ public final class FmodStudioSystem extends FMODResultTracker {
 	}
 
 	public FMOD_STUDIO_SOUND_INFO getSoundInfo(String key, FMOD_STUDIO_SOUND_INFO info) {
-		processApiResult(FMOD_Studio_System_GetSoundInfo(pointer, key, info), "System.getSoundInfo");
+		processApiResult(FMOD_Studio_System_GetSoundInfo(pointer, key, info), "StudioSystem.getSoundInfo");
 		return info;
 	}
 
@@ -193,18 +194,18 @@ public final class FmodStudioSystem extends FMODResultTracker {
 	 * If you want to allocate your own GUID I guess you can do that too.
 	 */
 	public FMOD_GUID lookupId(String path, FMOD_GUID outId) {
-		processApiResult(FMOD_Studio_System_LookupID(pointer, path, outId), "System.lookupId");
+		processApiResult(FMOD_Studio_System_LookupID(pointer, path, outId), "StudioSystem.lookupId");
 		return outId;
 	}
 
 	public int getNumListeners() {
 		int[] numListeners = new int[1];
-		processApiResult(FMOD_Studio_System_GetNumListeners(pointer, numListeners), "System.getNumListeners");
+		processApiResult(FMOD_Studio_System_GetNumListeners(pointer, numListeners), "StudioSystem.getNumListeners");
 		return numListeners[0];
 	}
 
 	public void setNumListeners(int numListeners) {
-		processApiResult(FMOD_Studio_System_SetNumListeners(pointer, numListeners), "System.setNumListeners");
+		processApiResult(FMOD_Studio_System_SetNumListeners(pointer, numListeners), "StudioSystem.setNumListeners");
 	}
 
 	/**
@@ -222,12 +223,12 @@ public final class FmodStudioSystem extends FMODResultTracker {
 	 * Fills the given FMOD_3D_ATTRIBUTES object with the listener attributes.
 	 */
 	public FMOD_3D_ATTRIBUTES getListenerAttributes(int index, FMOD_3D_ATTRIBUTES attributes) {
-		processApiResult(FMOD_Studio_System_GetListenerAttributes(pointer, index, attributes), "System.getListenerAttributes");
+		processApiResult(FMOD_Studio_System_GetListenerAttributes(pointer, index, attributes), "StudioSystem.getListenerAttributes");
 		return attributes;
 	}
 
 	public void setListenerAttributes(int index, FMOD_3D_ATTRIBUTES attributes) {
-		processApiResult(FMOD_Studio_System_SetListenerAttributes(pointer, index, attributes), "System.setListenerAttributes");
+		processApiResult(FMOD_Studio_System_SetListenerAttributes(pointer, index, attributes), "StudioSystem.setListenerAttributes");
 	}
 
 	/**
@@ -235,14 +236,14 @@ public final class FmodStudioSystem extends FMODResultTracker {
 	 */
 	public Bank loadBankFile(String filename, long studioLoadBankFlags) {
 		SWIGTYPE_p_p_FMOD_STUDIO_BANK pp = new_FMOD_STUDIO_BANK_p_p();
-		processApiResult(FMOD_Studio_System_LoadBankFile(pointer, filename, studioLoadBankFlags, pp), "System.loadBankFile");
+		processApiResult(FMOD_Studio_System_LoadBankFile(pointer, filename, studioLoadBankFlags, pp), "StudioSystem.loadBankFile");
 		SWIGTYPE_p_FMOD_STUDIO_BANK p = FMOD_STUDIO_BANK_p_p_value(pp);
 		delete_FMOD_STUDIO_BANK_p_p(pp);
 		return new Bank(p);
 	}
 
 	public void unloadAll() {
-		processApiResult(FMOD_Studio_System_UnloadAll(pointer), "System.unloadAll");
+		processApiResult(FMOD_Studio_System_UnloadAll(pointer), "StudioSystem.unloadAll");
 	}
 
 

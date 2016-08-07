@@ -1,19 +1,20 @@
-﻿Build started 6/5/2016 4:40:12 PM.
-     1>Project "C:\git\fmod-jni\fmodJniDll\fmodJniDll.vcxproj" on node 2 (Build target(s)).
+﻿Build started 8/7/2016 10:33:35 AM.
+     1>Project "C:\git\fmod-jni\nativeSwigWrapperLibraries\windows_VisualStudio\fmodJniDll.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D FMODJNIDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt ..\c_jni_wrapper\fmod_wrap.c
          fmod_wrap.c
-     1>..\c_jni_wrapper\fmod_wrap.c(3383): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>..\c_jni_wrapper\fmod_wrap.c(3386): warning C4146: unary minus operator applied to unsigned type, result still unsigned
        Link:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\git\fmod-jni\fmodJniDll\x64\Debug\fmodJNI64.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib fsbank64_vc.lib fmodL64_vc.lib fmodstudioL64_vc.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\git\fmod-jni\fmodJniDll\x64\Debug\fmodJNI64.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\git\fmod-jni\fmodJniDll\x64\Debug\fmodJNI64.lib" /MACHINE:X64 /DLL x64\Debug\fmod_wrap.obj
-            Creating library C:\git\fmod-jni\fmodJniDll\x64\Debug\fmodJNI64.lib and object C:\git\fmod-jni\fmodJniDll\x64\Debug\fmodJNI64.exp
-         fmodJniDll.vcxproj -> C:\git\fmod-jni\fmodJniDll\x64\Debug\fmodJNI64.dll
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\git\fmod-jni\nativeSwigWrapperLibraries\windows_VisualStudio\x64\Debug\fmodJNI64.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib fsbank64_vc.lib fmodL64_vc.lib fmodstudioL64_vc.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\git\fmod-jni\nativeSwigWrapperLibraries\windows_VisualStudio\x64\Debug\fmodJNI64.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\git\fmod-jni\nativeSwigWrapperLibraries\windows_VisualStudio\x64\Debug\fmodJNI64.lib" /MACHINE:X64 /DLL x64\Debug\fmod_wrap.obj
+         LINK : C:\git\fmod-jni\nativeSwigWrapperLibraries\windows_VisualStudio\x64\Debug\fmodJNI64.dll not found or not built by the last incremental link; performing full link
+            Creating library C:\git\fmod-jni\nativeSwigWrapperLibraries\windows_VisualStudio\x64\Debug\fmodJNI64.lib and object C:\git\fmod-jni\nativeSwigWrapperLibraries\windows_VisualStudio\x64\Debug\fmodJNI64.exp
+         fmodJniDll.vcxproj -> C:\git\fmod-jni\nativeSwigWrapperLibraries\windows_VisualStudio\x64\Debug\fmodJNI64.dll
        PostBuildEvent:
-         copy C:\git\fmod-jni\fmodJniDll\x64\Debug\fmodJNI64.dll C:\git\fmod-jni\fmodJniDll\\..\fmod_runtimes
+         copy C:\git\fmod-jni\nativeSwigWrapperLibraries\windows_VisualStudio\x64\Debug\fmodJNI64.dll C:\git\fmod-jni\nativeSwigWrapperLibraries\windows_VisualStudio\\..\..\fmod_runtimes
          :VCEnd
                  1 file(s) copied.
-     1>Done Building Project "C:\git\fmod-jni\fmodJniDll\fmodJniDll.vcxproj" (Build target(s)).
+     1>Done Building Project "C:\git\fmod-jni\nativeSwigWrapperLibraries\windows_VisualStudio\fmodJniDll.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.96
+Time Elapsed 00:00:03.20

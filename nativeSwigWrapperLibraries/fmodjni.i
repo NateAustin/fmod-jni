@@ -113,5 +113,8 @@ typedef FMOD_DSP_PARAMETER_DESC* FMOD_DSP_PARAMETER_DESC_p;
 %pointer_functions(FMOD_DSPCONNECTION_p, FMOD_DSPCONNECTION_p_p);
 %pointer_functions(FMOD_DSP_PARAMETER_DESC_p, FMOD_DSP_PARAMETER_DESC_p_p);
 
-
-
+/* add sizeof consts for certain objects that need them */
+%include "cmalloc.i"
+%sizeof(FMOD_ADVANCEDSETTINGS);
+%sizeof(FMOD_STUDIO_ADVANCEDSETTINGS);
+%sizeof(FMOD_CREATESOUNDEXINFO);
