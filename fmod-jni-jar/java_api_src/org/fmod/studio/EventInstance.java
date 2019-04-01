@@ -22,6 +22,12 @@ public class EventInstance extends FMODResultTracker {
 	private final SWIGTYPE_p_FMOD_STUDIO_EVENTINSTANCE pointer;
 	private final EventDescription parent;
 	private FMOD_3D_ATTRIBUTES fmod3DAttributes;
+	
+	//out parameter values (used to simulate float*)
+	//note this makes us technically thread unsafe, but, meh.
+	
+	private float[] r1 = new float[1];
+	private float[] r2 = new float[1];
 
 
 	EventInstance(SWIGTYPE_p_FMOD_STUDIO_EVENTINSTANCE pointer, EventDescription parent) {
@@ -53,18 +59,16 @@ public class EventInstance extends FMODResultTracker {
 	}
 	
 	public float getVolume() {
-		float [] v  = new float[1];
-		processApiResult(FMOD_Studio_EventInstance_GetVolume(pointer, v), "FMOD_Studio_EventInstance_GetVolume");
-		return v[0];
+		processApiResult(FMOD_Studio_EventInstance_GetVolume(pointer, r1, null), "FMOD_Studio_EventInstance_GetVolume");
+		return r1[0];
 	}
 	public void setVolume(float v) {
 		processApiResult(FMOD_Studio_EventInstance_SetVolume(pointer, v), "FMOD_Studio_EventInstance_SetVolume");
 	}
 	
 	public float getPitch() {
-		float[] v = new float[1];
-		processApiResult(FMOD_Studio_EventInstance_GetPitch(pointer, v), "FMOD_Studio_EventInstance_GetPitch");
-		return v[0];
+		processApiResult(FMOD_Studio_EventInstance_GetPitch(pointer, r1, null), "FMOD_Studio_EventInstance_GetPitch");
+		return r1[0];
 	}
 	public void setPitch(float v) {
 		processApiResult(FMOD_Studio_EventInstance_SetPitch(pointer, v), "FMOD_Studio_EventInstance_SetPitch");
@@ -92,9 +96,9 @@ public class EventInstance extends FMODResultTracker {
 	}
 
 	public float getProperty(FMOD_STUDIO_EVENT_PROPERTY property) {
-		float[] p = new float[1];
-		processApiResult(FMOD_Studio_EventInstance_GetProperty(pointer, property, p), "FMOD_Studio_EventInstance_GetProperty");
-		return p[0];
+		
+		processApiResult(FMOD_Studio_EventInstance_GetProperty(pointer, property, r1), "FMOD_Studio_EventInstance_GetProperty");
+		return r1[0];
 	}
 	public void setProperty(FMOD_STUDIO_EVENT_PROPERTY property, float value) {
 		processApiResult(FMOD_Studio_EventInstance_SetProperty(pointer, property, value),"FMOD_Studio_EventInstance_SetProperty");
@@ -136,14 +140,13 @@ public class EventInstance extends FMODResultTracker {
 	}
 	
 	public float getParameterValue(String name) {
-		float[] p = new float[1];
-		processApiResult(FMOD_Studio_EventInstance_GetParameterValue(pointer, name, p), "FMOD_Studio_EventInstance_GetParameterValue");
-		return p[0];
+		processApiResult(FMOD_Studio_EventInstance_GetParameterValue(pointer, name, r1, null), "FMOD_Studio_EventInstance_GetParameterValue");
+		return r1[0];
 	}
 	public float getParameterValueByIndex(int index) {
-		float[] p = new float[1];
-		processApiResult(FMOD_Studio_EventInstance_GetParameterValueByIndex(pointer, index, p), "FMOD_Studio_EventInstance_GetParameterValueByIndex");
-		return p[0];
+		
+		processApiResult(FMOD_Studio_EventInstance_GetParameterValueByIndex(pointer, index, r1, null), "FMOD_Studio_EventInstance_GetParameterValueByIndex");
+		return r1[0];
 	}
 
 	public void setParameterValue(String parameter, float value) {

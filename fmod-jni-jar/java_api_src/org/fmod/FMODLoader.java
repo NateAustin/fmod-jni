@@ -118,7 +118,7 @@ public class FMODLoader {
 		StringWriter writer = new StringWriter(256);
 		t.printStackTrace(new PrintWriter(writer));
 		String errMsg = writer.toString().trim();
-		error = "failed to load " + sharedLibName + t.toString() + ": " + errMsg;
+		error = "failed to load " + sharedLibName + " with " + t.toString() + ": " + errMsg;
 		System.out.println(error);
 	}
 

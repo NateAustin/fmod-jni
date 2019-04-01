@@ -46,10 +46,10 @@ public class MovingListener {
 		String mediaFolder = "fmod_example_media/";
 		studioSystem.loadBankFile(mediaFolder + "Master Bank.bank", FMOD_STUDIO_LOAD_BANK_NORMAL);
 		studioSystem.loadBankFile(mediaFolder + "Master Bank.strings.bank", FMOD_STUDIO_LOAD_BANK_NORMAL);
-		studioSystem.loadBankFile(mediaFolder + "Weapons.bank", FMOD_STUDIO_LOAD_BANK_NORMAL);
+		studioSystem.loadBankFile(mediaFolder + "SFX.bank", FMOD_STUDIO_LOAD_BANK_NORMAL);
 
 		//get the events:
-		shotDescription = studioSystem.getEvent("event:/Weapons/Single-Shot");
+		shotDescription = studioSystem.getEvent("event:/Weapons/Explosion");
 
 
 		System.out.println("Press Q to quit");

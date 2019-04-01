@@ -37,9 +37,8 @@ public class SimpleEvent {
 		String mediaFolder = "fmod_example_media/";
 		Bank masterBank = studioSystem.loadBankFile(mediaFolder + "Master Bank.bank", FMOD_STUDIO_LOAD_BANK_NORMAL);
 		Bank stringsBank = studioSystem.loadBankFile(mediaFolder + "Master Bank.strings.bank", FMOD_STUDIO_LOAD_BANK_NORMAL);
-		Bank ambienceBank = studioSystem.loadBankFile(mediaFolder + "Surround_Ambience.bank", FMOD_STUDIO_LOAD_BANK_NORMAL);
-		Bank menuBank = studioSystem.loadBankFile(mediaFolder + "UI_Menu.bank", FMOD_STUDIO_LOAD_BANK_NORMAL);
-		Bank weaponsBank = studioSystem.loadBankFile(mediaFolder + "Weapons.bank", FMOD_STUDIO_LOAD_BANK_NORMAL);
+		Bank ambienceBank = studioSystem.loadBankFile(mediaFolder + "SFX.bank", FMOD_STUDIO_LOAD_BANK_NORMAL);
+
 
 		//get the events:
 		EventDescription loopingAmbienceDescription = studioSystem.getEvent("event:/Ambience/Country");
@@ -48,7 +47,7 @@ public class SimpleEvent {
 		EventDescription cancelDescription = studioSystem.getEvent("event:/UI/Cancel");
 		EventInstance cancel = cancelDescription.createInstance();
 
-		EventDescription explosionDescription = studioSystem.getEvent("event:/Explosions/Single Explosion");
+		EventDescription explosionDescription = studioSystem.getEvent("event:/Weapons/Explosion");
     	// Start loading explosion sample data and keep it in memory
 		explosionDescription.loadSampleData();
 

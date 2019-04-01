@@ -65,7 +65,7 @@ public final class FmodStudioSystem extends FMODResultTracker {
 	public FMOD_STUDIO_ADVANCEDSETTINGS getAdvancedSettings() {
 		if(tmpAdvancedSettings == null) {
 			tmpAdvancedSettings = new FMOD_STUDIO_ADVANCEDSETTINGS();
-			tmpAdvancedSettings.setCbSize(FMODConstants.sizeof_FMOD_STUDIO_ADVANCEDSETTINGS);
+			tmpAdvancedSettings.setCbsize(FMODConstants.sizeof_FMOD_STUDIO_ADVANCEDSETTINGS);
 		}
 
 		return getAdvancedSettings(tmpAdvancedSettings);

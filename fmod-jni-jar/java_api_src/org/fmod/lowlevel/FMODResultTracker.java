@@ -75,17 +75,38 @@ public class FMODResultTracker {
 	private static final class DefaultResultHandler implements IResultHandler {
 		@Override
 		public void handleNotOk(FMOD_RESULT result, String apiName) {
-			try {
-				throw new RuntimeException();
-			} catch (RuntimeException e) {
-				java.lang.System.out.println("unexpected FMOD Result " + result.toString() + " for call to " + apiName);
-				e.printStackTrace();
-			}
+			java.lang.System.out.println("unexpected FMOD Result " + result.toString() + " for call to " + apiName);
+			java.lang.System.out.println(getTrace(5));
 		}
 
 		@Override
 		public void handleOk(String apiName) {
 			//don't care.
+		}
+	}
+
+
+	private static String getTrace(int numToSkip) {
+		StackTraceElement[] stackTrace = Thread.currentThread().getStackTrace();
+		return toStringSkipN(stackTrace, numToSkip);
+	}
+
+
+	private static String toStringSkipN(Object[] a, int nToSkip) {
+		if (a == null)
+			return "null";
+
+		int iMax = a.length - 1;
+		if (iMax < nToSkip)
+			return "empty";
+
+		StringBuilder b = new StringBuilder();
+
+		for (int i = nToSkip; ; i++) {
+			b.append(a[i]);
+			if (i == iMax)
+				return b.toString();
+			b.append("\n");
 		}
 	}
 
