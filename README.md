@@ -5,7 +5,7 @@ The goal of this project is to make the FMOD Studio audio engine available to Ja
 
 My intention is to support the FMOD Studio workflow where an audio designer works on a project in FMOD studio, and a game programmer works in Java, loading banks, calling events, setting parameters etc. for the FMOD project to consume. So the portion of the API that's concerned with that workflow will be my top priority.
 
-##About FMOD
+## About FMOD
 FMOD Studio is a cross-platform 3D audio engine and designer tool for games.
 
 http://www.fmod.org/
@@ -53,7 +53,7 @@ From your code:
 
 TODO: Right now the API you will use is spread between the generated source and the api source. In the future it would be good to create a clear distinction so that Java users don't have to worry about the jni internals. There are potentially some performance trade-offs as well.
 
-##Approach
+## Approach
 The goal of this project is to be an idiomatic Java implementation of the FMOD Studio and Low Level API. The Java API defines the same classes and functions that the C++ api defines. We want the integration to be as "turnkey" as possible, so we're binding all of the fmod native libraries into our jar and loading them at runtime. In this way consumers need only link the fmod-jni.jar file and call FMOD.loadNatives() in order to use fmod. (However because we don't include FMOD Studio in this repo, you must download it yourself and build the jar before you can use it.) 
 
 ### Omissions and Deviations
