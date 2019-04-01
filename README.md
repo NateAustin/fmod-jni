@@ -1,7 +1,7 @@
 # fmod-jni
 Cross-platform Java JNI wrapper for the FMOD audio library. Experimental and Incomplete. Apache 2 License.
 
-The goal of this project is to make the FMOD Studio audio engine available to Java code. This project is in support of my indie game, Legacy (http://yonderinglands.blogspot.com/) but you are welcome to use it for whatever, or suggest improvements. Legacy is under active development and I expect this API to expand and harden over time to meet the audio needs of the game.
+The goal of this project is to make the FMOD Studio audio engine available to Java code. This project is in support of my indie game, Wildermyth (http://wildermyth.com/) but you are welcome to use it for whatever, or suggest improvements. Wildermyth is under active development and I expect this API to expand and harden over time to meet the audio needs of the game.
 
 My intention is to support the FMOD Studio workflow where an audio designer works on a project in FMOD studio, and a game programmer works in Java, loading banks, calling events, setting parameters etc. for the FMOD project to consume. So the portion of the API that's concerned with that workflow will be my top priority.
 
@@ -38,7 +38,7 @@ FMOD supports additional platforms (i.e. Linux), and it should be straightforwar
 ## Usage
 To play sound using FMOD from Java, you will need to build the fmod-jni.jar file, because this repo does not contain the necessary FMOD native libraries.
 * You will need to download the FMOD Studio api for your platform(s).
-* You will need to build the fomd-jni dynamic libs for your platform. I've included the debug logging dlls for windows and mac, but other platforms are up to you for now. Generating the DLL is fairly simple, you should read the SWIG documentation to get an idea of what it's all about. There's a visual studio express project to reference as well.
+* You will need to build the fmod-jni dynamic libs for your platform. I've included the debug logging dlls for windows and mac, but other platforms are up to you for now. Generating the DLL is fairly simple, you should read the SWIG documentation to get an idea of what it's all about. There's a visual studio express project to reference as well.
 * put the FMOD dynamic libs in the fmod_runtimes directory. The windows dlls I created bind to the logging version of the FMOD dlls, so for windows you will put these files in the runtimes folder:
   * fmodL.dll
   * fmodL64.dll
@@ -86,7 +86,7 @@ If you want to improve the Java API, you don't need to run swig or mess with the
 * Debug/Release support. Right now we are using debug wrapper libraries and we are hard-coded to use the fmod logging runtimes. This is not ideal for release builds. We want some sort of build-level switch? Two jar targets?
 
 ## License
-Copyright 2015 Nate Austin
+Copyright 2015-2019 Nate Austin
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
