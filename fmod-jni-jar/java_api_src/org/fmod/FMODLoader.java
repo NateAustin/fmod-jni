@@ -74,10 +74,10 @@ public class FMODLoader {
 		}
 		if (isLinux) {
 			//totally untested.
-			if (!is64Bit)
-				loaded = loadLibrary(folderName + "lib" + sharedLibName + ".so");
-			else
-				loaded = loadLibrary(folderName + "lib" + sharedLibName + "64.so");
+			loaded = loadLibrary(folderName + "lib" + sharedLibName + ".so");
+//			if (!is64Bit)
+//			else
+//				loaded = loadLibrary(folderName + "lib" + sharedLibName + "64.so");
 		}
 		if (isMac) {
 			//do we need separate 32/64 versions?

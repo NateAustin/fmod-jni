@@ -13,8 +13,8 @@ include_directories(${JAVA_HOME}/include ${JAVA_HOME}/include/linux ${FMOD_API}/
 
 add_library(fmodJNI SHARED ../c_jni_wrapper/fmod_wrap.c)
 
-find_library(LIB_FMOD fmod PATHS ${FMOD_API}/lowlevel/lib/x86_64)
-find_library(LIB_FMOD_STUDIO fmodstudio PATHS ${FMOD_API}/studio/lib/x86_64)
+find_library(LIB_FMOD fmod PATHS ../../fmod_runtimes)
+find_library(LIB_FMOD_STUDIO fmodstudio PATHS ../../fmod_runtimes)
 
 target_link_libraries(fmodJNI ${LIB_FMOD} ${LIB_FMOD_STUDIO})
 
