@@ -10,11 +10,24 @@ fmod-jni.properties
 /fmod_runtimes/fmodstudioL64.dll
 /fmod_runtimes/libfmodL.dylib
 /fmod_runtimes/libfmodstudioL.dylib
+/fmod_runtimes/libfmodL.so
+/fmod_runtimes/libfmodstudioL.so
+/fmod_runtimes/fmod.dll
+/fmod_runtimes/fmod64.dll
+/fmod_runtimes/fmodstudio.dll
+/fmod_runtimes/fmodstudio64.dll
+/fmod_runtimes/libfmod.dylib
+/fmod_runtimes/libfmodstudio.dylib
+/fmod_runtimes/libfmod.so
+/fmod_runtimes/libfmodstudio.so
 out/
 nativeSwigWrapperLibraries/windows_VisualStudio/x64/*
 nativeSwigWrapperLibraries/windows_VisualStudio/Debug/*
 nativeSwigWrapperLibraries/windows_VisualStudio/Release/*
 nativeSwigWrapperLibraries/windows_VisualStudio/.vs/*
 nativeSwigWrapperLibraries/mac_Xcode/
+
+nativeSwigWrapperLibraries/linux_clion/cmake-build-debug/*
+nativeSwigWrapperLibraries/linux_clion/cmake-build-release/*
 
 nativeSwigWrapperLibraries/windows_VisualStudio/fmodJniDll.opensdf
