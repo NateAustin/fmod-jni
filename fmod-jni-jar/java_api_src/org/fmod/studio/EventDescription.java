@@ -1,7 +1,9 @@
 package org.fmod.studio;
 
-import org.fmod.lowlevel.FMODResultTracker;
 import org.fmod.jni.*;
+import org.fmod.lowlevel.FMODResultTracker;
+
+import java.nio.charset.StandardCharsets;
 
 import static org.fmod.jni.FMOD.*;
 
@@ -21,6 +23,9 @@ public final class EventDescription extends FMODResultTracker{
 	private final SWIGTYPE_p_FMOD_STUDIO_EVENTDESCRIPTION pointer;
 
 	private FMOD_GUID tmpId;
+
+
+	private int[] ri = new int[1];
 
 	EventDescription(SWIGTYPE_p_FMOD_STUDIO_EVENTDESCRIPTION pointer) {
 		this.pointer = pointer;
@@ -49,17 +54,30 @@ public final class EventDescription extends FMODResultTracker{
 		return new EventInstance(p, this);
 	}
 	
-	public boolean hasCue() {
-		int[] p = new int[1];
-		processApiResult(FMOD_Studio_EventDescription_HasCue(pointer, p), "EventDescription.hasCue");
-		return p[0] != 0;
+	public synchronized boolean hasCue() {
+		processApiResult(FMOD_Studio_EventDescription_HasCue(pointer, ri), "EventDescription.hasCue");
+		return ri[0] != 0;
 	}
 	
 	public void loadSampleData() {
 		processApiResult(FMOD_Studio_EventDescription_LoadSampleData(pointer), "EventDescription.loadSampleData");
 	}
-
+	
+	
 //FMOD_RESULT F_API FMOD_Studio_EventDescription_GetPath(FMOD_STUDIO_EVENTDESCRIPTION *eventdescription, char *path, int size, int *retrieved);
+	public synchronized String getPath() {
+		byte[] buf = new byte[512];
+		processApiResult(FMOD_Studio_EventDescription_GetPath(pointer, buf, 512, ri), "EventDescription.getPath");
+
+		int clen = ri[0];
+		if(clen > 0) {
+			return new String(buf, 0, clen - 1, StandardCharsets.UTF_8);
+		}
+		return "";
+	}
+	
+	
+
 //FMOD_RESULT F_API FMOD_Studio_EventDescription_GetParameterCount(FMOD_STUDIO_EVENTDESCRIPTION *eventdescription, int *count);
 //FMOD_RESULT F_API FMOD_Studio_EventDescription_GetParameterByIndex(FMOD_STUDIO_EVENTDESCRIPTION *eventdescription, int index, FMOD_STUDIO_PARAMETER_DESCRIPTION *parameter);
 //FMOD_RESULT F_API FMOD_Studio_EventDescription_GetParameter(FMOD_STUDIO_EVENTDESCRIPTION *eventdescription, const char *name, FMOD_STUDIO_PARAMETER_DESCRIPTION *parameter);

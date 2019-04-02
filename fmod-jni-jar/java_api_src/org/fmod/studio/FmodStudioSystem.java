@@ -1,8 +1,10 @@
 package org.fmod.studio;
 
+import org.fmod.jni.*;
 import org.fmod.lowlevel.FMODResultTracker;
 import org.fmod.lowlevel.FmodSystem;
-import org.fmod.jni.*;
+
+import java.nio.charset.StandardCharsets;
 
 import static org.fmod.jni.FMOD.*;
 
@@ -194,7 +196,7 @@ public final class FmodStudioSystem extends FMODResultTracker {
 	 * If you want to allocate your own GUID I guess you can do that too.
 	 */
 	public FMOD_GUID lookupId(String path, FMOD_GUID outId) {
-		processApiResult(FMOD_Studio_System_LookupID(pointer, path, outId), "StudioSystem.lookupId");
+		processApiResult(FMOD_Studio_System_LookupID(pointer, path.getBytes(StandardCharsets.UTF_8), outId), "StudioSystem.lookupId");
 		return outId;
 	}
 

@@ -26,8 +26,9 @@ public class EventInstance extends FMODResultTracker {
 	//out parameter values (used to simulate float*)
 	//note this makes us technically thread unsafe, but, meh.
 	
-	private float[] r1 = new float[1];
-	private float[] r2 = new float[1];
+	private float[] rf1 = new float[1];
+	
+	private int[] ri1 = new int[1];
 
 
 	EventInstance(SWIGTYPE_p_FMOD_STUDIO_EVENTINSTANCE pointer, EventDescription parent) {
@@ -58,17 +59,17 @@ public class EventInstance extends FMODResultTracker {
 		return parent;
 	}
 	
-	public float getVolume() {
-		processApiResult(FMOD_Studio_EventInstance_GetVolume(pointer, r1, null), "FMOD_Studio_EventInstance_GetVolume");
-		return r1[0];
+	public synchronized float getVolume() {
+		processApiResult(FMOD_Studio_EventInstance_GetVolume(pointer, rf1, null), "FMOD_Studio_EventInstance_GetVolume");
+		return rf1[0];
 	}
 	public void setVolume(float v) {
 		processApiResult(FMOD_Studio_EventInstance_SetVolume(pointer, v), "FMOD_Studio_EventInstance_SetVolume");
 	}
 	
-	public float getPitch() {
-		processApiResult(FMOD_Studio_EventInstance_GetPitch(pointer, r1, null), "FMOD_Studio_EventInstance_GetPitch");
-		return r1[0];
+	public synchronized float getPitch() {
+		processApiResult(FMOD_Studio_EventInstance_GetPitch(pointer, rf1, null), "FMOD_Studio_EventInstance_GetPitch");
+		return rf1[0];
 	}
 	public void setPitch(float v) {
 		processApiResult(FMOD_Studio_EventInstance_SetPitch(pointer, v), "FMOD_Studio_EventInstance_SetPitch");
@@ -95,65 +96,58 @@ public class EventInstance extends FMODResultTracker {
 		processApiResult(FMOD_Studio_EventInstance_Set3DAttributes(pointer, attributes), "FMOD_Studio_EventInstance_Set3DAttributes");
 	}
 
-	public float getProperty(FMOD_STUDIO_EVENT_PROPERTY property) {
-		
-		processApiResult(FMOD_Studio_EventInstance_GetProperty(pointer, property, r1), "FMOD_Studio_EventInstance_GetProperty");
-		return r1[0];
+	public synchronized float getProperty(FMOD_STUDIO_EVENT_PROPERTY property) {
+		processApiResult(FMOD_Studio_EventInstance_GetProperty(pointer, property, rf1), "FMOD_Studio_EventInstance_GetProperty");
+		return rf1[0];
 	}
 	public void setProperty(FMOD_STUDIO_EVENT_PROPERTY property, float value) {
 		processApiResult(FMOD_Studio_EventInstance_SetProperty(pointer, property, value),"FMOD_Studio_EventInstance_SetProperty");
 	}
 
-	public boolean getPaused(){
-		int[] p = new int[1];
-		processApiResult(FMOD_Studio_EventInstance_GetPaused(pointer, p), "FMOD_Studio_EventInstance_GetPaused");
-		return p[0] != 0;
+	public synchronized boolean getPaused(){
+		processApiResult(FMOD_Studio_EventInstance_GetPaused(pointer, ri1), "FMOD_Studio_EventInstance_GetPaused");
+		return ri1[0] != 0;
 	}
 	public void setPaused(boolean paused) {
 		processApiResult(FMOD_Studio_EventInstance_SetPaused(pointer, paused ? 1 : 0), "FMOD_Studio_EventInstance_SetPaused");
 	}
-	public int getTimelinePosition(){
-		int[] p = new int[1];
-		processApiResult(FMOD_Studio_EventInstance_GetTimelinePosition(pointer, p), "FMOD_Studio_EventInstance_GetTimelinePosition");
-		return p[0];
+	public synchronized int getTimelinePosition(){
+		processApiResult(FMOD_Studio_EventInstance_GetTimelinePosition(pointer, ri1), "FMOD_Studio_EventInstance_GetTimelinePosition");
+		return ri1[0];
 	}
 	public void setTimelinePosition(int position) {
 		processApiResult(FMOD_Studio_EventInstance_SetTimelinePosition(pointer, position), "FMOD_Studio_EventInstance_SetTimelinePosition");
 	}
 
 	public FMOD_STUDIO_PLAYBACK_STATE getPlaybackState() {
-		int[] p = new int[1];
-		processApiResult(FMOD_Studio_EventInstance_GetPlaybackState(pointer, p), "FMOD_Studio_EventInstance_GetPlaybackState");
-		return FMOD_STUDIO_PLAYBACK_STATE.swigToEnum(p[0]);
+		processApiResult(FMOD_Studio_EventInstance_GetPlaybackState(pointer, ri1), "FMOD_Studio_EventInstance_GetPlaybackState");
+		return FMOD_STUDIO_PLAYBACK_STATE.swigToEnum(ri1[0]);
 	}
 
-	public boolean isVirtual() {
-		int[] p = new int[1];
-		processApiResult(FMOD_Studio_EventInstance_IsVirtual(pointer, p), "FMOD_Studio_EventInstance_IsVirtual");
-		return p[0] != 0;
+	public synchronized boolean isVirtual() {
+		processApiResult(FMOD_Studio_EventInstance_IsVirtual(pointer, ri1), "FMOD_Studio_EventInstance_IsVirtual");
+		return ri1[0] != 0;
 	}
 	
-	public int getParameterCount() {
-		int[] p = new int[1];
-		processApiResult(FMOD_Studio_EventInstance_GetParameterCount(pointer, p), "FMOD_Studio_EventInstance_GetParameterCount");
-		return p[0];
+	public synchronized int getParameterCount() {
+		processApiResult(FMOD_Studio_EventInstance_GetParameterCount(pointer, ri1), "FMOD_Studio_EventInstance_GetParameterCount");
+		return ri1[0];
 	}
 	
-	public float getParameterValue(String name) {
-		processApiResult(FMOD_Studio_EventInstance_GetParameterValue(pointer, name, r1, null), "FMOD_Studio_EventInstance_GetParameterValue");
-		return r1[0];
+	public synchronized float getParameterValue(String name) {
+		processApiResult(FMOD_Studio_EventInstance_GetParameterValue(pointer, name, rf1, null), "FMOD_Studio_EventInstance_GetParameterValue");
+		return rf1[0];
 	}
-	public float getParameterValueByIndex(int index) {
-		
-		processApiResult(FMOD_Studio_EventInstance_GetParameterValueByIndex(pointer, index, r1, null), "FMOD_Studio_EventInstance_GetParameterValueByIndex");
-		return r1[0];
+	public synchronized float getParameterValueByIndex(int index) {
+		processApiResult(FMOD_Studio_EventInstance_GetParameterValueByIndex(pointer, index, rf1, null), "FMOD_Studio_EventInstance_GetParameterValueByIndex");
+		return rf1[0];
 	}
 
-	public void setParameterValue(String parameter, float value) {
+	public synchronized void setParameterValue(String parameter, float value) {
 		processApiResult(FMOD_Studio_EventInstance_SetParameterValue(pointer, parameter, value), "FMOD_Studio_EventInstance_SetParameterValue");
 	}
 
-	public void setParameterValueByIndex(int index, float value) {
+	public synchronized void setParameterValueByIndex(int index, float value) {
 		processApiResult(FMOD_Studio_EventInstance_SetParameterValueByIndex(pointer, index, value), "FMOD_Studio_EventInstance_SetParameterValueByIndex");
 	}
 

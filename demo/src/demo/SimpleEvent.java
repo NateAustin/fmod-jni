@@ -42,6 +42,8 @@ public class SimpleEvent {
 
 		//get the events:
 		EventDescription loopingAmbienceDescription = studioSystem.getEvent("event:/Ambience/Country");
+		System.out.println(loopingAmbienceDescription.getPath());
+		
 		EventInstance loopingAmbience = loopingAmbienceDescription.createInstance();
 
 		EventDescription cancelDescription = studioSystem.getEvent("event:/UI/Cancel");

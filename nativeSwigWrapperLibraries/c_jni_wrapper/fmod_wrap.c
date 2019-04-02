@@ -6231,7 +6231,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1SetCallback(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1SetPluginPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1SetPluginPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jbyteArray jarg2) {
   jint jresult = 0 ;
   FMOD_SYSTEM *arg1 = (FMOD_SYSTEM *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -6240,14 +6240,15 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1System_1SetPluginPath(JN
   (void)jenv;
   (void)jcls;
   arg1 = *(FMOD_SYSTEM **)&jarg1; 
-  arg2 = 0;
-  if (jarg2) {
-    arg2 = (char *)(*jenv)->GetStringUTFChars(jenv, jarg2, 0);
-    if (!arg2) return 0;
+  {
+    arg2 = (char *) (*jenv)->GetByteArrayElements(jenv, jarg2, 0); 
   }
   result = (FMOD_RESULT)FMOD_System_SetPluginPath(arg1,(char const *)arg2);
   jresult = (jint)result; 
-  if (arg2) (*jenv)->ReleaseStringUTFChars(jenv, jarg2, (const char *)arg2);
+  {
+    (*jenv)->ReleaseByteArrayElements(jenv, jarg2, (jbyte *) arg2, 0); 
+  }
+  
   return jresult;
 }
 
@@ -18880,7 +18881,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1GetSound
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1LookupID(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1LookupID(JNIEnv *jenv, jclass jcls, jlong jarg1, jbyteArray jarg2, jlong jarg3, jobject jarg3_) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -18891,20 +18892,21 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1LookupID
   (void)jcls;
   (void)jarg3_;
   arg1 = *(FMOD_STUDIO_SYSTEM **)&jarg1; 
-  arg2 = 0;
-  if (jarg2) {
-    arg2 = (char *)(*jenv)->GetStringUTFChars(jenv, jarg2, 0);
-    if (!arg2) return 0;
+  {
+    arg2 = (char *) (*jenv)->GetByteArrayElements(jenv, jarg2, 0); 
   }
   arg3 = *(FMOD_GUID **)&jarg3; 
   result = (FMOD_RESULT)FMOD_Studio_System_LookupID(arg1,(char const *)arg2,arg3);
   jresult = (jint)result; 
-  if (arg2) (*jenv)->ReleaseStringUTFChars(jenv, jarg2, (const char *)arg2);
+  {
+    (*jenv)->ReleaseByteArrayElements(jenv, jarg2, (jbyte *) arg2, 0); 
+  }
+  
   return jresult;
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1LookupPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jstring jarg3, jint jarg4, jintArray jarg5) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1LookupPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jobject jarg2_, jbyteArray jarg3, jint jarg4, jintArray jarg5) {
   jint jresult = 0 ;
   FMOD_STUDIO_SYSTEM *arg1 = (FMOD_STUDIO_SYSTEM *) 0 ;
   FMOD_GUID *arg2 = (FMOD_GUID *) 0 ;
@@ -18918,10 +18920,8 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1LookupPa
   (void)jarg2_;
   arg1 = *(FMOD_STUDIO_SYSTEM **)&jarg1; 
   arg2 = *(FMOD_GUID **)&jarg2; 
-  arg3 = 0;
-  if (jarg3) {
-    arg3 = (char *)(*jenv)->GetStringUTFChars(jenv, jarg3, 0);
-    if (!arg3) return 0;
+  {
+    arg3 = (char *) (*jenv)->GetByteArrayElements(jenv, jarg3, 0); 
   }
   arg4 = (int)jarg4; 
   {
@@ -18938,9 +18938,12 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1System_1LookupPa
   result = (FMOD_RESULT)FMOD_Studio_System_LookupPath(arg1,(struct FMOD_GUID const *)arg2,arg3,arg4,arg5);
   jresult = (jint)result; 
   {
+    (*jenv)->ReleaseByteArrayElements(jenv, jarg3, (jbyte *) arg3, 0); 
+  }
+  {
     (*jenv)->ReleaseIntArrayElements(jenv, jarg5, (jint *)arg5, 0); 
   }
-  if (arg3) (*jenv)->ReleaseStringUTFChars(jenv, jarg3, (const char *)arg3);
+  
   
   return jresult;
 }
@@ -19489,7 +19492,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1GetPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3, jintArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription_1GetPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jbyteArray jarg2, jint jarg3, jintArray jarg4) {
   jint jresult = 0 ;
   FMOD_STUDIO_EVENTDESCRIPTION *arg1 = (FMOD_STUDIO_EVENTDESCRIPTION *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -19500,10 +19503,8 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription
   (void)jenv;
   (void)jcls;
   arg1 = *(FMOD_STUDIO_EVENTDESCRIPTION **)&jarg1; 
-  arg2 = 0;
-  if (jarg2) {
-    arg2 = (char *)(*jenv)->GetStringUTFChars(jenv, jarg2, 0);
-    if (!arg2) return 0;
+  {
+    arg2 = (char *) (*jenv)->GetByteArrayElements(jenv, jarg2, 0); 
   }
   arg3 = (int)jarg3; 
   {
@@ -19520,9 +19521,12 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1EventDescription
   result = (FMOD_RESULT)FMOD_Studio_EventDescription_GetPath(arg1,arg2,arg3,arg4);
   jresult = (jint)result; 
   {
+    (*jenv)->ReleaseByteArrayElements(jenv, jarg2, (jbyte *) arg2, 0); 
+  }
+  {
     (*jenv)->ReleaseIntArrayElements(jenv, jarg4, (jint *)arg4, 0); 
   }
-  if (arg2) (*jenv)->ReleaseStringUTFChars(jenv, jarg2, (const char *)arg2);
+  
   
   return jresult;
 }
@@ -21113,7 +21117,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bus_1GetID(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bus_1GetPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3, jintArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bus_1GetPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jbyteArray jarg2, jint jarg3, jintArray jarg4) {
   jint jresult = 0 ;
   FMOD_STUDIO_BUS *arg1 = (FMOD_STUDIO_BUS *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -21124,10 +21128,8 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bus_1GetPath(JNI
   (void)jenv;
   (void)jcls;
   arg1 = *(FMOD_STUDIO_BUS **)&jarg1; 
-  arg2 = 0;
-  if (jarg2) {
-    arg2 = (char *)(*jenv)->GetStringUTFChars(jenv, jarg2, 0);
-    if (!arg2) return 0;
+  {
+    arg2 = (char *) (*jenv)->GetByteArrayElements(jenv, jarg2, 0); 
   }
   arg3 = (int)jarg3; 
   {
@@ -21144,9 +21146,12 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bus_1GetPath(JNI
   result = (FMOD_RESULT)FMOD_Studio_Bus_GetPath(arg1,arg2,arg3,arg4);
   jresult = (jint)result; 
   {
+    (*jenv)->ReleaseByteArrayElements(jenv, jarg2, (jbyte *) arg2, 0); 
+  }
+  {
     (*jenv)->ReleaseIntArrayElements(jenv, jarg4, (jint *)arg4, 0); 
   }
-  if (arg2) (*jenv)->ReleaseStringUTFChars(jenv, jarg2, (const char *)arg2);
+  
   
   return jresult;
 }
@@ -21397,7 +21402,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1VCA_1GetID(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1VCA_1GetPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3, jintArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1VCA_1GetPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jbyteArray jarg2, jint jarg3, jintArray jarg4) {
   jint jresult = 0 ;
   FMOD_STUDIO_VCA *arg1 = (FMOD_STUDIO_VCA *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -21408,10 +21413,8 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1VCA_1GetPath(JNI
   (void)jenv;
   (void)jcls;
   arg1 = *(FMOD_STUDIO_VCA **)&jarg1; 
-  arg2 = 0;
-  if (jarg2) {
-    arg2 = (char *)(*jenv)->GetStringUTFChars(jenv, jarg2, 0);
-    if (!arg2) return 0;
+  {
+    arg2 = (char *) (*jenv)->GetByteArrayElements(jenv, jarg2, 0); 
   }
   arg3 = (int)jarg3; 
   {
@@ -21428,9 +21431,12 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1VCA_1GetPath(JNI
   result = (FMOD_RESULT)FMOD_Studio_VCA_GetPath(arg1,arg2,arg3,arg4);
   jresult = (jint)result; 
   {
+    (*jenv)->ReleaseByteArrayElements(jenv, jarg2, (jbyte *) arg2, 0); 
+  }
+  {
     (*jenv)->ReleaseIntArrayElements(jenv, jarg4, (jint *)arg4, 0); 
   }
-  if (arg2) (*jenv)->ReleaseStringUTFChars(jenv, jarg2, (const char *)arg2);
+  
   
   return jresult;
 }
@@ -21529,7 +21535,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1GetID(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1GetPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3, jintArray jarg4) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1GetPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jbyteArray jarg2, jint jarg3, jintArray jarg4) {
   jint jresult = 0 ;
   FMOD_STUDIO_BANK *arg1 = (FMOD_STUDIO_BANK *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -21540,10 +21546,8 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1GetPath(JN
   (void)jenv;
   (void)jcls;
   arg1 = *(FMOD_STUDIO_BANK **)&jarg1; 
-  arg2 = 0;
-  if (jarg2) {
-    arg2 = (char *)(*jenv)->GetStringUTFChars(jenv, jarg2, 0);
-    if (!arg2) return 0;
+  {
+    arg2 = (char *) (*jenv)->GetByteArrayElements(jenv, jarg2, 0); 
   }
   arg3 = (int)jarg3; 
   {
@@ -21560,9 +21564,12 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1GetPath(JN
   result = (FMOD_RESULT)FMOD_Studio_Bank_GetPath(arg1,arg2,arg3,arg4);
   jresult = (jint)result; 
   {
+    (*jenv)->ReleaseByteArrayElements(jenv, jarg2, (jbyte *) arg2, 0); 
+  }
+  {
     (*jenv)->ReleaseIntArrayElements(jenv, jarg4, (jint *)arg4, 0); 
   }
-  if (arg2) (*jenv)->ReleaseStringUTFChars(jenv, jarg2, (const char *)arg2);
+  
   
   return jresult;
 }
@@ -21672,7 +21679,7 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1GetStringC
 }
 
 
-SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1GetStringInfo(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jobject jarg3_, jstring jarg4, jint jarg5, jintArray jarg6) {
+SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1GetStringInfo(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jobject jarg3_, jbyteArray jarg4, jint jarg5, jintArray jarg6) {
   jint jresult = 0 ;
   FMOD_STUDIO_BANK *arg1 = (FMOD_STUDIO_BANK *) 0 ;
   int arg2 ;
@@ -21688,10 +21695,8 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1GetStringI
   arg1 = *(FMOD_STUDIO_BANK **)&jarg1; 
   arg2 = (int)jarg2; 
   arg3 = *(FMOD_GUID **)&jarg3; 
-  arg4 = 0;
-  if (jarg4) {
-    arg4 = (char *)(*jenv)->GetStringUTFChars(jenv, jarg4, 0);
-    if (!arg4) return 0;
+  {
+    arg4 = (char *) (*jenv)->GetByteArrayElements(jenv, jarg4, 0); 
   }
   arg5 = (int)jarg5; 
   {
@@ -21708,9 +21713,12 @@ SWIGEXPORT jint JNICALL Java_org_fmod_jni_FMODJNI_FMOD_1Studio_1Bank_1GetStringI
   result = (FMOD_RESULT)FMOD_Studio_Bank_GetStringInfo(arg1,arg2,arg3,arg4,arg5,arg6);
   jresult = (jint)result; 
   {
+    (*jenv)->ReleaseByteArrayElements(jenv, jarg4, (jbyte *) arg4, 0); 
+  }
+  {
     (*jenv)->ReleaseIntArrayElements(jenv, jarg6, (jint *)arg6, 0); 
   }
-  if (arg4) (*jenv)->ReleaseStringUTFChars(jenv, jarg4, (const char *)arg4);
+  
   
   return jresult;
 }

@@ -105,7 +105,7 @@ public class FMOD implements FMODConstants {
     return FMOD_RESULT.swigToEnum(FMODJNI.FMOD_System_SetCallback(SWIGTYPE_p_FMOD_SYSTEM.getCPtr(system), SWIGTYPE_p_f_p_struct_FMOD_SYSTEM_unsigned_int_p_void_p_void_p_void__FMOD_RESULT.getCPtr(callback), callbackmask));
   }
 
-  public static FMOD_RESULT FMOD_System_SetPluginPath(SWIGTYPE_p_FMOD_SYSTEM system, String path) {
+  public static FMOD_RESULT FMOD_System_SetPluginPath(SWIGTYPE_p_FMOD_SYSTEM system, byte[] path) {
     return FMOD_RESULT.swigToEnum(FMODJNI.FMOD_System_SetPluginPath(SWIGTYPE_p_FMOD_SYSTEM.getCPtr(system), path));
   }
 
@@ -1605,11 +1605,11 @@ public class FMOD implements FMODConstants {
     return FMOD_RESULT.swigToEnum(FMODJNI.FMOD_Studio_System_GetSoundInfo(SWIGTYPE_p_FMOD_STUDIO_SYSTEM.getCPtr(system), key, FMOD_STUDIO_SOUND_INFO.getCPtr(info), info));
   }
 
-  public static FMOD_RESULT FMOD_Studio_System_LookupID(SWIGTYPE_p_FMOD_STUDIO_SYSTEM system, String path, FMOD_GUID id) {
+  public static FMOD_RESULT FMOD_Studio_System_LookupID(SWIGTYPE_p_FMOD_STUDIO_SYSTEM system, byte[] path, FMOD_GUID id) {
     return FMOD_RESULT.swigToEnum(FMODJNI.FMOD_Studio_System_LookupID(SWIGTYPE_p_FMOD_STUDIO_SYSTEM.getCPtr(system), path, FMOD_GUID.getCPtr(id), id));
   }
 
-  public static FMOD_RESULT FMOD_Studio_System_LookupPath(SWIGTYPE_p_FMOD_STUDIO_SYSTEM system, FMOD_GUID id, String path, int size, int[] retrieved) {
+  public static FMOD_RESULT FMOD_Studio_System_LookupPath(SWIGTYPE_p_FMOD_STUDIO_SYSTEM system, FMOD_GUID id, byte[] path, int size, int[] retrieved) {
     return FMOD_RESULT.swigToEnum(FMODJNI.FMOD_Studio_System_LookupPath(SWIGTYPE_p_FMOD_STUDIO_SYSTEM.getCPtr(system), FMOD_GUID.getCPtr(id), id, path, size, retrieved));
   }
 
@@ -1721,7 +1721,7 @@ public class FMOD implements FMODConstants {
     return FMOD_RESULT.swigToEnum(FMODJNI.FMOD_Studio_EventDescription_GetID(SWIGTYPE_p_FMOD_STUDIO_EVENTDESCRIPTION.getCPtr(eventdescription), FMOD_GUID.getCPtr(id), id));
   }
 
-  public static FMOD_RESULT FMOD_Studio_EventDescription_GetPath(SWIGTYPE_p_FMOD_STUDIO_EVENTDESCRIPTION eventdescription, String path, int size, int[] retrieved) {
+  public static FMOD_RESULT FMOD_Studio_EventDescription_GetPath(SWIGTYPE_p_FMOD_STUDIO_EVENTDESCRIPTION eventdescription, byte[] path, int size, int[] retrieved) {
     return FMOD_RESULT.swigToEnum(FMODJNI.FMOD_Studio_EventDescription_GetPath(SWIGTYPE_p_FMOD_STUDIO_EVENTDESCRIPTION.getCPtr(eventdescription), path, size, retrieved));
   }
 
@@ -1993,7 +1993,7 @@ public class FMOD implements FMODConstants {
     return FMOD_RESULT.swigToEnum(FMODJNI.FMOD_Studio_Bus_GetID(SWIGTYPE_p_FMOD_STUDIO_BUS.getCPtr(bus), FMOD_GUID.getCPtr(id), id));
   }
 
-  public static FMOD_RESULT FMOD_Studio_Bus_GetPath(SWIGTYPE_p_FMOD_STUDIO_BUS bus, String path, int size, int[] retrieved) {
+  public static FMOD_RESULT FMOD_Studio_Bus_GetPath(SWIGTYPE_p_FMOD_STUDIO_BUS bus, byte[] path, int size, int[] retrieved) {
     return FMOD_RESULT.swigToEnum(FMODJNI.FMOD_Studio_Bus_GetPath(SWIGTYPE_p_FMOD_STUDIO_BUS.getCPtr(bus), path, size, retrieved));
   }
 
@@ -2045,7 +2045,7 @@ public class FMOD implements FMODConstants {
     return FMOD_RESULT.swigToEnum(FMODJNI.FMOD_Studio_VCA_GetID(SWIGTYPE_p_FMOD_STUDIO_VCA.getCPtr(vca), FMOD_GUID.getCPtr(id), id));
   }
 
-  public static FMOD_RESULT FMOD_Studio_VCA_GetPath(SWIGTYPE_p_FMOD_STUDIO_VCA vca, String path, int size, int[] retrieved) {
+  public static FMOD_RESULT FMOD_Studio_VCA_GetPath(SWIGTYPE_p_FMOD_STUDIO_VCA vca, byte[] path, int size, int[] retrieved) {
     return FMOD_RESULT.swigToEnum(FMODJNI.FMOD_Studio_VCA_GetPath(SWIGTYPE_p_FMOD_STUDIO_VCA.getCPtr(vca), path, size, retrieved));
   }
 
@@ -2065,7 +2065,7 @@ public class FMOD implements FMODConstants {
     return FMOD_RESULT.swigToEnum(FMODJNI.FMOD_Studio_Bank_GetID(SWIGTYPE_p_FMOD_STUDIO_BANK.getCPtr(bank), FMOD_GUID.getCPtr(id), id));
   }
 
-  public static FMOD_RESULT FMOD_Studio_Bank_GetPath(SWIGTYPE_p_FMOD_STUDIO_BANK bank, String path, int size, int[] retrieved) {
+  public static FMOD_RESULT FMOD_Studio_Bank_GetPath(SWIGTYPE_p_FMOD_STUDIO_BANK bank, byte[] path, int size, int[] retrieved) {
     return FMOD_RESULT.swigToEnum(FMODJNI.FMOD_Studio_Bank_GetPath(SWIGTYPE_p_FMOD_STUDIO_BANK.getCPtr(bank), path, size, retrieved));
   }
 
@@ -2093,7 +2093,7 @@ public class FMOD implements FMODConstants {
     return FMOD_RESULT.swigToEnum(FMODJNI.FMOD_Studio_Bank_GetStringCount(SWIGTYPE_p_FMOD_STUDIO_BANK.getCPtr(bank), count));
   }
 
-  public static FMOD_RESULT FMOD_Studio_Bank_GetStringInfo(SWIGTYPE_p_FMOD_STUDIO_BANK bank, int index, FMOD_GUID id, String path, int size, int[] retrieved) {
+  public static FMOD_RESULT FMOD_Studio_Bank_GetStringInfo(SWIGTYPE_p_FMOD_STUDIO_BANK bank, int index, FMOD_GUID id, byte[] path, int size, int[] retrieved) {
     return FMOD_RESULT.swigToEnum(FMODJNI.FMOD_Studio_Bank_GetStringInfo(SWIGTYPE_p_FMOD_STUDIO_BANK.getCPtr(bank), index, FMOD_GUID.getCPtr(id), id, path, size, retrieved));
   }
 

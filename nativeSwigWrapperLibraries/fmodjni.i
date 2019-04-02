@@ -1,3 +1,5 @@
+/* SWIG input file - this is where we control how swig generates our api */
+
 %module FMOD
 %{
 #include "fmod_common.h"
@@ -42,10 +44,17 @@ ENUM_OUTPUT_TYPEMAPS(FMOD_STUDIO_PLAYBACK_STATE, state)
 /* TODO fix FMOD_CREATESOUNDEXINFO.inclusionList (generates bad java due to interaction with typemaps.i ? */
 %ignore inclusionlist;
 
-/* TODO char * -> String out (getPathByID) -> various.i char * BYTE */
 /* TODO unsigned long long typemap (maybe just use a long instead of BigInteger?) */
 /* TODO void* -> byte buffer, for in and out */
 /* TODO FMOD_Studio_System_LoadBankMemory const char *buffer -> byte array (see SWIG docs, this one is easy*/
+
+
+/* support char * -> byte[] out (getPathByID) */
+%include "various.i"
+%apply char *BYTE {char *path};
+
+
+
 
 
 /* support .equals for underlying SWIGTYPEs so we can compare objects easily: */
