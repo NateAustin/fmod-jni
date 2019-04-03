@@ -4,6 +4,8 @@ import org.fmod.jni.FMOD_STUDIO_PARAMETER_DESCRIPTION;
 import org.fmod.jni.SWIGTYPE_p_FMOD_STUDIO_PARAMETERINSTANCE;
 import org.fmod.lowlevel.FMODResultTracker;
 
+import java.util.Objects;
+
 import static org.fmod.jni.FMOD.*;
 
 /**
@@ -51,4 +53,17 @@ public class ParameterInstance extends FMODResultTracker {
 		processApiResult(FMOD_Studio_ParameterInstance_SetValue(pointer, value),"FMOD_Studio_ParameterInstance_SetValue");
 	}
 
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+		ParameterInstance that = (ParameterInstance) o;
+		return Objects.equals(pointer, that.pointer) &&
+				Objects.equals(tmpDescription, that.tmpDescription);
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(pointer, tmpDescription);
+	}
 }

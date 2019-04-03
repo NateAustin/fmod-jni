@@ -39,6 +39,9 @@
 ENUM_OUTPUT_TYPEMAPS(FMOD_STUDIO_PLAYBACK_STATE, state)
 //others...
 
+//TODO EventDescription.getLoadingState
+
+
 
 
 /* TODO fix FMOD_CREATESOUNDEXINFO.inclusionList (generates bad java due to interaction with typemaps.i ? */
@@ -47,6 +50,8 @@ ENUM_OUTPUT_TYPEMAPS(FMOD_STUDIO_PLAYBACK_STATE, state)
 /* TODO unsigned long long typemap (maybe just use a long instead of BigInteger?) */
 /* TODO void* -> byte buffer, for in and out */
 /* TODO FMOD_Studio_System_LoadBankMemory const char *buffer -> byte array (see SWIG docs, this one is easy*/
+
+
 
 
 /* support char * -> byte[] out (getPathByID) */
@@ -121,6 +126,12 @@ typedef FMOD_DSP_PARAMETER_DESC* FMOD_DSP_PARAMETER_DESC_p;
 %pointer_functions(FMOD_SYNCPOINT_p, FMOD_SYNCPOINT_p_p);
 %pointer_functions(FMOD_DSPCONNECTION_p, FMOD_DSPCONNECTION_p_p);
 %pointer_functions(FMOD_DSP_PARAMETER_DESC_p, FMOD_DSP_PARAMETER_DESC_p_p);
+
+
+/* TODO array support for EventDescription.getInstanceList() -> return an array of EventInstance pointers */
+/* ??? %include "carrays.i"	*/
+/* ??? %array_functions(FMOD_STUDIO_EVENTINSTANCE_p, FMOD_STUDIO_EVENTINSTANCE_p_ARRAY);	*/
+/* or some typemap oriented thing?? */
 
 /* add sizeof consts for certain objects that need them */
 %include "cmalloc.i"

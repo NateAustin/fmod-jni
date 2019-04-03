@@ -5,6 +5,7 @@ import org.fmod.lowlevel.FMODResultTracker;
 import org.fmod.lowlevel.FmodSystem;
 
 import java.nio.charset.StandardCharsets;
+import java.util.Objects;
 
 import static org.fmod.jni.FMOD.*;
 
@@ -354,5 +355,22 @@ public final class FmodStudioSystem extends FMODResultTracker {
 	public String lookupPath(FMOD_GUID id) {
 		//TODO: underlying JNI appears to be broken, passes a String, but I don't think that will work? Need to massage the SWIG input?
 		throw new UnsupportedOperationException("not yet implemented");
+	}
+
+
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+		FmodStudioSystem that = (FmodStudioSystem) o;
+		return Objects.equals(pointer, that.pointer) &&
+				Objects.equals(tmpAdvancedSettings, that.tmpAdvancedSettings) &&
+				Objects.equals(tmpSoundInfo, that.tmpSoundInfo) &&
+				Objects.equals(tmpListenerAttributes, that.tmpListenerAttributes);
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(pointer, tmpAdvancedSettings, tmpSoundInfo, tmpListenerAttributes);
 	}
 }

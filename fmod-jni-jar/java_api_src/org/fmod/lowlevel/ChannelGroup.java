@@ -13,7 +13,7 @@ public class ChannelGroup extends FMODResultTracker {
 		this.pointer = pointer;
 	}
 
-
+	
 
 
 //Holy Crap.
