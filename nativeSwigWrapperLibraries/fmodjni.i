@@ -40,7 +40,7 @@ ENUM_OUTPUT_TYPEMAPS(FMOD_STUDIO_PLAYBACK_STATE, state)
 //others...
 
 //TODO EventDescription.getLoadingState
-
+// FMOD_ChannelGroup_GetMode
 
 
 
@@ -57,6 +57,7 @@ ENUM_OUTPUT_TYPEMAPS(FMOD_STUDIO_PLAYBACK_STATE, state)
 /* support char * -> byte[] out (getPathByID) */
 %include "various.i"
 %apply char *BYTE {char *path};
+//TODO don't apply this to lookupId..? or add a dummy func that calls lookupId with a different param name, and have the java impl call that?
 
 
 
@@ -106,6 +107,13 @@ typedef FMOD_DSPCONNECTION* FMOD_DSPCONNECTION_p;
 typedef FMOD_DSP_PARAMETER_DESC* FMOD_DSP_PARAMETER_DESC_p;
 %}
 
+
+//TODO consider using array_functions here instead of pointer_functions:
+// or, see if we can use this approach: https://valelab4.ucsf.edu/svn/3rdpartypublic/swig/Doc/Manual/Java.html#Java_c_arrays
+// %include "arrays_java.i";
+// %apply FMOD_STUDIO_BUS*[] {FMOD_STUDIO_BUS ** array};
+
+
 %pointer_functions(FMOD_STUDIO_SYSTEM_p, FMOD_STUDIO_SYSTEM_p_p);
 %pointer_functions(FMOD_SYSTEM_p, FMOD_SYSTEM_p_p);
 %pointer_functions(FMOD_STUDIO_EVENTDESCRIPTION_p, FMOD_STUDIO_EVENTDESCRIPTION_p_p);
@@ -128,10 +136,13 @@ typedef FMOD_DSP_PARAMETER_DESC* FMOD_DSP_PARAMETER_DESC_p;
 %pointer_functions(FMOD_DSP_PARAMETER_DESC_p, FMOD_DSP_PARAMETER_DESC_p_p);
 
 
-/* TODO array support for EventDescription.getInstanceList() -> return an array of EventInstance pointers */
-/* ??? %include "carrays.i"	*/
-/* ??? %array_functions(FMOD_STUDIO_EVENTINSTANCE_p, FMOD_STUDIO_EVENTINSTANCE_p_ARRAY);	*/
-/* or some typemap oriented thing?? */
+//TODO array support for EventDescription.getInstanceList() -> return an array of EventInstance pointers
+// ??? %include "carrays.i"
+// ??? %array_functions(FMOD_STUDIO_EVENTINSTANCE_p, FMOD_STUDIO_EVENTINSTANCE_p_ARRAY);
+// or some typemap oriented thing??
+// FMOD_Studio_Bank_GetVCAList
+// FMOD_Studio_Bank_GetBusList
+ 
 
 /* add sizeof consts for certain objects that need them */
 %include "cmalloc.i"

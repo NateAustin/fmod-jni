@@ -253,110 +253,109 @@ public final class FmodStudioSystem extends FMODResultTracker {
 
 
 ///////////////////////// TODO - pick these up //////////////////////////////////
-	//FMOD_RESULT F_API FMOD_Studio_System_StartCommandCapture(FMOD_STUDIO_SYSTEM *system, const char *filename, FMOD_STUDIO_COMMANDCAPTURE_FLAGS flags);
-	public void startCommandCapture(String filename, long studioCommandCaptureFlags) {
-		throw new UnsupportedOperationException("not yet implemented");
-	}
-
-	//FMOD_RESULT F_API FMOD_Studio_System_StopCommandCapture(FMOD_STUDIO_SYSTEM *system);
-	public void stopCommandCapture() {
-		throw new UnsupportedOperationException("not yet implemented");
-	}
-
-	//FMOD_RESULT F_API FMOD_Studio_System_LoadCommandReplay(FMOD_STUDIO_SYSTEM *system, const char *filename, FMOD_STUDIO_COMMANDREPLAY_FLAGS flags, FMOD_STUDIO_COMMANDREPLAY **replay);
-	public CommandReplay loadCommandReplay(String filename, long studioCommandReplayFlags) {
-		throw new UnsupportedOperationException("not yet implemented");
-	}
-
-	//FMOD_RESULT F_API FMOD_Studio_System_GetBankCount(FMOD_STUDIO_SYSTEM *system, int *count);
-	/**
-	 * TODO Note, unlike in C, you don't need to call this in order to get the Bank List, just get the list.
-	 */
-	public int getBankCount() {
-		throw new UnsupportedOperationException("not yet implemented");
-	}
-
-	//FMOD_RESULT F_API FMOD_Studio_System_GetBankList(FMOD_STUDIO_SYSTEM *system, FMOD_STUDIO_BANK **array, int capacity, int *count);
-	public Bank[] getBankList() {
-		//TODO: figure out how to retrieve all banks
-		throw new UnsupportedOperationException("not yet implemented");
-	}
-
-	//FMOD_RESULT F_API FMOD_Studio_System_GetCPUUsage(FMOD_STUDIO_SYSTEM *system, FMOD_STUDIO_CPU_USAGE *usage);
-	public FMOD_STUDIO_CPU_USAGE getCPUUsage() {
-		throw new UnsupportedOperationException("not yet implemented");
-	}
-
-	//FMOD_RESULT F_API FMOD_Studio_System_GetBufferUsage(FMOD_STUDIO_SYSTEM *system, FMOD_STUDIO_BUFFER_USAGE *usage);
-	public FMOD_STUDIO_BUFFER_USAGE getBufferUsage() {
-		throw new UnsupportedOperationException("not yet implemented");
-	}
-
-	//FMOD_RESULT F_API FMOD_Studio_System_ResetBufferUsage(FMOD_STUDIO_SYSTEM *system);
-	public void resetBufferUsage() {
-		throw new UnsupportedOperationException("not yet implemented");
-	}
+//	//FMOD_RESULT F_API FMOD_Studio_System_StartCommandCapture(FMOD_STUDIO_SYSTEM *system, const char *filename, FMOD_STUDIO_COMMANDCAPTURE_FLAGS flags);
+//	public void startCommandCapture(String filename, long studioCommandCaptureFlags) {
+//		throw new UnsupportedOperationException("not yet implemented");
+//	}
+//
+//	//FMOD_RESULT F_API FMOD_Studio_System_StopCommandCapture(FMOD_STUDIO_SYSTEM *system);
+//	public void stopCommandCapture() {
+//		throw new UnsupportedOperationException("not yet implemented");
+//	}
+//
+//	//FMOD_RESULT F_API FMOD_Studio_System_LoadCommandReplay(FMOD_STUDIO_SYSTEM *system, const char *filename, FMOD_STUDIO_COMMANDREPLAY_FLAGS flags, FMOD_STUDIO_COMMANDREPLAY **replay);
+//	public CommandReplay loadCommandReplay(String filename, long studioCommandReplayFlags) {
+//		throw new UnsupportedOperationException("not yet implemented");
+//	}
+//
+//	//FMOD_RESULT F_API FMOD_Studio_System_GetBankCount(FMOD_STUDIO_SYSTEM *system, int *count);
+//	/**
+//	 * TODO Note, unlike in C, you don't need to call this in order to get the Bank List, just get the list.
+//	 */
+//	public int getBankCount() {
+//		throw new UnsupportedOperationException("not yet implemented");
+//	}
+//
+//	//FMOD_RESULT F_API FMOD_Studio_System_GetBankList(FMOD_STUDIO_SYSTEM *system, FMOD_STUDIO_BANK **array, int capacity, int *count);
+//	public Bank[] getBankList() {
+//		//TODO: figure out how to retrieve all banks
+//		throw new UnsupportedOperationException("not yet implemented");
+//	}
+//
+//	//FMOD_RESULT F_API FMOD_Studio_System_GetCPUUsage(FMOD_STUDIO_SYSTEM *system, FMOD_STUDIO_CPU_USAGE *usage);
+//	public FMOD_STUDIO_CPU_USAGE getCPUUsage() {
+//		throw new UnsupportedOperationException("not yet implemented");
+//	}
+//
+//	//FMOD_RESULT F_API FMOD_Studio_System_GetBufferUsage(FMOD_STUDIO_SYSTEM *system, FMOD_STUDIO_BUFFER_USAGE *usage);
+//	public FMOD_STUDIO_BUFFER_USAGE getBufferUsage() {
+//		throw new UnsupportedOperationException("not yet implemented");
+//	}
+//
+//	//FMOD_RESULT F_API FMOD_Studio_System_ResetBufferUsage(FMOD_STUDIO_SYSTEM *system);
+//	public void resetBufferUsage() {
+//		throw new UnsupportedOperationException("not yet implemented");
+//	}
 
 
 ///////////////////////// NOT SUPPORTED FOR NOW //////////////////////////////////
 
-	//FMOD_RESULT F_API FMOD_Studio_System_LoadBankMemory(FMOD_STUDIO_SYSTEM *system, const char *buffer, int length, FMOD_STUDIO_LOAD_MEMORY_MODE mode, FMOD_STUDIO_LOAD_BANK_FLAGS flags, FMOD_STUDIO_BANK **bank);
-	@Deprecated
-	public Bank loadBankMemory(String buffer, FMOD_STUDIO_LOAD_MEMORY_MODE mode, long studioLoadBankFlags) {
-	//TODO: need to modify the swig wrapper, we want to pass byte array or buffer here, not a string.
-	throw new UnsupportedOperationException("not yet implemented");
-}
-
-	//FMOD_RESULT F_API FMOD_Studio_System_LoadBankCustom(FMOD_STUDIO_SYSTEM *system, const FMOD_STUDIO_BANK_INFO *info, FMOD_STUDIO_LOAD_BANK_FLAGS flags, FMOD_STUDIO_BANK **bank);
-	@Deprecated
-	public Bank loadBankCustom(final FMOD_STUDIO_BANK_INFO info, long studioLoadBankFlags) {
-		//TODO: is this meaningful for us?
-		throw new UnsupportedOperationException("not yet implemented");
-	}
-
-	//FMOD_RESULT F_API FMOD_Studio_System_RegisterPlugin(FMOD_STUDIO_SYSTEM *system, const FMOD_DSP_DESCRIPTION *description);
-	@Deprecated
-	public void RegisterPlugin(SWIGTYPE_p_FMOD_DSP_DESCRIPTION description) {
-		//TODO: include the DSP header? Does anyone want to actually do this?
-		throw new UnsupportedOperationException("not yet implemented");
-	}
-
-	//FMOD_RESULT F_API FMOD_Studio_System_UnregisterPlugin(FMOD_STUDIO_SYSTEM *system, const char *name);
-	public void unregisterPlugin(String name) {
-		throw new UnsupportedOperationException("not yet implemented");
-	}
-
-	//FMOD_RESULT F_API FMOD_Studio_System_SetCallback(FMOD_STUDIO_SYSTEM *system, FMOD_STUDIO_SYSTEM_CALLBACK callback, FMOD_STUDIO_SYSTEM_CALLBACK_TYPE callbackmask);
-	@Deprecated
-	public void setCallback(SWIGTYPE_p_f_p_struct_FMOD_STUDIO_SYSTEM_unsigned_int_p_void_p_void__FMOD_RESULT callback, long callbackMask) {
-		//TODO: I doubt this is usable in its current form. But, we could probably make something that is usable, with some thought.
-		throw new UnsupportedOperationException("not yet implemented");
-	}
-
-	//FMOD_RESULT F_API FMOD_Studio_System_SetUserData(FMOD_STUDIO_SYSTEM *system, void *userdata);
-	/**
-	 * TODO: make this a byte[] or ByteBuffer.
-	 */
-	@Deprecated
-	public void setUserData(SWIGTYPE_p_void userData) {
-		throw new UnsupportedOperationException("not yet implemented");
-	}
-
-	//FMOD_RESULT F_API FMOD_Studio_System_GetUserData(FMOD_STUDIO_SYSTEM *system, void **userdata);
-	/**
-	 * TODO: make this something useful.
-	 */
-	@Deprecated
-	public SWIGTYPE_p_void getUserData() {
-		throw new UnsupportedOperationException("not yet implemented");
-	}
-
-	@Deprecated
-	public String lookupPath(FMOD_GUID id) {
-		//TODO: underlying JNI appears to be broken, passes a String, but I don't think that will work? Need to massage the SWIG input?
-		throw new UnsupportedOperationException("not yet implemented");
-	}
-
+//	//FMOD_RESULT F_API FMOD_Studio_System_LoadBankMemory(FMOD_STUDIO_SYSTEM *system, const char *buffer, int length, FMOD_STUDIO_LOAD_MEMORY_MODE mode, FMOD_STUDIO_LOAD_BANK_FLAGS flags, FMOD_STUDIO_BANK **bank);
+//	@Deprecated
+//	public Bank loadBankMemory(String buffer, FMOD_STUDIO_LOAD_MEMORY_MODE mode, long studioLoadBankFlags) {
+//	//TODO: need to modify the swig wrapper, we want to pass byte array or buffer here, not a string.
+//	throw new UnsupportedOperationException("not yet implemented");
+//	}
+//
+//	//FMOD_RESULT F_API FMOD_Studio_System_LoadBankCustom(FMOD_STUDIO_SYSTEM *system, const FMOD_STUDIO_BANK_INFO *info, FMOD_STUDIO_LOAD_BANK_FLAGS flags, FMOD_STUDIO_BANK **bank);
+//	@Deprecated
+//	public Bank loadBankCustom(final FMOD_STUDIO_BANK_INFO info, long studioLoadBankFlags) {
+//		//TODO: is this meaningful for us?
+//		throw new UnsupportedOperationException("not yet implemented");
+//	}
+//
+//	//FMOD_RESULT F_API FMOD_Studio_System_RegisterPlugin(FMOD_STUDIO_SYSTEM *system, const FMOD_DSP_DESCRIPTION *description);
+//	@Deprecated
+//	public void RegisterPlugin(SWIGTYPE_p_FMOD_DSP_DESCRIPTION description) {
+//		//TODO: include the DSP header? Does anyone want to actually do this?
+//		throw new UnsupportedOperationException("not yet implemented");
+//	}
+//
+//	//FMOD_RESULT F_API FMOD_Studio_System_UnregisterPlugin(FMOD_STUDIO_SYSTEM *system, const char *name);
+//	public void unregisterPlugin(String name) {
+//		throw new UnsupportedOperationException("not yet implemented");
+//	}
+//
+//	//FMOD_RESULT F_API FMOD_Studio_System_SetCallback(FMOD_STUDIO_SYSTEM *system, FMOD_STUDIO_SYSTEM_CALLBACK callback, FMOD_STUDIO_SYSTEM_CALLBACK_TYPE callbackmask);
+//	@Deprecated
+//	public void setCallback(SWIGTYPE_p_f_p_struct_FMOD_STUDIO_SYSTEM_unsigned_int_p_void_p_void__FMOD_RESULT callback, long callbackMask) {
+//		//TODO: I doubt this is usable in its current form. But, we could probably make something that is usable, with some thought.
+//		throw new UnsupportedOperationException("not yet implemented");
+//	}
+//
+//	//FMOD_RESULT F_API FMOD_Studio_System_SetUserData(FMOD_STUDIO_SYSTEM *system, void *userdata);
+//	/**
+//	 * TODO: make this a byte[] or ByteBuffer.
+//	 */
+//	@Deprecated
+//	public void setUserData(SWIGTYPE_p_void userData) {
+//		throw new UnsupportedOperationException("not yet implemented");
+//	}
+//
+//	//FMOD_RESULT F_API FMOD_Studio_System_GetUserData(FMOD_STUDIO_SYSTEM *system, void **userdata);
+//	/**
+//	 * TODO: make this something useful.
+//	 */
+//	@Deprecated
+//	public SWIGTYPE_p_void getUserData() {
+//		throw new UnsupportedOperationException("not yet implemented");
+//	}
+//
+//	@Deprecated
+//	public String lookupPath(FMOD_GUID id) {
+//		//TODO: underlying JNI appears to be broken, passes a String, but I don't think that will work? Need to massage the SWIG input?
+//		throw new UnsupportedOperationException("not yet implemented");
+//	}
 
 	@Override
 	public boolean equals(Object o) {

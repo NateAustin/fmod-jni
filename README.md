@@ -86,12 +86,14 @@ If you wish to change/extend the swig wrapper, see `nativeSwigWrapperLibraries/R
 If you want to improve the Java API, you ***don't need to run swig*** or mess with the natives, unless you want to change something in the generated code. Just work inside fmod-jni-jar/java_api_src.
 
 ## Roadmap and TODO
+* Swig - better enum support, list support.
+* Build out more of the API and make it nicer.. what's our priority? What will actually be used?
 * I'd like to eliminate unnecessary memory allocation in the java api. 
-  * Right now we allocate single-element arrays in many functions in order to retrieve values. These arrays could just live on the API objects, or pooled. We maybe need to make a decision about thread safety for this.
+  * In some places we allocate single-element arrays in many functions in order to retrieve values. These arrays could just live on the API objects, or pooled. We maybe need to make a decision about thread safety for this.
   * Pool our API objects (EventDescription! EventInstance!) to avoid garbage collection hitches. Get our new calls down to zero when just playing sounds that are already loaded.
 * I want Vectors in particular to be more idiomatic. It should be possible to use SWIG %extend to do this, right? (So that we don't need yet another java object layer.)
-* Build out more of the API and make it nicer.. what's our priority? What will actually be used?
-* Debug/Release support. Right now we are using debug wrapper libraries and we are hard-coded to use the fmod logging runtimes. This is not ideal for release builds. We want some sort of build-level switch? Two jar targets?
+
+
 
 ## License
 Copyright 2015-2019 Nate Austin
