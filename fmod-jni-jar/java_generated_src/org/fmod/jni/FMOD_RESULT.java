@@ -96,9 +96,11 @@ public enum FMOD_RESULT {
   public final int swigValue() {
     return swigValue;
   }
+  
+  
+  private static final FMOD_RESULT[] swigValues = FMOD_RESULT.class.getEnumConstants();
 
   public static FMOD_RESULT swigToEnum(int swigValue) {
-    FMOD_RESULT[] swigValues = FMOD_RESULT.class.getEnumConstants();
     if (swigValue < swigValues.length && swigValue >= 0 && swigValues[swigValue].swigValue == swigValue)
       return swigValues[swigValue];
     for (FMOD_RESULT swigEnum : swigValues)
