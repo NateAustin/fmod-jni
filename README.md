@@ -34,7 +34,7 @@ The nice api is highly incomplete, but the bulk of the FMOD api is covered with 
 * Linux - working.
 * Win32 - untested but should work. If not please let me know.
 
-FMOD supports additional platforms (i.e. Linux), and it should be straightforward to generate the dynamic libraries you need. If you do this, send me a pull request with your setup so I can incorporate it.
+FMOD supports additional platforms, and it should be straightforward to generate the dynamic libraries you need. If you do this, send me a pull request with your setup so I can incorporate it.
 
 ## Usage
 To play sound using FMOD from Java, you will need to build the fmod-jni.jar file, because this repo does not contain the necessary FMOD native libraries.

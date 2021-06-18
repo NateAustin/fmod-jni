@@ -1,5 +1,8 @@
 package org.fmod;
 
+import com.sun.istack.internal.Nullable;
+import com.sun.xml.internal.ws.util.StreamUtils;
+
 import java.io.*;
 import java.util.zip.CRC32;
 
@@ -73,14 +76,9 @@ public class FMODLoader {
 				loaded = loadLibrary(folderName + sharedLibName + "64.dll");
 		}
 		if (isLinux) {
-			//totally untested.
 			loaded = loadLibrary(folderName + "lib" + sharedLibName + ".so");
-//			if (!is64Bit)
-//			else
-//				loaded = loadLibrary(folderName + "lib" + sharedLibName + "64.so");
 		}
 		if (isMac) {
-			//do we need separate 32/64 versions?
 			loaded = loadLibrary(folderName + "lib" + sharedLibName + ".dylib");
 		}
 		if (isAndroid) {
@@ -102,16 +100,74 @@ public class FMODLoader {
 	private static boolean loadLibrary(String sharedLibName) {
 		if (sharedLibName == null) return false;
 
+		String sourceCrc = crc(FMODLoader.class.getResourceAsStream(sharedLibName));
+
+		File file;
+		Throwable ex = null;
+		
+		// Temp directory with username in path.
+		String user = System.getProperty("user.name");
+		file = new File(System.getProperty("java.io.tmpdir") + "/jnigen/" + user + "/" + sourceCrc, sharedLibName);
+		ex = tryLoad(sharedLibName, sourceCrc, file);
+		if (ex == null) return true;
+		 
+		// System provided temp directory.
 		try {
-			String path = extractLibrary(sharedLibName);
-			if (path != null) {
-				System.load(path);
+			file = File.createTempFile(sourceCrc, null);
+			file.delete();
+			file.mkdir();
+			file = new File(file, sharedLibName);
+			ex = tryLoad(sharedLibName, sourceCrc, file);
+			if (ex == null){
 				return true;
 			}
 		} catch (Throwable t) {
-			failWithError(sharedLibName, t);
+			ex = t;
 		}
+
+		// User home.
+		file = new File(System.getProperty("user.home") + "/.libgdx/" + sourceCrc, sharedLibName);
+		ex = tryLoad(sharedLibName, sourceCrc, file);
+		if (ex == null) {
+			return true;
+		}
+
+		// Relative directory.
+		file = new File(".temp/" + sourceCrc, sharedLibName);
+		ex = tryLoad(sharedLibName, sourceCrc, file);
+		if (ex == null) {
+			return true;
+		}
+
+		// Fallback to java.library.path location, eg for applets.
+		file = new File(System.getProperty("java.library.path"), sharedLibName);
+		if (file.exists()) {
+			try {
+				System.load(file.getAbsolutePath());
+				return true;
+			} catch (Throwable t) {
+				ex = t;
+			}
+		}
+		
+		failWithError(sharedLibName, ex);
 		return false;
+	}
+	
+	private static @Nullable Throwable tryLoad(String sharedLibName, String sourceCrc, File file) {
+		
+		try {
+			String path = extractLibrary(sharedLibName, sourceCrc, file);
+			if (path == null) {
+				return new RuntimeException("failed to extract library to path: " + file.getAbsolutePath());
+			}
+			System.load(path);
+		} catch (Throwable t) {
+			//was an error. this is weirdly common, some machines can't load from the first or second choice locations.
+			return t;
+		}
+		//success!
+		return null;
 	}
 
 	private static void failWithError(String sharedLibName, Throwable t) {
@@ -144,11 +200,7 @@ public class FMODLoader {
 		return Long.toString(crc.getValue());
 	}
 
-	private static String extractLibrary(String sharedLibName) {
-		String srcCrc = crc(FMODLoader.class.getResourceAsStream("/" + sharedLibName));
-		File nativesDir = new File(System.getProperty("java.io.tmpdir") + "/jnigen/" + srcCrc);
-		File nativeFile = new File(nativesDir, sharedLibName);
-
+	private static String extractLibrary(String sharedLibName, String srcCrc, File nativeFile) {
 		String extractedCrc = null;
 		if (nativeFile.exists()) {
 			try {
@@ -158,27 +210,41 @@ public class FMODLoader {
 		}
 
 		if (extractedCrc == null || !extractedCrc.equals(srcCrc)) {
+			
+			InputStream input = null;
+			FileOutputStream output = null;
 			try {
 				// Extract native from classpath to temp dir.
-				InputStream input = null;
 				input = FMODLoader.class.getResourceAsStream(sharedLibName);
 				if (input == null) return null;
 				nativeFile.getParentFile().mkdirs();
-				FileOutputStream output = new FileOutputStream(nativeFile);
+				output = new FileOutputStream(nativeFile);
 				byte[] buffer = new byte[4096];
 				while (true) {
 					int length = input.read(buffer);
 					if (length == -1) break;
 					output.write(buffer, 0, length);
 				}
-				input.close();
-				output.close();
 			} catch (IOException ex) {
-				ex.printStackTrace();
 				throw new RuntimeException(ex);
+			} finally {
+				closeQuietly(input);
+				closeQuietly(output);
 			}
 		}
 		return nativeFile.exists() ? nativeFile.getAbsolutePath() : null;
+	}
+
+	/**
+	 * Close and ignore all errors.
+	 */
+	public static void closeQuietly(Closeable c) {
+		if (c != null) {
+			try {
+				c.close();
+			} catch (Throwable ignored) {
+			}
+		}
 	}
 
 
