@@ -4,8 +4,6 @@ import com.sun.istack.internal.Nullable;
 import com.sun.xml.internal.ws.util.StreamUtils;
 
 import java.io.*;
-import java.nio.ByteBuffer;
-import java.util.Arrays;
 import java.util.zip.CRC32;
 
 /**
@@ -102,10 +100,10 @@ public class FMODLoader {
 	private static boolean loadLibrary(String sharedLibName) {
 		if (sharedLibName == null) return false;
 
+		String sourceCrc = crc(FMODLoader.class.getResourceAsStream(sharedLibName));
+
 		File file;
 		Throwable ex = null;
-		ByteBuffer libBytes;
-		String sourceCrc = crc(getLibBytes(FMODLoader.class.getResourceAsStream(sharedLibName)));
 		
 		// Temp directory with username in path.
 		String user = System.getProperty("user.name");
@@ -181,71 +179,56 @@ public class FMODLoader {
 	}
 
 	/**
-	 * Returns a CRC of the remaining bytes in the buffer.
-	 *
-	 * The input buffer will remain unchanged.
+	 * Returns a CRC of the remaining bytes in the stream.
 	 */
-	public static String crc(ByteBuffer input) {
+	public static String crc(InputStream input) {
 		if (input == null) return "" + System.nanoTime(); // fallback
 		CRC32 crc = new CRC32();
-
-		ByteBuffer buf = input.slice(); //so we don't modify the underlying buffer
-		byte[] temp = new byte[4096];
-		while (buf.hasRemaining()) {
-			int length = Math.min(buf.remaining(), temp.length);
-			buf.get(temp, 0, length);
-			crc.update(temp, 0, length);
-		}
-
-		return Long.toString(crc.getValue());
-	}
-
-	private static ByteBuffer getLibBytes(InputStream stream) {
-		if (stream == null) throw new NullPointerException("Resource stream is null");
-		final int bufferSize = 4096; //4kb buffer
-		byte[] buffer = new byte[bufferSize];
-		ByteArrayOutputStream out = new ByteArrayOutputStream();
-
-		int bytesRead;
+		byte[] buffer = new byte[4096];
 		try {
-			while ((bytesRead = stream.read(buffer)) != -1) {
-				out.write(buffer, 0, bytesRead);
+			while (true) {
+				int length = input.read(buffer);
+				if (length == -1) break;
+				crc.update(buffer, 0, length);
+			}
+		} catch (Exception ex) {
+			try {
+				input.close();
+			} catch (Exception ignored) {
 			}
 		}
-		catch(IOException e) {
-			throw new RuntimeException(e);
-		}
-
-		return ByteBuffer.wrap(out.toByteArray());
+		return Long.toString(crc.getValue());
 	}
 
 	private static String extractLibrary(String sharedLibName, String srcCrc, File nativeFile) {
 		String extractedCrc = null;
-		ByteBuffer libBytes = null;
-		if(nativeFile.exists()) {
+		if (nativeFile.exists()) {
 			try {
-				libBytes = getLibBytes(new FileInputStream(nativeFile));
-				if(ElfExecStackStripper.isELFFile(libBytes)) {
-					ElfExecStackStripper.stripExecStackFlag(libBytes);
-				}
-				extractedCrc = crc(libBytes);
+				extractedCrc = crc(new FileInputStream(nativeFile));
 			} catch (FileNotFoundException ignored) {
-
 			}
 		}
 
 		if (extractedCrc == null || !extractedCrc.equals(srcCrc)) {
-
+			
+			InputStream input = null;
 			FileOutputStream output = null;
 			try {
-				// Extract native from buffer to temp dir
-				if (libBytes == null) return null;
+				// Extract native from classpath to temp dir.
+				input = FMODLoader.class.getResourceAsStream(sharedLibName);
+				if (input == null) return null;
 				nativeFile.getParentFile().mkdirs();
 				output = new FileOutputStream(nativeFile);
-				output.write(libBytes.array());
+				byte[] buffer = new byte[4096];
+				while (true) {
+					int length = input.read(buffer);
+					if (length == -1) break;
+					output.write(buffer, 0, length);
+				}
 			} catch (IOException ex) {
 				throw new RuntimeException(ex);
 			} finally {
+				closeQuietly(input);
 				closeQuietly(output);
 			}
 		}
